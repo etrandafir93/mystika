@@ -1,8 +1,12 @@
 /frontend/node_modules/
+/frontend/node/
 /frontend/.claude
 /.idea/
 /.claude/
 /.idea/*
+
+# Frontend build output served by Spring Boot
+/src/main/resources/static/
 
 HELP.md
 target/

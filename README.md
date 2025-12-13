@@ -5,17 +5,14 @@ A simple, beginner-friendly tarot reading application supporting digital card dr
 
 
 
-## start FE app locally:
+## Start FE App locally:
 ```bash
  cd ./frontend
  npm run-script dev
 ```
 
-
-## build BE app docker image:
-
+## Build Docker Image:
 ```bash
-
  # build the image, set a new tag version
  docker build -t mystika:0.1 .
  
