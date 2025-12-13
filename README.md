@@ -1,17 +1,10 @@
-# Tarot Stack Trace
+# Mystika
 
 A simple, beginner-friendly tarot reading application supporting digital card draws, assisted physical deck readings, and interactive learning modes.
 
+![mystika.gif](./docs/witch.gif)
 
-
-
-## Start FE App locally:
-```bash
- cd ./frontend
- npm run-script dev
-```
-
-## Build Docker Image:
+## Build & push the app with Docker:
 ```bash
  # build the image, set a new tag version
  docker build -t mystika:0.1 .
