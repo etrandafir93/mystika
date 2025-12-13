@@ -24,6 +24,24 @@ jobs:
     - name: Run tests
       run: mvn test
 
+    - name: Generate HTML test report
+      if: always()
+      run: mvn surefire-report:report-only
+
+    - name: Publish test results
+      if: always()
+      uses: EnricoMi/publish-unit-test-result-action@v2
+      with:
+        files: target/surefire-reports/*.xml
+
+    - name: Deploy HTML report to GitHub Pages
+      if: always()
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./target/site
+        destination_dir: test-reports/${{ github.run_number }}
+
     - name: Upload test results
       if: always()
       uses: actions/upload-artifact@v4
