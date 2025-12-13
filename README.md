@@ -2,6 +2,13 @@
 
 A simple, beginner-friendly tarot reading application supporting digital card draws, assisted physical deck readings, and interactive learning modes.
 
+
+start app locally:
+```bash
+ cd ./frontend
+ npm run-script dev
+```
+
 ## Overview
 
 Tarot Stack Trace is an MVP designed for tarot enthusiasts and beginners who want to:
