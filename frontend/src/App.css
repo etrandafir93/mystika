@@ -1,0 +1,177 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #0f0c29 0%,
+    #302b63 50%,
+    #24243e 100%
+  );
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Starry background */
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 3s infinite;
+}
+
+/* Mystical moon */
+.moon {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #fff9e6, #f0e68c);
+  box-shadow: 0 0 60px rgba(240, 230, 140, 0.6),
+              0 0 100px rgba(240, 230, 140, 0.4),
+              inset 0 0 30px rgba(218, 165, 32, 0.2);
+  animation: pulse 4s infinite ease-in-out;
+  opacity: 0.8;
+}
+
+/* Main content */
+.content {
+  text-align: center;
+  z-index: 10;
+  animation: fadeIn 1.5s ease-out;
+  padding: 2rem;
+}
+
+.logo {
+  margin-bottom: 2rem;
+}
+
+.mystical-circle {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  position: relative;
+  border: 3px solid goldenrod;
+  border-radius: 50%;
+  box-shadow:
+    0 0 20px rgba(218, 165, 32, 0.5),
+    0 0 40px rgba(218, 165, 32, 0.3),
+    inset 0 0 20px rgba(218, 165, 32, 0.2);
+  animation: rotate 20s linear infinite;
+}
+
+.inner-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 140px;
+  border: 2px solid rgba(218, 165, 32, 0.5);
+  border-radius: 50%;
+  animation: rotate 15s linear infinite reverse;
+}
+
+.moon-symbol {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: goldenrod;
+  animation: float 3s ease-in-out infinite;
+  text-shadow: 0 0 10px rgba(218, 165, 32, 0.8);
+}
+
+.title {
+  font-size: 5rem;
+  color: #f0e68c;
+  margin: 1rem 0;
+  font-family: 'Georgia', serif;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  animation: glow 3s ease-in-out infinite;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #daa520;
+  margin-bottom: 3rem;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  opacity: 0.9;
+  letter-spacing: 0.1rem;
+}
+
+.cards-preview {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.card-icon {
+  font-size: 3rem;
+  animation: float 3s ease-in-out infinite;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 0 10px rgba(218, 165, 32, 0.5));
+}
+
+.card-icon:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.card-icon:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.card-icon:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.card-icon:hover {
+  transform: scale(1.2) translateY(-10px);
+  filter: drop-shadow(0 0 20px rgba(218, 165, 32, 0.8));
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .mystical-circle {
+    width: 120px;
+    height: 120px;
+  }
+
+  .inner-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .moon-symbol {
+    font-size: 2.5rem;
+  }
+
+  .moon {
+    width: 100px;
+    height: 100px;
+  }
+}
