@@ -2,6 +2,7 @@
 /frontend/.claude
 /.idea/
 /.claude/
+/.idea/*
 
 HELP.md
 target/
