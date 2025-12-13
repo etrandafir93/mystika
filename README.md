@@ -3,10 +3,37 @@
 A simple, beginner-friendly tarot reading application supporting digital card draws, assisted physical deck readings, and interactive learning modes.
 
 
-start app locally:
+
+
+## start FE app locally:
 ```bash
  cd ./frontend
  npm run-script dev
+```
+
+
+## build BE app docker image:
+
+```bash
+
+ # build the image, set a new tag version
+ docker build -t mystika:0.1 .
+ 
+ # check the image is created
+ docker images
+ 
+ # run the docker image
+ docker run -p 8080:8080 mystika:0.1
+
+ # test the running container
+ curl http://localhost:8080/api/cards
+ curl http://localhost:8080/actuator/health
+ curl http://localhost:8080/swagger-ui/index.html
+ 
+ # push to docker hub
+ docker login
+ docker tag mystika:0.1 emanueltrandafir/mystika:0.1
+ docker push emanueltrandafir/mystika:0.1 
 ```
 
 ## Overview
