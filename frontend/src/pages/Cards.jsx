@@ -9,7 +9,7 @@ function Cards() {
   return (
     <div className="cards-page">
       <div className="cards-header">
-        <Link to="/" className="back-button">← Back to Home</Link>
+        <Link to="/" className="back-button">← Home</Link>
         <h1 className="cards-page-title">The Cards</h1>
       </div>
 
