@@ -1,12 +1,25 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import './DigitalDrawing.css'
 
 function DigitalDrawing() {
   const [selectedCards, setSelectedCards] = useState([])
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768)
+    }
+
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
+
+  const numberOfCards = isMobile ? 20 : 40
+
   const [cardPositions] = useState(() => {
     // Generate random positions for each card once on mount
-    return Array.from({ length: 35 }, () => ({
+    return Array.from({ length: 40 }, () => ({
       rotation: Math.random() * 16 - 8, // Random rotation between -8 and 8 degrees
       translateY: Math.random() * 20 - 10, // Random vertical offset between -10px and 10px
       shimmerDelay: Math.random() * 8, // Random delay for shimmer effect between 0-8s
@@ -29,8 +42,8 @@ function DigitalDrawing() {
     <div className="page">
       <Navbar pageTitle="Celestial Reading" />
       <div className="page-content">
-        <div className="card-deck">
-          {cardPositions.map((position, i) => (
+        <div className={`card-deck ${selectedCards.length === 3 ? 'collapsed' : ''}`}>
+          {cardPositions.slice(0, numberOfCards).map((position, i) => (
             <div
               key={i}
               className={`tarot-card ${isCardSelected(i) ? 'card-hidden' : ''} ${position.invertStars ? 'invert-stars' : ''}`}

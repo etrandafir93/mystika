@@ -45,13 +45,19 @@
   perspective: 1000px;
   position: relative;
   height: 250px;
+  transition: all 1.5s ease;
+}
+
+.card-deck.collapsed {
+  justify-content: center;
+  transform: translateX(-100vw);
 }
 
 .tarot-card {
   width: 120px;
   height: 200px;
   cursor: pointer;
-  transition: all 0.4s ease;
+  transition: all 1.5s ease;
   animation: cardAppear 0.6s ease-out backwards;
   transform-style: preserve-3d;
   margin-left: -95px;
@@ -59,7 +65,16 @@
   transform: translateY(var(--card-offset-y, 0)) rotate(var(--card-rotation, 0deg));
 }
 
+.card-deck.collapsed .tarot-card {
+  margin-left: -118px;
+  transform: translateY(0) rotate(0deg);
+}
+
 .tarot-card:first-child {
+  margin-left: 0;
+}
+
+.card-deck.collapsed .tarot-card:first-child {
   margin-left: 0;
 }
 
@@ -82,6 +97,17 @@
   transform: translateY(-20px) scale(1.15) rotate(0deg);
   z-index: 100;
   animation: cardAppear 0.6s ease-out backwards, cardPulsate 2s ease-in-out infinite;
+}
+
+.card-deck.collapsed .tarot-card {
+  cursor: default;
+  pointer-events: none;
+}
+
+.card-deck.collapsed .tarot-card:hover {
+  transform: translateY(0) rotate(0deg) scale(1);
+  z-index: auto;
+  animation: none;
 }
 
 .tarot-card.selected {
