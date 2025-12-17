@@ -9,31 +9,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 5rem 2rem 2rem 2rem;
 }
 
 .page-content {
   text-align: center;
   max-width: 800px;
-}
-
-.back-button {
-  display: inline-block;
-  color: #daa520;
-  text-decoration: none;
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  padding: 0.5rem 1rem;
-  border: 2px solid #daa520;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  font-family: 'Georgia', serif;
-}
-
-.back-button:hover {
-  background: rgba(218, 165, 32, 0.1);
-  box-shadow: 0 0 20px rgba(218, 165, 32, 0.3);
-  transform: translateY(-2px);
 }
 
 .page-title {

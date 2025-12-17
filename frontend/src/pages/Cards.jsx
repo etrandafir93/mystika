@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import Navbar from '../components/Navbar'
 import { tarotCards } from '../data/tarotCards'
 import './Cards.css'
 
@@ -8,10 +8,7 @@ function Cards() {
 
   return (
     <div className="cards-page">
-      <div className="cards-header">
-        <Link to="/" className="back-button">← Home</Link>
-        <h1 className="cards-page-title">The Cards</h1>
-      </div>
+      <Navbar pageTitle="The Cards" />
 
       <div className="cards-container">
         {/* Left Sidebar - Card List */}

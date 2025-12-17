@@ -9,31 +9,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 5rem 2rem 2rem 2rem;
 }
 
 .page-content {
   text-align: center;
-  max-width: 800px;
-}
-
-.back-button {
-  display: inline-block;
-  color: #daa520;
-  text-decoration: none;
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  padding: 0.5rem 1rem;
-  border: 2px solid #daa520;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  font-family: 'Georgia', serif;
-}
-
-.back-button:hover {
-  background: rgba(218, 165, 32, 0.1);
-  box-shadow: 0 0 20px rgba(218, 165, 32, 0.3);
-  transform: translateY(-2px);
+  max-width: 1200px;
+  width: 100%;
 }
 
 .page-title {
@@ -52,4 +34,246 @@
   font-family: 'Georgia', serif;
   font-style: italic;
   opacity: 0.9;
+  margin-bottom: 3rem;
+}
+
+.card-deck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  perspective: 1000px;
+  position: relative;
+  height: 250px;
+}
+
+.tarot-card {
+  width: 120px;
+  height: 200px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  animation: cardAppear 0.6s ease-out backwards;
+  transform-style: preserve-3d;
+  margin-left: -95px;
+  position: relative;
+  transform: translateY(var(--card-offset-y, 0)) rotate(var(--card-rotation, 0deg));
+}
+
+.tarot-card:first-child {
+  margin-left: 0;
+}
+
+.tarot-card:hover {
+  z-index: 100;
+}
+
+@keyframes cardAppear {
+  from {
+    opacity: 0;
+    transform: translateY(30px) rotateX(-15deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(var(--card-offset-y, 0)) rotate(var(--card-rotation, 0deg));
+  }
+}
+
+.tarot-card:hover {
+  transform: translateY(-20px) scale(1.15) rotate(0deg);
+  z-index: 100;
+  animation: cardAppear 0.6s ease-out backwards, cardPulsate 2s ease-in-out infinite;
+}
+
+.tarot-card.selected {
+  transform: translateY(-30px) scale(1.2) rotate(0deg);
+  z-index: 101;
+}
+
+@keyframes cardPulsate {
+  0%, 100% {
+    transform: translateY(-20px) scale(1.15) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.16) rotate(0deg);
+  }
+}
+
+.card-back {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    #1a1a2e 0%,
+    #16213e 50%,
+    #0f3460 100%
+  );
+  border: 3px solid #daa520;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.tarot-card:hover .card-back {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  border-color: #daa520;
+}
+
+.tarot-card.selected .card-back {
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.7),
+    0 0 40px rgba(218, 165, 32, 0.6),
+    inset 0 0 30px rgba(218, 165, 32, 0.2);
+  border-color: #f0e68c;
+  background: linear-gradient(
+    135deg,
+    #1a1a2e 0%,
+    #1e3a5f 50%,
+    #0f3460 100%
+  );
+}
+
+.card-back::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(218, 165, 32, 0.1),
+    transparent
+  );
+  transform: rotate(45deg);
+  transition: all 0.6s ease;
+}
+
+.tarot-card:hover .card-back::before {
+  animation: shimmer 8s ease-in-out infinite;
+  animation-delay: var(--shimmer-delay, 0s);
+}
+
+@keyframes shimmer {
+  0%, 30% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+  }
+  70%, 100% {
+    transform: translateX(100%) translateY(100%) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+.card-pattern {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.celestial-symbol,
+.moon-phase,
+.star-accent {
+  color: #daa520;
+  font-size: 1.6rem;
+  text-shadow: 0 0 10px rgba(218, 165, 32, 0.5);
+  transition: all 0.3s ease;
+}
+
+.tarot-card:hover .celestial-symbol,
+.tarot-card:hover .moon-phase,
+.tarot-card:hover .star-accent {
+  color: #f0e68c;
+  text-shadow: 0 0 20px rgba(218, 165, 32, 0.8);
+  transform: scale(1.1);
+}
+
+.celestial-symbol {
+  animation: rotate 60s linear infinite;
+  opacity: 1;
+}
+
+.moon-phase {
+  font-size: 2.4rem;
+  animation: pulse 10s ease-in-out infinite;
+}
+
+.star-accent {
+  animation: twinkle 8s ease-in-out infinite;
+  opacity: 0.3;
+}
+
+/* Invert brightness for some cards */
+.tarot-card.invert-stars .celestial-symbol {
+  opacity: 0.3;
+}
+
+.tarot-card.invert-stars .star-accent {
+  opacity: 1;
+}
+
+.card-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0) !important;
+}
+
+.selected-cards-area {
+  margin-top: 3rem;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-cards-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-slot-placeholder {
+  width: 120px;
+  height: 200px;
+  opacity: 0;
+}
+
+.selected-card {
+  transform: translateY(0) rotate(0deg) !important;
+  animation: cardDrop 0.6s ease-out backwards;
+  cursor: default;
+  margin-left: 0 !important;
+}
+
+.selected-card:hover {
+  transform: translateY(0) rotate(0deg) scale(1) !important;
+  animation: cardDrop 0.6s ease-out backwards;
+}
+
+@keyframes cardDrop {
+  from {
+    opacity: 1;
+    transform: translateY(-350px) scale(1);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
