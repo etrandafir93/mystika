@@ -11,7 +11,7 @@
 
 	<groupId>com.mystica</groupId>
 	<artifactId>mystika-app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.2.1</version>
 	<name>mystika-app</name>
 
 	<properties>

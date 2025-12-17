@@ -6,14 +6,14 @@ A simple, beginner-friendly tarot reading application supporting digital card dr
 
 ## Build & push the app with Docker:
 ```bash
- # build the image, set a new tag version
- docker build -t mystika:0.1 .
+ ./mvnw versions:set -DnewVersion="x.y.z"
  
- # check the image is created
+ # build the image, set a new tag version
+ docker build -t mystika:x.y.z .
  docker images
  
  # run the docker image
- docker run -p 8080:8080 mystika:0.1
+ docker run -p 8080:8080 mystika:x.y.z
 
  # test the running container
  curl http://localhost:8080/api/cards
@@ -22,8 +22,20 @@ A simple, beginner-friendly tarot reading application supporting digital card dr
  
  # push to docker hub
  docker login
- docker tag mystika:0.1 emanueltrandafir/mystika:0.1
- docker push emanueltrandafir/mystika:0.1 
+ docker tag mystika:x.y.z emanueltrandafir/mystika:x.y.z
+ docker push emanueltrandafir/mystika:x.y.z 
+ 
+
+ # deploy yo gcloud
+ gcloud auth login
+ gcloud config set project n-vite
+ gcloud auth print-access-token | docker login -u oauth2accesstoken --password-stdin https://europe-southwest1-docker.pkg.dev
+ 
+ docker tag mystika:x.y.z europe-southwest1-docker.pkg.dev/n-vite/nvite-registry/mystika:x.y.z
+ docker push europe-southwest1-docker.pkg.dev/n-vite/nvite-registry/mystika:x.y.z
+
+# https://mystika-626515189021.europe-west1.run.app/
+# https://mystika.etrandafir.com
 ```
 
 ## Overview
