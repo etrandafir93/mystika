@@ -23,7 +23,8 @@ function DigitalDrawing() {
       rotation: Math.random() * 16 - 8, // Random rotation between -8 and 8 degrees
       translateY: Math.random() * 20 - 10, // Random vertical offset between -10px and 10px
       shimmerDelay: Math.random() * 8, // Random delay for shimmer effect between 0-8s
-      invertStars: Math.random() > 0.5 // Randomly invert which star is bright
+      invertStars: Math.random() > 0.5, // Randomly invert which star is bright
+      hasShine: Math.random() < 0.3 // 30% chance to have shine effect on hover
     }))
   })
 
@@ -46,7 +47,7 @@ function DigitalDrawing() {
           {cardPositions.slice(0, numberOfCards).map((position, i) => (
             <div
               key={i}
-              className={`tarot-card ${isCardSelected(i) ? 'card-hidden' : ''} ${position.invertStars ? 'invert-stars' : ''}`}
+              className={`tarot-card ${isCardSelected(i) ? 'card-hidden' : ''} ${position.invertStars ? 'invert-stars' : ''} ${position.hasShine ? 'has-shine' : ''}`}
               onClick={() => handleCardClick(i)}
               style={{
                 animationDelay: `${i * 0.1}s`,
