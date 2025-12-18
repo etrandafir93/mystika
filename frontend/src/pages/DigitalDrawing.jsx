@@ -31,7 +31,7 @@ function DigitalDrawing() {
             },
             body: JSON.stringify({
               id: drawingId,
-              deckSlug: 'major-arcana'
+              deckSlug: 'rider-waite'
             })
           })
 

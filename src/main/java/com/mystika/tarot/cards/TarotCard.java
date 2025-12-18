@@ -4,6 +4,7 @@ import java.util.List;
 
 public record TarotCard(
     String slug,
+    String suite,
     String name,
     String meaning,
     String reversedMeaning,

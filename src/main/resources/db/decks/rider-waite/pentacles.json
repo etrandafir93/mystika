@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "pentacles-001",
+    "suite": "pentacles",
+    "name": "Ace of Pentacles",
+    "meaning": "New financial opportunity, prosperity, manifestation, abundance",
+    "reversedMeaning": "Lost opportunity, missed chance, lack of planning",
+    "symbols": [
+      "Hand",
+      "Pentacle",
+      "Garden",
+      "Gate",
+      "Mountains"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/acepent.jpg"
+  },
+  {
+    "slug": "pentacles-002",
+    "suite": "pentacles",
+    "name": "Two of Pentacles",
+    "meaning": "Balance, adaptability, time management, juggling priorities",
+    "reversedMeaning": "Imbalance, disorganization, overwhelmed, dropped balls",
+    "symbols": [
+      "Infinity Symbol",
+      "Two Pentacles",
+      "Ships",
+      "Waves"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2pent.jpg"
+  },
+  {
+    "slug": "pentacles-003",
+    "suite": "pentacles",
+    "name": "Three of Pentacles",
+    "meaning": "Teamwork, collaboration, learning, implementation, skill",
+    "reversedMeaning": "Lack of teamwork, disharmony, poor motivation",
+    "symbols": [
+      "Cathedral",
+      "Three Figures",
+      "Architect",
+      "Craftsmen"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3pent.jpg"
+  },
+  {
+    "slug": "pentacles-004",
+    "suite": "pentacles",
+    "name": "Four of Pentacles",
+    "meaning": "Control, stability, security, possession, conservation",
+    "reversedMeaning": "Greed, materialism, letting go, generosity",
+    "symbols": [
+      "Crown",
+      "City",
+      "Four Pentacles",
+      "Seated Figure"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4pent.jpg"
+  },
+  {
+    "slug": "pentacles-005",
+    "suite": "pentacles",
+    "name": "Five of Pentacles",
+    "meaning": "Financial loss, poverty, hardship, isolation, worry",
+    "reversedMeaning": "Recovery, charity, improvement, positive changes",
+    "symbols": [
+      "Church Window",
+      "Snow",
+      "Injured Figures",
+      "Beggars"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5pent.jpg"
+  },
+  {
+    "slug": "pentacles-006",
+    "suite": "pentacles",
+    "name": "Six of Pentacles",
+    "meaning": "Generosity, charity, sharing wealth, giving and receiving",
+    "reversedMeaning": "Selfishness, debt, strings attached, one-sided",
+    "symbols": [
+      "Scales",
+      "Merchant",
+      "Beggars",
+      "Six Pentacles"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6pent.jpg"
+  },
+  {
+    "slug": "pentacles-007",
+    "suite": "pentacles",
+    "name": "Seven of Pentacles",
+    "meaning": "Assessment, reward, patience, long-term view, perseverance",
+    "reversedMeaning": "Impatience, lack of reward, poor investment",
+    "symbols": [
+      "Garden",
+      "Harvest",
+      "Seven Pentacles",
+      "Resting Farmer"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7pent.jpg"
+  },
+  {
+    "slug": "pentacles-008",
+    "suite": "pentacles",
+    "name": "Eight of Pentacles",
+    "meaning": "Apprenticeship, education, skill development, hard work",
+    "reversedMeaning": "Lack of focus, perfectionism, mediocrity, shortcuts",
+    "symbols": [
+      "Craftsman",
+      "Bench",
+      "Eight Pentacles",
+      "Town"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8pent.jpg"
+  },
+  {
+    "slug": "pentacles-009",
+    "suite": "pentacles",
+    "name": "Nine of Pentacles",
+    "meaning": "Independence, luxury, self-sufficiency, financial security",
+    "reversedMeaning": "Overworking, hustling, self-worth, superficiality",
+    "symbols": [
+      "Garden",
+      "Falcon",
+      "Grapes",
+      "Nine Pentacles"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9pent.jpg"
+  },
+  {
+    "slug": "pentacles-010",
+    "suite": "pentacles",
+    "name": "Ten of Pentacles",
+    "meaning": "Wealth, inheritance, family, long-term success, legacy",
+    "reversedMeaning": "Financial failure, loneliness, loss, fleeting success",
+    "symbols": [
+      "Family",
+      "Dogs",
+      "Ten Pentacles",
+      "Archway",
+      "Elder"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10pent.jpg"
+  },
+  {
+    "slug": "pentacles-011",
+    "suite": "pentacles",
+    "name": "Page of Pentacles",
+    "meaning": "Manifestation, opportunities, new venture, skill development",
+    "reversedMeaning": "Lack of progress, procrastination, poor planning",
+    "symbols": [
+      "Young Figure",
+      "Pentacle",
+      "Plowed Field",
+      "Mountains"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pagepent.jpg"
+  },
+  {
+    "slug": "pentacles-012",
+    "suite": "pentacles",
+    "name": "Knight of Pentacles",
+    "meaning": "Efficiency, routine, conservatism, methodical, diligent",
+    "reversedMeaning": "Laziness, obsessiveness, stuck, workaholic, boring",
+    "symbols": [
+      "Black Horse",
+      "Pentacle",
+      "Plowed Field",
+      "Armor"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightpent.jpg"
+  },
+  {
+    "slug": "pentacles-013",
+    "suite": "pentacles",
+    "name": "Queen of Pentacles",
+    "meaning": "Nurturing, practical, security, motherhood, prosperity",
+    "reversedMeaning": "Self-care neglect, work-home imbalance, smothering",
+    "symbols": [
+      "Throne",
+      "Rabbit",
+      "Roses",
+      "Pentacle",
+      "Garden"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queenpent.jpg"
+  },
+  {
+    "slug": "pentacles-014",
+    "suite": "pentacles",
+    "name": "King of Pentacles",
+    "meaning": "Wealth, business success, leadership, discipline, abundance",
+    "reversedMeaning": "Greed, materialism, financial setback, stubbornness",
+    "symbols": [
+      "Throne",
+      "Bulls",
+      "Grapes",
+      "Castle",
+      "Robes"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingpent.jpg"
+  }
+]

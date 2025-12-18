@@ -1,0 +1,201 @@
+[
+  {
+    "slug": "swords-001",
+    "suite": "swords",
+    "name": "Ace of Swords",
+    "meaning": "Breakthrough, clarity, new ideas, mental clarity, truth",
+    "reversedMeaning": "Confusion, chaos, lack of clarity, misinformation",
+    "symbols": [
+      "Hand",
+      "Sword",
+      "Crown",
+      "Mountains",
+      "Clouds"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/aceswords.jpg"
+  },
+  {
+    "slug": "swords-002",
+    "suite": "swords",
+    "name": "Two of Swords",
+    "meaning": "Difficult choices, indecision, stalemate, avoidance",
+    "reversedMeaning": "Information revealed, decision made, confusion cleared",
+    "symbols": [
+      "Blindfold",
+      "Two Swords",
+      "Crescent Moon",
+      "Water"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2swords.jpg"
+  },
+  {
+    "slug": "swords-003",
+    "suite": "swords",
+    "name": "Three of Swords",
+    "meaning": "Heartbreak, sorrow, grief, emotional pain, loss",
+    "reversedMeaning": "Recovery, forgiveness, moving on, healing",
+    "symbols": [
+      "Heart",
+      "Three Swords",
+      "Clouds",
+      "Rain"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3swords.jpg"
+  },
+  {
+    "slug": "swords-004",
+    "suite": "swords",
+    "name": "Four of Swords",
+    "meaning": "Rest, recovery, meditation, contemplation, retreat",
+    "reversedMeaning": "Restlessness, burnout, exhaustion, stagnation",
+    "symbols": [
+      "Tomb",
+      "Resting Figure",
+      "Stained Glass",
+      "Three Swords"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4swords.jpg"
+  },
+  {
+    "slug": "swords-005",
+    "suite": "swords",
+    "name": "Five of Swords",
+    "meaning": "Conflict, defeat, winning at all costs, tension",
+    "reversedMeaning": "Reconciliation, making amends, moving on",
+    "symbols": [
+      "Three Figures",
+      "Five Swords",
+      "Stormy Sky",
+      "Ocean"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5swords.jpg"
+  },
+  {
+    "slug": "swords-006",
+    "suite": "swords",
+    "name": "Six of Swords",
+    "meaning": "Transition, change, moving forward, leaving behind",
+    "reversedMeaning": "Resistance to change, unfinished business, stuck",
+    "symbols": [
+      "Boat",
+      "Six Swords",
+      "Ferryman",
+      "Calm Water"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6swords.jpg"
+  },
+  {
+    "slug": "swords-007",
+    "suite": "swords",
+    "name": "Seven of Swords",
+    "meaning": "Deception, trickery, strategy, sneakiness, escape",
+    "reversedMeaning": "Coming clean, rethinking approach, confession",
+    "symbols": [
+      "Sneaking Figure",
+      "Seven Swords",
+      "Camp",
+      "Tiptoeing"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7swords.jpg"
+  },
+  {
+    "slug": "swords-008",
+    "suite": "swords",
+    "name": "Eight of Swords",
+    "meaning": "Restriction, imprisonment, victim mentality, powerlessness",
+    "reversedMeaning": "Freedom, release, self-acceptance, new perspective",
+    "symbols": [
+      "Blindfold",
+      "Bound Figure",
+      "Eight Swords",
+      "Castle"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8swords.jpg"
+  },
+  {
+    "slug": "swords-009",
+    "suite": "swords",
+    "name": "Nine of Swords",
+    "meaning": "Anxiety, worry, nightmares, fear, stress",
+    "reversedMeaning": "Hope, recovery, reaching out, healing",
+    "symbols": [
+      "Sitting in Bed",
+      "Nine Swords",
+      "Covered Face",
+      "Quilted Blanket"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9swords.jpg"
+  },
+  {
+    "slug": "swords-010",
+    "suite": "swords",
+    "name": "Ten of Swords",
+    "meaning": "Painful endings, betrayal, rock bottom, defeat",
+    "reversedMeaning": "Recovery, regeneration, resisting ending, fighting back",
+    "symbols": [
+      "Ten Swords",
+      "Prone Figure",
+      "Black Sky",
+      "Dawn"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10swords.jpg"
+  },
+  {
+    "slug": "swords-011",
+    "suite": "swords",
+    "name": "Page of Swords",
+    "meaning": "Curiosity, restlessness, mental energy, vigilance",
+    "reversedMeaning": "Gossip, deception, lack of planning, hasty decisions",
+    "symbols": [
+      "Young Figure",
+      "Sword",
+      "Clouds",
+      "Birds",
+      "Wind"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pageswords.jpg"
+  },
+  {
+    "slug": "swords-012",
+    "suite": "swords",
+    "name": "Knight of Swords",
+    "meaning": "Action, speed, ambition, driven, assertive",
+    "reversedMeaning": "Impulsive, reckless, unfocused, aggressive",
+    "symbols": [
+      "Charging Horse",
+      "Armor",
+      "Sword",
+      "Storm Clouds"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightswords.jpg"
+  },
+  {
+    "slug": "swords-013",
+    "suite": "swords",
+    "name": "Queen of Swords",
+    "meaning": "Independent, unbiased judgment, clear thinking, direct",
+    "reversedMeaning": "Coldness, cruelty, bitterness, harsh judgment",
+    "symbols": [
+      "Throne",
+      "Sword",
+      "Butterflies",
+      "Clouds",
+      "Bird"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queenswords.jpg"
+  },
+  {
+    "slug": "swords-014",
+    "suite": "swords",
+    "name": "King of Swords",
+    "meaning": "Intellectual power, authority, truth, clear mind",
+    "reversedMeaning": "Manipulation, tyranny, abuse of power, coldness",
+    "symbols": [
+      "Throne",
+      "Sword",
+      "Butterflies",
+      "Crescent Moons"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingswords.jpg"
+  }
+]
