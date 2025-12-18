@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-class MistikaApplication {
+class Mistika {
 
 	static void main(String[] args) {
-		SpringApplication.run(MistikaApplication.class, args);
+		SpringApplication.run(Mistika.class, args);
 	}
 
 }
