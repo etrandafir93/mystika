@@ -5,6 +5,9 @@ import './DigitalDrawing.css'
 function DigitalDrawing() {
   const [selectedCards, setSelectedCards] = useState([])
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768)
+  const [spreadData, setSpreadData] = useState(null)
+  const [flippedCards, setFlippedCards] = useState([])
+  const [zoomedCard, setZoomedCard] = useState(null)
 
   useEffect(() => {
     const handleResize = () => {
@@ -14,6 +17,39 @@ function DigitalDrawing() {
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
   }, [])
+
+  useEffect(() => {
+    // When 3 cards are selected, create a three-card spread
+    if (selectedCards.length === 3 && !spreadData) {
+      const createThreeCardSpread = async () => {
+        try {
+          const drawingId = `drawing-${Date.now()}`
+          const response = await fetch('/api/drawings/three-card-spread', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              id: drawingId,
+              deckSlug: 'major-arcana'
+            })
+          })
+
+          if (response.ok) {
+            const data = await response.json()
+            console.log('Three-card spread created:', JSON.stringify(data, null, 2))
+            setSpreadData(data)
+          } else {
+            console.error('Failed to create three-card spread:', response.status)
+          }
+        } catch (error) {
+          console.error('Error creating three-card spread:', error)
+        }
+      }
+
+      createThreeCardSpread()
+    }
+  }, [selectedCards, spreadData])
 
   const numberOfCards = isMobile ? 20 : 40
 
@@ -37,6 +73,59 @@ function DigitalDrawing() {
 
   const isCardSelected = (cardIndex) => {
     return selectedCards.includes(cardIndex)
+  }
+
+  const playFlipSound = () => {
+    const audioContext = new (window.AudioContext || window.webkitAudioContext)()
+
+    // Create multiple oscillators for a richer, mystical sound
+    const frequencies = [261.63, 329.63, 392.00] // C4, E4, G4 (C major chord)
+
+    frequencies.forEach((freq, index) => {
+      const oscillator = audioContext.createOscillator()
+      const gainNode = audioContext.createGain()
+
+      oscillator.type = 'sine' // Smooth, ethereal tone
+      oscillator.frequency.setValueAtTime(freq, audioContext.currentTime)
+
+      // Add slight vibrato for mystical effect
+      const vibrato = audioContext.createOscillator()
+      const vibratoGain = audioContext.createGain()
+      vibrato.frequency.value = 5
+      vibratoGain.gain.value = 3
+      vibrato.connect(vibratoGain)
+      vibratoGain.connect(oscillator.frequency)
+
+      oscillator.connect(gainNode)
+      gainNode.connect(audioContext.destination)
+
+      // Stagger the notes slightly
+      const startTime = audioContext.currentTime + (index * 0.05)
+      const duration = 0.8
+
+      gainNode.gain.setValueAtTime(0, startTime)
+      gainNode.gain.linearRampToValueAtTime(0.15, startTime + 0.1)
+      gainNode.gain.exponentialRampToValueAtTime(0.01, startTime + duration)
+
+      oscillator.start(startTime)
+      vibrato.start(startTime)
+      oscillator.stop(startTime + duration)
+      vibrato.stop(startTime + duration)
+    })
+  }
+
+  const handleCardFlip = (slotIndex, cardData) => {
+    if (!flippedCards.includes(slotIndex)) {
+      playFlipSound()
+      setFlippedCards([...flippedCards, slotIndex])
+    } else {
+      // If already flipped, zoom into the card
+      setZoomedCard(cardData)
+    }
+  }
+
+  const handleCloseZoom = () => {
+    setZoomedCard(null)
   }
 
   return (
@@ -73,22 +162,46 @@ function DigitalDrawing() {
               const cardIndex = selectedCards[slotIndex]
               if (cardIndex !== undefined) {
                 const position = cardPositions[cardIndex]
+                const isFlipped = flippedCards.includes(slotIndex)
+                const cardData = spreadData?.cards?.[slotIndex]
+
                 return (
-                  <div
-                    key={slotIndex}
-                    className={`tarot-card selected-card ${position.invertStars ? 'invert-stars' : ''}`}
-                    style={{
-                      animationDelay: `${slotIndex * 0.2}s`,
-                      '--shimmer-delay': `${position.shimmerDelay}s`
-                    }}
-                  >
-                    <div className="card-back">
-                      <div className="card-pattern">
-                        <div className="celestial-symbol">✦</div>
-                        <div className="moon-phase">☽</div>
-                        <div className="star-accent">✧</div>
+                  <div key={slotIndex} className={`card-wrapper ${isFlipped ? 'flipped' : ''}`} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <div
+                      className={`tarot-card selected-card ${position.invertStars ? 'invert-stars' : ''} ${isFlipped ? 'flipped' : ''}`}
+                      style={{
+                        animationDelay: `${slotIndex * 0.2}s`,
+                        '--shimmer-delay': `${position.shimmerDelay}s`
+                      }}
+                      onClick={() => handleCardFlip(slotIndex, cardData)}
+                    >
+                      <div className="card-inner">
+                        <div className="card-back">
+                          <div className="card-pattern">
+                            <div className="celestial-symbol">✦</div>
+                            <div className="moon-phase">☽</div>
+                            <div className="star-accent">✧</div>
+                          </div>
+                        </div>
+                        {cardData && (
+                          <div className={`card-front ${cardData.orientation === 'REVERSED' ? 'reversed' : ''}`}>
+                            <img src={cardData.imageUrl} alt="Tarot card" />
+                          </div>
+                        )}
                       </div>
                     </div>
+                    {cardData && (
+                      <>
+                        <div className="card-name-label">
+                          {cardData.name}
+                        </div>
+                        {cardData.orientation === 'REVERSED' && (
+                          <div className="card-orientation-label">
+                            (reversed)
+                          </div>
+                        )}
+                      </>
+                    )}
                   </div>
                 )
               } else {
@@ -99,6 +212,46 @@ function DigitalDrawing() {
             })}
           </div>
         </div>
+
+        {zoomedCard && (
+          <div className="zoom-overlay" onClick={handleCloseZoom}>
+            <div className="zoom-content">
+              <div className="zoom-card-image">
+                <img
+                  src={zoomedCard.imageUrl}
+                  alt={zoomedCard.name}
+                  className={zoomedCard.orientation === 'REVERSED' ? 'reversed' : ''}
+                />
+              </div>
+              <div className="zoom-card-details">
+                <div className="zoom-card-header">
+                  <div className="zoom-card-name">{zoomedCard.name}</div>
+                  {zoomedCard.orientation === 'REVERSED' && (
+                    <div className="zoom-card-orientation">(reversed)</div>
+                  )}
+                </div>
+                <div className="zoom-card-meaning">
+                  <div className="zoom-section-title">✦ Meaning ✦</div>
+                  <div className="zoom-section-content">{zoomedCard.meaning}</div>
+                </div>
+                <div className="zoom-card-symbols">
+                  <div className="zoom-section-title">✧ Symbols ✧</div>
+                  <div className="zoom-section-content">
+                    {zoomedCard.symbols && zoomedCard.symbols.length > 0 ? (
+                      <ul className="symbols-list">
+                        {zoomedCard.symbols.map((symbol, index) => (
+                          <li key={index}>{symbol}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p>No symbols available</p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )

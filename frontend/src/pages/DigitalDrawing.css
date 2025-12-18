@@ -285,13 +285,123 @@
 .selected-card {
   transform: translateY(0) rotate(0deg) !important;
   animation: cardDrop 0.6s ease-out backwards;
-  cursor: default;
+  cursor: pointer;
   margin-left: 0 !important;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
 }
 
 .selected-card:hover {
-  transform: translateY(0) rotate(0deg) scale(1) !important;
-  animation: cardDrop 0.6s ease-out backwards;
+  transform: translateY(0) rotate(0deg) !important;
+  animation: none !important;
+  z-index: auto;
+}
+
+.selected-card.flipped {
+  transform: rotateY(180deg) !important;
+  cursor: zoom-in;
+  pointer-events: auto;
+  animation: none !important;
+}
+
+.selected-card.flipped:hover {
+  transform: rotateY(180deg) !important;
+  animation: none !important;
+}
+
+.selected-card .card-back {
+  transition: none;
+}
+
+.selected-card:hover .card-back {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-color: #daa520;
+}
+
+.selected-card:hover .celestial-symbol,
+.selected-card:hover .moon-phase,
+.selected-card:hover .star-accent {
+  color: #daa520;
+  text-shadow: 0 0 10px rgba(218, 165, 32, 0.5);
+  transform: scale(1);
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  transform: rotateY(180deg);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 3px solid #daa520;
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-front.reversed img {
+  transform: rotate(180deg);
+}
+
+.card-name-label {
+  text-align: center;
+  margin-top: 0.8rem;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #f0e68c;
+  font-size: 0.9rem;
+  text-shadow: 0 0 10px rgba(218, 165, 32, 0.5);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.card-wrapper.flipped .card-name-label {
+  opacity: 1;
+  transform: translateY(0);
+  animation: textAppear 0.6s ease-out 0.3s backwards;
+}
+
+.card-orientation-label {
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #f0e68c;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+  text-shadow: 0 0 10px rgba(218, 165, 32, 0.5);
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.card-wrapper.flipped .card-orientation-label {
+  animation: textAppear 0.6s ease-out 0.4s forwards;
+}
+
+@keyframes textAppear {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes cardDrop {
@@ -332,5 +442,159 @@
   }
   100% {
     left: 100%;
+  }
+}
+
+/* Zoom overlay */
+.zoom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    135deg,
+    rgba(15, 12, 41, 0.98) 0%,
+    rgba(48, 43, 99, 0.98) 50%,
+    rgba(36, 36, 62, 0.98) 100%
+  );
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.zoom-content {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  max-width: 90vw;
+  animation: zoomIn 0.4s ease-out;
+  padding: 2rem;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.zoom-card-image img {
+  max-width: 400px;
+  max-height: 80vh;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+  border: 4px solid #daa520;
+}
+
+.zoom-card-image img.reversed {
+  transform: rotate(180deg);
+}
+
+.zoom-card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 500px;
+}
+
+.zoom-card-header {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(218, 165, 32, 0.3);
+}
+
+.zoom-card-name {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #f0e68c;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(218, 165, 32, 0.8);
+  margin-bottom: 0.5rem;
+}
+
+.zoom-card-orientation {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #daa520;
+  font-size: 1.2rem;
+  text-shadow: 0 0 15px rgba(218, 165, 32, 0.6);
+}
+
+.zoom-card-meaning,
+.zoom-card-symbols {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.zoom-section-title {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #daa520;
+  font-size: 1.1rem;
+  text-align: center;
+  text-shadow: 0 0 15px rgba(218, 165, 32, 0.5);
+  letter-spacing: 0.1rem;
+}
+
+.zoom-section-content {
+  font-family: 'Georgia', serif;
+  color: #f0e68c;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+  padding: 1rem;
+  background: rgba(26, 26, 46, 0.4);
+  border-radius: 8px;
+  border: 1px solid rgba(218, 165, 32, 0.2);
+}
+
+.symbols-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.symbols-list li {
+  background: rgba(218, 165, 32, 0.2);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  border: 1px solid rgba(218, 165, 32, 0.3);
+  font-size: 0.9rem;
+  color: #daa520;
+  text-shadow: 0 0 10px rgba(218, 165, 32, 0.5);
+}
+
+@media (max-width: 768px) {
+  .zoom-content {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .zoom-card-image img {
+    max-width: 80vw;
+  }
+
+  .zoom-card-details {
+    max-width: 80vw;
   }
 }
