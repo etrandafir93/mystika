@@ -1,10 +1,19 @@
 package com.mystika.tarot.cards;
 
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import java.util.List;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.stream.Stream;
+
+import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestFactory;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,20 +21,25 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureMockMvc;
 import org.springframework.test.web.servlet.MockMvc;
 
+import tools.jackson.databind.json.JsonMapper;
+
 @SpringBootTest
 @AutoConfigureMockMvc
 class TarotDeckControllerTest {
 
     @Autowired
-    private MockMvc mockMvc;
+    private MockMvc mvc;
+
+    @Autowired
+    private JsonMapper json;
 
     @ParameterizedTest
-    @ValueSource(strings = { " ", "major-arcana" })
+    @ValueSource(strings = { " ", "rider-waite" })
     void shouldReturnDefaultDeck_whenDeckNameIsDefault(String deckName) throws Exception {
-        mockMvc.perform(get("/api/decks/" + deckName))
+        mvc.perform(get("/api/decks/" + deckName))
             .andExpect(status().isOk())
-            .andExpect(jsonPath("$.slug").value("major-arcana"))
-            .andExpect(jsonPath("$.name").value("Major Arcana"))
+            .andExpect(jsonPath("$.slug").value("rider-waite"))
+            .andExpect(jsonPath("$.name").value("Rider-Waite"))
             .andExpect(jsonPath("$.cards").isArray())
             .andExpect(jsonPath("$.cards").isNotEmpty())
             .andExpect(jsonPath("$.cards[*].name").isNotEmpty())
@@ -35,9 +49,51 @@ class TarotDeckControllerTest {
             .andExpect(jsonPath("$.cards[*].imageUrl").isNotEmpty());
     }
 
+    @TestFactory
+    Stream<DynamicTest> deckShouldBeCorrect() throws Exception {
+        String response = mvc.perform(get("/api/decks/rider-waite"))
+            .andExpect(status().isOk())
+            .andReturn()
+            .getResponse()
+            .getContentAsString();
+
+        System.err.println(response);
+        List<TarotCard> allCards = json.readValue(response, TarotDeck.class)
+            .cards();
+
+        return Stream.of(
+            dynamicTest("has 78 cards", () -> assertThat(allCards.size() == 78)),
+
+            dynamicTest("has 78 names", () -> hasDifferentObjects(allCards, 78, TarotCard::name)),
+            dynamicTest("has 78 slugs", () -> hasDifferentObjects(allCards, 78, TarotCard::slug)),
+            dynamicTest("has 78 images", () -> hasDifferentObjects(allCards, 78, TarotCard::imageUrl)),
+            dynamicTest("has 78 meanings", () -> hasDifferentObjects(allCards, 78, TarotCard::meaning)),
+
+            dynamicTest("has 22 major-arcana", () -> hasSimilarObjects(allCards, 22, it -> it.suite().equals("major-arcana"))),
+            dynamicTest("has 14 wands", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("wands"))),
+            dynamicTest("has 14 cups", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("cups"))),
+            dynamicTest("has 14 pentacles", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("pentacles"))),
+            dynamicTest("has 14 swords", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("swords")))
+        );
+    }
+
+    private static void hasSimilarObjects(List<TarotCard> allCards, int expectedCount, Predicate<TarotCard> property) {
+        assertThat(allCards)
+            .filteredOn(property)
+            .hasSize(expectedCount);
+    }
+
+    private static void hasDifferentObjects(List<TarotCard> allCards, int expectedCount, Function<TarotCard, Object> property) {
+        Stream<Object> distinctObjects = allCards.stream()
+            .map(property)
+            .distinct();
+        assertThat(distinctObjects)
+            .hasSize(expectedCount);
+    }
+
     @Test
     void shouldReturnNotFound_whenDeckNameIsNotDefault() throws Exception {
-        mockMvc.perform(get("/api/decks/custom-cards"))
+        mvc.perform(get("/api/decks/custom-cards"))
             .andExpect(status().isNotFound());
     }
 

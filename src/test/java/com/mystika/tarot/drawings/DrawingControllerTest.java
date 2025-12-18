@@ -24,12 +24,12 @@ class DrawingControllerTest {
                 .content("""
                         {
                             "id": "test-drawing-123",
-                            "deckSlug": "major-arcana"
+                            "deckSlug": "rider-waite"
                         }
                     """))
             .andExpect(status().isOk())
             .andExpect(jsonPath("$.id").value("test-drawing-123"))
-            .andExpect(jsonPath("$.deckSlug").value("major-arcana"))
+            .andExpect(jsonPath("$.deckSlug").value("rider-waite"))
             .andExpect(jsonPath("$.cards").isArray())
             .andExpect(jsonPath("$.cards.length()").value(3))
             .andExpect(jsonPath("$.cards[*].position").isNotEmpty())

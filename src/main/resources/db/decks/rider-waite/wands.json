@@ -1,0 +1,196 @@
+[
+  {
+    "slug": "wands-001",
+    "suite": "wands",
+    "name": "Ace of Wands",
+    "meaning": "New opportunities, creative spark, inspiration, growth",
+    "reversedMeaning": "Delays, lack of direction, missed opportunities",
+    "symbols": [
+      "Hand",
+      "Wand",
+      "Leaves",
+      "Clouds",
+      "Castle"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/acewands.jpg"
+  },
+  {
+    "slug": "wands-002",
+    "suite": "wands",
+    "name": "Two of Wands",
+    "meaning": "Planning, making decisions, progress, discovery",
+    "reversedMeaning": "Fear of unknown, lack of planning, bad planning",
+    "symbols": [
+      "Globe",
+      "Two Wands",
+      "Castle",
+      "Ocean View"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2wands.jpg"
+  },
+  {
+    "slug": "wands-003",
+    "suite": "wands",
+    "name": "Three of Wands",
+    "meaning": "Expansion, foresight, enterprise, overseas opportunities",
+    "reversedMeaning": "Obstacles, delays, frustration, lack of foresight",
+    "symbols": [
+      "Ships",
+      "Three Wands",
+      "Cloak",
+      "Mountains"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3wands.jpg"
+  },
+  {
+    "slug": "wands-004",
+    "suite": "wands",
+    "name": "Four of Wands",
+    "meaning": "Celebration, harmony, marriage, home, community",
+    "reversedMeaning": "Lack of harmony, canceled celebrations, instability",
+    "symbols": [
+      "Wreath",
+      "Four Wands",
+      "Castle",
+      "Celebrating Figures"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4wands.jpg"
+  },
+  {
+    "slug": "wands-005",
+    "suite": "wands",
+    "name": "Five of Wands",
+    "meaning": "Competition, conflict, rivalry, disagreement",
+    "reversedMeaning": "Avoiding conflict, inner conflict, compromise",
+    "symbols": [
+      "Five Youths",
+      "Battling Wands",
+      "Tunics"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5wands.jpg"
+  },
+  {
+    "slug": "wands-006",
+    "suite": "wands",
+    "name": "Six of Wands",
+    "meaning": "Victory, success, public recognition, progress",
+    "reversedMeaning": "Ego, lack of recognition, punishment, fall from grace",
+    "symbols": [
+      "Laurel Wreath",
+      "White Horse",
+      "Crown",
+      "Followers"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6wands.jpg"
+  },
+  {
+    "slug": "wands-007",
+    "suite": "wands",
+    "name": "Seven of Wands",
+    "meaning": "Defense, perseverance, maintaining position, challenge",
+    "reversedMeaning": "Giving up, overwhelmed, exhaustion",
+    "symbols": [
+      "High Ground",
+      "Six Opposing Wands",
+      "Mismatched Shoes"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7wands.jpg"
+  },
+  {
+    "slug": "wands-008",
+    "suite": "wands",
+    "name": "Eight of Wands",
+    "meaning": "Speed, movement, travel, quick action, messages",
+    "reversedMeaning": "Delays, frustration, slow progress, waiting",
+    "symbols": [
+      "Eight Wands",
+      "Clear Sky",
+      "River",
+      "Countryside"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8wands.jpg"
+  },
+  {
+    "slug": "wands-009",
+    "suite": "wands",
+    "name": "Nine of Wands",
+    "meaning": "Resilience, persistence, last stand, boundaries",
+    "reversedMeaning": "Exhaustion, giving up, paranoia, stubbornness",
+    "symbols": [
+      "Bandaged Head",
+      "Nine Wands",
+      "Battle-Worn Figure"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9wands.jpg"
+  },
+  {
+    "slug": "wands-010",
+    "suite": "wands",
+    "name": "Ten of Wands",
+    "meaning": "Burden, responsibility, hard work, stress, achievement",
+    "reversedMeaning": "Doing it all, delegating, release, breakdown",
+    "symbols": [
+      "Ten Wands",
+      "Burdened Figure",
+      "Town",
+      "Heavy Load"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10wands.jpg"
+  },
+  {
+    "slug": "wands-011",
+    "suite": "wands",
+    "name": "Page of Wands",
+    "meaning": "Enthusiasm, exploration, discovery, free spirit",
+    "reversedMeaning": "Lack of direction, procrastination, bad news",
+    "symbols": [
+      "Salamanders",
+      "Desert",
+      "Pyramids",
+      "Young Figure"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pagewands.jpg"
+  },
+  {
+    "slug": "wands-012",
+    "suite": "wands",
+    "name": "Knight of Wands",
+    "meaning": "Energy, passion, adventure, impulsiveness, recklessness",
+    "reversedMeaning": "Haste, scattered energy, delays, frustration",
+    "symbols": [
+      "Rearing Horse",
+      "Armor",
+      "Salamanders",
+      "Desert"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightwands.jpg"
+  },
+  {
+    "slug": "wands-013",
+    "suite": "wands",
+    "name": "Queen of Wands",
+    "meaning": "Courage, confidence, independence, determination, charisma",
+    "reversedMeaning": "Self-respect, self-confidence, intolerance, jealousy",
+    "symbols": [
+      "Black Cat",
+      "Sunflowers",
+      "Lions",
+      "Throne"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queenwands.jpg"
+  },
+  {
+    "slug": "wands-014",
+    "suite": "wands",
+    "name": "King of Wands",
+    "meaning": "Natural leader, vision, entrepreneur, honour",
+    "reversedMeaning": "Impulsiveness, haste, ruthless, high expectations",
+    "symbols": [
+      "Salamanders",
+      "Lions",
+      "Crown",
+      "Throne"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingwands.jpg"
+  }
+]

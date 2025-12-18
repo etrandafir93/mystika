@@ -19,7 +19,7 @@ class TarotDeckController {
 
     @GetMapping("/{slug}")
     ResponseEntity<TarotDeck> deck(@Nullable @PathVariable(value = "slug", required = false) String slug) {
-        slug = StringUtils.isBlank(slug) ? "major-arcana" : slug;
+        slug = StringUtils.isBlank(slug) ? "rider-waite" : slug;
         return ResponseEntity.of(tarotDecks.bySlug(slug));
     }
 
