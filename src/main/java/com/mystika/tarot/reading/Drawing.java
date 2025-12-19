@@ -1,4 +1,4 @@
-package com.mystika.tarot.drawings;
+package com.mystika.tarot.reading;
 
 public sealed interface Drawing permits ThreeCardSpread {
 

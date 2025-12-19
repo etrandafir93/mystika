@@ -24,14 +24,15 @@ function DigitalDrawing() {
       const createThreeCardSpread = async () => {
         try {
           const drawingId = `drawing-${Date.now()}`
-          const response = await fetch('/api/drawings/three-card-spread', {
+          const response = await fetch('/api/readings', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
             },
             body: JSON.stringify({
               id: drawingId,
-              deckSlug: 'rider-waite'
+              deckSlug: 'rider-waite',
+              drawingType: 'THREE_CARD_SPREAD'
             })
           })
 

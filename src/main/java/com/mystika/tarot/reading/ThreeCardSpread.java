@@ -1,4 +1,4 @@
-package com.mystika.tarot.drawings;
+package com.mystika.tarot.reading;
 
 import static java.util.Collections.emptyList;
 
@@ -8,7 +8,7 @@ import lombok.With;
 
 public record ThreeCardSpread(String id, String deckSlug, @With List<DrawnCard> cards) implements Drawing {
 
-    ThreeCardSpread(String id, String deckSlug) {
+    public ThreeCardSpread(String id, String deckSlug) {
         this(id, deckSlug, emptyList());
     }
 }
