@@ -15,12 +15,12 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("api/drawings")
 class DrawingController {
 
-    private final Seer seer;
+    private final Seeker seeker;
 
     @PostMapping("/three-card-spread")
     Drawing threeCardSpread(@RequestBody DrawingRequest dawReq) {
         log.info("three-card-spread requested: {}", dawReq);
-        var drawResp = seer.draw(new ThreeCardSpread(dawReq.id, dawReq.deckSlug));
+        var drawResp = seeker.draw(new ThreeCardSpread(dawReq.id, dawReq.deckSlug));
         log.info("three-card-spread generated: {}", drawResp);
         return drawResp;
     }

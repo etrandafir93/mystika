@@ -16,11 +16,11 @@ import org.springframework.test.web.servlet.MockMvc;
 class DrawingControllerTest {
 
     @Autowired
-    private MockMvc mockMvc;
+    private MockMvc mvc;
 
     @Test
     void threeCardSpread() throws Exception {
-        mockMvc.perform(post("/api/drawings/three-card-spread").contentType(MediaType.APPLICATION_JSON)
+        mvc.perform(post("/api/drawings/three-card-spread").contentType(MediaType.APPLICATION_JSON)
                 .content("""
                         {
                             "id": "test-drawing-123",

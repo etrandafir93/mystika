@@ -1,9 +1,13 @@
 package com.mystika.tarot.cards;
 
+import static java.util.stream.Collectors.collectingAndThen;
+import static java.util.stream.Collectors.toList;
+
 import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
@@ -19,29 +23,31 @@ import tools.jackson.databind.json.JsonMapper;
 @RequiredArgsConstructor
 public class TarotDecksRepository {
 
-    private static final String DEFAULT_DECK = "rider-waite";
+    private static final String RIDER_WAITE = "rider-waite";
 
     private final JsonMapper json;
 
     @Getter(lazy = true)
-    private final TarotDeck raiderWaite = loadDeckFromJson(DEFAULT_DECK, "Rider-Waite", Path.of("db/decks/rider-waite"));
+    private final TarotDeck raiderWaite = loadDeckFromJson(RIDER_WAITE, "Rider-Waite", Path.of("db/decks/rider-waite"));
 
     public Optional<TarotDeck> bySlug(String slug) {
         return switch (slug) {
-            case DEFAULT_DECK -> Optional.of(raiderWaite());
+            case RIDER_WAITE -> Optional.of(raiderWaite());
             default -> Optional.empty();
         };
     }
 
     @SneakyThrows
     private TarotDeck loadDeckFromJson(String slug, String name, Path deckFolder) {
-        ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
-        Resource[] resources = resolver.getResources("classpath:" + deckFolder + "/*.json");
+        Resource[] resources = new PathMatchingResourcePatternResolver()
+            .getResources("classpath:%s/*.json".formatted(deckFolder));
 
-        List<TarotCard> allCards = Arrays.stream(resources)
+        return Arrays.stream(resources)
             .flatMap(resource -> loadCardsFromJson(resource).stream())
-            .toList();
-        return new TarotDeck(name, slug, allCards);
+            .collect(collectingAndThen(
+                toList(),
+                allCards -> new TarotDeck(name, slug, allCards)
+            ));
     }
 
     @SneakyThrows
