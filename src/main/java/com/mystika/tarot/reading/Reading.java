@@ -1,4 +1,4 @@
-package com.mystika.tarot.readings;
+package com.mystika.tarot.reading;
 
 import java.util.List;
 

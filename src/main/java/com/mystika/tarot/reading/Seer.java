@@ -1,18 +1,15 @@
-package com.mystika.tarot.readings;
+package com.mystika.tarot.reading;
 
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.mystika.tarot.drawings.Drawing;
-import com.mystika.tarot.drawings.DrawnCard;
-import com.mystika.tarot.drawings.ThreeCardSpread;
-import com.mystika.tarot.readings.Reading.Chapter;
+import com.mystika.tarot.reading.Reading.Chapter;
 
 @Component
-public class Seer {
+class Seer {
 
-    public Reading read(Drawing drawing) {
+    public Reading basicReading(Drawing drawing) {
         return switch (drawing) {
             case ThreeCardSpread(String _, String _, List<DrawnCard> cards) ->
                 new Reading(List.of(
@@ -27,6 +24,11 @@ public class Seer {
                             cards.getLast().name(), cards.getLast().meaning())
                 )));
         };
+    }
+
+    public Reading aiReading() {
+        // TODO
+        return new Reading(List.of());
     }
 
 }

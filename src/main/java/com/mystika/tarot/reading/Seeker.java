@@ -1,4 +1,4 @@
-package com.mystika.tarot.drawings;
+package com.mystika.tarot.reading;
 
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
@@ -18,7 +18,7 @@ class Seeker {
 
     private final TarotDecksRepository decks;
 
-    ThreeCardSpread draw(Drawing drawing) {
+    public ThreeCardSpread draw(Drawing drawing) {
         return switch (drawing) {
             case ThreeCardSpread threeCardSpread -> draw(threeCardSpread);
         };
