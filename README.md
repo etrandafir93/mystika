@@ -53,30 +53,57 @@ Tarot Stack Trace is an MVP designed for tarot enthusiasts and beginners who wan
 
 ## Tech Stack
 
-**Backend**:
-- Java 21
-- Spring Boot 4
-- Maven
-- REST API
-- Docker
+### Backend
+- **Java 25**
+- **Spring Boot 4.0.0**
+- **SpringDoc OpenAPI** (Swagger UI documentation)
+- **Maven** (build tool)
 
-**Frontend**:
-- React 18
-- Vite
-- React Router
-- CSS Modules
+### Frontend
+- **React 18.3.1**
+- **Vite 6.0.3** (build tool & dev server)
+- **Vanilla CSS** (styling)
 
-**DevOps**:
-- GitHub Actions CI/CD
-- DockerHub for image hosting
+### Infrastructure & Deployment
+- **Docker** (containerization)
+- **Google Cloud Platform**
+  - Cloud Run (hosting)
+  - Artifact Registry (container registry)
+- **Node.js 20.11.0** (frontend build process)
 
-### API Endpoints
+## Project Structure
 
-**Cards**:
-- `GET /api/cards` - Get all 78 cards
-- `GET /api/cards/{id}` - Get card by ID
+The application is organized into three main logical modules:
 
-**Readings**:
-- `POST /api/readings/draw/single` - Draw one card
-- `POST /api/readings/draw/three` - Draw three-card spread
-- `POST /api/readings/manual` - Manual card selection
+### 1. Decks Module
+Contains static information about tarot cards and decks:
+- Card images, names, symbols, and basic meanings
+- Deck configurations and metadata
+- Default support: **Rider-Waite deck** (78 cards)
+
+This module serves as the foundation, providing the raw card data without interpretation.
+
+### 2. Drawings Module
+Manages different types of card drawing patterns:
+- **1-card draw**: Single card for quick insights
+- **3-card spread**: Past-Present-Future or other triadic layouts
+- **Celtic Cross**: Traditional 10-card spread
+- Additional spread patterns
+
+**Dependencies**: Drawings depend on a Deck
+
+**Responsibility**: Draws cards from the deck but does not attach meaning or interpretation. This module is purely mechanical - it selects and positions cards according to the spread pattern.
+
+### 3. Readings Module
+Provides interpretation and meaning to drawn cards:
+- Performed by the **Seeker** entity (the person seeking guidance)
+- Analyzes connections between cards in the drawing
+- Attaches deeper meaning beyond basic card definitions
+
+**Dependencies**: Readings depend on a Drawing (which depends on a Deck)
+
+**Interpretation Strategy**:
+- **AI-powered**: Uses AI to provide dynamic, contextualized interpretations
+- **Static fallback**: Pre-written meanings when AI is unavailable (no I/O required)
+
+**Flow**: Deck → Drawing → Reading
