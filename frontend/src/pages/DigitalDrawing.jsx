@@ -156,6 +156,28 @@ function DigitalDrawing() {
           ))}
         </div>
 
+        {spreadData?.reading?.chapters && spreadData.reading.chapters.length > 0 && flippedCards.length > 0 && (
+          <div className="reading-section">
+            <div className="reading-chapters">
+              {spreadData.reading.chapters.map((chapter, index) => {
+                if (!flippedCards.includes(index)) return null;
+                const cardData = spreadData?.drawing?.cards?.[index];
+                return (
+                  <div
+                    key={index}
+                    className="reading-chapter"
+                    style={{ animationDelay: `${flippedCards.indexOf(index) * 0.15}s` }}
+                    onClick={() => cardData && setZoomedCard(cardData)}
+                  >
+                    <h3 className="chapter-title">{chapter.title}</h3>
+                    <p className="chapter-content">{chapter.content}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
         <div className="selected-cards-area">
           <div className="selected-cards-container">
             {[0, 1, 2].map((slotIndex) => {
@@ -163,7 +185,7 @@ function DigitalDrawing() {
               if (cardIndex !== undefined) {
                 const position = cardPositions[cardIndex]
                 const isFlipped = flippedCards.includes(slotIndex)
-                const cardData = spreadData?.cards?.[slotIndex]
+                const cardData = spreadData?.drawing?.cards?.[slotIndex]
 
                 return (
                   <div key={slotIndex} className={`card-wrapper ${isFlipped ? 'flipped' : ''}`} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
