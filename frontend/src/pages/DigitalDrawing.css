@@ -697,18 +697,42 @@
 }
 
 @media (max-width: 768px) {
+  .selected-cards-container {
+    gap: 0.5rem;
+  }
+
   .zoom-content {
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem;
+    max-height: 90vh;
+    overflow-y: auto;
   }
 
   .zoom-card-image img {
-    max-width: 80vw;
+    max-width: 70vw;
+    max-height: 50vh;
   }
 
   .zoom-card-details {
     max-width: 80vw;
+  }
+
+  .zoom-card-name {
+    font-size: 1.5rem;
+  }
+
+  .zoom-card-orientation {
+    font-size: 1rem;
+  }
+
+  .zoom-section-title {
+    font-size: 1rem;
+  }
+
+  .zoom-section-content {
+    font-size: 0.9rem;
+    padding: 0.8rem;
   }
 
   .reading-section {
