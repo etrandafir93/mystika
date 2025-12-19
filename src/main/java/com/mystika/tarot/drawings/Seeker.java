@@ -14,7 +14,7 @@ import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
-class Seer {
+class Seeker {
 
     private final TarotDecksRepository decks;
 

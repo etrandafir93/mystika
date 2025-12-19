@@ -57,7 +57,6 @@ class TarotDeckControllerTest {
             .getResponse()
             .getContentAsString();
 
-        System.err.println(response);
         List<TarotCard> allCards = json.readValue(response, TarotDeck.class)
             .cards();
 
