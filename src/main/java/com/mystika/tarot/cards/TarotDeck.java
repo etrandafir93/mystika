@@ -1,8 +1,11 @@
 package com.mystika.tarot.cards;
 
+import static java.util.Collections.unmodifiableList;
 import static java.util.stream.Collectors.collectingAndThen;
 import static java.util.stream.Collectors.toList;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Stream;
@@ -12,12 +15,9 @@ import org.springframework.util.Assert;
 public record TarotDeck(String name, String slug, List<TarotCard> cards) {
 
     public TarotDeck shuffle() {
-        return cards.stream()
-            .sorted(this::randomly)
-            .collect(collectingAndThen(
-                toList(),
-                newCards -> new TarotDeck(name, slug, newCards)
-            ));
+        var newCards = new ArrayList<>(cards);
+        Collections.shuffle(newCards);
+        return new TarotDeck(name, slug, unmodifiableList(newCards));
     }
 
     public TarotCard drawOne() {
@@ -39,8 +39,4 @@ public record TarotDeck(String name, String slug, List<TarotCard> cards) {
             .mapToObj(cards::get);
     }
 
-    private int randomly(TarotCard c1, TarotCard c2) {
-        return ThreadLocalRandom.current()
-            .nextBoolean() ? -1 : 1;
-    }
 }
