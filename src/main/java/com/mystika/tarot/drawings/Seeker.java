@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 import com.mystika.tarot.cards.TarotCard;
 import com.mystika.tarot.cards.TarotDeck;
@@ -12,7 +12,7 @@ import com.mystika.tarot.cards.TarotDecksRepository;
 
 import lombok.RequiredArgsConstructor;
 
-@Service
+@Component
 @RequiredArgsConstructor
 class Seeker {
 
