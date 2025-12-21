@@ -53,30 +53,58 @@ Tarot Stack Trace is an MVP designed for tarot enthusiasts and beginners who wan
 
 ## Tech Stack
 
-**Backend**:
-- Java 21
-- Spring Boot 4
-- Maven
-- REST API
-- Docker
+### Backend
+- **Java 25**
+- **Spring Boot 4.0.0**
+- **SpringDoc OpenAPI** (Swagger UI documentation)
+- **Maven** (build tool)
 
-**Frontend**:
-- React 18
-- Vite
-- React Router
-- CSS Modules
+### Frontend
+- **React 18.3.1**
+- **Vite 6.0.3** (build tool & dev server)
+- **Vanilla CSS** (styling)
 
-**DevOps**:
-- GitHub Actions CI/CD
-- DockerHub for image hosting
+### Infrastructure & Deployment
+- **Docker** (containerization)
+- **Google Cloud Platform**
+  - Cloud Run (hosting)
+  - Artifact Registry (container registry)
+- **Node.js 20.11.0** (frontend build process)
 
-### API Endpoints
+## Project Structure
 
-**Cards**:
-- `GET /api/cards` - Get all 78 cards
-- `GET /api/cards/{id}` - Get card by ID
+The application is organized into three main logical modules and key entities:
 
-**Readings**:
-- `POST /api/readings/draw/single` - Draw one card
-- `POST /api/readings/draw/three` - Draw three-card spread
-- `POST /api/readings/manual` - Manual card selection
+### 1. Cards and Decks
+Contains static information about [cards](./src/main/java/com/mystika/tarot/cards/TarotCard.java)
+and [decks](./src/main/java/com/mystika/tarot/cards/TarotDeck.java):
+- Card images, names, symbols, and basic meanings
+- Deck configurations and metadata
+- Default support: **Rider-Waite deck** (78 cards)
+
+This module serves as the foundation, providing the raw card data without interpretation.
+
+### 2. Drawings
+Manages different types of card drawing patterns:
+- `(WIP)` **1-card draw**: Single card for quick insights
+- **[3-card spread](./src/main/java/com/mystika/tarot/reading/ThreeCardSpread.java)**: Past-Present-Future or other triadic layouts
+- `(WIP)` **Celtic Cross**: Traditional 10-card spread 
+- `(WIP)` Additional spread patterns 
+
+**Dependencies**: Drawings depend on a Deck
+
+**Responsibility**: Draws cards from the deck but does not attach meaning or interpretation. This module is purely mechanical - it selects and positions cards according to the spread pattern.
+
+### 3. Readings
+Provides interpretation and meaning to drawn cards:
+- Performed by the **[seeker](./src/main/java/com/mystika/tarot/reading/Seeker.java)** entity (the person seeking guidance)
+- Analyzes connections between cards in the drawing
+- Attaches deeper meaning beyond basic card definitions
+
+**Dependencies**: a Reading is the interpretation of a Drawing (which uses a deck of cards)
+
+**Interpretation Strategy**:
+- `(WIP)` **AI-powered**: Uses AI to provide dynamic, contextualized interpretations
+- **Static fallback**: Pre-written meanings when AI is unavailable (no I/O required)
+
+**Flow**: Deck → Drawing → Reading
