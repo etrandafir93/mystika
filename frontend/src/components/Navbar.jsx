@@ -5,9 +5,8 @@ function Navbar({ pageTitle }) {
   return (
     <nav className="navbar">
       <Link to="/" className="nav-home">
-        <span className="nav-home-icon">☽</span>
+        <span className="nav-home-icon">Mystika</span>
       </Link>
-      <h2 className="nav-title">{pageTitle}</h2>
     </nav>
   )
 }

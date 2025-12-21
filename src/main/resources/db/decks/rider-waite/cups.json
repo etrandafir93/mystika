@@ -1,0 +1,199 @@
+[
+  {
+    "slug": "cups-001",
+    "suite": "cups",
+    "name": "Ace of Cups",
+    "meaning": "New love, compassion, creativity, emotional beginning",
+    "reversedMeaning": "Emotional loss, blocked creativity, emptiness",
+    "symbols": [
+      "Chalice",
+      "Hand",
+      "Dove",
+      "Water",
+      "Lotus"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/acecups.jpg"
+  },
+  {
+    "slug": "cups-002",
+    "suite": "cups",
+    "name": "Two of Cups",
+    "meaning": "Partnership, unity, attraction, connection, mutual respect",
+    "reversedMeaning": "Imbalance, broken communication, tension, separation",
+    "symbols": [
+      "Caduceus",
+      "Lion",
+      "Two Figures",
+      "Cups"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2cups.jpg"
+  },
+  {
+    "slug": "cups-003",
+    "suite": "cups",
+    "name": "Three of Cups",
+    "meaning": "Celebration, friendship, creativity, collaboration, joy",
+    "reversedMeaning": "Overindulgence, gossip, isolation, independence",
+    "symbols": [
+      "Three Women",
+      "Raised Cups",
+      "Harvest",
+      "Dance"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3cups.jpg"
+  },
+  {
+    "slug": "cups-004",
+    "suite": "cups",
+    "name": "Four of Cups",
+    "meaning": "Apathy, contemplation, reevaluation, meditation",
+    "reversedMeaning": "Motivation, new possibilities, acceptance, action",
+    "symbols": [
+      "Meditating Figure",
+      "Three Cups",
+      "Hand from Cloud"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4cups.jpg"
+  },
+  {
+    "slug": "cups-005",
+    "suite": "cups",
+    "name": "Five of Cups",
+    "meaning": "Loss, grief, disappointment, regret, sadness",
+    "reversedMeaning": "Acceptance, moving on, finding peace, forgiveness",
+    "symbols": [
+      "Spilled Cups",
+      "Bridge",
+      "Standing Cups",
+      "Cloaked Figure"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5cups.jpg"
+  },
+  {
+    "slug": "cups-006",
+    "suite": "cups",
+    "name": "Six of Cups",
+    "meaning": "Nostalgia, childhood memories, innocence, reunion",
+    "reversedMeaning": "Stuck in past, unrealistic expectations, naivety",
+    "symbols": [
+      "Children",
+      "Flowers",
+      "Village",
+      "Six Cups"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6cups.jpg"
+  },
+  {
+    "slug": "cups-007",
+    "suite": "cups",
+    "name": "Seven of Cups",
+    "meaning": "Choices, fantasy, illusion, wishful thinking",
+    "reversedMeaning": "Clarity, determination, values alignment, making choices",
+    "symbols": [
+      "Seven Cups",
+      "Clouds",
+      "Visions",
+      "Silhouette"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7cups.jpg"
+  },
+  {
+    "slug": "cups-008",
+    "suite": "cups",
+    "name": "Eight of Cups",
+    "meaning": "Walking away, seeking truth, letting go, withdrawal",
+    "reversedMeaning": "Avoidance, fear of change, stagnation, aimless drifting",
+    "symbols": [
+      "Moon",
+      "Mountains",
+      "Eight Cups",
+      "Departing Figure"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8cups.jpg"
+  },
+  {
+    "slug": "cups-009",
+    "suite": "cups",
+    "name": "Nine of Cups",
+    "meaning": "Satisfaction, contentment, wish fulfillment, happiness",
+    "reversedMeaning": "Greed, dissatisfaction, materialism, indulgence",
+    "symbols": [
+      "Nine Cups",
+      "Satisfied Figure",
+      "Bench",
+      "Red Hat"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9cups.jpg"
+  },
+  {
+    "slug": "cups-010",
+    "suite": "cups",
+    "name": "Ten of Cups",
+    "meaning": "Harmony, happiness, alignment, family, love",
+    "reversedMeaning": "Disconnection, misalignment, broken relationships",
+    "symbols": [
+      "Rainbow",
+      "Family",
+      "Ten Cups",
+      "Home",
+      "Children"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10cups.jpg"
+  },
+  {
+    "slug": "cups-011",
+    "suite": "cups",
+    "name": "Page of Cups",
+    "meaning": "Creative opportunities, curiosity, intuition, inner child",
+    "reversedMeaning": "Emotional immaturity, insecurity, disappointment",
+    "symbols": [
+      "Fish in Cup",
+      "Young Figure",
+      "Ocean",
+      "Tunic"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pagecups.jpg"
+  },
+  {
+    "slug": "cups-012",
+    "suite": "cups",
+    "name": "Knight of Cups",
+    "meaning": "Romance, charm, imagination, idealism, following the heart",
+    "reversedMeaning": "Moodiness, unrealistic expectations, jealousy, drama",
+    "symbols": [
+      "White Horse",
+      "Winged Helmet",
+      "Cup",
+      "Calm Demeanor"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightcups.jpg"
+  },
+  {
+    "slug": "cups-013",
+    "suite": "cups",
+    "name": "Queen of Cups",
+    "meaning": "Compassion, intuition, sensitivity, emotional security",
+    "reversedMeaning": "Insecurity, emotional instability, codependency",
+    "symbols": [
+      "Ornate Cup",
+      "Throne",
+      "Water",
+      "Mermaid"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queencups.jpg"
+  },
+  {
+    "slug": "cups-014",
+    "suite": "cups",
+    "name": "King of Cups",
+    "meaning": "Emotional balance, diplomacy, compassion, calm control",
+    "reversedMeaning": "Emotional manipulation, moodiness, volatility",
+    "symbols": [
+      "Throne on Water",
+      "Fish",
+      "Ship",
+      "Scepter"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingcups.jpg"
+  }
+]

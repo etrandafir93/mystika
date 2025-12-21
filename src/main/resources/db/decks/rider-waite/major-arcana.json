@@ -1,0 +1,314 @@
+[
+  {
+    "slug": "major-arcana-000",
+    "suite": "major-arcana",
+    "name": "The Fool",
+    "meaning": "New beginnings, optimism, trust in life",
+    "reversedMeaning": "Recklessness, taken advantage of, inconsideration",
+    "symbols": [
+      "Dog",
+      "Cliff",
+      "White Rose",
+      "Knapsack"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/fool.jpg"
+  },
+  {
+    "slug": "major-arcana-001",
+    "suite": "major-arcana",
+    "name": "The Magician",
+    "meaning": "Action, the power to manifest",
+    "reversedMeaning": "Manipulation, poor planning, untapped talents",
+    "symbols": [
+      "Infinity Symbol",
+      "Wand",
+      "Cup",
+      "Sword",
+      "Pentacle"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/magician.jpg"
+  },
+  {
+    "slug": "major-arcana-002",
+    "suite": "major-arcana",
+    "name": "The High Priestess",
+    "meaning": "Inaction, going within, the subconscious",
+    "reversedMeaning": "Secrets, disconnected from intuition, withdrawal",
+    "symbols": [
+      "Moon Crown",
+      "Scroll",
+      "Pomegranates",
+      "Pillars"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/highpriestess.jpg"
+  },
+  {
+    "slug": "major-arcana-003",
+    "suite": "major-arcana",
+    "name": "The Empress",
+    "meaning": "Motherhood, fertility, nature, abundance",
+    "reversedMeaning": "Creative block, dependence on others",
+    "symbols": [
+      "Venus Symbol",
+      "Crown of Stars",
+      "Wheat",
+      "River"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/empress.jpg"
+  },
+  {
+    "slug": "major-arcana-004",
+    "suite": "major-arcana",
+    "name": "The Emperor",
+    "meaning": "Authority, structure, control, fatherhood",
+    "reversedMeaning": "Tyranny, rigidity, coldness",
+    "symbols": [
+      "Throne",
+      "Ram Heads",
+      "Orb",
+      "Scepter"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/emperor.jpg"
+  },
+  {
+    "slug": "major-arcana-005",
+    "suite": "major-arcana",
+    "name": "The Hierophant",
+    "meaning": "Tradition, conformity, spiritual guidance",
+    "reversedMeaning": "Rebellion, subversiveness, unconventional beliefs",
+    "symbols": [
+      "Papal Cross",
+      "Keys",
+      "Crown",
+      "Two Acolytes"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/heirophant.jpg"
+  },
+  {
+    "slug": "major-arcana-006",
+    "suite": "major-arcana",
+    "name": "The Lovers",
+    "meaning": "Love, harmony, relationships, choices",
+    "reversedMeaning": "Disharmony, imbalance, misalignment of values",
+    "symbols": [
+      "Angel",
+      "Adam and Eve",
+      "Tree of Knowledge",
+      "Mountains"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/lovers.jpg"
+  },
+  {
+    "slug": "major-arcana-007",
+    "suite": "major-arcana",
+    "name": "The Chariot",
+    "meaning": "Willpower, determination, control, victory",
+    "reversedMeaning": "Lack of direction, opposition, self-discipline",
+    "symbols": [
+      "Sphinxes",
+      "Armor",
+      "Starry Canopy",
+      "Wand"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/chariot.jpg"
+  },
+  {
+    "slug": "major-arcana-008",
+    "suite": "major-arcana",
+    "name": "Strength",
+    "meaning": "Inner strength, courage, patience, compassion",
+    "reversedMeaning": "Self-doubt, weakness, insecurity",
+    "symbols": [
+      "Lion",
+      "Infinity Symbol",
+      "White Robe",
+      "Flowers"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/strength.jpg"
+  },
+  {
+    "slug": "major-arcana-009",
+    "suite": "major-arcana",
+    "name": "The Hermit",
+    "meaning": "Soul searching, introspection, solitude, guidance",
+    "reversedMeaning": "Isolation, loneliness, withdrawal",
+    "symbols": [
+      "Lantern",
+      "Staff",
+      "Mountain Peak",
+      "Star of David"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/hermit.jpg"
+  },
+  {
+    "slug": "major-arcana-010",
+    "suite": "major-arcana",
+    "name": "Wheel of Fortune",
+    "meaning": "Cycles, destiny, turning point, good luck",
+    "reversedMeaning": "Bad luck, resistance to change, breaking cycles",
+    "symbols": [
+      "Wheel",
+      "Sphinx",
+      "Snake",
+      "Anubis",
+      "Four Creatures"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/wheeloffortune.jpg"
+  },
+  {
+    "slug": "major-arcana-011",
+    "suite": "major-arcana",
+    "name": "Justice",
+    "meaning": "Justice, fairness, truth, cause and effect",
+    "reversedMeaning": "Unfairness, lack of accountability, dishonesty",
+    "symbols": [
+      "Scales",
+      "Sword",
+      "Crown",
+      "Purple Robe"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/justice.jpg"
+  },
+  {
+    "slug": "major-arcana-012",
+    "suite": "major-arcana",
+    "name": "The Hanged Man",
+    "meaning": "Surrender, letting go, new perspective, suspension",
+    "reversedMeaning": "Stalling, resistance, indecision",
+    "symbols": [
+      "Inverted Figure",
+      "Halo",
+      "Tree",
+      "Crossed Legs"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/hangedman.jpg"
+  },
+  {
+    "slug": "major-arcana-013",
+    "suite": "major-arcana",
+    "name": "Death",
+    "meaning": "Endings, transformation, transition, release",
+    "reversedMeaning": "Resistance to change, stagnation, decay",
+    "symbols": [
+      "Skeleton",
+      "Armor",
+      "Black Flag",
+      "White Rose",
+      "Sun"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/death.jpg"
+  },
+  {
+    "slug": "major-arcana-014",
+    "suite": "major-arcana",
+    "name": "Temperance",
+    "meaning": "Balance, moderation, patience, purpose",
+    "reversedMeaning": "Imbalance, excess, lack of long-term vision",
+    "symbols": [
+      "Angel",
+      "Cups",
+      "One Foot in Water",
+      "Iris Flowers"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/temperance.jpg"
+  },
+  {
+    "slug": "major-arcana-015",
+    "suite": "major-arcana",
+    "name": "The Devil",
+    "meaning": "Bondage, addiction, materialism, playfulness",
+    "reversedMeaning": "Release, freedom, breaking free",
+    "symbols": [
+      "Horned Figure",
+      "Chains",
+      "Inverted Pentagram",
+      "Torch"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/devil.jpg"
+  },
+  {
+    "slug": "major-arcana-016",
+    "suite": "major-arcana",
+    "name": "The Tower",
+    "meaning": "Sudden upheaval, chaos, revelation, awakening",
+    "reversedMeaning": "Avoiding disaster, fear of change, delaying the inevitable",
+    "symbols": [
+      "Lightning",
+      "Falling Figures",
+      "Crown",
+      "Flames"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/tower.jpg"
+  },
+  {
+    "slug": "major-arcana-017",
+    "suite": "major-arcana",
+    "name": "The Star",
+    "meaning": "Hope, faith, renewal, inspiration",
+    "reversedMeaning": "Despair, lack of faith, disconnection",
+    "symbols": [
+      "Eight Stars",
+      "Naked Woman",
+      "Two Jugs",
+      "Bird"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/star.jpg"
+  },
+  {
+    "slug": "major-arcana-018",
+    "suite": "major-arcana",
+    "name": "The Moon",
+    "meaning": "Illusion, intuition, uncertainty, subconscious",
+    "reversedMeaning": "Release of fear, clarity, understanding",
+    "symbols": [
+      "Moon",
+      "Dogs",
+      "Crayfish",
+      "Towers",
+      "Path"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/moon.jpg"
+  },
+  {
+    "slug": "major-arcana-019",
+    "suite": "major-arcana",
+    "name": "The Sun",
+    "meaning": "Joy, success, celebration, positivity",
+    "reversedMeaning": "Temporary depression, lack of success",
+    "symbols": [
+      "Sun",
+      "Child on Horse",
+      "Sunflowers",
+      "Red Flag"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/sun.jpg"
+  },
+  {
+    "slug": "major-arcana-020",
+    "suite": "major-arcana",
+    "name": "Judgement",
+    "meaning": "Reflection, reckoning, inner calling, absolution",
+    "reversedMeaning": "Self-doubt, refusal of self-examination",
+    "symbols": [
+      "Angel",
+      "Trumpet",
+      "Rising Figures",
+      "Mountains"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/judgment.jpg"
+  },
+  {
+    "slug": "major-arcana-021",
+    "suite": "major-arcana",
+    "name": "The World",
+    "meaning": "Completion, accomplishment, travel, fulfillment",
+    "reversedMeaning": "Incompletion, lack of closure, seeking personal closure",
+    "symbols": [
+      "Dancing Figure",
+      "Wreath",
+      "Four Creatures",
+      "Purple Cloth"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/world.jpg"
+  }
+]
