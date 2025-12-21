@@ -73,37 +73,38 @@ Tarot Stack Trace is an MVP designed for tarot enthusiasts and beginners who wan
 
 ## Project Structure
 
-The application is organized into three main logical modules:
+The application is organized into three main logical modules and key entities:
 
-### 1. Decks Module
-Contains static information about tarot cards and decks:
+### 1. Cards and Decks
+Contains static information about [cards](./src/main/java/com/mystika/tarot/cards/TarotCard.java)
+and [decks](./src/main/java/com/mystika/tarot/cards/TarotDeck.java):
 - Card images, names, symbols, and basic meanings
 - Deck configurations and metadata
 - Default support: **Rider-Waite deck** (78 cards)
 
 This module serves as the foundation, providing the raw card data without interpretation.
 
-### 2. Drawings Module
+### 2. Drawings
 Manages different types of card drawing patterns:
-- **1-card draw**: Single card for quick insights
-- **3-card spread**: Past-Present-Future or other triadic layouts
-- **Celtic Cross**: Traditional 10-card spread
-- Additional spread patterns
+- `(WIP)` **1-card draw**: Single card for quick insights
+- **[3-card spread](./src/main/java/com/mystika/tarot/reading/ThreeCardSpread.java)**: Past-Present-Future or other triadic layouts
+- `(WIP)` **Celtic Cross**: Traditional 10-card spread 
+- `(WIP)` Additional spread patterns 
 
 **Dependencies**: Drawings depend on a Deck
 
 **Responsibility**: Draws cards from the deck but does not attach meaning or interpretation. This module is purely mechanical - it selects and positions cards according to the spread pattern.
 
-### 3. Readings Module
+### 3. Readings
 Provides interpretation and meaning to drawn cards:
-- Performed by the **Seeker** entity (the person seeking guidance)
+- Performed by the **[seeker](./src/main/java/com/mystika/tarot/reading/Seeker.java)** entity (the person seeking guidance)
 - Analyzes connections between cards in the drawing
 - Attaches deeper meaning beyond basic card definitions
 
-**Dependencies**: Readings depend on a Drawing (which depends on a Deck)
+**Dependencies**: a Reading is the interpretation of a Drawing (which uses a deck of cards)
 
 **Interpretation Strategy**:
-- **AI-powered**: Uses AI to provide dynamic, contextualized interpretations
+- `(WIP)` **AI-powered**: Uses AI to provide dynamic, contextualized interpretations
 - **Static fallback**: Pre-written meanings when AI is unavailable (no I/O required)
 
 **Flow**: Deck → Drawing → Reading
