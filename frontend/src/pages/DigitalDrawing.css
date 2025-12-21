@@ -610,14 +610,35 @@
   overflow-y: auto;
 }
 
-/* Hide scrollbar */
-.reading-section::-webkit-scrollbar {
-  display: none;
+/* Subtle scrollbar styling */
+.reading-section::-webkit-scrollbar,
+.zoom-content::-webkit-scrollbar {
+  width: 8px;
 }
 
-.reading-section {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+.reading-section::-webkit-scrollbar-track,
+.zoom-content::-webkit-scrollbar-track {
+  background: rgba(15, 12, 41, 0.3);
+  border-radius: 10px;
+}
+
+.reading-section::-webkit-scrollbar-thumb,
+.zoom-content::-webkit-scrollbar-thumb {
+  background: rgba(218, 165, 32, 0.3);
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.reading-section::-webkit-scrollbar-thumb:hover,
+.zoom-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(218, 165, 32, 0.5);
+}
+
+/* Firefox */
+.reading-section,
+.zoom-content {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(218, 165, 32, 0.3) rgba(15, 12, 41, 0.3);
 }
 
 @keyframes fadeInUp {
@@ -739,6 +760,8 @@
 
   .reading-section {
     padding: 0 0.5rem;
+    max-height: calc(100vh - 350px);
+    top: 4rem;
   }
 
   .reading-chapter {
@@ -751,5 +774,9 @@
 
   .chapter-content {
     font-size: 0.9rem;
+  }
+
+  .selected-cards-area {
+    bottom: 1rem;
   }
 }
