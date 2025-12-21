@@ -61,7 +61,8 @@ function DigitalDrawing() {
       translateY: Math.random() * 20 - 10, // Random vertical offset between -10px and 10px
       shimmerDelay: Math.random() * 8, // Random delay for shimmer effect between 0-8s
       invertStars: Math.random() > 0.5, // Randomly invert which star is bright
-      hasShine: Math.random() < 0.3 // 30% chance to have shine effect on hover
+      hasShine: Math.random() < 0.3, // 30% chance to have shine effect on hover
+      selectedRotation: Math.random() * 8 - 4 // Random rotation between -4 and 4 degrees for selected cards
     }))
   })
 
@@ -194,7 +195,8 @@ function DigitalDrawing() {
                       className={`tarot-card selected-card ${position.invertStars ? 'invert-stars' : ''} ${isFlipped ? 'flipped' : ''}`}
                       style={{
                         animationDelay: `${slotIndex * 0.2}s`,
-                        '--shimmer-delay': `${position.shimmerDelay}s`
+                        '--shimmer-delay': `${position.shimmerDelay}s`,
+                        '--selected-rotation': `${position.selectedRotation}deg`
                       }}
                       onClick={() => handleCardFlip(slotIndex, cardData)}
                     >
