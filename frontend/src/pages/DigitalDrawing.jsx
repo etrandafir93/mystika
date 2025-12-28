@@ -240,6 +240,9 @@ function DigitalDrawing() {
 
         {zoomedCard && (
           <div className="zoom-overlay" onClick={handleCloseZoom}>
+            <button className="zoom-close-button" onClick={handleCloseZoom}>
+              ✕
+            </button>
             <div className="zoom-content">
               <div className="zoom-card-image">
                 <img

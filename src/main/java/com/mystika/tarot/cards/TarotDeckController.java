@@ -1,5 +1,7 @@
 package com.mystika.tarot.cards;
 
+import static com.mystika.tarot.cards.TarotDecksRepository.RIDER_WAITE;
+
 import org.jspecify.annotations.Nullable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,7 +21,7 @@ class TarotDeckController {
 
     @GetMapping("/{slug}")
     ResponseEntity<TarotDeck> deck(@Nullable @PathVariable(value = "slug", required = false) String slug) {
-        slug = StringUtils.isBlank(slug) ? "rider-waite" : slug;
+        slug = StringUtils.isBlank(slug) ? RIDER_WAITE : slug;
         return ResponseEntity.of(tarotDecks.bySlug(slug));
     }
 
