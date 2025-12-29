@@ -4,9 +4,10 @@ import './AssistedReading.css'
 
 function AssistedReading() {
   const [deck, setDeck] = useState(null)
-  const [selectedCard, setSelectedCard] = useState(null)
-  const [cardRotation, setCardRotation] = useState(0)
-  const [totalRotation, setTotalRotation] = useState(0)
+  const [cards, setCards] = useState([]) // Array to hold multiple cards
+  const [isExpanded, setIsExpanded] = useState(false)
+  const [expandedCardIndex, setExpandedCardIndex] = useState(null)
+  const [isAddingSecondCard, setIsAddingSecondCard] = useState(false)
 
   useEffect(() => {
     // Fetch the deck data
@@ -29,46 +30,69 @@ function AssistedReading() {
 
   const handleCardSelect = (event) => {
     const cardSlug = event.target.value
-    if (cardSlug) {
+    console.log('Card selected:', cardSlug)
+    console.log('Current state - cards.length:', cards.length, 'isAddingSecondCard:', isAddingSecondCard)
+
+    if (cardSlug && deck) {
       const card = deck.cards.find(c => c.slug === cardSlug)
-      // Generate random rotation between -10 and 10 degrees
-      const rotation = Math.random() * 20 - 10
-      setSelectedCard(card)
-      setCardRotation(rotation)
-      setTotalRotation(rotation)
-      setIsReversed(false)
-    } else {
-      setSelectedCard(null)
-      setCardRotation(0)
-      setTotalRotation(0)
-      setIsReversed(false)
+      console.log('Found card:', card ? card.name : 'not found')
+
+      if (card) {
+        // Generate random rotation between -10 and 10 degrees
+        const rotation = Math.random() * 20 - 10
+        const newCard = {
+          ...card,
+          rotation: rotation,
+          totalRotation: rotation,
+          isReversed: false
+        }
+
+        if (cards.length === 0) {
+          console.log('Adding first card')
+          setCards([newCard])
+        } else if (cards.length === 1 && !isAddingSecondCard) {
+          console.log('Replacing first card')
+          setCards([newCard])
+        } else if (cards.length === 1 && isAddingSecondCard) {
+          console.log('Adding second card')
+          setCards([...cards, newCard])
+          setIsAddingSecondCard(false)
+        }
+
+        // Reset the select element
+        event.target.value = ''
+      }
     }
   }
 
-  const [isReversed, setIsReversed] = useState(false)
-  const [isExpanded, setIsExpanded] = useState(false)
-
-  const handleReverseToggle = () => {
-    // Add 180 degrees to continue rotation in the same direction
-    setTotalRotation(prev => prev + 180)
-    // Toggle the reversed state
-    setIsReversed(prev => !prev)
+  const handleReverseToggle = (index) => {
+    const newCards = [...cards]
+    newCards[index].totalRotation -= 180 // Rotate counterclockwise (to the left)
+    newCards[index].isReversed = !newCards[index].isReversed
+    setCards(newCards)
   }
 
-  const handleClearCard = () => {
-    setSelectedCard(null)
-    setCardRotation(0)
-    setTotalRotation(0)
-    setIsReversed(false)
-    setIsExpanded(false)
+  const handleClearCard = (index) => {
+    const newCards = cards.filter((_, i) => i !== index)
+    setCards(newCards)
+    // Reset adding second card state if we're back to 1 or 0 cards
+    if (newCards.length < 2) {
+      setIsAddingSecondCard(false)
+    }
   }
 
-  const handleCardClick = () => {
+  const handleAddCard = () => {
+    setIsAddingSecondCard(true)
+  }
+
+  const handleCardClick = (index) => {
+    setExpandedCardIndex(index)
     setIsExpanded(true)
   }
 
   const handleCloseExpanded = () => {
     setIsExpanded(false)
+    setExpandedCardIndex(null)
   }
 
   // Helper function to normalize suite names
@@ -107,82 +131,117 @@ function AssistedReading() {
             id="card-select"
             className="card-selector"
             onChange={handleCardSelect}
-            value={selectedCard?.slug || ''}
+            disabled={cards.length >= 2}
           >
             <option value="">Select a card...</option>
-            {Object.entries(orderedGroupedCards).map(([suite, cards]) => (
+            {Object.entries(orderedGroupedCards).map(([suite, cardsList]) => (
               <optgroup key={suite} label={suite}>
-                {cards.map(card => (
-                  <option key={card.slug} value={card.slug}>
-                    {card.name}
-                  </option>
-                ))}
+                {cardsList
+                  .filter(card => {
+                    // When adding second card, filter out the first card
+                    if (isAddingSecondCard && cards.length === 1) {
+                      return !cards.some(c => c.slug === card.slug)
+                    }
+                    // Otherwise show all cards
+                    return true
+                  })
+                  .map(card => (
+                    <option key={card.slug} value={card.slug}>
+                      {card.name}
+                    </option>
+                  ))}
               </optgroup>
             ))}
           </select>
         </div>
 
-        {selectedCard && (
-          <div className="card-details-container">
-            <div className="card-image-wrapper">
-              <button
-                className="card-action-button clear-button"
-                onClick={handleClearCard}
-                title="Clear card"
-              >
-                ✕
-              </button>
-              <button
-                className="card-action-button reverse-button"
-                onClick={handleReverseToggle}
-                title={isReversed ? "Show upright" : "Show reversed"}
-              >
-                ⟲
-              </button>
-              <div className="card-image-display" onClick={handleCardClick}>
-                <img
-                  src={selectedCard.imageUrl}
-                  alt={selectedCard.name}
-                  style={{ transform: `rotate(${totalRotation}deg)` }}
-                  className={isReversed ? 'reversed' : ''}
-                />
-              </div>
-            </div>
-            <div className="card-name">{selectedCard.name}</div>
-            {isReversed && <div className="card-orientation">(Reversed)</div>}
-            <div className="card-info">
-              <div className="card-meaning">
-                <div className="info-title">✦ {isReversed ? 'Reversed Meaning' : 'Meaning'} ✦</div>
-                <div className="info-content">
-                  {isReversed ? selectedCard.reversedMeaning : selectedCard.meaning}
-                </div>
-              </div>
-              <div className="card-symbols">
-                <div className="info-title">✧ Symbols ✧</div>
-                <div className="symbols-container">
-                  {selectedCard.symbols && selectedCard.symbols.length > 0 ? (
-                    selectedCard.symbols.map((symbol, index) => (
-                      <span key={index} className="symbol-tag">{symbol}</span>
-                    ))
-                  ) : (
-                    <div className="info-content">No symbols available</div>
+        {cards.length > 0 && (
+          <>
+            <div className={`cards-display ${cards.length === 2 ? 'two-cards' : 'one-card'}`}>
+              {cards.map((card, index) => (
+                <div key={index} className="card-column">
+                  <div className="card-image-wrapper">
+                    <button
+                      className="card-action-button clear-button"
+                      onClick={() => handleClearCard(index)}
+                      title="Clear card"
+                    >
+                      ✕
+                    </button>
+                    <button
+                      className="card-action-button reverse-button"
+                      onClick={() => handleReverseToggle(index)}
+                      title={card.isReversed ? "Show upright" : "Show reversed"}
+                    >
+                      ⟲
+                    </button>
+                    {cards.length === 1 && (
+                      <button
+                        className={`card-action-button add-button ${isAddingSecondCard ? 'active' : ''}`}
+                        onClick={handleAddCard}
+                        title="Add another card"
+                      >
+                        +
+                      </button>
+                    )}
+                    <div className="card-image-display" onClick={() => handleCardClick(index)}>
+                      <img
+                        src={card.imageUrl}
+                        alt={card.name}
+                        style={{ transform: `rotate(${card.totalRotation}deg)` }}
+                        className={card.isReversed ? 'reversed' : ''}
+                      />
+                    </div>
+                  </div>
+                  <div className="card-name">{card.name}</div>
+                  {card.isReversed && <div className="card-orientation">(Reversed)</div>}
+
+                  {cards.length === 1 && (
+                    <div className="card-info">
+                      <div className="card-meaning">
+                        <div className="info-title">✦ {card.isReversed ? 'Reversed Meaning' : 'Meaning'} ✦</div>
+                        <div className="info-content">
+                          {card.isReversed ? card.reversedMeaning : card.meaning}
+                        </div>
+                      </div>
+                      <div className="card-symbols">
+                        <div className="info-title">✧ Symbols ✧</div>
+                        <div className="symbols-container">
+                          {card.symbols && card.symbols.length > 0 ? (
+                            card.symbols.map((symbol, idx) => (
+                              <span key={idx} className="symbol-tag">{symbol}</span>
+                            ))
+                          ) : (
+                            <div className="info-content">No symbols available</div>
+                          )}
+                        </div>
+                      </div>
+                    </div>
                   )}
                 </div>
-              </div>
+              ))}
             </div>
-          </div>
+
+            {cards.length === 2 && (
+              <div className="card-comparison-reading">
+                <p className="reading-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            )}
+          </>
         )}
 
-        {isExpanded && selectedCard && (
+        {isExpanded && expandedCardIndex !== null && cards[expandedCardIndex] && (
           <div className="expanded-overlay" onClick={handleCloseExpanded}>
             <button className="expanded-close-button" onClick={handleCloseExpanded}>
               ✕
             </button>
             <div className="expanded-image-container">
               <img
-                src={selectedCard.imageUrl}
-                alt={selectedCard.name}
-                style={{ transform: isReversed ? 'rotate(180deg)' : 'rotate(0deg)' }}
+                src={cards[expandedCardIndex].imageUrl}
+                alt={cards[expandedCardIndex].name}
+                style={{ transform: cards[expandedCardIndex].isReversed ? 'rotate(180deg)' : 'rotate(0deg)' }}
                 className="expanded-image"
               />
             </div>

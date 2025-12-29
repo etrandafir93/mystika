@@ -46,6 +46,28 @@
   gap: 1rem;
   margin: 1rem auto 2rem auto;
   animation: fadeInDown 0.6s ease-out;
+  position: relative;
+}
+
+.card-selector-container.adding-card::before {
+  content: '✦';
+  position: absolute;
+  top: -2rem;
+  font-size: 2rem;
+  color: #f0e68c;
+  animation: mysticalPulse 1.5s ease-in-out infinite;
+  text-shadow: 0 0 20px rgba(218, 165, 32, 0.8);
+}
+
+@keyframes mysticalPulse {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.3) rotate(180deg);
+  }
 }
 
 @keyframes fadeInDown {
@@ -84,6 +106,20 @@
   min-width: 300px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
+}
+
+.card-selector.pulse-glow {
+  animation: pulseGlow 2s ease-in-out infinite;
+  border-color: #f0e68c;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3), 0 0 20px rgba(218, 165, 32, 0.4);
+  }
+  50% {
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3), 0 0 40px rgba(218, 165, 32, 0.8);
+  }
 }
 
 .card-selector:hover {
@@ -181,6 +217,34 @@
   top: 35px;
 }
 
+.add-button {
+  left: -20px;
+  top: 85px;
+}
+
+.add-button.active {
+  background: linear-gradient(
+    135deg,
+    #daa520 0%,
+    #f0e68c 50%,
+    #daa520 100%
+  );
+  border-color: #f0e68c;
+  color: #1a1a2e;
+  box-shadow: 0 0 20px rgba(240, 230, 140, 0.8), 0 0 30px rgba(218, 165, 32, 0.6);
+  transform: scale(1.1);
+}
+
+.add-button.active:hover {
+  background: linear-gradient(
+    135deg,
+    #f0e68c 0%,
+    #daa520 50%,
+    #f0e68c 100%
+  );
+  box-shadow: 0 0 25px rgba(240, 230, 140, 0.9), 0 0 35px rgba(218, 165, 32, 0.7);
+}
+
 /* Card Image Display */
 .card-image-display {
   display: flex;
@@ -261,7 +325,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 90vw;
+  max-width: 600px;
   max-height: 90vh;
   animation: zoomIn 0.4s ease-out;
 }
@@ -278,7 +342,7 @@
 }
 
 .expanded-image {
-  width: 95vw;
+  width: 100%;
   max-height: 90vh;
   object-fit: contain;
   border-radius: 16px;
@@ -365,6 +429,69 @@
   text-shadow: 0 0 10px rgba(218, 165, 32, 0.5);
 }
 
+/* Multi-card display */
+.cards-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 100%;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.card-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-display.two-cards {
+  gap: 0;
+}
+
+.cards-display.two-cards .card-column {
+  flex: 1;
+  max-width: 400px;
+}
+
+.cards-display.two-cards .card-image-display img {
+  max-width: 200px;
+  max-height: 350px;
+}
+
+.cards-display.one-card .card-image-display img {
+  max-width: 300px;
+  max-height: 500px;
+}
+
+.card-reading {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.card-comparison-reading {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto 0 auto;
+  padding: 0 2rem;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.reading-text {
+  font-family: 'Georgia', serif;
+  color: #f0e68c;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+  padding: 1rem;
+  background: rgba(26, 26, 46, 0.4);
+  border-radius: 8px;
+  border: 1px solid rgba(218, 165, 32, 0.2);
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
   .card-selector {
@@ -374,6 +501,25 @@
 
   .card-details-container {
     max-width: 90vw;
+  }
+
+  .cards-display {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .cards-display.two-cards .card-column {
+    max-width: 45%;
+  }
+
+  .cards-display.two-cards .card-image-display img {
+    max-width: 150px;
+    max-height: 280px;
+  }
+
+  .cards-display.one-card .card-image-display img {
+    max-width: 250px;
+    max-height: 400px;
   }
 
   .card-action-button {
@@ -390,6 +536,11 @@
   .reverse-button {
     left: -10px;
     top: 30px;
+  }
+
+  .add-button {
+    left: -10px;
+    top: 70px;
   }
 
   .card-image-display img {
@@ -419,6 +570,16 @@
     padding: 0.4rem 0.8rem;
   }
 
+  .reading-text {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+
+  .card-comparison-reading {
+    padding: 0 1rem;
+    margin-top: 1.5rem;
+  }
+
   .expanded-close-button {
     top: 1rem;
     left: 1rem;
@@ -427,8 +588,11 @@
     font-size: 1.5rem;
   }
 
+  .expanded-image-container {
+    max-width: 95vw;
+  }
+
   .expanded-image {
-    width: 98vw;
     max-height: 85vh;
   }
 }

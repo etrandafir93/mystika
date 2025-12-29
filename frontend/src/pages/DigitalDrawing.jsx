@@ -117,6 +117,11 @@ function DigitalDrawing() {
   }
 
   const handleCardFlip = (slotIndex, cardData) => {
+    // Only allow flipping if all 3 cards are selected
+    if (selectedCards.length < 3) {
+      return
+    }
+
     if (!flippedCards.includes(slotIndex)) {
       playFlipSound()
       setFlippedCards([...flippedCards, slotIndex])
