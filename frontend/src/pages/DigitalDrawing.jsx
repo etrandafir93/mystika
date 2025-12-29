@@ -117,6 +117,11 @@ function DigitalDrawing() {
   }
 
   const handleCardFlip = (slotIndex, cardData) => {
+    // Only allow flipping if all 3 cards are selected
+    if (selectedCards.length < 3) {
+      return
+    }
+
     if (!flippedCards.includes(slotIndex)) {
       playFlipSound()
       setFlippedCards([...flippedCards, slotIndex])
@@ -240,6 +245,9 @@ function DigitalDrawing() {
 
         {zoomedCard && (
           <div className="zoom-overlay" onClick={handleCloseZoom}>
+            <button className="zoom-close-button" onClick={handleCloseZoom}>
+              ✕
+            </button>
             <div className="zoom-content">
               <div className="zoom-card-image">
                 <img

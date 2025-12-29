@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 0 2rem 2rem 2rem;
+  padding: 5rem 2rem 2rem 2rem;
 }
 
 .page-content {
@@ -309,6 +309,7 @@
 
 .selected-card.flipped {
   transform: rotateY(180deg) rotate(var(--selected-rotation, 0deg)) !important;
+  -webkit-transform: rotateY(180deg) rotate(var(--selected-rotation, 0deg)) !important;
   cursor: zoom-in;
   pointer-events: auto;
   animation: none !important;
@@ -316,6 +317,7 @@
 
 .selected-card.flipped:hover {
   transform: rotateY(180deg) rotate(var(--selected-rotation, 0deg)) !important;
+  -webkit-transform: rotateY(180deg) rotate(var(--selected-rotation, 0deg)) !important;
   animation: none !important;
 }
 
@@ -341,6 +343,7 @@
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 
 .card-front,
@@ -349,14 +352,22 @@
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
 }
 
 .card-front {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   border: 3px solid #daa520;
+  z-index: 2;
+}
+
+.card-back {
+  z-index: 1;
 }
 
 .card-front img {
@@ -472,9 +483,41 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 2000;
   cursor: pointer;
   animation: fadeIn 0.3s ease-out;
+}
+
+.zoom-close-button {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    #1a1a2e 0%,
+    #16213e 50%,
+    #0f3460 100%
+  );
+  border: 2px solid #daa520;
+  color: #f0e68c;
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 2001;
+}
+
+.zoom-close-button:hover {
+  border-color: #f0e68c;
+  box-shadow: 0 5px 20px rgba(218, 165, 32, 0.5);
+  transform: scale(1.1);
+  color: #fff;
 }
 
 @keyframes fadeIn {
@@ -710,6 +753,14 @@
 @media (max-width: 768px) {
   .selected-cards-container {
     gap: 0.5rem;
+  }
+
+  .zoom-close-button {
+    top: 1rem;
+    left: 1rem;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
   }
 
   .zoom-content {
