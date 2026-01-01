@@ -5,12 +5,14 @@ import java.util.List;
 import org.springframework.stereotype.Component;
 
 import com.mystika.tarot.reading.Reading.Chapter;
+import com.mystika.tarot.spreads.Spread;
+import com.mystika.tarot.spreads.ThreeCardSpread;
 
 @Component
 class Seer {
 
-    public Reading basicReading(Drawing drawing) {
-        return switch (drawing) {
+    public Reading basicReading(Spread spread) {
+        return switch (spread) {
             case ThreeCardSpread(String _, String _, List<DrawnCard> cards) ->
                 new Reading(List.of(
                     new Chapter("Past", "In your past, the %s card \"%s\" suggests that you have recently experienced significant events that have shaped your current situation: %s."

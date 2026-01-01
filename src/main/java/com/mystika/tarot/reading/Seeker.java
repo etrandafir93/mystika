@@ -9,6 +9,8 @@ import org.springframework.stereotype.Component;
 import com.mystika.tarot.cards.TarotCard;
 import com.mystika.tarot.cards.TarotDeck;
 import com.mystika.tarot.cards.TarotDecksRepository;
+import com.mystika.tarot.spreads.Spread;
+import com.mystika.tarot.spreads.ThreeCardSpread;
 
 import lombok.RequiredArgsConstructor;
 
@@ -18,14 +20,14 @@ class Seeker {
 
     private final TarotDecksRepository decks;
 
-    public ThreeCardSpread draw(Drawing drawing) {
-        return switch (drawing) {
+    public ThreeCardSpread draw(Spread spread) {
+        return switch (spread) {
             case ThreeCardSpread threeCardSpread -> draw(threeCardSpread);
         };
     }
 
-    private ThreeCardSpread draw(ThreeCardSpread drawing) {
-        TarotDeck deck = decks.bySlug(drawing.deckSlug())
+    private ThreeCardSpread draw(ThreeCardSpread spread) {
+        TarotDeck deck = decks.bySlug(spread.deckSlug())
             .orElseThrow();
 
         AtomicInteger position = new AtomicInteger(1);
@@ -35,7 +37,7 @@ class Seeker {
             .map(card -> drawnTarotCard(position.getAndIncrement(), card))
             .toList();
 
-        return drawing.withCards(drawnCards);
+        return spread.withCards(drawnCards);
     }
 
     static DrawnCard drawnTarotCard(int position, TarotCard card) {

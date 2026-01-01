@@ -23,7 +23,7 @@ function DigitalDrawing() {
     if (selectedCards.length === 3 && !spreadData) {
       const createThreeCardSpread = async () => {
         try {
-          const drawingId = `drawing-${Date.now()}`
+          const drawingId = `spread-${Date.now()}`
           const response = await fetch('/api/readings', {
             method: 'POST',
             headers: {
@@ -168,7 +168,7 @@ function DigitalDrawing() {
             <div className="reading-chapters">
               {spreadData.reading.chapters.map((chapter, index) => {
                 if (!flippedCards.includes(index)) return null;
-                const cardData = spreadData?.drawing?.cards?.[index];
+                const cardData = spreadData?.spread?.cards?.[index];
                 return (
                   <div
                     key={index}
@@ -192,7 +192,7 @@ function DigitalDrawing() {
               if (cardIndex !== undefined) {
                 const position = cardPositions[cardIndex]
                 const isFlipped = flippedCards.includes(slotIndex)
-                const cardData = spreadData?.drawing?.cards?.[slotIndex]
+                const cardData = spreadData?.spread?.cards?.[slotIndex]
 
                 return (
                   <div key={slotIndex} className={`card-wrapper ${isFlipped ? 'flipped' : ''}`} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

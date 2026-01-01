@@ -1,11 +1,13 @@
 package com.mystika.tarot.reading;
 
-import org.slf4j.MDC;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.mystika.tarot.spreads.Spread;
+import com.mystika.tarot.spreads.ThreeCardSpread;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -32,13 +34,13 @@ class ReadingController {
         return new Response(draw, reading);
     }
 
-    private Drawing spread(Request req) {
+    private Spread spread(Request req) {
         return switch (req.drawingType) {
             case THREE_CARD_SPREAD -> new ThreeCardSpread(req.id, req.deckSlug);
         };
     }
 
-    record Response(Drawing drawing, Reading reading) {
+    record Response(Spread spread, Reading reading) {
 
     }
 
