@@ -8,6 +8,8 @@ function DigitalDrawing() {
   const [spreadData, setSpreadData] = useState(null)
   const [flippedCards, setFlippedCards] = useState([])
   const [zoomedCard, setZoomedCard] = useState(null)
+  const [focus, setFocus] = useState(null)
+  const [showCards, setShowCards] = useState(false)
 
   useEffect(() => {
     const handleResize = () => {
@@ -32,7 +34,8 @@ function DigitalDrawing() {
             body: JSON.stringify({
               id: drawingId,
               deckSlug: 'rider-waite',
-              drawingType: 'THREE_CARD_SPREAD'
+              drawingType: 'THREE_CARD_SPREAD',
+              focus: focus
             })
           })
 
@@ -50,7 +53,7 @@ function DigitalDrawing() {
 
       createThreeCardSpread()
     }
-  }, [selectedCards, spreadData])
+  }, [selectedCards, spreadData, focus])
 
   const numberOfCards = isMobile ? 20 : 40
 
@@ -135,11 +138,48 @@ function DigitalDrawing() {
     setZoomedCard(null)
   }
 
+  const handleFocusSelection = (selectedFocus) => {
+    setFocus(selectedFocus)
+    // Show cards after a brief delay for smooth transition
+    setTimeout(() => {
+      setShowCards(true)
+    }, 300)
+  }
+
   return (
     <div className="page">
       <Navbar pageTitle="Celestial Reading" />
       <div className="page-content">
-        <div className={`card-deck ${selectedCards.length === 3 ? 'collapsed' : ''}`}>
+        {!showCards ? (
+          <div className="focus-selector-screen">
+            <div className="focus-prompt">What do you seek guidance on?</div>
+            <div className="focus-options-large">
+              <button
+                className={`focus-option-large ${focus === 'LOVE' ? 'selected' : ''}`}
+                onClick={() => handleFocusSelection('LOVE')}
+              >
+                <div className="focus-icon-large">♥</div>
+                <div className="focus-label-large">Love</div>
+              </button>
+              <button
+                className={`focus-option-large ${focus === 'CAREER' ? 'selected' : ''}`}
+                onClick={() => handleFocusSelection('CAREER')}
+              >
+                <div className="focus-icon-large">⚜</div>
+                <div className="focus-label-large">Career</div>
+              </button>
+              <button
+                className={`focus-option-large ${focus === 'SPIRITUALITY' ? 'selected' : ''}`}
+                onClick={() => handleFocusSelection('SPIRITUALITY')}
+              >
+                <div className="focus-icon-large">✦</div>
+                <div className="focus-label-large">Spirituality</div>
+              </button>
+            </div>
+          </div>
+        ) : (
+          <>
+            <div className={`card-deck ${selectedCards.length === 3 ? 'collapsed' : ''}`}>
           {cardPositions.slice(0, numberOfCards).map((position, i) => (
             <div
               key={i}
@@ -284,6 +324,8 @@ function DigitalDrawing() {
               </div>
             </div>
           </div>
+        )}
+          </>
         )}
       </div>
     </div>

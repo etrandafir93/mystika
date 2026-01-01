@@ -72,8 +72,22 @@ class TarotDeckControllerTest {
             dynamicTest("has 14 wands", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("wands"))),
             dynamicTest("has 14 cups", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("cups"))),
             dynamicTest("has 14 pentacles", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("pentacles"))),
-            dynamicTest("has 14 swords", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("swords")))
-        );
+            dynamicTest("has 14 swords", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("swords"))),
+
+            dynamicTest("has 22 detailed meanings for love", () -> hasSimilarObjects(
+                filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().love() != null)),
+            dynamicTest("has 22 detailed meanings for career", () -> hasSimilarObjects(
+                filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().career() != null)),
+            dynamicTest("has 22 detailed meanings for spirituality", () -> hasSimilarObjects(
+                filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().spirituality() != null))
+            );
+    }
+
+    private static List<TarotCard> filterBySuite(List<TarotCard> allCards, String suite) {
+        return allCards.stream()
+            .filter(c -> c.suite()
+                .equals(suite))
+            .toList();
     }
 
     private static void hasSimilarObjects(List<TarotCard> allCards, int expectedCount, Predicate<TarotCard> property) {

@@ -19,6 +19,108 @@
   position: relative;
 }
 
+/* Focus Selector */
+.focus-selector {
+  margin: 0 auto 1rem auto;
+  padding: 0.5rem;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.focus-selector.hidden {
+  opacity: 0;
+  transform: translateY(-20px);
+  pointer-events: none;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.focus-title {
+  display: none;
+}
+
+.focus-options {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.focus-option {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+}
+
+.focus-option:hover {
+  gap: 0.4rem;
+  width: auto;
+  padding: 0 0.6rem;
+  border-radius: 16px;
+  background: rgba(218, 165, 32, 0.05);
+}
+
+.focus-option.selected {
+  background: rgba(218, 165, 32, 0.1);
+  border-radius: 16px;
+  width: auto;
+  padding: 0 0.6rem;
+  gap: 0.4rem;
+}
+
+.focus-option.selected .focus-icon {
+  color: #daa520;
+}
+
+.focus-option.selected .focus-label {
+  opacity: 1;
+  max-width: 100px;
+  color: #daa520;
+}
+
+.focus-option input[type="radio"] {
+  display: none;
+}
+
+.focus-icon {
+  font-size: 1.2rem;
+  color: rgba(218, 165, 32, 0.4);
+  text-shadow: none;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.focus-label {
+  font-family: 'Georgia', serif;
+  color: rgba(218, 165, 32, 0.6);
+  font-size: 0.75rem;
+  letter-spacing: 0.02rem;
+  text-shadow: none;
+  transition: all 0.3s ease;
+  opacity: 0;
+  max-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.focus-option:hover .focus-label {
+  opacity: 1;
+  max-width: 100px;
+}
+
 .page-title {
   font-size: 4rem;
   color: #f0e68c;
@@ -751,6 +853,23 @@
 }
 
 @media (max-width: 768px) {
+  .focus-options {
+    gap: 0.6rem;
+  }
+
+  .focus-option {
+    width: 28px;
+    height: 28px;
+  }
+
+  .focus-icon {
+    font-size: 1rem;
+  }
+
+  .focus-label {
+    font-size: 0.7rem;
+  }
+
   .selected-cards-container {
     gap: 0.5rem;
   }

@@ -9,5 +9,6 @@ public record TarotCard(
     String meaning,
     String reversedMeaning,
     List<String> symbols,
-    String imageUrl
+    String imageUrl,
+    CardMeaning detailedMeaning
 ) { }

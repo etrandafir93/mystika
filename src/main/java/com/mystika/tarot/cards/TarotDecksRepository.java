@@ -23,7 +23,7 @@ import tools.jackson.databind.json.JsonMapper;
 @RequiredArgsConstructor
 public class TarotDecksRepository {
 
-    static final String RIDER_WAITE = "rider-waite";
+    public static final String RIDER_WAITE = "rider-waite";
 
     private final JsonMapper json;
 

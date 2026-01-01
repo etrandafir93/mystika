@@ -43,7 +43,7 @@ class Seeker {
     static DrawnCard drawnTarotCard(int position, TarotCard card) {
         var orientation = weightedRandom();
         String meaning = orientation == DrawnCard.Orientation.UPRIGHT ? card.meaning() : card.reversedMeaning();
-        return new DrawnCard(position, card.slug(), card.name(), orientation, meaning, card.symbols(), card.imageUrl());
+        return new DrawnCard(position, card.slug(), card.name(), orientation, meaning, card.symbols(), card.imageUrl(), card.detailedMeaning());
     }
 
     static DrawnCard.Orientation weightedRandom() {
