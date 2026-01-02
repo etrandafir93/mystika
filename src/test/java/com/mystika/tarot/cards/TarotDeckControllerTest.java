@@ -74,12 +74,19 @@ class TarotDeckControllerTest {
             dynamicTest("has 14 pentacles", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("pentacles"))),
             dynamicTest("has 14 swords", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("swords"))),
 
-            dynamicTest("has 22 detailed meanings for love", () -> hasSimilarObjects(
+            dynamicTest("[major-arcana] has 22 detailed meanings for love", () -> hasSimilarObjects(
                 filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().love() != null)),
-            dynamicTest("has 22 detailed meanings for career", () -> hasSimilarObjects(
+            dynamicTest("[major-arcana] has 22 detailed meanings for career", () -> hasSimilarObjects(
                 filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().career() != null)),
-            dynamicTest("has 22 detailed meanings for spirituality", () -> hasSimilarObjects(
-                filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().spirituality() != null))
+            dynamicTest("[major-arcana] has 22 detailed meanings for spirituality", () -> hasSimilarObjects(
+                filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().spirituality() != null)),
+
+            dynamicTest("[cups] has 14 detailed meanings for love", () -> hasSimilarObjects(
+                filterBySuite(allCards, "cups"), 14, it -> it.detailedMeaning().love() != null)),
+            dynamicTest("[cups] has 14 detailed meanings for career", () -> hasSimilarObjects(
+                filterBySuite(allCards, "cups"), 14, it -> it.detailedMeaning().career() != null)),
+            dynamicTest("[cups] has 14 detailed meanings for spirituality", () -> hasSimilarObjects(
+                filterBySuite(allCards, "cups"), 14, it -> it.detailedMeaning().spirituality() != null))
             );
     }
 
