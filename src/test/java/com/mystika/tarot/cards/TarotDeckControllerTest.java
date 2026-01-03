@@ -1,6 +1,7 @@
 package com.mystika.tarot.cards;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.DynamicContainer.dynamicContainer;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -11,6 +12,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
+import org.junit.jupiter.api.DynamicNode;
 import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestFactory;
@@ -50,7 +52,7 @@ class TarotDeckControllerTest {
     }
 
     @TestFactory
-    Stream<DynamicTest> deckShouldBeCorrect() throws Exception {
+    Stream<DynamicNode> deckShouldBeCorrect() throws Exception {
         String response = mvc.perform(get("/api/decks/rider-waite"))
             .andExpect(status().isOk())
             .andReturn()
@@ -74,20 +76,39 @@ class TarotDeckControllerTest {
             dynamicTest("has 14 pentacles", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("pentacles"))),
             dynamicTest("has 14 swords", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("swords"))),
 
-            dynamicTest("[major-arcana] has 22 detailed meanings for love", () -> hasSimilarObjects(
-                filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().love() != null)),
-            dynamicTest("[major-arcana] has 22 detailed meanings for career", () -> hasSimilarObjects(
-                filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().career() != null)),
-            dynamicTest("[major-arcana] has 22 detailed meanings for spirituality", () -> hasSimilarObjects(
-                filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().spirituality() != null)),
-
-            dynamicTest("[cups] has 14 detailed meanings for love", () -> hasSimilarObjects(
-                filterBySuite(allCards, "cups"), 14, it -> it.detailedMeaning().love() != null)),
-            dynamicTest("[cups] has 14 detailed meanings for career", () -> hasSimilarObjects(
-                filterBySuite(allCards, "cups"), 14, it -> it.detailedMeaning().career() != null)),
-            dynamicTest("[cups] has 14 detailed meanings for spirituality", () -> hasSimilarObjects(
-                filterBySuite(allCards, "cups"), 14, it -> it.detailedMeaning().spirituality() != null))
-            );
+            dynamicContainer("major-arcana", Stream.of(
+                dynamicTest("has 22 detailed meanings for love", () -> hasSimilarObjects(
+                    filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().love() != null)),
+                dynamicTest("has 22 detailed meanings for career", () -> hasSimilarObjects(
+                    filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().career() != null)),
+                dynamicTest("has 22 detailed meanings for spirituality", () -> hasSimilarObjects(
+                    filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().spirituality() != null))
+            )),
+            dynamicContainer("cups", Stream.of(
+                    dynamicTest("has 14 detailed meanings for love", () -> hasSimilarObjects(
+                        filterBySuite(allCards, "cups"), 14, it -> it.detailedMeaning().love() != null)),
+                    dynamicTest("has 14 detailed meanings for career", () -> hasSimilarObjects(
+                        filterBySuite(allCards, "cups"), 14, it -> it.detailedMeaning().career() != null)),
+                    dynamicTest("has 14 detailed meanings for spirituality", () -> hasSimilarObjects(
+                        filterBySuite(allCards, "cups"), 14, it -> it.detailedMeaning().spirituality() != null))
+            )),
+            dynamicContainer("swords", Stream.of(
+                dynamicTest("has 14 detailed meanings for love", () -> hasSimilarObjects(
+                    filterBySuite(allCards, "swords"), 14, it -> it.detailedMeaning().love() != null)),
+                dynamicTest("has 14 detailed meanings for career", () -> hasSimilarObjects(
+                    filterBySuite(allCards, "swords"), 14, it -> it.detailedMeaning().career() != null)),
+                dynamicTest("has 14 detailed meanings for spirituality", () -> hasSimilarObjects(
+                    filterBySuite(allCards, "swords"), 14, it -> it.detailedMeaning().spirituality() != null))
+            )),
+            dynamicContainer("pentacles", Stream.of(
+                dynamicTest("has 14 detailed meanings for love", () -> hasSimilarObjects(
+                    filterBySuite(allCards, "pentacles"), 14, it -> it.detailedMeaning().love() != null)),
+                dynamicTest("has 14 detailed meanings for career", () -> hasSimilarObjects(
+                    filterBySuite(allCards, "pentacles"), 14, it -> it.detailedMeaning().career() != null)),
+                dynamicTest("has 14 detailed meanings for spirituality", () -> hasSimilarObjects(
+                    filterBySuite(allCards, "pentacles"), 14, it -> it.detailedMeaning().spirituality() != null))
+            ))
+        );
     }
 
     private static List<TarotCard> filterBySuite(List<TarotCard> allCards, String suite) {
