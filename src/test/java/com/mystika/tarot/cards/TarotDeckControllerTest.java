@@ -64,19 +64,15 @@ class TarotDeckControllerTest {
 
         return Stream.of(
             dynamicTest("has 78 cards", () -> assertThat(allCards.size() == 78)),
-
             dynamicTest("has 78 names", () -> hasDifferentObjects(allCards, 78, TarotCard::name)),
             dynamicTest("has 78 slugs", () -> hasDifferentObjects(allCards, 78, TarotCard::slug)),
             dynamicTest("has 78 images", () -> hasDifferentObjects(allCards, 78, TarotCard::imageUrl)),
             dynamicTest("has 78 meanings", () -> hasDifferentObjects(allCards, 78, TarotCard::meaning)),
 
-            dynamicTest("has 22 major-arcana", () -> hasSimilarObjects(allCards, 22, it -> it.suite().equals("major-arcana"))),
-            dynamicTest("has 14 wands", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("wands"))),
-            dynamicTest("has 14 cups", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("cups"))),
-            dynamicTest("has 14 pentacles", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("pentacles"))),
-            dynamicTest("has 14 swords", () -> hasSimilarObjects(allCards, 14, it -> it.suite().equals("swords"))),
 
             dynamicContainer("major-arcana", Stream.of(
+                dynamicTest("has 22 cards", () -> hasSimilarObjects(allCards, 22,
+                    it -> it.suite().equals("major-arcana"))),
                 dynamicTest("has 22 detailed meanings for love", () -> hasSimilarObjects(
                     filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().love() != null)),
                 dynamicTest("has 22 detailed meanings for career", () -> hasSimilarObjects(
@@ -85,6 +81,8 @@ class TarotDeckControllerTest {
                     filterBySuite(allCards, "major-arcana"), 22, it -> it.detailedMeaning().spirituality() != null))
             )),
             dynamicContainer("cups", Stream.of(
+                    dynamicTest("has 14 cards", () -> hasSimilarObjects(allCards, 14,
+                        it -> it.suite().equals("cups"))),
                     dynamicTest("has 14 detailed meanings for love", () -> hasSimilarObjects(
                         filterBySuite(allCards, "cups"), 14, it -> it.detailedMeaning().love() != null)),
                     dynamicTest("has 14 detailed meanings for career", () -> hasSimilarObjects(
@@ -93,6 +91,8 @@ class TarotDeckControllerTest {
                         filterBySuite(allCards, "cups"), 14, it -> it.detailedMeaning().spirituality() != null))
             )),
             dynamicContainer("swords", Stream.of(
+                dynamicTest("has 14 cards", () -> hasSimilarObjects(allCards, 14,
+                    it -> it.suite().equals("swords"))),
                 dynamicTest("has 14 detailed meanings for love", () -> hasSimilarObjects(
                     filterBySuite(allCards, "swords"), 14, it -> it.detailedMeaning().love() != null)),
                 dynamicTest("has 14 detailed meanings for career", () -> hasSimilarObjects(
@@ -101,12 +101,24 @@ class TarotDeckControllerTest {
                     filterBySuite(allCards, "swords"), 14, it -> it.detailedMeaning().spirituality() != null))
             )),
             dynamicContainer("pentacles", Stream.of(
+                dynamicTest("has 14 pentacles", () -> hasSimilarObjects(allCards, 14,
+                    it -> it.suite().equals("pentacles"))),
                 dynamicTest("has 14 detailed meanings for love", () -> hasSimilarObjects(
                     filterBySuite(allCards, "pentacles"), 14, it -> it.detailedMeaning().love() != null)),
                 dynamicTest("has 14 detailed meanings for career", () -> hasSimilarObjects(
                     filterBySuite(allCards, "pentacles"), 14, it -> it.detailedMeaning().career() != null)),
                 dynamicTest("has 14 detailed meanings for spirituality", () -> hasSimilarObjects(
                     filterBySuite(allCards, "pentacles"), 14, it -> it.detailedMeaning().spirituality() != null))
+            )),
+            dynamicContainer("wands", Stream.of(
+                dynamicTest("has 14 wands", () -> hasSimilarObjects(allCards, 14,
+                    it -> it.suite().equals("wands"))),
+                dynamicTest("has 14 detailed meanings for love", () -> hasSimilarObjects(
+                    filterBySuite(allCards, "wands"), 14, it -> it.detailedMeaning().love() != null)),
+                dynamicTest("has 14 detailed meanings for career", () -> hasSimilarObjects(
+                    filterBySuite(allCards, "wands"), 14, it -> it.detailedMeaning().career() != null)),
+                dynamicTest("has 14 detailed meanings for spirituality", () -> hasSimilarObjects(
+                    filterBySuite(allCards, "wands"), 14, it -> it.detailedMeaning().spirituality() != null))
             ))
         );
     }
