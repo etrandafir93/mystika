@@ -12,7 +12,21 @@
       "Mountains",
       "Clouds"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/aceswords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/aceswords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Mental clarity, truth cutting through romantic illusions, and breakthrough understanding about relationships brings new perspective and honest communication. The Ace of Swords represents seeing your romantic situation with absolute clarity, having courageous conversations that cut to the heart of matters, or experiencing sudden insight that changes everything you thought you knew about love. This card encourages you to speak your truth with precision, to value honesty over comfort, and to use the sharp sword of intellect to cut away what isn't serving your highest good in relationships.",
+          "reversed": "Confusion, miscommunication, or using words as weapons may be creating chaos and pain in your romantic life. You might be lacking clarity about what you truly want, engaging in cruel honesty that wounds rather than heals, or so confused by conflicting thoughts that you can't see your relationship clearly. This reversal warns against analysis paralysis, using logic to justify staying in situations your heart knows are wrong, or communicating in ways that cut down rather than clarify."
+        },
+        "career": {
+          "upright": "Breakthrough ideas, mental clarity about career direction, and the power of clear thinking brings new opportunities and solutions to professional challenges. The Ace of Swords represents sudden insights that solve longstanding problems, the courage to speak truth in professional settings, or new ideas that cut through industry confusion. This card favors careers in law, writing, technology, or any field where sharp intellect and clear communication are your greatest assets, and suggests that now is the time to act on your brilliant ideas.",
+          "reversed": "Mental confusion, inability to think clearly about career choices, or using intellectual power destructively may be undermining professional success. You might be overthinking career decisions into paralysis, communicating harshly in professional settings, or so confused by competing ideas that you can't commit to any direction. This reversal suggests slowing down to gain genuine clarity, examining whether you're using intellect to avoid feeling, and ensuring your words build rather than destroy in professional relationships."
+        },
+        "spirituality": {
+          "upright": "Spiritual breakthrough, truth revealed with startling clarity, and the understanding that cuts through illusion brings liberation and insight. The Ace of Swords represents sudden spiritual awakening, the power of discriminating wisdom to separate truth from falsehood, or revelations that pierce through years of confusion. This card encourages you to trust clear knowing over comfortable belief, to use discernment in spiritual matters, and to recognize that sometimes the sharpest spiritual tool is the mind that can distinguish reality from fantasy.",
+          "reversed": "Spiritual confusion, overthinking that prevents direct experience, or using spiritual concepts as weapons against yourself or others may be preventing genuine insight. You might be so caught in mental understanding that you can't experience spiritual truth directly, using logic to dismiss mystical experiences, or engaging in spiritual debate that serves ego rather than enlightenment. This reversal calls for balancing intellect with direct experience, recognizing when thinking blocks rather than serves awakening, and using wisdom to heal rather than harm."
+        }
+    }
   },
   {
     "slug": "swords-002",
@@ -26,7 +40,21 @@
       "Crescent Moon",
       "Water"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2swords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2swords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Difficult choices, deliberate avoidance of painful truths, or maintaining uneasy peace by refusing to acknowledge relationship problems creates stalemate and prevents resolution. The Two of Swords represents choosing not to choose, blindfolding yourself to avoid seeing what you know is true, or maintaining careful balance that requires constant effort and denial. This card suggests you're at a crossroads in love requiring decision, that avoiding the choice doesn't make it go away, and that removing the blindfold to see clearly is necessary even when the truth is uncomfortable.",
+          "reversed": "Information finally revealed, decision made after long deliberation, or removing the blindfold to see relationship reality brings relief and forward movement. You might be ready to face truths you've been avoiding, choosing one path after long indecision, or discovering that acknowledging problems is less painful than pretending they don't exist. This reversal signals the end of stalemate, the courage to see clearly even when it hurts, and readiness to act on what you've always known but refused to acknowledge."
+        },
+        "career": {
+          "upright": "Professional stalemate, difficult career choices avoided, or maintaining uncomfortable balance between competing options creates paralysis and prevents progress. The Two of Swords represents being stuck between two career paths, refusing to acknowledge workplace problems, or maintaining precarious professional peace through deliberate blindness. This card suggests you need to gather information, remove the blindfold of willful ignorance, and make decisions even when both options have downsides, recognizing that choosing nothing is itself a choice with consequences.",
+          "reversed": "Career clarity emerging, difficult professional decisions finally made, or information revealed that breaks the stalemate brings forward momentum. You might be choosing between job offers, finally acknowledging workplace dysfunction, or gathering the courage to see your professional situation realistically. This reversal indicates readiness to stop avoiding difficult career choices, to remove whatever blinds you to professional reality, and to act decisively even in situations with no perfect option."
+        },
+        "spirituality": {
+          "upright": "Spiritual avoidance, refusing to see truths that challenge comfortable beliefs, or maintaining careful balance between conflicting spiritual understandings prevents genuine growth and resolution. The Two of Swords represents being stuck between spiritual paths, blindfolding yourself to avoid confronting shadow aspects, or maintaining peace through denial of inner conflict. This card suggests you're avoiding necessary spiritual decisions, that your careful balance requires constant energy and prevents authentic development, and that genuine growth requires removing the blindfold to face spiritual truths you've been avoiding.",
+          "reversed": "Spiritual clarity, willingness to see what you've been avoiding, or making decisions about your spiritual path after long deliberation brings integration and progress. You might be choosing one spiritual tradition over another, finally confronting shadow material you've denied, or acknowledging truths about your practice that you've refused to see. This reversal signals readiness to remove spiritual blindfolds, to face uncomfortable spiritual realities, and to make authentic choices even when no option is perfectly comfortable."
+        }
+    }
   },
   {
     "slug": "swords-003",
@@ -40,7 +68,21 @@
       "Clouds",
       "Rain"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3swords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3swords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Heartbreak, betrayal, and the piercing pain of romantic loss or truth revealed cuts deep and demands acknowledgment of sorrow. The Three of Swords represents the moment when painful reality can no longer be denied—discovering infidelity, experiencing breakup, or having your heart pierced by cruel words or harsh truths. This card validates the profound pain of heartbreak while reminding you that the swords of truth, though agonizing, ultimately serve healing by ending denial and forcing you to face what must be faced to eventually move forward.",
+          "reversed": "Beginning to heal from heartbreak, releasing the swords of pain, or finding forgiveness after betrayal brings the first movement toward recovery. You might be starting to process grief, releasing someone who hurt you, or discovering that while the pain remains, its intensity is finally beginning to ease. This reversal signals that you're ready to begin removing the swords from your heart, that healing is possible even from the deepest wounds, and that forgiveness—of yourself or others—opens the path to wholeness."
+        },
+        "career": {
+          "upright": "Professional betrayal, painful truth about work situations, or the heartbreak of career loss or rejection pierces deep and demands acknowledgment. The Three of Swords represents being fired, discovering workplace deception, or having professional dreams shattered by harsh reality. This card validates the real pain of career heartbreak while suggesting that painful clarity, though agonizing, ultimately serves you better than comfortable delusion, and that sometimes careers must end for new and better opportunities to eventually emerge.",
+          "reversed": "Recovering from professional heartbreak, healing from career betrayals, or beginning to forgive workplace wounds brings hope for future opportunities. You might be releasing anger about being fired, forgiving colleagues who hurt you professionally, or finding that the acute pain of career loss is beginning to transform into acceptance. This reversal indicates you're ready to begin healing from professional heartbreak, to release the swords of resentment, and to open to new possibilities that couldn't arrive while you were consumed by pain."
+        },
+        "spirituality": {
+          "upright": "Spiritual heartbreak, the pain of losing faith or feeling betrayed by the divine, or truths that pierce through cherished beliefs creates necessary but agonizing spiritual crisis. The Three of Swords represents the dark night of the soul's heartbreak phase, disillusionment with spiritual teachers or communities, or the painful shattering of beliefs that no longer serve your growth. This card validates spiritual grief while suggesting that sometimes the heart must break open for deeper truth to enter, that comfortable beliefs must be pierced for authentic understanding to emerge.",
+          "reversed": "Spiritual healing, forgiveness of divine seeming abandonment, or beginning to recover faith after profound disillusionment brings renewal and hope. You might be finding meaning in spiritual suffering, forgiving betrayals by spiritual communities, or discovering that loss of old beliefs has created space for more authentic connection to the sacred. This reversal signals readiness to begin healing your broken spiritual heart, to release grievances against the divine, and to open to faith that's deeper because it has survived shattering and chosen to rebuild."
+        }
+    }
   },
   {
     "slug": "swords-004",
@@ -54,7 +96,21 @@
       "Stained Glass",
       "Three Swords"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4swords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4swords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Rest from relationship intensity, time for contemplation about your romantic life, or necessary retreat to recover from emotional battles brings healing and perspective. The Four of Swords represents taking a break from dating, creating space within partnership to process individually, or pausing romantic pursuit to regain clarity and strength. This card suggests that rest isn't rejection—sometimes love requires you to step back, to recover your equilibrium, and to contemplate deeply before engaging again with renewed energy and insight.",
+          "reversed": "Restlessness preventing necessary relationship recovery, burnout from refusing to rest, or stagnation from too much withdrawal may be creating imbalance. You might be forcing yourself back into dating before you're ready, unable to find peace even in solitude, or so withdrawn from romantic possibility that rest has become avoidance. This reversal asks whether you're getting the rejuvenating rest you need or whether you're either burning out from constant engagement or stagnating from excessive isolation."
+        },
+        "career": {
+          "upright": "Professional rest, necessary retreat from career intensity, or contemplation about your vocational direction brings clarity and renewed energy. The Four of Swords represents taking sabbatical, strategic pause before major career moves, or creating space to recover from professional burnout. This card suggests that stepping back from work intensity isn't weakness—it's wise strategy that allows you to return with fresh perspective, renewed commitment, and the mental clarity that comes from rest rather than relentless pushing.",
+          "reversed": "Inability to rest despite professional exhaustion, burnout from refusing necessary breaks, or career stagnation from excessive withdrawal may be undermining effectiveness. You might be pushing through when your mind and body need recovery, so restless you can't benefit from time off, or using career retreat as avoidance of necessary professional engagement. This reversal suggests examining whether you're getting restorative rest or whether you're either burning out from overwork or stagnating from excessive disengagement."
+        },
+        "spirituality": {
+          "upright": "Spiritual retreat, contemplative practice, and necessary rest from the intensity of seeking brings integration and deeper understanding. The Four of Swords represents meditation retreats, taking break from active spiritual practice to integrate insights, or creating sacred stillness that allows divine wisdom to settle into consciousness. This card encourages you to honor rest as spiritual practice, to understand that withdrawal for contemplation serves growth, and to trust that sometimes the most profound spiritual development happens in stillness rather than striving.",
+          "reversed": "Spiritual restlessness preventing integration, burnout from excessive practice, or stagnation disguised as contemplation may be blocking authentic development. You might be unable to sit still even when your soul needs rest, pushing spiritual practice until it depletes rather than renews, or using meditation as escape from necessary spiritual action. This reversal asks whether you're finding restorative spiritual rest or whether you're either burning out from constant seeking or hiding from spiritual challenges in excessive withdrawal."
+        }
+    }
   },
   {
     "slug": "swords-005",
@@ -68,7 +124,21 @@
       "Stormy Sky",
       "Ocean"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5swords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5swords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Conflict, arguments won at the cost of the relationship, or defeating your partner in battles where both people ultimately lose creates hollow victory and bitterness. The Five of Swords represents communication that wounds rather than resolves, choosing to be right over being in relationship, or winning arguments while losing love. This card warns that some victories in love are actually defeats—that proving your point while destroying trust, collecting swords while your partner walks away broken, creates outcomes where nobody truly wins.",
+          "reversed": "Reconciliation, making amends after hurtful conflict, or releasing the need to win every argument brings possibility of healing and restoration. You might be ready to apologize, choosing relationship over being right, or recognizing that the cost of your victories has been too high. This reversal signals willingness to put down the swords, to acknowledge that love requires sometimes losing arguments to win the relationship, and to rebuild connection after destructive conflict."
+        },
+        "career": {
+          "upright": "Professional conflict, winning at others' expense, or success that creates enemies and resentment may bring hollow victory and long-term consequences. The Five of Swords represents cutthroat workplace competition, defeating colleagues while destroying team cohesion, or advancing your career by undermining others. This card warns that some professional victories cost more than they're worth—that collecting promotions while burning bridges, winning battles while losing allies, creates success that's ultimately unsustainable and isolating.",
+          "reversed": "Professional reconciliation, making amends for workplace conflicts, or choosing collaboration over competition brings possibility of rebuilt relationships and sustainable success. You might be apologizing for ruthless behavior, choosing team success over personal glory, or recognizing that true professional achievement requires allies rather than defeated enemies. This reversal indicates readiness to shift from win-lose to win-win thinking, to rebuild trust after conflicts, and to pursue success that doesn't leave casualties in its wake."
+        },
+        "spirituality": {
+          "upright": "Spiritual competition, defending beliefs at cost of connection, or winning theological arguments while losing compassion creates hollow victory and separation. The Five of Swords represents spiritual ego battles, proving your path superior by defeating others, or collecting spiritual trophies while destroying community. This card warns that some spiritual victories are defeats—that being right about doctrine while wrong in love, winning debates while losing humility, demonstrates understanding without wisdom.",
+          "reversed": "Spiritual reconciliation, releasing need to have superior beliefs, or choosing connection over being right brings healing and authentic community. You might be apologizing for spiritual arrogance, recognizing all paths have value, or understanding that compassion matters more than correct theology. This reversal signals readiness to put down spiritual weapons, to choose love over being right, and to build bridges rather than collect victories in spiritual battles that serve only ego."
+        }
+    }
   },
   {
     "slug": "swords-006",
@@ -82,7 +152,21 @@
       "Ferryman",
       "Calm Water"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6swords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6swords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Transition away from troubled waters toward calmer relationship shores, necessary movement from what was toward what might be brings healing and hope. The Six of Swords represents leaving behind relationship patterns that no longer serve, moving through breakup toward new possibilities, or transitioning within partnership from conflict to peace. This card suggests that while you carry the swords of past pain with you, you're moving toward better conditions, that the ferryman of time and healing guides your passage, and that calmer waters await if you're willing to make the journey.",
+          "reversed": "Resistance to necessary relationship transitions, clinging to troubled waters, or unfinished emotional business preventing forward movement creates stagnation and prolonged suffering. You might be refusing to leave relationships you've outgrown, unable to complete the grief process before moving forward, or so afraid of change that you remain in familiar pain rather than risk unknown peace. This reversal asks whether you're truly unable to leave or whether fear keeps you trapped in troubled waters when the boat to calmer shores awaits."
+        },
+        "career": {
+          "upright": "Professional transition, moving away from difficult work situations toward better opportunities, or necessary career passage through challenging times toward improvement brings relief and progress. The Six of Swords represents changing jobs after workplace difficulty, transitioning through unemployment toward new employment, or moving through professional challenges toward more peaceful conditions. This card suggests you're in passage between what was and what will be, that while you carry lessons from difficult experiences, you're heading toward calmer professional waters.",
+          "reversed": "Resistance to necessary career transitions, refusing to leave toxic work environments, or unfinished professional business preventing forward movement creates stagnation. You might be staying in jobs you've outgrown out of fear, unable to complete one career phase before starting another, or so resistant to professional change that you remain in familiar difficulty rather than risk new possibilities. This reversal suggests examining whether obstacles to career transition are external or whether your own resistance keeps you from the passage toward better professional conditions."
+        },
+        "spirituality": {
+          "upright": "Spiritual transition, moving away from beliefs that troubled you toward more peaceful understanding, or necessary passage through spiritual difficulty toward clarity brings gentle progress. The Six of Swords represents leaving behind spiritual communities that harmed you, transitioning from dogma toward personal truth, or moving through the dark night toward dawn. This card suggests you're in spiritual passage, that while you carry the swords of past spiritual wounds, you're moving toward calmer waters, and that the journey itself is healing even before you reach the destination.",
+          "reversed": "Resistance to spiritual evolution, clinging to beliefs that no longer serve, or unfinished spiritual business preventing growth creates stagnation and prolonged confusion. You might be refusing to leave spiritual communities you've outgrown, unable to release old beliefs before embracing new understanding, or so afraid of spiritual unknown that you remain in familiar discomfort. This reversal asks whether you're truly unable to make necessary spiritual transitions or whether fear of change keeps you trapped when the passage toward peace and clarity awaits your willingness to board the boat."
+        }
+    }
   },
   {
     "slug": "swords-007",
@@ -96,7 +180,21 @@
       "Camp",
       "Tiptoeing"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7swords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7swords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Deception, sneaking around, or trying to have it both ways in relationships creates instability and eventual discovery. The Seven of Swords represents infidelity, dishonesty about your feelings or intentions, or attempting to take what you want from relationships without full commitment or transparency. This card warns that what you're getting away with now will eventually be discovered, that tiptoeing and deception undermine trust, and that you can't successfully carry away all the swords—some will be left behind, and the truth will eventually come to light.",
+          "reversed": "Coming clean, confessing deception, or rethinking sneaky approaches to relationships brings possibility of redemption and authentic connection. You might be ready to admit infidelity, choosing honesty over continued deception, or recognizing that strategic manipulation has cost you genuine intimacy. This reversal signals willingness to put down the stolen swords, to return to integrity even when it's uncomfortable, and to rebuild relationships on honesty rather than continuing patterns of deception that ultimately isolate you."
+        },
+        "career": {
+          "upright": "Professional deception, cutting corners, or trying to succeed through trickery rather than merit creates unstable success and eventual consequences. The Seven of Swords represents stealing ideas, misrepresenting credentials, or trying to get ahead through manipulation rather than honest work. This card warns that shortcuts and deception may work temporarily, but what you're getting away with will eventually be discovered, that you can't carry all the swords without dropping some, and that success built on dishonesty is ultimately unsustainable.",
+          "reversed": "Professional honesty, coming clean about workplace deception, or rethinking unethical career strategies brings possibility of redemption and sustainable success. You might be confessing to cutting corners, choosing integrity over expedient dishonesty, or recognizing that trying to trick your way to success has undermined genuine achievement. This reversal indicates readiness to return stolen swords, to rebuild your career on merit rather than manipulation, and to accept that honest success, though slower, is ultimately more rewarding and sustainable."
+        },
+        "spirituality": {
+          "upright": "Spiritual deception, trying to appear more evolved than you are, or sneaking spiritual shortcuts that bypass real work creates false progress and eventual exposure. The Seven of Swords represents pretending to understand what you don't, claiming spiritual achievements you haven't earned, or trying to steal wisdom without doing the practice. This card warns that spiritual shortcuts don't lead where you think, that you can't trick your way to enlightenment, and that what you're pretending will eventually be revealed as the illusion it is.",
+          "reversed": "Spiritual honesty, admitting where you've been pretending, or releasing attempts to fake spiritual attainment brings possibility of authentic development. You might be confessing spiritual pretense, choosing genuine beginner's mind over false expertise, or recognizing that trying to appear enlightened has prevented actual growth. This reversal signals readiness to be honest about your spiritual state, to do the real work rather than faking results, and to accept that authentic development requires integrity rather than strategic image management."
+        }
+    }
   },
   {
     "slug": "swords-008",
@@ -110,7 +208,21 @@
       "Eight Swords",
       "Castle"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8swords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8swords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Feeling trapped in relationships, victim mentality, or self-imposed limitations preventing you from seeing romantic possibilities creates helplessness and isolation. The Eight of Swords represents believing you have no choices in love, feeling bound by circumstances that could change if you removed the blindfold, or imprisoning yourself in limiting beliefs about relationships. This card suggests that while you feel powerless, the bonds are looser than you think, the swords don't actually touch you, and freedom awaits if you're willing to remove the blindfold and take the first awkward steps toward liberation.",
+          "reversed": "Removing the blindfold, recognizing your own power, or freeing yourself from self-imposed relationship limitations brings new perspective and possibility. You might be finally seeing that you have choices, taking responsibility for your role in feeling trapped, or recognizing that the prison was partly of your own making. This reversal signals readiness to free yourself, to see situations realistically rather than through the distortion of victimhood, and to claim agency in your romantic life even when circumstances are genuinely challenging."
+        },
+        "career": {
+          "upright": "Feeling trapped in your career, professional victim mentality, or self-imposed limitations preventing you from seeing opportunities creates helplessness and stagnation. The Eight of Swords represents believing you have no professional options, feeling bound by circumstances that could shift with different perspective, or imprisoning yourself in limiting beliefs about what's possible. This card suggests that while you feel powerless, you may have more options than you see, that the bonds are self-imposed beliefs rather than actual barriers, and that removing the blindfold of victimhood reveals paths to freedom.",
+          "reversed": "Career liberation, seeing professional options you couldn't see before, or freeing yourself from limiting beliefs about work brings new possibilities and agency. You might be finally recognizing you're not as trapped as you believed, taking responsibility for career choices rather than blaming circumstances, or seeing opportunities that were always there but invisible through the blindfold of victimhood. This reversal indicates readiness to claim professional power, to see realistically rather than through distortion, and to take awkward first steps toward career freedom."
+        },
+        "spirituality": {
+          "upright": "Spiritual imprisonment, feeling trapped by beliefs or practices, or victim mentality about your spiritual circumstances creates helplessness and prevents growth. The Eight of Swords represents feeling you can't leave religious traditions that no longer serve, believing spiritual freedom is impossible, or imprisoning yourself in limiting beliefs about what's spiritually permissible. This card suggests that while you feel trapped, the spiritual bonds are looser than you think, that the blindfold of inherited belief obscures paths to freedom, and that liberation awaits if you're willing to see clearly and take the first steps.",
+          "reversed": "Spiritual liberation, removing the blindfold of limiting beliefs, or recognizing your spiritual agency brings freedom and authentic development. You might be finally seeing you have spiritual choices, taking responsibility for your own path rather than blaming tradition or authority, or recognizing that the prison was partly self-imposed. This reversal signals readiness to claim spiritual sovereignty, to see your situation realistically, and to free yourself from beliefs and practices that bind rather than liberate, even when the first steps toward freedom feel awkward and uncertain."
+        }
+    }
   },
   {
     "slug": "swords-009",
@@ -124,7 +236,21 @@
       "Covered Face",
       "Quilted Blanket"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9swords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9swords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Anxiety, sleepless worry about relationships, or nightmares about loss and abandonment create suffering often worse than reality warrants. The Nine of Swords represents lying awake catastrophizing about your relationship, paralyzing fear about romantic rejection, or mental anguish that magnifies problems beyond their actual scope. This card suggests that while your pain is real, much of your suffering comes from thoughts rather than facts, that the swords hang above you but haven't fallen, and that the night always gives way to dawn if you can endure the darkness of worry.",
+          "reversed": "Beginning to release anxiety, reaching out for help with relationship fears, or discovering that worried imaginings were worse than reality brings relief and healing. You might be finally sleeping after periods of romantic anxiety, seeking therapy or support for relationship fears, or recognizing that catastrophic thoughts don't reflect actual circumstances. This reversal signals the worst of the mental anguish is passing, that hope is returning, and that you're ready to face reality rather than remaining paralyzed by imagined terrors."
+        },
+        "career": {
+          "upright": "Professional anxiety, sleepless worry about work, or catastrophic thinking about career failure creates suffering that often exceeds actual circumstances. The Nine of Swords represents lying awake worrying about job security, paralyzing fear about professional inadequacy, or mental torture about career mistakes. This card validates real stress while suggesting much suffering comes from anxious thoughts rather than facts, that the swords of worry hang overhead but haven't struck, and that morning clarity often reveals that nighttime fears were exaggerated.",
+          "reversed": "Career anxiety beginning to lift, seeking help for work-related stress, or discovering that professional fears were worse than reality brings relief and renewed perspective. You might be finally resting after periods of career anxiety, getting support for work stress, or recognizing that catastrophic professional thoughts don't match actual circumstances. This reversal indicates the worst mental anguish is easing, that hope and rest are returning, and that you're ready to address career challenges realistically rather than remaining paralyzed by imagined disasters."
+        },
+        "spirituality": {
+          "upright": "Spiritual anxiety, dark night of the soul's mental anguish, or tormenting fears about divine abandonment creates suffering that exceeds actual spiritual circumstances. The Nine of Swords represents sleepless spiritual crisis, paralyzing fear about your soul's state, or mental torture from religious guilt and shame. This card validates real spiritual suffering while suggesting much anguish comes from thoughts rather than divine reality, that the swords of fear hang overhead but God hasn't abandoned you, and that the spiritual dark night eventually yields to dawn.",
+          "reversed": "Spiritual anxiety lifting, reaching out for help with religious trauma, or discovering that feared divine judgment was projection rather than reality brings healing and renewed faith. You might be finding peace after spiritual crisis, seeking support for religious anxiety, or recognizing that tormenting thoughts about your spiritual state don't reflect divine truth. This reversal signals the worst spiritual anguish is passing, that hope and rest are returning, and that you're ready to experience spirituality directly rather than remaining trapped in anxious thoughts about it."
+        }
+    }
   },
   {
     "slug": "swords-010",
@@ -138,7 +264,21 @@
       "Black Sky",
       "Dawn"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10swords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10swords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Rock bottom, complete romantic defeat, or betrayal so total it leaves you feeling utterly destroyed marks the absolute end of one chapter. The Ten of Swords represents the worst has happened—devastating breakup, discovery of complete betrayal, or the final blow to a relationship already dying. This card validates that you've hit bottom, that resistance is over, and that while this feels like the end of everything, notice the dawn breaking on the horizon—endings this complete clear space for entirely new beginnings, and you can't be stabbed by these particular swords again because this cycle is finished.",
+          "reversed": "Beginning to recover from devastating heartbreak, pulling out the swords one by one, or resisting complete endings that need to happen brings slow healing or prolonged suffering. You might be starting to rebuild after total romantic destruction, finally releasing the relationship that devastated you, or refusing to let go and thus prolonging the agony. This reversal can indicate either healthy recovery from rock bottom or unhealthy resistance to necessary endings—examine whether you're courageously healing or desperately clinging to what's already dead."
+        },
+        "career": {
+          "upright": "Professional rock bottom, complete career defeat, or workplace betrayal so total it destroys your position marks the absolute end of this career chapter. The Ten of Swords represents being fired in the worst way, business failure, or professional betrayal that leaves you feeling completely defeated. This card validates you've hit professional bottom, that resistance is finished, and that while devastating, endings this complete create space for entirely new career directions—and notice that dawn is breaking even in this darkest hour.",
+          "reversed": "Recovering from career devastation, slowly rebuilding after professional rock bottom, or refusing to accept career endings that need to happen brings either healing or prolonged suffering. You might be finally letting go of the career that destroyed you, beginning to rebuild after total professional defeat, or resisting necessary endings and thus prolonging your agony. This reversal can indicate healthy recovery or unhealthy denial—examine whether you're courageously rebuilding or desperately trying to resurrect what's truly finished."
+        },
+        "spirituality": {
+          "upright": "Spiritual rock bottom, complete collapse of belief systems, or dark night of the soul reaching its darkest point marks the death of one spiritual identity. The Ten of Swords represents total spiritual crisis, betrayal by religious institutions, or beliefs so completely shattered that your entire spiritual worldview lies in ruins. This card validates you've reached spiritual bottom, that the old understanding is finished, and that while this feels like spiritual death, dawn is breaking—endings this complete create space for entirely new and more authentic spiritual birth.",
+          "reversed": "Spiritual recovery beginning, slowly rebuilding faith after complete collapse, or resisting necessary spiritual deaths brings either healing or prolonged crisis. You might be starting to reconstruct spirituality after total breakdown, finally releasing beliefs that destroyed you, or refusing to let go of spiritual frameworks that are truly finished. This reversal can indicate healthy spiritual rebirth or unhealthy clinging to dead beliefs—examine whether you're courageously allowing new faith to emerge or desperately trying to resurrect what's irrevocably ended."
+        }
+    }
   },
   {
     "slug": "swords-011",
@@ -153,7 +293,21 @@
       "Birds",
       "Wind"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pageswords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pageswords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Curiosity, mental engagement, and approaching relationships with alertness and interest brings fresh perspective but perhaps less emotional depth. The Page of Swords represents being intellectually intrigued by romance, asking questions and seeking to understand partnership mentally, or bringing youthful mental energy to love. This card encourages communication, honest inquiry, and remaining alert to relationship dynamics, while suggesting that sometimes love requires moving from the head to the heart, from curiosity to genuine emotional engagement.",
+          "reversed": "Gossip about relationships, using words to wound, or mental immaturity preventing genuine connection may be undermining romantic possibilities. You might be spreading rumors, analyzing love to death without actually feeling it, or making hasty romantic decisions without thinking through consequences. This reversal warns against using intelligence destructively, talking about relationships rather than being in them, or letting mental restlessness prevent the stillness necessary for deep emotional connection."
+        },
+        "career": {
+          "upright": "Mental energy, curiosity about professional possibilities, and vigilant attention to workplace dynamics brings opportunities for learning and growth. The Page of Swords represents being intellectually engaged at work, asking questions and seeking to understand, or bringing fresh perspective through youthful mental energy. This card favors careers requiring quick thinking, communication skills, or investigative abilities, and encourages remaining alert and curious in professional development.",
+          "reversed": "Workplace gossip, hasty professional decisions, or using intelligence destructively may be undermining career success. You might be spreading rumors at work, jumping to conclusions without proper investigation, or making impulsive career choices without adequate planning. This reversal warns against using mental sharpness to harm rather than help, talking about doing work rather than actually doing it, or letting restless curiosity prevent focused professional development."
+        },
+        "spirituality": {
+          "upright": "Spiritual curiosity, mental investigation of beliefs, and approaching the divine with questions and alertness brings intellectual engagement with spirituality. The Page of Swords represents being intellectually intrigued by spiritual concepts, asking questions about faith, or bringing fresh perspective through mental inquiry. This card encourages honest spiritual investigation and remaining alert to truth, while suggesting that sometimes spirituality requires moving from intellectual understanding to direct experience, from curiosity about God to actual relationship with the divine.",
+          "reversed": "Spiritual gossip, using spiritual concepts to wound, or mental restlessness preventing genuine practice may be undermining authentic development. You might be spreading spiritual rumors, analyzing faith to death without actually experiencing it, or making hasty spiritual decisions without contemplation. This reversal warns against using spiritual knowledge destructively, talking about spirituality rather than practicing it, or letting intellectual curiosity prevent the stillness necessary for genuine mystical experience."
+        }
+    }
   },
   {
     "slug": "swords-012",
@@ -167,7 +321,21 @@
       "Sword",
       "Storm Clouds"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightswords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightswords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Swift action, direct communication, and charging ahead in romantic pursuit brings clarity and decisive movement but perhaps lacks emotional sensitivity. The Knight of Swords represents pursuing love with determination and speed, cutting through confusion with honest communication, or bringing intellectual intensity to relationships. This card encourages decisive action in love and clear expression of intentions, while warning that charging ahead without considering your partner's pace or feelings can create more problems than it solves.",
+          "reversed": "Reckless romantic behavior, aggressive communication, or impulsive relationship decisions without adequate thought may be creating chaos and hurt. You might be rushing into love without considering consequences, using brutal honesty that wounds rather than clarifies, or so driven by your own agenda that you steamroll your partner's needs. This reversal warns against confusing directness with cruelty, speed with wisdom, or determination with domination in romantic relationships."
+        },
+        "career": {
+          "upright": "Ambitious professional action, swift career moves, and cutting through workplace obstacles with determination brings rapid advancement but potential backlash. The Knight of Swords represents charging ahead in career with clear purpose, making decisive professional moves, or bringing intellectual intensity and speed to work. This card favors quick thinking, bold career decisions, and cutting through bureaucracy, while warning that moving too fast without considering others or circumstances can create enemies and unintended consequences.",
+          "reversed": "Reckless career decisions, aggressive professional behavior, or impulsive actions without adequate planning may be undermining success and creating problems. You might be rushing into career moves without research, communicating harshly in workplace, or so focused on your ambition that you destroy relationships and opportunities. This reversal warns against confusing speed with effectiveness, assertiveness with aggression, or determination with ruthlessness in professional life."
+        },
+        "spirituality": {
+          "upright": "Decisive spiritual action, cutting through spiritual confusion with clear thinking, and pursuing truth with determination brings rapid development but perhaps lacks depth. The Knight of Swords represents charging ahead on your spiritual path, using intellect to cut through mystical confusion, or bringing mental intensity to spiritual practice. This card encourages clear spiritual thinking and decisive action on insights, while warning that speed without contemplation, intellectualism without feeling, can create understanding without wisdom.",
+          "reversed": "Spiritual recklessness, aggressive pursuit of enlightenment, or impulsive spiritual decisions without adequate discernment may be creating chaos rather than growth. You might be rushing through practices without integration, using spiritual truth as a weapon, or so driven by ambition for attainment that you miss the actual journey. This reversal warns against spiritual aggression, confusing intensity with depth, or charging ahead without the patience and sensitivity genuine development requires."
+        }
+    }
   },
   {
     "slug": "swords-013",
@@ -182,7 +350,21 @@
       "Clouds",
       "Bird"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queenswords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queenswords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Independent thinking, clear boundaries, and honest communication tempered by experience creates mature relationships built on truth and mutual respect. The Queen of Swords represents the partner who has learned through loss, who values honesty over comfort, and who brings both clarity and compassion to love. This card suggests embodying sovereignty in relationships—maintaining your own identity while in partnership, communicating truth kindly but directly, and offering wisdom gained through experience without letting past pain close your heart entirely.",
+          "reversed": "Bitterness, emotional coldness, or using sharp intellect to wound and distance rather than connect may be preventing authentic intimacy. You might be so defended from past hurt that no one can reach you, using honesty as a weapon rather than a bridge, or judging potential partners so harshly that no one meets impossible standards. This reversal warns against letting heartbreak turn you cruel, confusing independence with isolation, or using intelligence to keep people at arm's length rather than building genuine connection."
+        },
+        "career": {
+          "upright": "Professional independence, clear judgment, and direct communication based on experience brings respect and advancement through wisdom and integrity. The Queen of Swords represents leadership through clarity, making tough decisions fairly, and cutting through workplace drama with discernment. This card favors careers requiring analytical thinking, fair judgment, or the ability to communicate difficult truths with both honesty and compassion, and suggests embodying authority through wisdom rather than just position.",
+          "reversed": "Professional coldness, harsh judgment, or using intellect to dominate and wound may be undermining leadership effectiveness and creating hostile work environments. You might be so focused on being right that you've lost compassion, using your intelligence to humiliate others, or maintaining such rigid standards that no one can meet them. This reversal warns against letting professional disappointments make you bitter, confusing directness with cruelty, or using authority to punish rather than guide and develop others."
+        },
+        "spirituality": {
+          "upright": "Spiritual discernment, clear seeing, and wisdom tempered by experience brings mature faith that distinguishes truth from illusion without losing compassion. The Queen of Swords represents the spiritual teacher who has learned through loss, who values truth over comfort, and who offers guidance with both clarity and kindness. This card encourages developing discriminating wisdom, maintaining spiritual independence while in community, and communicating spiritual truths directly but compassionately, using the sharp sword of discernment to free rather than wound.",
+          "reversed": "Spiritual bitterness, using wisdom as a weapon, or harsh judgment that wounds seekers rather than guides them may be preventing authentic spiritual community and service. You might be so wounded by spiritual betrayals that you've become cynical, using spiritual knowledge to elevate yourself above others, or maintaining standards so rigid that grace has no room to operate. This reversal warns against letting spiritual disappointments close your heart, confusing discernment with judgment, or using wisdom to separate rather than heal and unite."
+        }
+    }
   },
   {
     "slug": "swords-014",
@@ -196,6 +378,20 @@
       "Butterflies",
       "Crescent Moons"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingswords.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingswords.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Intellectual mastery, fair judgment, and clear communication based on ethical principles creates relationships built on respect, truth, and mutual understanding. The King of Swords represents the partner who values honesty and rationality, who makes relationship decisions based on principles rather than emotions alone, and who brings both clarity and integrity to love. This card suggests embodying authority through wisdom, communicating with precision and fairness, and creating partnerships where truth and justice matter as much as passion, while remembering that love also requires warmth alongside clarity.",
+          "reversed": "Intellectual tyranny, manipulating through logic, or using authority to control and dominate rather than support may be creating power imbalances and destroying intimacy. You might be insisting your logic is the only valid perspective, using rational arguments to dismiss your partner's feelings, or wielding intellectual superiority as a weapon. This reversal warns against confusing being right with being loving, using intellect to manipulate rather than understand, or maintaining such rigid rational standards that emotional connection becomes impossible."
+        },
+        "career": {
+          "upright": "Intellectual authority, strategic thinking, and leadership based on clear principles and ethical standards brings professional success and lasting respect. The King of Swords represents executive leadership through clarity and fairness, making difficult decisions based on logic and ethics, and cutting through complexity with disciplined analytical thinking. This card favors careers in law, medicine, technology, or any field requiring both intellectual mastery and ethical judgment, and suggests embodying authority through competence, clarity, and unwavering commitment to truth and fairness.",
+          "reversed": "Intellectual manipulation, abusing professional authority, or using power and position to control and dominate rather than lead may be creating toxic work environments and eventual downfall. You might be using logic to manipulate outcomes, wielding authority tyrannically, or so focused on being right that you've lost sight of what's effective or ethical. This reversal warns against confusing intelligence with wisdom, power with leadership, or using intellectual superiority to intimidate rather than inspire and develop others."
+        },
+        "spirituality": {
+          "upright": "Spiritual intellectual mastery, clear discernment, and teaching based on both wisdom and ethical principles brings authentic authority and service to seekers. The King of Swords represents the spiritual teacher who combines intellectual understanding with integrity, who uses discriminating wisdom to guide without dominating, and who values truth above comfort or popularity. This card encourages developing spiritual authority through clarity and ethical living, using intellect in service of truth, and teaching with both precision and compassion, recognizing that the sharpest spiritual tool is the mind dedicated to liberating rather than controlling others.",
+          "reversed": "Spiritual intellectual tyranny, using wisdom to manipulate and control, or wielding spiritual authority to dominate rather than serve may be corrupting your path and harming those you influence. You might be insisting your understanding is the only truth, using spiritual concepts to manipulate followers, or so attached to intellectual frameworks that you've lost connection to living experience of the divine. This reversal warns that true spiritual authority serves and frees rather than controls, that intellect without heart becomes cold dogma, and that using wisdom to dominate reveals its absence rather than its presence."
+        }
+    }
   }
 ]

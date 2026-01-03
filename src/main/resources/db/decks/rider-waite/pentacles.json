@@ -12,7 +12,21 @@
       "Gate",
       "Mountains"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/acepent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/acepent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "New beginnings rooted in tangible reality, the promise of stable and grounded romantic connection, or manifestation of relationship goals into physical form brings real potential and solid foundation. The Ace of Pentacles represents meeting someone with genuine relationship potential, commitment becoming concrete through engagement or moving in together, or love that offers actual security rather than just romantic fantasy. This card suggests that romantic opportunity is real and substantial, that what's offered can be touched and built upon, and that seeds planted now in the fertile garden of practical partnership can grow into lasting abundance.",
+          "reversed": "Missed romantic opportunities, failure to ground relationship dreams in reality, or lack of follow-through on relationship commitments may be preventing manifestation of stable partnership. You might be letting real relationship potential slip away through poor planning, unable to translate romantic feelings into practical commitment, or so focused on ideal love that you miss the solid opportunity right in front of you. This reversal warns against letting good partnership prospects pass you by, reminds you that love requires not just feeling but action and commitment, and suggests that without practical foundation even the most promising romantic seeds cannot take root and flourish."
+        },
+        "career": {
+          "upright": "New professional opportunity with real potential, tangible career prospects, or manifestation of vocational goals into concrete form brings abundance and solid foundation for success. The Ace of Pentacles represents job offers, business opportunities, financial windfalls, or the beginning of prosperous career ventures grounded in reality rather than fantasy. This card suggests the seeds of professional success are being offered, that opportunity is real and substantial, and that careful cultivation of what's presented now can grow into lasting career security and material abundance.",
+          "reversed": "Lost career opportunities, failure to capitalize on professional prospects, or poor planning preventing manifestation of vocational goals may be undermining potential success. You might be letting job offers slip away, unable to turn ideas into actual business, or so focused on perfect opportunity that you miss the solid prospect available now. This reversal warns against procrastination and poor preparation, suggests examining whether fear prevents you from grasping real professional potential, and reminds you that even the most promising career seed cannot flourish without practical action and follow-through."
+        },
+        "spirituality": {
+          "upright": "Spiritual opportunity becoming tangible and real, sacred practice grounded in physical world, or manifestation of spiritual understanding into embodied form brings authentic development and lasting foundation. The Ace of Pentacles represents spirituality that doesn't just transcend the material but sanctifies it, divine abundance manifesting in actual life circumstances, or spiritual seeds planted in the fertile ground of daily practice and physical discipline. This card encourages you to ground your spiritual life in real practice, to recognize the sacred in material world, and to understand that genuine spiritual development must be embodied rather than merely conceptual.",
+          "reversed": "Lost spiritual opportunities, failure to ground mystical insights in actual practice, or lack of discipline preventing manifestation of spiritual potential may be keeping growth theoretical rather than real. You might be letting genuine spiritual openings pass without acting on them, unable to translate peak experiences into sustained practice, or so focused on transcendent ideals that you neglect the physical discipline that grounds authentic development. This reversal warns that spirituality without embodiment remains fantasy, that mystical seeds require the practical soil of regular practice to flourish, and that the sacred must be lived in material reality rather than merely contemplated in abstract thought."
+        }
+    }
   },
   {
     "slug": "pentacles-002",
@@ -26,7 +40,21 @@
       "Ships",
       "Waves"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2pent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2pent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Balancing relationship with other life demands, adaptability in partnership, or juggling multiple romantic priorities requires skill and flexibility but creates dynamic equilibrium. The Two of Pentacles represents managing work-life-love balance, adapting to changing relationship circumstances, or maintaining romance while handling other responsibilities. This card suggests you're successfully keeping multiple balls in the air, that flexibility serves your relationship better than rigidity, and that while the juggling act requires constant attention and adjustment, the infinity loop shows this dance can continue gracefully if you stay present and adaptive.",
+          "reversed": "Overwhelmed by competing demands, dropping the ball in relationships, or unable to maintain balance between love and other life areas creates chaos and potential loss. You might be so busy juggling that your relationship suffers neglect, unable to adapt to changing circumstances, or trying to balance too many romantic options and losing all of them. This reversal warns that something's about to drop, suggests examining which balls are glass and which are rubber, and reminds you that trying to do everything often means doing nothing well—sometimes you must choose what matters most."
+        },
+        "career": {
+          "upright": "Balancing multiple projects, financial juggling, or adaptability in face of changing professional circumstances brings dynamic success through flexibility and skill. The Two of Pentacles represents managing competing work demands, balancing multiple income streams, or adapting to fluctuating professional conditions. This card suggests you're successfully navigating complexity, that your ability to adjust serves you well, and that while the constant balancing requires energy and attention, your flexibility keeps you upright even as circumstances shift like waves beneath the ships.",
+          "reversed": "Professional overwhelm, financial disorganization, or inability to balance competing work demands creates chaos and potential failure. You might be juggling too many projects and doing none well, financially overextended, or so rigid in approach that you can't adapt to changing professional circumstances. This reversal warns you're at risk of dropping important professional balls, suggests the need to prioritize and possibly let some responsibilities go, and reminds you that perfect balance may be impossible—sometimes you must choose what to focus on and accept that other things will wait or fall."
+        },
+        "spirituality": {
+          "upright": "Balancing spiritual practice with material life, adaptability in faith journey, or maintaining sacred awareness while handling worldly responsibilities creates integrated and flexible spirituality. The Two of Pentacles represents managing meditation practice alongside busy schedule, adapting spiritual approach to changing life circumstances, or keeping connection to the divine while navigating material world. This card encourages you to see spiritual life as dance rather than rigid structure, to remain flexible in practice while maintaining commitment, and to understand that spirituality lived in the midst of daily juggling may be more authentic than practice isolated from life's complexity.",
+          "reversed": "Spiritual overwhelm, inability to maintain practice amid life demands, or rigid spiritual approach that can't adapt to circumstances may be creating crisis rather than growth. You might be so busy juggling worldly responsibilities that spiritual life suffers complete neglect, trying to maintain too many practices and doing none deeply, or so inflexible in spiritual approach that changing life circumstances throw you completely off balance. This reversal suggests examining spiritual priorities, recognizing that sometimes simple practice done consistently serves better than elaborate routines that can't be sustained, and understanding that adaptability in spiritual life demonstrates wisdom rather than lack of commitment."
+        }
+    }
   },
   {
     "slug": "pentacles-003",
@@ -40,7 +68,21 @@
       "Architect",
       "Craftsmen"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3pent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3pent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Collaboration, building relationship together, or combining skills and perspectives to create something lasting brings partnership that's both romantic and practical. The Three of Pentacles represents working together toward shared goals, relationships where both partners contribute unique strengths, or love that builds something tangible and enduring through cooperative effort. This card suggests that the best relationships function like skilled teams building cathedrals—each person brings different gifts, mutual respect allows learning from each other, and together you create something far greater than either could build alone.",
+          "reversed": "Lack of teamwork in relationship, mismatched goals or skills, or inability to collaborate effectively may be preventing you from building lasting partnership. You might be working at cross-purposes with your partner, unable to appreciate or utilize each other's different strengths, or so focused on individual achievement that you can't create together. This reversal warns that relationships require collaboration rather than parallel lives, suggests examining whether ego prevents you from learning from your partner, and reminds you that sustainable love is built through cooperative effort rather than one person doing all the work while the other watches or criticizes."
+        },
+        "career": {
+          "upright": "Professional teamwork, collaboration, or recognition for skilled contribution to group efforts brings success and advancement through cooperative achievement. The Three of Pentacles represents working effectively with colleagues, being valued for your expertise, or projects succeeding through combination of diverse skills and perspectives. This card suggests your professional skills are being recognized and utilized, that collaboration serves you better than solo effort, and that like the craftsmen building the cathedral, your contribution to something larger brings both material reward and the satisfaction of creating lasting value through teamwork.",
+          "reversed": "Workplace disharmony, lack of collaboration, or skills not being recognized or utilized effectively may be undermining professional success and satisfaction. You might be unable to work effectively with team members, feeling your expertise isn't valued, or so focused on individual achievement that you can't contribute to group efforts. This reversal warns that lone wolf approaches may be limiting career advancement, suggests examining whether pride prevents you from learning from colleagues, and reminds you that most significant professional achievements require teamwork—trying to build the cathedral alone ensures it never gets completed."
+        },
+        "spirituality": {
+          "upright": "Spiritual community, learning from teachers and fellow seekers, or building sacred understanding through collaboration with others brings growth through shared wisdom and practice. The Three of Pentacles represents spiritual development within tradition or community, honoring both teachers and peers, or recognizing that the cathedral of faith is built through generations of collaborative effort. This card encourages you to value spiritual community, to recognize you need both teaching and learning, and to understand that while individual practice matters, participation in building something larger than yourself serves genuine development and creates lasting spiritual value.",
+          "reversed": "Spiritual isolation, inability to learn from teachers or community, or lack of collaboration in faith journey may be limiting growth and creating disconnection. You might be so focused on individual spiritual achievement that you reject community wisdom, unable to find or work with compatible spiritual companions, or trying to build your entire spiritual life alone without tradition or teaching. This reversal warns that spiritual pride prevents learning, suggests examining whether ego keeps you from benefiting from collective wisdom, and reminds you that the greatest spiritual cathedrals are built through many hands working together across time—individual enlightenment that serves only self is incomplete."
+        }
+    }
   },
   {
     "slug": "pentacles-004",
@@ -54,7 +96,21 @@
       "Four Pentacles",
       "Seated Figure"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4pent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4pent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Holding tight to relationship security, possessiveness, or need to control partnership creates stability but prevents growth and spontaneity. The Four of Pentacles represents clinging to relationships out of fear of loss, being so protective of what you have that connection becomes constricted, or valuing security over genuine intimacy. This card suggests that while wanting to preserve what matters is natural, holding so tightly that neither you nor your partner can breathe transforms love into possession, and that sometimes protecting relationship from all risk also protects it from all vitality and growth.",
+          "reversed": "Releasing possessiveness, letting go of need to control relationship, or choosing generosity over security brings freedom and renewed connection. You might be finally relaxing your grip on your partner, releasing fear-based relationship patterns, or discovering that sharing yourself freely creates more genuine security than controlling and hoarding. This reversal can indicate healthy letting go or unhealthy recklessness with relationship resources—examine whether you're wisely releasing control or carelessly abandoning necessary boundaries and commitment. True security in love comes from trust rather than tight control."
+        },
+        "career": {
+          "upright": "Financial conservatism, holding tight to resources, or need to control professional circumstances creates stability but prevents growth and opportunity. The Four of Pentacles represents conservative financial management, protecting what you have, or being so focused on security that you can't invest in growth. This card suggests that while financial prudence is wise, hoarding resources out of fear prevents the investment and risk necessary for advancement, and that holding so tightly to current position may protect you from loss but also prevents you from gain.",
+          "reversed": "Releasing financial fear, letting go of excessive control, or choosing generosity over hoarding brings freedom but requires discernment. You might be finally investing after too much conservatism, releasing scarcity mindset, or discovering that sharing resources creates more abundance than clutching them tight. This reversal can indicate healthy generosity or reckless spending—examine whether you're wisely releasing excessive control or carelessly abandoning necessary financial prudence. True security comes from wise stewardship rather than either fearful hoarding or careless squandering."
+        },
+        "spirituality": {
+          "upright": "Spiritual possessiveness, clinging to beliefs out of fear, or need to control sacred understanding prevents growth and authentic experience. The Four of Pentacles represents holding so tightly to religious certainty that no new revelation can enter, hoarding spiritual knowledge rather than sharing it, or being so focused on preserving tradition that faith becomes rigid and lifeless. This card suggests that while honoring what's sacred is right, clutching beliefs so tightly that they can't evolve transforms living faith into dead doctrine, and that sometimes protecting spirituality from all uncertainty also protects it from all genuine encounter with the divine mystery.",
+          "reversed": "Releasing spiritual rigidity, letting go of need to control sacred truth, or choosing faith over certainty brings freedom and authentic development. You might be finally relaxing impossible demands for spiritual security, releasing fear-based beliefs, or discovering that holding faith loosely allows it to breathe and grow. This reversal can indicate healthy spiritual openness or reckless abandonment of wisdom—examine whether you're wisely releasing rigidity or carelessly discarding valuable tradition and guidance. True spiritual security comes from trust in the divine rather than tight control of doctrine."
+        }
+    }
   },
   {
     "slug": "pentacles-005",
@@ -68,7 +124,21 @@
       "Injured Figures",
       "Beggars"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5pent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5pent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Feeling left out in the cold romantically, isolation, or experiencing relationship poverty and hardship creates suffering and sense of abandonment. The Five of Pentacles represents loneliness in the midst of plenty, feeling shut out from the warmth of connection, or relationships stripped to bare survival when you long for abundance. This card validates real romantic hardship while pointing to the church window—help and warmth are closer than you think, but pride or despair may prevent you from turning toward the light and asking for what you need. Sometimes you're so focused on your suffering that you don't notice the door is unlocked.",
+          "reversed": "Recovery from romantic hardship, accepting help after isolation, or emerging from relationship poverty brings hope and healing. You might be finally reaching out after lonely struggle, accepting support from friends or community, or discovering that conditions are improving after difficult period. This reversal can indicate either healthy recovery or stubborn refusal of available help—examine whether you're wisely accepting assistance or whether pride still keeps you shivering outside when warmth and shelter are available. The church door was never locked; you need only turn the handle."
+        },
+        "career": {
+          "upright": "Financial hardship, professional loss, or feeling excluded from material security and opportunity creates real suffering and worry. The Five of Pentacles represents unemployment, financial crisis, or feeling left out in the professional cold while others seem to enjoy warmth and abundance. This card validates genuine material struggle while suggesting that help may be closer than you realize—notice the illuminated church window representing available resources, community support, or opportunities you haven't yet seen because you're so focused on your suffering. Sometimes the hardship is real, but isolation is chosen.",
+          "reversed": "Financial recovery, emerging from material hardship, or accepting help after struggling alone brings improvement and hope. You might be finding employment after joblessness, receiving needed assistance, or discovering that your financial situation is finally stabilizing. This reversal can indicate healthy recovery or stubborn refusal of available support—examine whether you're wisely accepting help or whether pride keeps you in unnecessary hardship when resources and community assistance are actually available. Recovery requires both changing circumstances and willingness to receive."
+        },
+        "spirituality": {
+          "upright": "Spiritual poverty, feeling abandoned by the divine, or isolation from sacred community creates dark night of material and spiritual deprivation. The Five of Pentacles represents feeling cast out from grace, experiencing crisis that strips away all comfort, or shivering in spiritual cold while the church window glows with warmth you can't seem to access. This card validates profound spiritual hardship while pointing to deep irony—you're suffering outside the very building meant to shelter you, so focused on abandonment that you don't see the door is unlocked and help is available. Sometimes spiritual poverty comes not from divine withdrawal but from inability to accept available grace.",
+          "reversed": "Spiritual recovery, accepting grace after feeling abandoned, or emerging from the dark night brings renewed faith and connection. You might be finally entering the church after shivering outside, discovering that the divine never actually abandoned you, or accepting spiritual community support after isolated struggle. This reversal can indicate healthy spiritual recovery or continued refusal of available grace—examine whether you're wisely accepting divine help or whether pride, shame, or attachment to suffering keeps you in spiritual poverty when warmth and shelter await your willingness to enter and receive."
+        }
+    }
   },
   {
     "slug": "pentacles-006",
@@ -82,7 +152,21 @@
       "Beggars",
       "Six Pentacles"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6pent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6pent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Generosity, balanced giving and receiving, or sharing resources and affection equitably creates healthy relationship dynamics and mutual support. The Six of Pentacles represents partnerships where both people give and receive, being generous with love while also accepting your partner's gifts, or understanding that healthy relationships require balanced exchange rather than one-sided sacrifice. This card suggests examining which position you occupy—the merchant who gives or the beggar who receives—and recognizing that both roles have value and dignity, that sometimes you'll be the strong one offering support and sometimes you'll need to humbly receive what's offered.",
+          "reversed": "One-sided relationships, strings attached to love, or inability to give or receive generously creates imbalance and resentment. You might be giving so much that you're depleted while your partner only takes, receiving help but resenting the dependence, or using gifts and generosity to control or create obligation. This reversal warns against relationships where power imbalance is maintained through resources, suggests examining whether pride prevents you from receiving or selfishness prevents you from giving, and reminds you that both stingy withholding and controlling generosity poison genuine connection."
+        },
+        "career": {
+          "upright": "Financial generosity, fair exchange, or balanced professional giving and receiving creates prosperity and positive relationships. The Six of Pentacles represents receiving deserved compensation, sharing professional resources or knowledge, or understanding that career success involves both contributing value and accepting appropriate reward. This card suggests examining your relationship to professional giving and receiving—are you the one in position to mentor and share, or are you humbly learning and accepting help? Both positions are honorable, and wisdom recognizes that you'll occupy each at different times throughout your career.",
+          "reversed": "Financial manipulation, one-sided professional relationships, or inability to give or receive appropriately creates imbalance and dysfunction. You might be underpaid and undervalued, using money to control others, or so proud you can't accept needed professional help. This reversal warns against workplace dynamics where power imbalance is maintained through resources, suggests examining whether you're exploiting others or being exploited, and reminds you that both hoarding and controlling generosity undermine genuine professional relationships and sustainable success."
+        },
+        "spirituality": {
+          "upright": "Spiritual generosity, sharing sacred gifts while remaining humble, or balanced giving and receiving in faith community creates healthy spiritual relationships and growth. The Six of Pentacles represents teaching what you know while remaining open to learning, giving spiritual support while accepting care from others, or understanding that faith communities thrive through mutual exchange rather than rigid hierarchies. This card suggests examining your spiritual position—are you currently serving or being served?—and recognizing that both are sacred roles, that sometimes you'll be the one offering wisdom and sometimes you'll need to humbly receive teaching.",
+          "reversed": "Spiritual manipulation, strings attached to sacred gifts, or inability to give or receive grace appropriately creates toxic dynamics and prevents authentic growth. You might be using spiritual knowledge to control others, unable to humbly receive teaching, or giving service but resenting those you help. This reversal warns against spiritual relationships where power imbalance is maintained through gifts or knowledge, suggests examining whether pride prevents receiving or whether you're using generosity to create obligation, and reminds you that both stingy withholding of wisdom and controlling spiritual generosity poison genuine sacred community."
+        }
+    }
   },
   {
     "slug": "pentacles-007",
@@ -96,7 +180,21 @@
       "Seven Pentacles",
       "Resting Farmer"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7pent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7pent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Pausing to assess relationship progress, patience with partnership development, or taking long-term view of romantic investment brings perspective and wisdom. The Seven of Pentacles represents stepping back to evaluate whether your relationship is bearing fruit, understanding that love requires sustained effort over time, or questioning whether continued investment will yield desired harvest. This card suggests you're at a natural pause point to assess your romantic garden—some plantings are flourishing, some may need more time, and some might need to be pulled out. Patience is required, but so is honest evaluation of what's actually growing.",
+          "reversed": "Impatience with relationship progress, feeling unrewarded for romantic investment, or questioning whether love is worth continued effort may be creating dissatisfaction and premature abandonment. You might be expecting immediate harvest from seeds just planted, unable to see the growth that's happening beneath the surface, or so frustrated by slow progress that you're ready to abandon what you've cultivated. This reversal warns against giving up just before the harvest, but also against continuing to water dead ground—honest assessment requires distinguishing between necessary patience and wasted investment."
+        },
+        "career": {
+          "upright": "Assessing professional progress, patience with career development, or taking long-term view of vocational investment brings perspective and strategic insight. The Seven of Pentacles represents pausing to evaluate career growth, understanding that significant achievement requires sustained effort over time, or questioning whether your current path will yield desired success. This card suggests you're at a decision point—some professional investments are bearing fruit, some need more time, and some may not be viable. The farmer's rest isn't laziness but wisdom, taking stock before deciding where to direct future effort.",
+          "reversed": "Professional impatience, feeling unrewarded for career investment, or questioning whether continued effort will pay off may be creating dissatisfaction and poor decisions. You might be expecting immediate results from long-term professional development, unable to recognize progress that's happening gradually, or so frustrated that you're ready to abandon what you've built. This reversal warns against impulsive career changes just before success arrives, but also against stubborn persistence with investments clearly not bearing fruit—wisdom requires distinguishing necessary patience from throwing good effort after bad."
+        },
+        "spirituality": {
+          "upright": "Assessing spiritual progress, patience with faith development, or taking long-term view of sacred practice brings perspective and discernment. The Seven of Pentacles represents pausing to evaluate whether spiritual practices are bearing fruit, understanding that genuine development requires sustained effort over years, or questioning whether your current path serves your deepest growth. This card suggests honest spiritual inventory—some practices are yielding transformation, some need more time to mature, and some may be dead wood requiring pruning. The contemplative pause isn't doubt but wisdom, assessing your spiritual garden before deciding where to focus future cultivation.",
+          "reversed": "Spiritual impatience, feeling unrewarded for practice investment, or questioning whether continued effort will yield enlightenment may be creating crisis and premature path abandonment. You might be expecting immediate awakening from young practice, unable to see transformation happening beneath surface awareness, or so frustrated by slow progress that you're ready to abandon what you've cultivated. This reversal warns against spiritual dilettantism that jumps between paths never staying long enough for harvest, but also against continuing practices that genuinely bear no fruit—discernment requires distinguishing necessary patience from wasted effort on dead traditions."
+        }
+    }
   },
   {
     "slug": "pentacles-008",
@@ -110,7 +208,21 @@
       "Eight Pentacles",
       "Town"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8pent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8pent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Dedicated effort to improve relationship skills, learning and practicing better partnership, or apprenticeship in love through committed work brings mastery and depth. The Eight of Pentacles represents studying how to be better partner, practicing communication and connection skills, or understanding that great relationships require sustained effort and refinement. This card suggests that love isn't just feeling but craft requiring practice—each interaction is another pentacle carved with increasing skill, each challenge an opportunity for mastery, and dedication to continuous improvement creates partnership of genuine quality and lasting value.",
+          "reversed": "Half-hearted relationship effort, taking shortcuts in partnership, or perfectionism preventing genuine connection may be undermining romantic growth. You might be going through relationship motions without real dedication, expecting love to work without practice and refinement, or so focused on perfect partnership that you can't enjoy actual relationship. This reversal warns against both mediocrity that refuses to develop skills and perfectionism that makes practice impossible—sustainable love requires committed effort without demanding flawless execution, diligent work without losing joy in the learning."
+        },
+        "career": {
+          "upright": "Skill development, professional apprenticeship, or dedicated work to master your craft brings increasing competence and career success. The Eight of Pentacles represents commitment to excellence, learning through practice and repetition, or understanding that mastery requires sustained focused effort over time. This card suggests you're in the workshop of professional development—each project another pentacle carved with growing skill, each challenge an opportunity for improvement, and dedication to craft creates work of genuine quality and lasting value. Success comes not from shortcuts but from diligent practice.",
+          "reversed": "Lack of professional focus, cutting corners, or perfectionism preventing progress may be undermining career development and achievement. You might be spreading effort too thin across many skills, expecting expertise without practice, or so focused on perfect work that you never complete anything. This reversal warns against both mediocre effort that refuses genuine skill development and paralyzing perfectionism that makes practice impossible—professional mastery requires dedicated work without demanding flawless execution, sustained focus without losing capacity to actually produce and deliver."
+        },
+        "spirituality": {
+          "upright": "Spiritual practice and discipline, apprenticeship to sacred craft, or dedicated effort to develop contemplative skills brings deepening mastery and authentic development. The Eight of Pentacles represents commitment to daily practice, learning through repetition and refinement, or understanding that spiritual mastery requires sustained focused effort over years. This card suggests you're in the workshop of sacred development—each meditation another pentacle carved with growing skill, each practice session an opportunity for deepening, and dedication to spiritual craft creates connection of genuine quality and lasting transformation. Enlightenment comes through diligent practice, not shortcuts.",
+          "reversed": "Spiritual dilettantism, taking shortcuts to enlightenment, or perfectionism preventing actual practice may be undermining authentic development. You might be sampling many traditions without committing to any, expecting awakening without sustained practice, or so focused on perfect meditation that you never actually sit. This reversal warns against both lazy spirituality that refuses genuine discipline and perfectionism that makes practice impossible—spiritual mastery requires dedicated effort without demanding flawless execution, sustained commitment to craft without losing joy in the practice itself."
+        }
+    }
   },
   {
     "slug": "pentacles-009",
@@ -124,7 +236,21 @@
       "Grapes",
       "Nine Pentacles"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9pent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9pent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Independence, self-sufficiency in relationship, or enjoying solitude and luxury of your own company brings contentment and completeness without requiring partnership. The Nine of Pentacles represents being whole unto yourself, choosing partnership from desire rather than need, or creating life so abundant and satisfying that relationship is enhancement rather than necessity. This card suggests you're the woman in the garden—complete, successful, enjoying the fruits of your own cultivation. You can partner if you choose, but you don't require someone else to feel wealthy in love and life.",
+          "reversed": "Overworking to prove worth, inability to enjoy relationship abundance, or using material success to compensate for emotional emptiness may be preventing genuine connection. You might be so focused on independence that you can't accept partnership, working so hard there's no time for love, or surrounding yourself with luxury while remaining emotionally impoverished. This reversal warns against confusing self-sufficiency with isolation, suggests examining whether achievement compensates for intimacy you actually desire, and reminds you that the garden is sweetest when shared even with those who are complete alone."
+        },
+        "career": {
+          "upright": "Professional independence, self-sufficiency, or enjoying fruits of your labor brings satisfaction and financial security earned through sustained effort. The Nine of Pentacles represents career success on your own terms, financial abundance from your own work, or the luxury of choosing projects because you're not desperate for income. This card suggests you've cultivated professional garden that sustains you beautifully—the pentacles are fruits of your labor, the falcon your disciplined skills, and the garden itself your creation. You've achieved independence and can enjoy the prosperity you've built through your own effort.",
+          "reversed": "Overworking without enjoying success, hustling despite abundance, or tying self-worth to productivity may be preventing you from experiencing the prosperity you've created. You might be unable to rest and enjoy career achievements, working compulsively even when financially secure, or surrounding yourself with success symbols while feeling empty. This reversal warns against perpetual striving that never arrives at satisfaction, suggests examining whether you can receive what you've earned, and reminds you that the garden's purpose is enjoyment not just endless cultivation—sometimes you're allowed to simply be rather than constantly achieve."
+        },
+        "spirituality": {
+          "upright": "Spiritual self-sufficiency, finding divine connection through solitude, or enjoying contemplative luxury of your own sacred practice brings completeness and contentment. The Nine of Pentacles represents spirituality not dependent on community or teachers, sacred abundance cultivated through your own practice, or the riches of contemplative life lived independently. This card suggests you've created spiritual garden that sustains you beautifully through your own discipline and connection—you can benefit from spiritual community but you don't require it to feel wealthy in faith, complete in your relationship with the divine through your own authentic practice.",
+          "reversed": "Spiritual isolation disguised as independence, inability to enjoy contemplative fruits, or using solitary practice to avoid community may be preventing genuine growth. You might be so focused on independent spirituality that you can't receive from tradition or teachers, practicing compulsively without experiencing the peace practice should bring, or surrounding yourself with spiritual trappings while remaining internally impoverished. This reversal warns against confusing self-sufficiency with isolation, suggests examining whether solitary practice serves growth or avoids authentic community, and reminds you that even the most complete contemplatives benefit from connection with other seekers and teachers."
+        }
+    }
   },
   {
     "slug": "pentacles-010",
@@ -139,7 +265,21 @@
       "Archway",
       "Elder"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10pent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10pent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Lasting relationship wealth, family legacy, or partnership that creates enduring security and abundance across generations brings fulfillment and permanence. The Ten of Pentacles represents marriage and family, relationships built to last not just for your lifetime but to create foundation for future generations, or love that builds estate of shared values, memories, and material security. This card suggests your relationship isn't just romance but institution—the archway of commitment, the elder's wisdom of sustained partnership, the family gathered in abundance created through decades of love. You're building relationship legacy.",
+          "reversed": "Family breakdown, relationship wealth squandered, or partnerships that fail to create lasting foundation may be preventing generational security and legacy. You might be experiencing family dysfunction despite material abundance, unable to create relationship that endures, or so focused on individual success that you can't build family wealth. This reversal warns that material prosperity without emotional connection creates empty legacy, suggests examining what you're actually building for future generations, and reminds you that the Ten of Pentacles requires both material security and family bonds—wealth without love is poverty disguised."
+        },
+        "career": {
+          "upright": "Professional legacy, lasting financial security, or career success that creates wealth spanning generations brings ultimate material achievement and stability. The Ten of Pentacles represents family business, inheritance, or building professional empire that outlasts your working years. This card suggests you've achieved not just success but significance—creating wealth that supports family, establishing business or career that continues beyond you, or building professional legacy that benefits future generations. You're the elder in the archway, surrounded by abundance you've created and family who will inherit what you've built.",
+          "reversed": "Financial instability despite success, inheritance squandered, or professional achievements that don't create lasting security may be undermining legacy and generational wealth. You might be earning well but unable to build lasting prosperity, watching family wealth dissolve, or achieving career success that doesn't translate to enduring security. This reversal warns that income without wise management creates no legacy, suggests examining whether you're building for future or merely maintaining present, and reminds you that the Ten of Pentacles requires both earning and stewarding—success that doesn't endure beyond you is incomplete achievement."
+        },
+        "spirituality": {
+          "upright": "Spiritual legacy, faith tradition spanning generations, or sacred wealth built over lifetimes brings ultimate fulfillment and eternal perspective. The Ten of Pentacles represents inherited spiritual wisdom, traditions that connect you to ancestors and descendants, or understanding that your faith is part of legacy spanning centuries. This card suggests you're not just developing individually but participating in sacred institution—the archway of tradition, the elder's wisdom of sustained practice, the spiritual family gathered in abundance created through generations of faith. You're both heir to spiritual wealth and steward for future generations.",
+          "reversed": "Spiritual disconnection from tradition, sacred legacy squandered, or faith that fails to connect generations may be preventing lasting spiritual foundation and meaning. You might be rejecting inherited wisdom without building authentic replacement, unable to find spiritual community that endures, or so focused on individual practice that you can't participate in generational sacred tradition. This reversal warns that spirituality without lineage lacks grounding, suggests examining what sacred legacy you're receiving and transmitting, and reminds you that the Ten of Pentacles requires both honoring tradition and building for future—faith that serves only you is spiritually impoverished."
+        }
+    }
   },
   {
     "slug": "pentacles-011",
@@ -153,7 +293,21 @@
       "Plowed Field",
       "Mountains"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pagepent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pagepent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "New relationship opportunities approached with practical curiosity, student mindset in love, or youthful willingness to learn partnership brings fresh beginnings and grounded potential. The Page of Pentacles represents approaching romance with both enthusiasm and practicality, being willing to study and develop relationship skills, or new love that's built on solid ground rather than fantasy. This card suggests being the student of love—curious about partnership, willing to learn and practice, grounded in reality while remaining open to possibility. You're holding the pentacle of romantic potential, contemplating how to manifest it wisely.",
+          "reversed": "Procrastination in relationship development, unrealistic romantic planning, or failure to follow through on partnership opportunities may be preventing love from manifesting. You might be endlessly preparing for relationship without actually dating, approaching love with impractical expectations, or starting romantic ventures without doing necessary groundwork. This reversal warns against perpetual student status that never graduates to actual partnership, suggests examining whether you're learning about love or avoiding experiencing it, and reminds you that the Page must eventually move from contemplation to action for potential to become reality."
+        },
+        "career": {
+          "upright": "New professional opportunities, student or apprentice mindset, or practical approach to career development brings grounded potential and skill building. The Page of Pentacles represents beginning new job or education, approaching work with willingness to learn, or career opportunities that offer real growth potential. This card suggests being the professional student—curious about your field, willing to start at beginning and develop mastery, grounded in practical reality while remaining enthusiastic about possibilities. You're holding the pentacle of career potential, studying how to manifest it into lasting success through patient development.",
+          "reversed": "Professional procrastination, impractical career plans, or failure to develop skills despite opportunities may be preventing manifestation of vocational potential. You might be endlessly studying without applying knowledge, approaching career with unrealistic expectations, or starting professional ventures without proper preparation. This reversal warns against perpetual student status that never becomes practitioner, suggests examining whether you're preparing for career or avoiding actual work, and reminds you that learning must eventually translate to doing—contemplating the pentacle forever without putting it to use wastes opportunity."
+        },
+        "spirituality": {
+          "upright": "New spiritual opportunities, beginner's mind in sacred practice, or practical approach to faith development brings grounded potential and authentic learning. The Page of Pentacles represents beginning spiritual practice, approaching the divine with curiosity and humility, or sacred opportunities that offer real rather than fantastical growth. This card suggests being spiritual student—curious about tradition, willing to start at beginning and develop understanding, grounded in embodied practice while remaining open to mystery. You're holding the pentacle of sacred potential, studying how to manifest spiritual understanding into lived reality through patient practice.",
+          "reversed": "Spiritual procrastination, impractical faith development, or failure to practice despite opportunities may be preventing manifestation of sacred potential. You might be endlessly reading about spirituality without practicing, approaching faith with unrealistic expectations of instant enlightenment, or starting spiritual ventures without necessary discipline. This reversal warns against perpetual seeker status that never commits to path, suggests examining whether you're learning about the divine or avoiding actual relationship with the sacred, and reminds you that contemplating spiritual truth forever without embodying it wastes the opportunity for genuine transformation."
+        }
+    }
   },
   {
     "slug": "pentacles-012",
@@ -167,7 +321,21 @@
       "Plowed Field",
       "Armor"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightpent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightpent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Steady, reliable partnership, methodical approach to relationship building, or practical dedication to love brings security and trust through consistency. The Knight of Pentacles represents the partner who shows up every day, relationships built through routine commitment rather than dramatic gestures, or love that advances slowly but surely toward lasting goals. This card suggests approaching romance with the patience and persistence of the plowman—not flashy or exciting, but absolutely dependable, advancing relationship one furrow at a time, building trust through consistent action rather than grand promises. Slow doesn't mean lacking depth; it means building foundation that lasts.",
+          "reversed": "Relationship stagnation, boring partnership, or obsessive routine preventing growth may be undermining romantic vitality and connection. You might be so focused on stability that there's no spontaneity, stuck in relationship rut, or working so methodically on partnership that you've forgotten to actually enjoy it. This reversal warns against confusing reliability with dullness, suggests examining whether conservative approach has become rigid resistance to growth, and reminds you that relationships need both stability and vitality—the Knight's steady advance serves only if it's actually moving forward rather than treading same ground endlessly."
+        },
+        "career": {
+          "upright": "Methodical professional approach, steady career advancement, or diligent work ethic brings reliable success through consistency and dedication. The Knight of Pentacles represents the employee who never misses deadline, careers built through persistent daily effort rather than dramatic leaps, or professional advancement that's slow but absolutely certain. This card suggests approaching work with disciplined patience—doing each task thoroughly, advancing career one step at a time, building reputation through reliable performance rather than flashy achievements. You may not be the fastest or most innovative, but you're the one who finishes what you start and does it right.",
+          "reversed": "Professional stagnation, workaholism, or obsessive perfectionism preventing progress may be undermining career advancement and satisfaction. You might be so focused on doing things perfectly that nothing gets completed, stuck in career rut, or working so methodically that opportunities pass you by. This reversal warns against confusing diligence with obsession, suggests examining whether conservative approach has become paralyzing fear of change, and reminds you that careers need both reliability and adaptability—steady advancement serves only if you're actually progressing rather than plowing the same furrow endlessly without moving forward."
+        },
+        "spirituality": {
+          "upright": "Steady spiritual practice, methodical approach to sacred development, or disciplined daily devotion brings reliable growth through consistency and dedication. The Knight of Pentacles represents the practitioner who meditates every day, faith built through routine observance rather than peak experiences, or spiritual advancement that's gradual but absolutely certain. This card suggests approaching the sacred with patient persistence—doing practice thoroughly, advancing understanding one insight at a time, building relationship with divine through reliable devotion rather than dramatic conversions. Slow spiritual development often proves deeper and more lasting than sudden enlightenment.",
+          "reversed": "Spiritual stagnation, obsessive practice, or rigid routine preventing authentic growth may be undermining genuine development and connection. You might be so focused on perfect practice that you've lost the spirit, stuck in spiritual rut, or practicing so methodically that you can't experience spontaneous grace. This reversal warns against confusing discipline with rigidity, suggests examining whether conservative approach has become resistance to the Spirit's leading, and reminds you that faith needs both structure and openness—steady practice serves only if it's actually deepening rather than merely maintaining same level of surface devotion endlessly."
+        }
+    }
   },
   {
     "slug": "pentacles-013",
@@ -182,7 +350,21 @@
       "Pentacle",
       "Garden"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queenpent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queenpent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Nurturing partnership, practical care, or creating secure and abundant relationship environment brings warmth and comfort through grounded love. The Queen of Pentacles represents the partner who makes home a sanctuary, relationships built on mutual care and material security, or love expressed through practical acts of service and provision. This card suggests embodying the queen in her garden—creating beauty and abundance, nurturing growth with patient care, offering love that's both emotionally warm and practically supportive. You provide security not through control but through consistent nurturing that allows partnership to flourish naturally.",
+          "reversed": "Smothering partnership, self-care neglect, or work-life imbalance undermining relationship may be creating dysfunction despite good intentions. You might be so focused on caring for others that you're depleted, unable to receive nurturing even as you give it, or using material provision to compensate for emotional unavailability. This reversal warns against martyrdom disguised as nurturing, suggests examining whether you're caring for yourself as well as others, and reminds you that sustainable love requires balanced giving and receiving—you can't pour from empty cup, and the garden withers if the gardener neglects herself."
+        },
+        "career": {
+          "upright": "Professional nurturing, practical resource management, or creating prosperous and secure work environment brings success through grounded competence and care. The Queen of Pentacles represents leadership through nurturing teams, business success built on sound financial management, or careers in healing, hospitality, or any field requiring both competence and compassion. This card suggests embodying practical wisdom—managing resources wisely, creating environments where people and projects flourish, combining material success with genuine care for those you work with. Your professional garden produces abundance through patient, skilled cultivation.",
+          "reversed": "Work-life imbalance, professional self-neglect, or inability to manage resources effectively may be undermining career success and personal wellbeing. You might be so focused on work that personal life suffers, unable to maintain boundaries between professional and personal nurturing, or managing others' resources while neglecting your own financial security. This reversal warns against professional martyrdom, suggests examining whether you're sustainable in your work approach, and reminds you that effective leadership requires self-care—you can't nurture professional garden if you're too depleted to tend your own needs."
+        },
+        "spirituality": {
+          "upright": "Practical spirituality, nurturing sacred practice, or creating abundant spiritual life grounded in daily reality brings faith that's both mystical and embodied. The Queen of Pentacles represents spirituality expressed through care for material world, divine connection through nurturing others, or understanding that the sacred is found in garden, kitchen, and daily life rather than only in temple. This card suggests embodying grounded faith—tending spiritual life with same patient care as garden, recognizing divine in material abundance, and understanding that true spirituality nurtures both soul and body, serving heaven through conscientious care of earth.",
+          "reversed": "Spiritual self-neglect, imbalance between sacred and mundane, or using service to avoid authentic practice may be preventing genuine development. You might be so focused on serving others that your own spiritual life withers, unable to find the divine in daily life, or using material focus to avoid contemplative depth. This reversal warns against spiritual neglect disguised as practical service, suggests examining whether you're tending your own sacred garden, and reminds you that sustainable spirituality requires balance—you can't nurture others' faith if your own spiritual life is depleted, and earthly service without celestial connection becomes mere busyness."
+        }
+    }
   },
   {
     "slug": "pentacles-014",
@@ -197,6 +379,20 @@
       "Castle",
       "Robes"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingpent.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingpent.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Stable provider, mature partnership, or relationship built on solid foundation of mutual respect and material security brings lasting abundance and comfort. The King of Pentacles represents the partner who creates tangible security, relationships characterized by reliability and generosity, or love that's demonstrated through consistent provision and practical support. This card suggests embodying the king on his throne—successful in creating material comfort, generous with resources, building relationship empire through patient accumulation of shared wealth and experiences. Your partnership is an estate built to last, abundant in both material comfort and emotional security.",
+          "reversed": "Materialism without emotional connection, controlling through resources, or stubborn rigidity in relationship may be preventing genuine intimacy despite material success. You might be providing financially while emotionally unavailable, using money to control your partner, or so focused on building material security that you've lost romantic connection. This reversal warns against confusing provision with love, suggests examining whether you're building relationship or merely maintaining comfortable arrangement, and reminds you that the King's wealth serves partnership only when paired with emotional generosity—material abundance without heart is gilded cage."
+        },
+        "career": {
+          "upright": "Professional mastery, financial success, or leadership that creates lasting prosperity brings ultimate material achievement and security. The King of Pentacles represents business success, executive leadership, or career mastery that generates substantial and sustained wealth. This card suggests you've achieved the throne—financially secure through wise decisions and disciplined effort, leading others to prosperity, building professional empire that produces ongoing abundance. You're the king who turns everything to gold through Midas touch of practical wisdom, strategic thinking, and patient accumulation of resources and expertise.",
+          "reversed": "Greed, financial obsession, or using wealth to dominate may be corrupting success and creating professional isolation. You might be pursuing money at expense of all else, using financial power to control rather than lead, or so stubbornly attached to current approach that you can't adapt to changing circumstances. This reversal warns against becoming slave to wealth you've mastered, suggests examining whether success serves you or you serve it, and reminds you that the King's power comes from wise stewardship not greedy accumulation—wealth that doesn't serve greater good than mere possession is meaningless."
+        },
+        "spirituality": {
+          "upright": "Spiritual maturity, embodied wisdom, or sacred understanding that creates tangible blessing in material world brings ultimate integration of heaven and earth. The King of Pentacles represents faith that produces real fruit, spiritual mastery demonstrated through practical wisdom and material generosity, or understanding that the sacred blesses and transforms material reality rather than merely transcending it. This card suggests achieving spiritual throne—mature in faith that's grounded in reality, leading others toward practical holiness, understanding that genuine spirituality sanctifies material world and creates tangible abundance. Your faith turns ordinary life to gold.",
+          "reversed": "Spiritual materialism, using faith for material gain, or stubborn attachment to earthly comfort preventing transcendence may be corrupting authentic development. You might be treating spirituality as means to wealth, so focused on material blessings that you've lost sacred connection, or using religious authority to accumulate power and resources. This reversal warns against prosperity gospel that serves greed rather than God, suggests examining whether your faith elevates material or sanctifies it, and reminds you that true spiritual kingship serves heaven through wise stewardship of earth—faith that produces only material comfort without transformation of heart is counterfeit."
+        }
+    }
   }
 ]

@@ -23,21 +23,21 @@ class ReadingsControllerTest {
         mvc.perform(post("/api/readings").contentType(MediaType.APPLICATION_JSON)
                 .content("""
                         {
-                            "id": "test-drawing-123",
+                            "id": "test-spread-123",
                             "deckSlug": "rider-waite",
                             "drawingType": "THREE_CARD_SPREAD"
                         }
                     """))
             .andExpect(status().isOk())
-            .andExpect(jsonPath("$.drawing.id").value("test-drawing-123"))
-            .andExpect(jsonPath("$.drawing.deckSlug").value("rider-waite"))
-            .andExpect(jsonPath("$.drawing.cards").isArray())
-            .andExpect(jsonPath("$.drawing.cards.length()").value(3))
-            .andExpect(jsonPath("$.drawing.cards[*].position").isNotEmpty())
-            .andExpect(jsonPath("$.drawing.cards[*].cardSlug").isNotEmpty())
-            .andExpect(jsonPath("$.drawing.cards[*].orientation").isNotEmpty())
-            .andExpect(jsonPath("$.drawing.cards[*].meaning").isNotEmpty())
-            .andExpect(jsonPath("$.drawing.cards[*].imageUrl").isNotEmpty())
+            .andExpect(jsonPath("$.spread.id").value("test-spread-123"))
+            .andExpect(jsonPath("$.spread.deckSlug").value("rider-waite"))
+            .andExpect(jsonPath("$.spread.cards").isArray())
+            .andExpect(jsonPath("$.spread.cards.length()").value(3))
+            .andExpect(jsonPath("$.spread.cards[*].position").isNotEmpty())
+            .andExpect(jsonPath("$.spread.cards[*].cardSlug").isNotEmpty())
+            .andExpect(jsonPath("$.spread.cards[*].orientation").isNotEmpty())
+            .andExpect(jsonPath("$.spread.cards[*].meaning").isNotEmpty())
+            .andExpect(jsonPath("$.spread.cards[*].imageUrl").isNotEmpty())
             .andExpect(jsonPath("$.reading.chapters").isArray())
             .andExpect(jsonPath("$.reading.chapters.length()").value(3))
             .andExpect(jsonPath("$.reading.chapters[*].title").isNotEmpty())

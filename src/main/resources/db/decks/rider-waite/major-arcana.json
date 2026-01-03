@@ -11,7 +11,21 @@
       "White Rose",
       "Knapsack"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/fool.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/fool.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "The Fool invites you to approach love with an open heart and a spirit of adventure, embracing new romantic possibilities without fear or cynicism. This card suggests the beginning of an exciting journey, whether that's a fresh relationship filled with spontaneity or rekindling the playful innocence in an existing partnership. Trust in the universe and take that leap of faith, for love rewards those who dare to be vulnerable and authentic.",
+          "reversed": "Recklessness and naivety in matters of the heart may lead to poor judgment or unrealistic expectations about relationships. You might be jumping into romance without considering the consequences, ignoring red flags, or refusing to learn from past relationship patterns. This reversal warns against foolishness disguised as spontaneity and encourages you to balance enthusiasm with wisdom."
+        },
+        "career": {
+          "upright": "A bold new beginning awaits in your professional life, whether that's starting a business, changing careers, or embarking on an unconventional path that others might consider risky. The Fool encourages you to trust your instincts, embrace the unknown, and believe in your unique vision even when the outcome isn't guaranteed. This is a time for innovation, creative thinking, and taking calculated risks that could lead to extraordinary opportunities.",
+          "reversed": "Impulsive career decisions made without proper planning or consideration could lead to instability and wasted potential. You may be acting irresponsibly with your professional life, avoiding necessary preparations, or pursuing unrealistic dreams without a practical foundation. Consider whether you're being genuinely adventurous or simply running away from the hard work required for success."
+        },
+        "spirituality": {
+          "upright": "Embark on your spiritual journey with childlike wonder and complete trust in the divine unfolding of your path, free from preconceived notions or limiting beliefs. The Fool represents pure potential and the courage to explore spiritual realms with fresh eyes, embracing experiences that expand your consciousness. This card encourages you to step off the cliff of the known and into the infinite possibilities of spiritual awakening.",
+          "reversed": "Spiritual bypassing or using spirituality to avoid real-world responsibilities may be preventing genuine growth and grounding. You might be chasing every new spiritual trend without depth or commitment, or using your spiritual beliefs as an excuse for poor life choices. True enlightenment requires both transcendence and practical wisdom, not escapism dressed as faith."
+        }
+    }
   },
   {
     "slug": "major-arcana-001",
@@ -26,7 +40,21 @@
       "Sword",
       "Pentacle"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/magician.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/magician.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "The Magician brings magnetic charisma and the power to manifest the relationship you desire through focused intention and authentic communication. This card indicates a time when you have all the tools necessary to create meaningful connections, attract a soulmate, or deepen existing bonds through skillful expression of your needs and desires. Channel your personal power wisely and watch as romantic possibilities align with your highest vision.",
+          "reversed": "Manipulation, deception, or using your charm for selfish purposes may be poisoning your romantic relationships and preventing genuine intimacy. You or your partner might be employing tricks, withholding truth, or presenting a false version of yourselves to get what you want. This reversal warns that illusions and half-truths will ultimately undermine the foundation of any meaningful connection."
+        },
+        "career": {
+          "upright": "You possess all the skills, resources, and talents needed to achieve your professional goals—now is the time to take decisive action and manifest your ambitions. The Magician represents mastery, innovation, and the ability to transform ideas into reality through focused effort, strategic planning, and confident execution. This is an excellent time for starting new projects, showcasing your abilities, or stepping into a role that requires creativity and versatility.",
+          "reversed": "Untapped potential, scattered energy, or misuse of your talents may be preventing career advancement and professional fulfillment. You might be experiencing imposter syndrome, wasting your abilities on trivial pursuits, or using your skills unethically for short-term gains. Consider whether you're truly honoring your gifts or squandering them through lack of focus, discipline, or integrity."
+        },
+        "spirituality": {
+          "upright": "You are a conduit between the spiritual and material realms, capable of manifesting divine will through conscious intention and alignment with universal laws. The Magician teaches that you have access to all four elements—earth, air, fire, and water—and can harness their energies to create transformation in your life. This card encourages you to recognize your role as a co-creator with the universe and to use your spiritual knowledge for practical application.",
+          "reversed": "Spiritual gifts may be misused for ego gratification, or you might be dabbling in practices without proper understanding or ethical grounding. There's a risk of using spiritual knowledge to manipulate others, inflate your sense of importance, or bypass the real inner work required for authentic growth. True spiritual mastery requires humility, integrity, and service rather than showmanship or self-aggrandizement."
+        }
+    }
   },
   {
     "slug": "major-arcana-002",
@@ -40,7 +68,21 @@
       "Pomegranates",
       "Pillars"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/highpriestess.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/highpriestess.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Deep intuition and unspoken understanding characterize your romantic connections, as the High Priestess reveals mysteries of the heart that lie beneath surface interactions. This card suggests a relationship that operates on a soul level, where emotional and psychic bonds create profound intimacy beyond physical attraction. Trust your inner knowing about matters of love, pay attention to dreams and subtle energies, and honor the sacred feminine wisdom that guides you toward authentic partnership.",
+          "reversed": "Secrets, hidden agendas, or suppressed emotions may be creating distance and mistrust in your romantic life. You might be ignoring your intuition about a partner's true intentions, keeping parts of yourself hidden out of fear, or allowing repressed feelings to build walls between you and intimacy. This reversal calls for honest self-examination and the courage to bring what's hidden into the light."
+        },
+        "career": {
+          "upright": "Your intuition and behind-the-scenes knowledge give you a strategic advantage in professional matters, making this an excellent time to trust your instincts about career decisions. The High Priestess suggests that not everything needs to be revealed or acted upon immediately—sometimes power lies in patient observation, gathering information, and waiting for the right moment to make your move. Roles involving research, counseling, teaching esoteric subjects, or work that requires deep insight suit you particularly well now.",
+          "reversed": "Information is being withheld, or you may be out of touch with the subtle dynamics at play in your workplace, leading to poor decisions or missed opportunities. Office politics, hidden agendas, or your own disconnect from intuitive guidance could be creating professional obstacles. Consider whether you're ignoring important signals, keeping secrets that should be shared, or relying too heavily on logic while dismissing your inner wisdom."
+        },
+        "spirituality": {
+          "upright": "Access to higher wisdom and divine feminine mysteries is available to you through meditation, dreamwork, and cultivating stillness in your inner temple. The High Priestess guards the threshold between conscious and unconscious realms, inviting you to explore the depths of your psyche, develop your psychic abilities, and honor the sacred knowledge that resides within. This is a time for studying mystical traditions, trusting your spiritual visions, and allowing intuition to be your primary guide.",
+          "reversed": "Disconnection from your inner voice or an imbalance between intellect and intuition may be blocking your spiritual progress. You might be seeking answers externally while ignoring the wisdom already present within you, or allowing fear and doubt to override your psychic impressions. True spiritual development requires you to listen to the whispers of your soul and trust the mysteries that cannot be grasped by the rational mind alone."
+        }
+    }
   },
   {
     "slug": "major-arcana-003",
@@ -54,7 +96,21 @@
       "Wheat",
       "River"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/empress.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/empress.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Abundant love, sensual pleasure, and nurturing energy flow freely in your romantic life, creating a fertile ground for deep emotional and physical connection. The Empress represents the divine feminine in full bloom, suggesting relationships characterized by warmth, creativity, and unconditional acceptance. Whether you're welcoming new love or enriching an existing partnership, this card promises growth, beauty, and the potential for creation—be it children, artistic projects, or simply a life rich with shared joy.",
+          "reversed": "Neglect of self-care, creative blocks in relationships, or smothering behavior may be preventing the natural flourishing of love. You might be giving too much without receiving, losing yourself in the role of caretaker, or conversely, being too dependent on others for your sense of worth. This reversal asks you to examine where nurturing has become draining and to restore balance between giving and receiving affection."
+        },
+        "career": {
+          "upright": "Creative abundance and professional growth are blossoming as your ideas find fertile ground and your efforts yield tangible results. The Empress signals a time of prosperity, successful collaborations, and the manifestation of long-term projects, particularly those involving creativity, beauty, caregiving, or bringing something new into the world. Your natural ability to nurture ideas from conception to completion makes this an ideal time for entrepreneurship, artistic ventures, or roles that require both vision and practical cultivation.",
+          "reversed": "Creative blocks, financial dependence, or lack of progress despite effort may be frustrating your professional ambitions. You might be experiencing creative drought, struggling to bring projects to fruition, or feeling undervalued in your work. Consider whether you're nurturing your career with the same care you give to others, or if fear of success is preventing you from fully embodying your creative power."
+        },
+        "spirituality": {
+          "upright": "Connection to the Earth, the divine feminine, and the creative life force of the universe awakens you to the sacredness inherent in physical existence and natural cycles. The Empress teaches that spirituality isn't separate from material reality but expressed through it—in the beauty of nature, the pleasure of the senses, and the creative acts that birth new forms into being. Honor your body as a temple, celebrate abundance in all its forms, and recognize that nurturing yourself and others is a profound spiritual practice.",
+          "reversed": "Disconnection from your body, nature, or the material world may be creating spiritual imbalance and a sense of emptiness. You might be rejecting the physical realm in pursuit of transcendence, or conversely, becoming so consumed by material concerns that you've lost touch with the sacred. True spiritual wholeness requires integrating heaven and earth, honoring both your soul's calling and your embodied human experience."
+        }
+    }
   },
   {
     "slug": "major-arcana-004",
@@ -68,7 +124,21 @@
       "Orb",
       "Scepter"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/emperor.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/emperor.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "The Emperor brings powerful stability and structure to your romantic life, embodying the archetype of the protective provider who takes commitment seriously. This card suggests a relationship built on solid foundations, where loyalty, security, and clear boundaries create a safe space for love to flourish. Whether you're seeking or already have a partner, expect someone who demonstrates their affection through actions, responsibility, and unwavering dedication.",
+          "reversed": "Control issues and power struggles may be undermining the harmony in your relationship, with one partner dominating or imposing rigid expectations on the other. Emotional unavailability or an overly authoritarian approach to love can create distance and resentment, stifling the natural flow of intimacy. This reversal calls for examining whether fear or ego is preventing genuine vulnerability and emotional connection."
+        },
+        "career": {
+          "upright": "You are stepping into a position of authority and leadership, where your organizational skills, strategic thinking, and ability to create structure will lead to significant professional achievements. The Emperor represents mastery over your domain, suggesting that discipline, clear goals, and a methodical approach will establish you as a respected figure in your field. This is an excellent time for taking on leadership roles, starting your own business, or implementing systems that bring order to chaos.",
+          "reversed": "Excessive rigidity, micromanagement, or abuse of power may be creating a toxic work environment that stifles creativity and innovation. You might be encountering an overly controlling boss, struggling with bureaucratic red tape, or finding that strict adherence to rules is preventing progress. Consider whether you're being too inflexible in your approach or whether it's time to challenge oppressive structures that no longer serve growth."
+        },
+        "spirituality": {
+          "upright": "Spiritual growth flourishes when paired with discipline, structure, and consistent practice, as the Emperor reminds us that enlightenment requires dedication and a solid framework. Establish clear rituals, honor traditions that resonate with you, and approach your spiritual path with the same commitment you would bring to mastering any important skill. This card encourages you to be the architect of your own spiritual journey, building a foundation that can weather any storm.",
+          "reversed": "Rigid dogma or authoritarian spiritual beliefs may be constraining your authentic expression and preventing true spiritual evolution. The reversed Emperor suggests it's time to question inherited belief systems, break free from spiritual authorities who demand blind obedience, and embrace a more flexible, personal approach to the divine. Liberation comes from honoring your own inner wisdom rather than submitting to external rules that feel oppressive."
+        }
+    }
   },
   {
     "slug": "major-arcana-005",
@@ -82,7 +152,21 @@
       "Crown",
       "Two Acolytes"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/heirophant.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/heirophant.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Traditional commitment, shared values, and spiritual alignment form the foundation of meaningful partnership, as the Hierophant blesses unions built on more than just passion. This card often indicates marriage, formal commitments, or relationships where both partners share deep moral and philosophical convictions. Seeking guidance from trusted mentors, counselors, or spiritual advisors can strengthen your bond, and honoring the sacred dimension of love brings profound fulfillment.",
+          "reversed": "Conforming to others' expectations rather than honoring your authentic desires may be stifling genuine connection and personal truth in relationships. You might feel trapped by conventional relationship norms, pressured by family or society to follow a traditional path that doesn't resonate, or struggling with a partner whose values fundamentally differ from yours. This reversal invites you to question whether you're living your own love story or following someone else's script."
+        },
+        "career": {
+          "upright": "Working within established systems, honoring tradition, and pursuing formal education or certification will advance your professional goals and earn you respect. The Hierophant represents institutions, conventional career paths, and the wisdom passed down through proper channels, making this an excellent time for pursuing degrees, working with mentors, or building credibility through recognized credentials. Your adherence to proven methods and ethical standards establishes you as a trustworthy authority in your field.",
+          "reversed": "Rigid bureaucracy, outdated practices, or blind adherence to tradition may be hindering innovation and authentic expression in your work life. You might feel constrained by organizational hierarchies, frustrated with conventional approaches that no longer serve, or tempted to rebel against systems that demand conformity over creativity. Consider whether it's time to challenge the status quo or forge your own unconventional professional path."
+        },
+        "spirituality": {
+          "upright": "Formal spiritual teachings, religious traditions, and guidance from established wisdom keepers provide structure and depth to your spiritual journey. The Hierophant represents the value of lineage, ritual, and time-tested practices that connect you to something greater than individual experience. This card encourages you to find a teacher, join a spiritual community, or commit to a traditional path that offers both roots and wings, grounding your seeking in ancient wisdom while supporting your personal growth.",
+          "reversed": "Dogma, spiritual authority figures who demand blind obedience, or rigid religious structures may be suppressing your authentic spiritual expression and direct connection to the divine. You might be ready to leave behind beliefs that no longer serve your evolution, question teachings you've accepted without examination, or find your own path outside institutional religion. True spirituality honors both tradition's wisdom and each soul's unique journey toward truth."
+        }
+    }
   },
   {
     "slug": "major-arcana-006",
@@ -96,7 +180,21 @@
       "Tree of Knowledge",
       "Mountains"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/lovers.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/lovers.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Divine union, soul-level connection, and the harmonious blending of two individuals create a partnership that reflects your highest values and authentic self. The Lovers represents not just romantic attraction but a relationship where choice, commitment, and alignment of purpose elevate love to its most sacred expression. This card suggests a significant relationship milestone, a deepening of intimacy, or the arrival of a connection that challenges you to grow while honoring your truth.",
+          "reversed": "Inner conflict, misaligned values, or choosing partners who don't reflect your authentic self may be creating disharmony in your love life. You might be facing difficult relationship decisions, struggling with temptation or infidelity, or realizing that you and your partner have grown in different directions. This reversal calls for honest self-examination about what you truly want and need, and whether your current relationship supports your highest good."
+        },
+        "career": {
+          "upright": "Professional partnerships, collaborative ventures, and career choices that align with your core values bring both success and fulfillment. The Lovers indicates an important career decision where you must choose between different paths, and the right choice will be the one that honors your authentic self rather than just external rewards. This card favors teamwork, ethical business practices, and work that integrates your personal beliefs with professional goals.",
+          "reversed": "Value conflicts at work, choosing money over integrity, or partnerships that lack mutual respect may be creating professional discontent. You might be facing a career crossroads where the financially rewarding path contradicts your ethical standards, or you're in a business relationship where goals and values are fundamentally misaligned. Consider whether you're compromising your principles for security or recognition, and whether professional success without personal integrity is truly success at all."
+        },
+        "spirituality": {
+          "upright": "Integration of opposites, conscious choice in spiritual development, and recognition that all paths lead to divine love characterize your current spiritual journey. The Lovers represents the sacred marriage of masculine and feminine energies within you, the alignment of will and heart, and the understanding that spiritual growth requires both individual sovereignty and connection to something greater. This card encourages you to make conscious choices about your spiritual path, honoring both your unique truth and universal love.",
+          "reversed": "Internal conflict between different aspects of yourself or competing spiritual beliefs may be preventing wholeness and authentic spiritual expression. You might be torn between different spiritual paths, struggling to integrate shadow aspects of your psyche, or experiencing dissonance between your spiritual ideals and actual behavior. True spiritual development requires accepting all parts of yourself and making peace with the internal contradictions that make you beautifully human."
+        }
+    }
   },
   {
     "slug": "major-arcana-007",
@@ -110,7 +208,21 @@
       "Starry Canopy",
       "Wand"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/chariot.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/chariot.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Determination, willpower, and clear direction propel your romantic life forward, as you take control of your love destiny and overcome obstacles through focused intention. The Chariot suggests successfully balancing opposing forces—independence and partnership, passion and reason, giving and receiving—to create a relationship that moves purposefully toward shared goals. This card favors taking action in love, pursuing what you want with confidence, and maintaining your personal power within partnership.",
+          "reversed": "Lack of direction, conflicting desires, or losing control of emotions may be derailing your romantic progress and creating chaos in relationships. You might be forcing a relationship in the wrong direction, struggling to balance different needs, or finding that aggressive pursuit is pushing love away rather than drawing it near. This reversal calls for pausing to reassess your approach, ensuring your efforts align with genuine compatibility rather than ego-driven conquest."
+        },
+        "career": {
+          "upright": "Victory, advancement, and the successful navigation of professional challenges through discipline, determination, and strategic action bring you closer to your career goals. The Chariot represents the warrior spirit in work, suggesting that you have the focus, willpower, and momentum needed to overcome obstacles and achieve ambitious objectives. This is an excellent time for competitions, promotions, sales, leadership roles, or any endeavor requiring you to harness opposing forces and drive them toward a unified purpose.",
+          "reversed": "Scattered energy, lack of direction, or aggressive tactics that backfire may be preventing career progress despite your efforts. You might be trying to control too many things at once, moving forward without a clear strategy, or finding that sheer willpower isn't enough to overcome current obstacles. Consider whether you're forcing outcomes, whether your goals are realistic, or whether you need to pause and recalibrate before charging ahead."
+        },
+        "spirituality": {
+          "upright": "Mastery over the material realm through focused spiritual will, disciplined practice, and the integration of opposing forces within your psyche brings you closer to enlightenment. The Chariot teaches that spiritual advancement requires directing your energies purposefully, maintaining strong boundaries, and using your willpower to overcome lower impulses and stay aligned with higher consciousness. This card encourages you to be the victor of your own inner battles, transforming base desires into refined spiritual fuel.",
+          "reversed": "Spiritual ego, forcing enlightenment, or attempting to control the divine journey through willpower alone may be creating imbalance and blocking natural spiritual unfolding. You might be approaching spirituality as another goal to conquer, using practices to inflate your sense of superiority, or refusing to surrender to forces greater than your individual will. Remember that true spiritual mastery includes knowing when to act and when to allow, when to control and when to release."
+        }
+    }
   },
   {
     "slug": "major-arcana-008",
@@ -124,7 +236,21 @@
       "White Robe",
       "Flowers"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/strength.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/strength.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Gentle power, compassion, and emotional courage allow you to tame the wildest aspects of love through patience and understanding rather than force. Strength represents the quiet confidence that comes from knowing your worth, the ability to remain calm during relationship storms, and the courage to be vulnerable while maintaining healthy boundaries. This card suggests that love flourishes when approached with kindness, inner fortitude, and the wisdom to influence through tenderness rather than control.",
+          "reversed": "Self-doubt, emotional weakness, or attempting to control love through aggression rather than compassion may be creating relationship turmoil. You might be struggling with insecurity, allowing fear to make you either too passive or too domineering, or finding that you lack the inner strength to handle the challenges of intimate partnership. This reversal calls for developing emotional resilience, addressing your fears with self-compassion, and learning that true strength is gentle."
+        },
+        "career": {
+          "upright": "Quiet confidence, patient persistence, and the ability to influence through integrity rather than force establish you as a powerful presence in your professional life. Strength represents leadership through example, the courage to face workplace challenges without becoming harsh or defensive, and the inner fortitude to pursue long-term goals despite obstacles. This card favors careers in healing, teaching, counseling, or any role where your ability to remain centered and compassionate under pressure becomes your greatest asset.",
+          "reversed": "Lacking confidence, being overly aggressive, or feeling overwhelmed by professional demands may be undermining your career effectiveness and reputation. You might be either too timid to assert yourself or overcompensating with forceful behavior that alienates colleagues, or you're simply exhausted by the effort required to maintain composure in difficult circumstances. Consider whether you need to develop greater inner resilience or find work that doesn't constantly deplete your emotional reserves."
+        },
+        "spirituality": {
+          "upright": "Mastery over primal instincts, emotional equilibrium, and the integration of your shadow self through compassionate awareness rather than repression characterize your spiritual journey. Strength teaches that true spiritual power comes from facing your fears, taming your ego, and approaching even your darkest impulses with loving understanding. This card encourages you to develop the inner fortitude needed for sustained spiritual practice, to have courage in the face of spiritual challenges, and to recognize that gentleness is the highest form of power.",
+          "reversed": "Spiritual weakness, being overwhelmed by shadow aspects, or using aggression to suppress unwanted parts of yourself may be preventing genuine integration and growth. You might be avoiding necessary spiritual work because it feels too challenging, or conversely, attacking yourself harshly for perceived spiritual failings. Remember that transformation happens through patient self-acceptance, not through force, and that acknowledging your vulnerabilities is itself a profound act of courage."
+        }
+    }
   },
   {
     "slug": "major-arcana-009",
@@ -138,7 +264,21 @@
       "Mountain Peak",
       "Star of David"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/hermit.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/hermit.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Solitude, introspection, and deep self-knowledge are necessary before meaningful partnership can flourish, as the Hermit illuminates the truth that you must know yourself before truly knowing another. This card may indicate a period of being single to gain clarity about what you truly want, or it suggests bringing more depth and contemplation to an existing relationship. Time spent in quiet reflection, honest self-examination, and spiritual connection strengthens your capacity for authentic intimacy when the right person appears.",
+          "reversed": "Isolation becoming loneliness, using solitude to avoid intimacy, or excessive withdrawal from relationship opportunities may be preventing the love connection you seek. You might be spending so much time in introspection that you've lost the ability to connect with others, or you're using 'working on yourself' as an excuse to avoid the vulnerability that real relationships require. This reversal suggests finding balance between inner work and outer connection, between self-knowledge and shared experience."
+        },
+        "career": {
+          "upright": "Expertise gained through deep study, mentorship roles, or work requiring solitary focus and specialized knowledge bring you professional recognition and success. The Hermit represents the scholar, the expert, the trusted advisor who has withdrawn from the noise to master their craft and now shares that wisdom with those who seek it. This card favors research, consulting, teaching at advanced levels, or any career where depth of knowledge matters more than social networking.",
+          "reversed": "Isolation from colleagues, refusing guidance when needed, or becoming so specialized that you lose perspective may be limiting your professional growth. You might be working alone when collaboration would better serve your goals, stubbornly rejecting mentorship or advice, or becoming so absorbed in your own expertise that you can't communicate effectively with others. Consider whether your independence has become counterproductive isolation."
+        },
+        "spirituality": {
+          "upright": "Deep meditation, solitary spiritual practice, and the inward journey to discover your own inner light characterize this phase of spiritual development. The Hermit represents the mystic who withdraws from worldly distractions to seek truth in silence, to illuminate the darkness within, and to discover that all answers ultimately reside in the soul's deepest chambers. This card encourages you to seek solitude for spiritual reflection, to find your own guru within, and to trust that time spent in contemplation yields wisdom no external teacher can provide.",
+          "reversed": "Spiritual isolation becoming disconnection, excessive withdrawal from spiritual community, or getting lost in the darkness instead of finding the light may be creating imbalance. You might be so focused on solitary practice that you've forgotten the value of shared spiritual experience, or you're using spirituality to justify antisocial behavior and avoid meaningful human connection. Remember that even the Hermit eventually returns from the mountaintop to share the wisdom gained, and that spiritual evolution includes both withdrawal and engagement."
+        }
+    }
   },
   {
     "slug": "major-arcana-010",
@@ -153,7 +293,21 @@
       "Anubis",
       "Four Creatures"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/wheeloffortune.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/wheeloffortune.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "The cycles of love turn in your favor as fate, timing, and karmic connections bring unexpected romantic opportunities or positive shifts in existing relationships. The Wheel of Fortune reminds you that love has seasons—periods of intensity and calm, connection and distance, joy and challenge—and that accepting these natural rhythms creates resilience and appreciation. This card often signals a turning point in your romantic life, a stroke of good luck in love, or the understanding that what feels like chance is actually destiny unfolding.",
+          "reversed": "Bad timing, resistance to natural relationship cycles, or feeling victimized by romantic circumstances may be creating unnecessary suffering in your love life. You might be fighting against inevitable changes, blaming fate for relationship challenges instead of taking responsibility, or experiencing a downturn in romantic fortune that feels beyond your control. This reversal encourages acceptance of what cannot be changed while recognizing what you can influence through attitude and action."
+        },
+        "career": {
+          "upright": "A fortunate turn of events, unexpected opportunities, or the culmination of past efforts brings positive change and advancement in your professional life. The Wheel of Fortune represents the natural cycles of success, suggesting that you've reached a high point in your career trajectory or that luck and timing are conspiring in your favor. This card reminds you to seize opportunities when they appear, to recognize that sometimes success comes from being in the right place at the right time, and to prepare for the inevitable cycles of expansion and consolidation.",
+          "reversed": "Professional setbacks, bad timing, or resistance to necessary career changes may be creating frustration and a sense of powerlessness. You might be experiencing a downturn in fortune, missing opportunities due to poor timing, or refusing to adapt to changing circumstances in your industry. Remember that the wheel always turns—what goes down eventually comes back up—and that adversity often teaches the lessons necessary for future success if you remain flexible and resilient."
+        },
+        "spirituality": {
+          "upright": "Understanding the law of karma, accepting the cyclical nature of spiritual growth, and recognizing divine timing in your spiritual journey brings wisdom and peace. The Wheel of Fortune teaches that everything is connected, that actions have consequences that may take time to manifest, and that both challenges and blessings serve your soul's evolution. This card encourages you to trust in the larger patterns at work in your life, to see setbacks as part of natural cycles rather than personal failures, and to recognize that you're exactly where you need to be for your spiritual development.",
+          "reversed": "Fighting against spiritual lessons, feeling victimized by circumstances, or refusing to see the larger patterns and meaning in life's ups and downs may be preventing spiritual growth. You might be stuck in victim consciousness, blaming fate or karma while refusing to take responsibility for your choices, or becoming bitter during difficult cycles instead of seeking their deeper meaning. True spiritual maturity comes from accepting both the highs and lows as necessary for evolution and maintaining faith even when the wheel turns you downward."
+        }
+    }
   },
   {
     "slug": "major-arcana-011",
@@ -167,7 +321,21 @@
       "Crown",
       "Purple Robe"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/justice.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/justice.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Fairness, balanced give-and-take, and honest assessment of relationship dynamics create harmony and long-term sustainability in your romantic life. Justice indicates that relationships are being evaluated based on truth and equality, suggesting either that a fair partnership is forming or that imbalances are being corrected through honest communication. This card reminds you that love requires both partners to contribute equally, that consequences follow actions in relationships, and that integrity is the foundation of lasting commitment.",
+          "reversed": "Imbalance, dishonesty, or unfair treatment in relationships may be creating resentment and undermining the foundation of your romantic connections. You might be giving far more than you receive, avoiding necessary difficult conversations, or refusing to acknowledge your own role in relationship problems. This reversal calls for honest evaluation of whether your relationships are truly equitable, whether you're being treated with the respect you deserve, and whether you're holding yourself accountable for your own behavior."
+        },
+        "career": {
+          "upright": "Fair dealings, legal matters resolved in your favor, and professional situations judged on merit rather than bias bring positive outcomes and advancement. Justice represents contracts, legal agreements, ethical business practices, and the natural consequences of past professional actions now coming to fruition. This is an excellent time for negotiations, legal proceedings, making fair deals, or any situation where truth and integrity will be recognized and rewarded.",
+          "reversed": "Unfair treatment at work, legal complications, or unethical practices may be creating professional challenges and obstacles to advancement. You might be experiencing workplace discrimination, dealing with dishonest colleagues or employers, or facing the consequences of past shortcuts or questionable decisions. This reversal suggests the need to examine your own integrity, seek legal counsel if necessary, or recognize that you may be receiving exactly what your past actions have earned—whether fair or not from your perspective."
+        },
+        "spirituality": {
+          "upright": "Understanding the law of cause and effect, accepting responsibility for your choices, and recognizing that spiritual growth requires honest self-assessment and accountability brings wisdom and balance. Justice teaches that the universe operates on principles of balance and that every action creates ripples that eventually return to their source. This card encourages you to live with integrity, to make amends where necessary, to accept both credit and responsibility for your circumstances, and to trust that divine law ultimately serves everyone's highest good.",
+          "reversed": "Avoiding spiritual accountability, blaming others or external forces for your circumstances, or refusing to acknowledge how your choices have created your current reality may be preventing genuine growth. You might be seeking spiritual bypassing to avoid responsibility, feeling victimized when you're actually experiencing natural consequences, or judging yourself too harshly without compassion. True spiritual justice includes both accountability and forgiveness, recognizing that you're doing the best you can while still taking responsibility for improvement."
+        }
+    }
   },
   {
     "slug": "major-arcana-012",
@@ -181,7 +349,21 @@
       "Tree",
       "Crossed Legs"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/hangedman.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/hangedman.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Surrender, seeing relationships from a new perspective, and willingly pausing forward momentum to gain deeper understanding can transform your romantic life in unexpected ways. The Hanged Man suggests that letting go of control, releasing expectations about how love should look, and embracing a period of suspension or uncertainty might be exactly what's needed for breakthrough. This card invites you to sacrifice short-term desires for long-term wisdom, to view your relationships from an entirely different angle, and to trust that sometimes the greatest growth comes from patient waiting.",
+          "reversed": "Unnecessary martyrdom, refusing to let go of relationships that no longer serve you, or feeling stuck in romantic limbo without taking action may be creating suffering. You might be sacrificing too much for love without reciprocation, maintaining a victim mentality in relationships, or resisting the very changes that would bring liberation. This reversal suggests that while surrender has its place, sometimes you need to stop hanging upside down, cut yourself free, and choose a different path entirely."
+        },
+        "career": {
+          "upright": "A necessary pause in career progression, willingly sacrificing immediate gains for future wisdom, or viewing professional situations from a completely different perspective brings unexpected insight. The Hanged Man indicates that this is not a time for aggressive advancement but for patient reflection, suggesting that what appears to be stagnation is actually preparation. This card favors sabbaticals, career reassessment, unconventional approaches to work, or the wisdom that comes from stepping back to see the bigger picture before making important professional decisions.",
+          "reversed": "Feeling stuck in your career without taking action to change it, making pointless sacrifices that bring no reward, or refusing to embrace necessary professional transitions may be prolonging dissatisfaction. You might be clinging to a job or career path that no longer serves you out of fear, or you're waiting for external circumstances to change when you have the power to act. Consider whether your period of suspension has transformed into simple stagnation and whether it's time to stop waiting and start moving."
+        },
+        "spirituality": {
+          "upright": "Spiritual surrender, seeing the divine from a completely inverted perspective, and the wisdom gained through willing sacrifice and suspension of ego bring profound enlightenment. The Hanged Man represents the mystic who releases attachment to outcomes, who finds illumination through surrender rather than striving, and who discovers that sometimes you must lose everything to gain what truly matters. This card encourages you to embrace spiritual paradox, to find freedom in surrender, and to trust that the universe's timing is perfect even when it requires you to wait suspended between worlds.",
+          "reversed": "False martyrdom in spiritual practice, using spirituality to avoid real-world responsibilities, or remaining in suspended spiritual development without integration may be preventing authentic growth. You might be confusing passive acceptance with true surrender, sacrificing without discernment, or stuck in spiritual seeking without ever landing on solid ground. Remember that the Hanged Man must eventually be cut down to begin the next phase of the journey—perpetual suspension is not the goal but a transitional state leading to transformation."
+        }
+    }
   },
   {
     "slug": "major-arcana-013",
@@ -196,7 +378,21 @@
       "White Rose",
       "Sun"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/death.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/death.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Profound transformation, the ending of old relationship patterns, and the death of who you were in love make space for rebirth into more authentic partnership. Death signals that a significant cycle is completing—perhaps a relationship is ending, or the relationship itself is transforming into something entirely new, or you're releasing outdated beliefs about love that have kept you from true intimacy. This card reminds you that endings are necessary for new beginnings, that letting go creates space for what's meant to be, and that the most profound love often emerges from the ashes of what we thought we wanted.",
+          "reversed": "Resistance to necessary relationship endings, clinging to dead connections, or fear of transformation preventing new love from emerging may be prolonging suffering. You might be refusing to acknowledge that a relationship has run its course, avoiding grief by staying in limbo, or so terrified of change that you're choosing slow death over transformative rebirth. This reversal calls for releasing what no longer serves you, accepting that some chapters must close, and trusting that endings make space for new and better beginnings."
+        },
+        "career": {
+          "upright": "Major professional transformation, the end of one career phase and the beginning of another, or necessary elimination of what no longer serves your growth brings renewal and opportunity. Death indicates that significant change is inevitable in your work life—perhaps a job is ending, an entire industry is transforming, or you're being called to release professional identities that have outlived their purpose. While this transition may feel uncomfortable, it clears away the old to make room for career paths more aligned with who you're becoming.",
+          "reversed": "Refusing to let go of outdated career paths, fearing necessary professional change, or remaining in jobs that are slowly killing your spirit may be preventing evolution and growth. You might be clinging to security in work that no longer fulfills you, resisting industry changes that make your current role obsolete, or avoiding the scary but necessary leap into new professional territory. Consider whether fear of the unknown is causing you to choose slow decay over transformative rebirth in your career."
+        },
+        "spirituality": {
+          "upright": "Ego death, the dissolution of false self-concepts, and profound spiritual transformation through the dark night of the soul lead to rebirth at a higher level of consciousness. Death represents the most profound spiritual initiation—the complete surrender of who you thought you were, the ending of illusions, and the willingness to die to your old self so that your true nature can emerge. This card teaches that spiritual growth requires releasing attachments to outcomes, identities, and beliefs, trusting that what's eternal within you survives all transformations.",
+          "reversed": "Resisting necessary spiritual transformation, fearing ego death, or clinging to spiritual identities that have become comfortable but limiting may be preventing your evolution to higher consciousness. You might be avoiding the dark night of the soul, refusing to release spiritual beliefs that no longer serve your growth, or so attached to your current understanding that you can't receive new revelations. Remember that spiritual rebirth requires death of the old, and that true transformation cannot happen without surrender to the process."
+        }
+    }
   },
   {
     "slug": "major-arcana-014",
@@ -210,7 +406,21 @@
       "One Foot in Water",
       "Iris Flowers"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/temperance.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/temperance.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Balance, patience, and the harmonious blending of two souls create a relationship characterized by moderation, mutual respect, and spiritual connection. Temperance suggests that love flourishes through compromise, gradual deepening of intimacy, and the integration of opposing qualities—independence and togetherness, passion and friendship, giving and receiving. This card reminds you that lasting relationships require tempering extremes, practicing patience with the natural unfolding of connection, and finding the middle path between losing yourself and remaining closed off.",
+          "reversed": "Imbalance, lack of moderation, or all-or-nothing approaches to love may be creating instability and preventing sustainable partnership. You might be swinging between extremes of intense involvement and complete withdrawal, rushing intimacy when patience is needed, or struggling to find middle ground with a partner whose energy doesn't blend well with yours. This reversal calls for examining where you're overdoing or underdoing in relationships and finding more equilibrium in how you approach love."
+        },
+        "career": {
+          "upright": "Balanced approach to work, successful blending of different skills or departments, and patient, methodical progress toward long-term goals bring professional harmony and achievement. Temperance represents cooperation, adaptability, and the ability to find the optimal mix of different elements in your work. This card favors careers in healing, mediation, diplomacy, chemistry, mixology, or any field requiring you to blend disparate elements into harmonious wholes, and it suggests that your ability to remain centered and moderate will advance your professional standing.",
+          "reversed": "Burnout from overwork, lack of work-life balance, or inability to find middle ground in professional conflicts may be creating stress and diminishing effectiveness. You might be going to extremes—working too much or not enough, being either too rigid or too flexible, or struggling to integrate different aspects of your professional life. Consider whether you need to dial back intensity, create better boundaries, or find more sustainable rhythms in your career."
+        },
+        "spirituality": {
+          "upright": "Spiritual alchemy, the integration of opposing forces within your psyche, and the patient middle path between extremes leads to divine balance and higher consciousness. Temperance represents the spiritual practice of moderation, the gradual blending of earthly and divine, and the understanding that enlightenment comes through synthesis rather than choosing one side over another. This card encourages you to honor both your human and spiritual natures, to practice patience in your development, and to seek the golden mean that allows all aspects of yourself to work in harmony.",
+          "reversed": "Spiritual imbalance, swinging between asceticism and indulgence, or impatience with the gradual nature of spiritual growth may be preventing integration and peace. You might be approaching spirituality in extremes—overly strict practices followed by complete abandonment, or attempting to force enlightenment rather than allowing it to unfold naturally. True spiritual development requires tempering extremes, finding balance between discipline and ease, and accepting that transformation happens through patient, consistent practice rather than dramatic leaps."
+        }
+    }
   },
   {
     "slug": "major-arcana-015",
@@ -224,7 +434,21 @@
       "Inverted Pentagram",
       "Torch"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/devil.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/devil.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Intense physical attraction, shadow aspects of desire, and the exploration of taboo or unconventional expressions of sexuality bring both pleasure and awareness of your darker impulses. The Devil represents passion unrestrained by social convention, the magnetic pull of chemistry, and relationships that awaken your primal nature, but it also warns of potential addiction, codependency, or mistaking obsession for love. This card invites you to acknowledge your shadow side in relationships, to explore desire without shame, while remaining conscious of whether passion is liberating or enslaving you.",
+          "reversed": "Breaking free from toxic relationships, releasing unhealthy attachments, and reclaiming personal power from situations where you've felt trapped or controlled brings liberation and healing. You might be recognizing patterns of codependency, leaving a manipulative partner, or releasing sexual shame that has kept you from authentic intimacy. This reversal signals that you're ready to cut the chains of unhealthy relationship dynamics, though it requires honest acknowledgment of how you've participated in your own bondage."
+        },
+        "career": {
+          "upright": "Ambition, material success, and the temptation to compromise your values for wealth or status present both opportunities and ethical challenges in your professional life. The Devil represents the shadow side of capitalism—greed, exploitation, workaholism, or becoming so attached to money and power that you lose your soul in the process. This card warns that while material success isn't inherently negative, you must remain conscious of whether your professional pursuits are liberating or enslaving you, whether you're using your power ethically, and whether success is worth the price being paid.",
+          "reversed": "Breaking free from soul-crushing work, releasing attachment to status or material success, or recognizing how career ambition has become an addiction brings the possibility of authentic professional fulfillment. You might be leaving a lucrative but unethical position, overcoming workaholism, or realizing that the golden handcuffs keeping you in an unfulfilling career can be unlocked. This reversal signals readiness to prioritize meaning over money, to reclaim your time and energy from work that consumes you, and to redefine success on your own terms."
+        },
+        "spirituality": {
+          "upright": "Confronting your shadow self, acknowledging the material and carnal aspects of existence, and integrating rather than denying your earthly nature leads to wholeness and authentic spiritual power. The Devil teaches that spiritual bypassing—using spirituality to avoid your shadow—prevents true enlightenment, and that real growth requires owning your darkness, your desires, and your capacity for selfishness. This card reminds you that you're both spirit and flesh, that denying your animal nature creates imbalance, and that sometimes the path to light leads directly through the darkness you've been avoiding.",
+          "reversed": "Liberation from limiting beliefs, breaking free from spiritual materialism or guru worship, and releasing attachments that masquerade as spiritual devotion brings authentic freedom and empowerment. You might be recognizing how spiritual communities have become cults, how your practice has become another addiction, or how you've been using enlightenment seeking to avoid being fully human. This reversal indicates readiness to embrace a more integrated spirituality that honors both transcendence and embodiment, that frees rather than enslaves."
+        }
+    }
   },
   {
     "slug": "major-arcana-016",
@@ -238,7 +462,21 @@
       "Crown",
       "Flames"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/tower.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/tower.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Sudden revelation, the dramatic collapse of illusions, or upheaval that destroys false foundations forces you to rebuild your romantic life on truth rather than fantasy. The Tower represents the lightning bolt of awareness that shatters relationships built on lies, the unavoidable crisis that reveals what was always unstable, or the shocking truth that changes everything you thought you knew about love. While painful, this destruction clears away what was never meant to last, creating space for relationships built on authentic ground, and sometimes the relationship that emerges from the rubble is stronger for having been tested by fire.",
+          "reversed": "Narrowly avoiding disaster, resisting necessary relationship breakdown, or experiencing internal rather than external upheaval in your romantic life may be postponing inevitable change. You might be clinging to a relationship that should end, white-knuckling through crisis after crisis, or experiencing the slow crumble of foundations rather than sudden collapse. This reversal suggests that while catastrophic change may be delayed, it cannot be prevented indefinitely, and that sometimes controlled demolition is wiser than waiting for complete collapse."
+        },
+        "career": {
+          "upright": "Sudden job loss, career upheaval, or the dramatic collapse of professional structures you thought were stable forces you to rebuild on more authentic foundations. The Tower represents layoffs, business failures, industry disruptions, or revelations about your work that shatter previous certainties and demand complete professional reinvention. While traumatic, this destruction often liberates you from situations that were constraining your growth, and what rises from the ashes of your former career may be more aligned with your true calling than what was destroyed.",
+          "reversed": "Avoiding necessary career change, experiencing workplace chaos that doesn't quite reach breaking point, or having time to prepare for inevitable professional upheaval gives you some measure of control over transition. You might see the writing on the wall and choose to leave before being pushed, experience organizational instability without complete collapse, or undergo internal professional crisis that doesn't yet manifest externally. This reversal offers the opportunity to be proactive rather than reactive in facing necessary career transformation."
+        },
+        "spirituality": {
+          "upright": "Sudden spiritual awakening, the collapse of belief systems that no longer serve you, or the destruction of ego structures that have kept you from truth brings liberation through chaos. The Tower represents the dark night of the soul's most intense moments, when everything you believed is shattered, when the comfortable structures of your spiritual understanding are destroyed, and when you're forced to rebuild your relationship with the divine from scratch. This card teaches that sometimes grace arrives as destruction, that some awakenings can only happen when illusions are violently stripped away, and that the truth revealed by Tower moments, though painful, sets you free.",
+          "reversed": "Resisting spiritual awakening, avoiding the necessary destruction of limiting beliefs, or experiencing gradual rather than sudden dissolution of old paradigms allows more gentle transformation. You might be sensing that your spiritual worldview is crumbling but trying to prop it up, or you're being given time to dismantle old beliefs consciously rather than having them destroyed suddenly. This reversal suggests that while transformation is inevitable, you may have some agency in how it unfolds—though ultimately, whatever must fall will fall, regardless of how tightly you cling."
+        }
+    }
   },
   {
     "slug": "major-arcana-017",
@@ -252,7 +490,21 @@
       "Two Jugs",
       "Bird"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/star.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/star.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Hope, renewal, and the healing of old romantic wounds bring a sense of optimism and faith that true love is possible after periods of darkness. The Star represents the calm after the storm, suggesting that you're ready to open your heart again with newfound clarity and authenticity, trusting that the universe is guiding you toward connections that reflect your highest self. This card promises that staying true to your authentic nature will attract relationships aligned with your soul's purpose, and that vulnerability, far from being weakness, is the pathway to the intimate connection you seek.",
+          "reversed": "Loss of faith in love, feeling disconnected from hope, or inability to believe that your romantic dreams can manifest may be creating self-fulfilling prophecies of disappointment. You might be so wounded by past experiences that you can't imagine opening your heart again, or you're dimming your own light to avoid being hurt, or you've lost touch with what you truly want in partnership. This reversal calls for reconnecting with hope, healing your cynicism, and remembering that every ending creates space for new beginnings if you're willing to believe again."
+        },
+        "career": {
+          "upright": "Inspiration, renewed sense of purpose, and clarity about your professional calling bring fresh energy and optimism to your work life. The Star represents finding your vocational north star, the work that allows you to shine authentically while serving something greater than yourself. This card suggests that sharing your unique gifts generously, staying true to your vision even when others don't understand, and trusting that your talents will find the right audience brings both fulfillment and success that feels aligned with your soul.",
+          "reversed": "Lack of inspiration, losing faith in your career path, or feeling that your talents aren't valued may be dimming your professional light and enthusiasm. You might be experiencing creative drought, doubting whether your work matters, or disconnected from the sense of purpose that once motivated you. Consider whether you've dimmed your brilliance to fit in, whether fear has replaced faith in your professional journey, or whether it's time to reconnect with the dream that originally inspired your career choices."
+        },
+        "spirituality": {
+          "upright": "Divine inspiration, renewed faith, and connection to higher guidance illuminate your spiritual path with clarity and hope after periods of darkness or doubt. The Star represents the spiritual seeker who has emerged from the dark night of the soul with deeper understanding, naked vulnerability before the divine, and trust in the benevolent unfolding of their journey. This card encourages you to share your spiritual light generously, to remain open and authentic in your practice, and to trust that you're being guided by something wiser than your individual understanding.",
+          "reversed": "Spiritual disillusionment, loss of faith, or feeling disconnected from divine guidance may be creating darkness where light once shone. You might be going through a crisis of faith, feeling abandoned by the universe, or so wounded by spiritual disappointments that you've closed yourself off from higher connection. This reversal invites gentle reconnection with whatever gives you hope, healing of spiritual wounds through compassion, and remembering that even when you can't see the stars, they're still shining above the clouds of your current despair."
+        }
+    }
   },
   {
     "slug": "major-arcana-018",
@@ -267,7 +519,21 @@
       "Towers",
       "Path"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/moon.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/moon.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Illusion, uncertainty, and the shadowy realms of emotion create confusion in your romantic life, requiring you to trust intuition while navigating what cannot be clearly seen. The Moon suggests that things in love are not as they appear—secrets may be hidden, projections may distort reality, or fear and fantasy may be clouding your judgment about a relationship. This card invites you to explore the mysterious and irrational aspects of attraction, to honor your emotional depths even when they don't make logical sense, while maintaining awareness that the path of love currently winds through uncertain territory where careful navigation is required.",
+          "reversed": "Clarity emerging from confusion, releasing romantic illusions, or discovering truths that were previously hidden brings relief and more solid ground for relationship decisions. You might be seeing through deceptions (self-imposed or from others), releasing anxieties that have distorted your perception of love, or finding that the scary unknowns weren't as threatening as you imagined. This reversal signals a transition from confusion to understanding, from fear to courage, though it requires acknowledging uncomfortable truths you may have been avoiding."
+        },
+        "career": {
+          "upright": "Uncertainty, hidden information, or unclear professional situations require you to trust your instincts while acknowledging you don't have the full picture. The Moon represents office politics beneath the surface, job security that's more precarious than it appears, or career paths shrouded in mystery and ambiguity. This card suggests that intuition and emotional intelligence are more valuable than logic right now, that you should proceed cautiously in professional matters where things seem unclear, and that what you fear about your career may be more shadow than substance.",
+          "reversed": "Professional clarity emerging, uncovering workplace deceptions, or overcoming career anxieties that have been holding you back brings relief and forward momentum. You might be discovering the truth about a work situation that has been unclear, releasing irrational fears about professional failure, or finding that transparent communication dispels confusion. This reversal indicates that the fog is lifting in your career, allowing you to see reality more clearly and make decisions based on facts rather than fears or fantasies."
+        },
+        "spirituality": {
+          "upright": "Deep exploration of the unconscious, confronting spiritual mysteries and illusions, and navigating the shadowy realms between worlds develops your psychic abilities and emotional wisdom. The Moon represents the spiritual journey through uncertain territory—the dark night of the soul, shamanic journeying, dreamwork, and facing the fears and fantasies that arise when ego control loosens. This card encourages you to trust your intuition, to honor the non-rational ways of knowing, to explore your dreams and subconscious, and to understand that spiritual growth sometimes requires walking through darkness without knowing exactly where you're going.",
+          "reversed": "Emerging from spiritual confusion, releasing illusions about your path, or discovering that your spiritual fears were projections rather than reality brings clarity and grounding. You might be completing a period of intense subconscious exploration and integrating insights into conscious awareness, recognizing how spiritual bypassing has created confusion, or finding that facing your shadows diminishes their power. This reversal signals a transition from the mysterious to the clear, from the unconscious to the conscious, though it requires accepting that some of what you believed was spiritual truth was actually illusion."
+        }
+    }
   },
   {
     "slug": "major-arcana-019",
@@ -281,7 +547,21 @@
       "Sunflowers",
       "Red Flag"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/sun.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/sun.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Joy, vitality, and radiant happiness illuminate your romantic life, as love becomes a source of warmth, growth, and childlike delight. The Sun represents relationships characterized by authenticity, mutual celebration, and the simple pleasure of being together without pretense or shadow. This card promises that love is bringing out the best in you, that your relationship feels effortless and natural, and that you can be completely yourself while being completely adored—the kind of partnership where both people shine brighter together than they could alone.",
+          "reversed": "Dimmed enthusiasm, temporary clouds over romantic happiness, or difficulty fully expressing joy and authentic self in relationships may be preventing the radiance that wants to emerge. You might be experiencing a lull in romantic excitement, struggling with self-consciousness that prevents vulnerable authenticity, or finding that external circumstances are temporarily shadowing what could be a bright connection. This reversal suggests that the light is still there beneath the clouds, and that reconnecting with playfulness, optimism, and genuine self-expression will restore warmth to your love life."
+        },
+        "career": {
+          "upright": "Success, recognition, and the pure satisfaction of work that allows you to shine bring professional fulfillment and abundant opportunities. The Sun represents career clarity, achievements that bring genuine happiness, and the alignment of your talents with work that feels natural and energizing rather than draining. This card promises that your efforts are being recognized, that success comes easily now because you're in your element, and that professional life is a source of vitality and confidence rather than stress and depletion.",
+          "reversed": "Temporary setbacks in career success, difficulty shining in your professional role, or lack of recognition despite your efforts may be dampening your enthusiasm and confidence. You might be experiencing delays in achieving goals, struggling with self-doubt that prevents you from showing your full capabilities, or finding that your light is being overshadowed by others. Remember that clouds are temporary, that your brilliance hasn't diminished even if circumstances are preventing it from being fully visible, and that reconnecting with the joy in your work—rather than just the outcomes—can restore your radiance."
+        },
+        "spirituality": {
+          "upright": "Spiritual illumination, direct experience of divine joy, and the understanding that enlightenment includes celebration of life itself brings radiant awakening. The Sun represents the spiritual seeker who has emerged into the light, who understands that the divine isn't just transcendent but immanent in every moment of existence, and who experiences spirituality as life-affirming rather than world-denying. This card encourages you to celebrate your spiritual journey, to recognize that you are a divine being having a human experience, and to embrace the childlike wonder and simple joy that arise when you stop struggling and simply allow yourself to be illuminated by grace.",
+          "reversed": "Spiritual confusion temporarily dimming your inner light, difficulty accessing joy in your practice, or excessive seriousness preventing the playful celebration that's part of authentic spirituality may be creating shadows. You might be going through a phase where spiritual experiences feel less radiant, where you're doubting your progress, or where you've made spirituality so serious that you've forgotten it should also bring happiness. This reversal invites you to lighten up, to remember that the divine delights in your joy, and to trust that clarity and radiance will return when you stop forcing and simply open to the warmth that's always available."
+        }
+    }
   },
   {
     "slug": "major-arcana-020",
@@ -295,7 +575,21 @@
       "Rising Figures",
       "Mountains"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/judgment.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/judgment.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "A calling to higher love, spiritual awakening within relationships, and the opportunity for renewal or resurrection of connections previously thought lost brings profound transformation. Judgement represents a moment of clarity where you evaluate your romantic life against your highest values, where past relationships may be forgiven and released or reconciled and reborn, and where you answer the call to love more authentically and courageously. This card suggests that you're ready to leave behind old relationship patterns, to forgive yourself and others for past mistakes, and to rise into a more evolved expression of partnership aligned with your soul's growth.",
+          "reversed": "Self-judgment, inability to forgive romantic mistakes, or refusing to hear the call toward more authentic relationships may be keeping you trapped in old patterns. You might be harshly condemning yourself for past relationship failures, unable to release guilt or resentment, or ignoring the clear signals that you need to evolve beyond current relationship dynamics. This reversal calls for self-compassion, the courage to forgive and be forgiven, and willingness to answer the call toward growth even when it means leaving comfort zones behind."
+        },
+        "career": {
+          "upright": "A professional calling, career rebirth, or moment of reckoning where your work life is evaluated against your highest purpose brings clarity and opportunity for renewal. Judgement represents vocational awakening, second chances in career, or the realization that your professional life must align with your values and authentic gifts. This card suggests that past work experiences—even failures—have prepared you for this moment of transformation, that you're being called to contribute your talents in more meaningful ways, and that opportunities for career resurrection or complete reinvention are available if you have the courage to answer the call.",
+          "reversed": "Ignoring your vocational calling, harsh self-judgment about career failures, or refusing to take responsibility for professional choices may be preventing the rebirth trying to happen. You might be staying in work that no longer serves your growth because you're afraid to answer a different calling, or you're so consumed by past career mistakes that you can't move forward. This reversal invites you to forgive your professional missteps, to listen to the calling that won't be silenced, and to trust that it's never too late for career resurrection if you're willing to do the inner work."
+        },
+        "spirituality": {
+          "upright": "Spiritual awakening, the call to higher consciousness, and the understanding that every experience has been preparing you for this moment of transformation brings liberation and rebirth. Judgement represents the soul's evaluation of the life lived so far, the opportunity to integrate all experiences—light and shadow—into wisdom, and the readiness to rise to a higher level of spiritual awareness. This card signals that you're being called to your true spiritual purpose, that forgiveness of yourself and others is essential for this ascension, and that you're ready to answer the divine summons to become who you were always meant to be.",
+          "reversed": "Spiritual self-judgment, refusing the call to awaken, or inability to forgive and release the past may be preventing your ascension to higher consciousness. You might be trapped in guilt about spiritual failings, rejecting opportunities for spiritual rebirth because they require too much change, or so identified with your past that you can't imagine rising into a new spiritual identity. This reversal calls for radical self-forgiveness, the courage to answer the calling even when you feel unworthy, and trust that spiritual resurrection is available to all who are willing to release what no longer serves their highest evolution."
+        }
+    }
   },
   {
     "slug": "major-arcana-021",
@@ -309,6 +603,20 @@
       "Four Creatures",
       "Purple Cloth"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/world.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/world.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Completion, fulfillment, and the achievement of wholeness in love create a sense that you've arrived at the relationship you've been journeying toward. The World represents love that integrates all aspects of yourself, partnerships where you feel both completely yourself and completely connected, and the understanding that healthy relationship supports your individual completeness rather than attempting to fill your voids. This card suggests that a significant cycle in your romantic life is reaching beautiful completion, that you've learned the lessons love had to teach, and that whether with a partner or contentedly single, you've achieved the inner wholeness that makes external relationship a joyful choice rather than a desperate need.",
+          "reversed": "Incomplete cycles, almost but not quite achieving relationship goals, or feeling that something is missing from your romantic fulfillment may create frustration. You might be perpetually seeking completion through partnership instead of finding it within, experiencing relationships that never quite reach the depth you desire, or finding that external circumstances prevent you from experiencing the full realization of love's potential. This reversal suggests that you may need to complete inner work before outer relationship can fully manifest, or that you're closer to wholeness than you realize but sabotaging the final steps."
+        },
+        "career": {
+          "upright": "Professional success, completion of major career goals, and the fulfillment that comes from mastering your craft bring a sense of achievement and recognition. The World represents the culmination of your career journey, suggesting that years of effort are bearing fruit, that your expertise is recognized globally or at least in your full sphere of influence, and that you've reached a level of professional integration where all your skills work together harmoniously. This card promises that you're completing an important career cycle and standing at the threshold of new possibilities that build on everything you've accomplished.",
+          "reversed": "Unfinished career projects, goals almost achieved but not quite completed, or success that feels hollow despite external accomplishments may be preventing genuine professional fulfillment. You might be just short of a major breakthrough, sabotaging yourself at the final stages of achievement, or discovering that career success hasn't brought the satisfaction you expected. This reversal suggests examining what completion really means to you, whether fear is preventing you from taking the final steps, or whether you need to redefine success to include inner fulfillment rather than just external markers."
+        },
+        "spirituality": {
+          "upright": "Spiritual completion, cosmic consciousness, and the understanding that you are both an individual soul and one with all existence brings profound peace and integration. The World represents the fulfillment of the spiritual journey begun with The Fool—you've traveled through all experiences, integrated all lessons, and arrived at wholeness that includes both transcendence and embodiment. This card teaches that enlightenment isn't escape from the world but full participation in it from a place of completion, that you contain all four elements balanced within you, and that you've achieved the unity consciousness where separation dissolves while individuality remains.",
+          "reversed": "Spiritual incompletion, almost enlightened but still grasping, or feeling that something is missing from your spiritual fulfillment may be preventing the final realization. You might be attached to spiritual seeking itself and afraid of what comes after finding, or you're one step away from integration but refusing to take it, or you're experiencing spiritual accomplishment that feels empty because it's not grounded in embodiment. This reversal invites you to examine whether you're genuinely incomplete or whether you're complete but haven't recognized it, whether you need to finish integration work, or whether you're resisting the simplicity of enlightenment because you expected it to be more dramatic."
+        }
+    }
   }
 ]

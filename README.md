@@ -46,7 +46,7 @@ Tarot Stack Trace is an MVP designed for tarot enthusiasts and beginners who wan
 - Learn and practice card meanings
 
 **MVP Key Features**:
-- ✅ Digital card drawing (1-card and 3-card spreads)
+- ✅ Digital card spread (1-card and 3-card spreads)
 - ✅ Assisted reading mode for physical decks
 - ✅ Complete 78-card Rider-Waite deck database
 - ✅ No authentication required
@@ -85,7 +85,7 @@ and [decks](./src/main/java/com/mystika/tarot/cards/TarotDeck.java):
 This module serves as the foundation, providing the raw card data without interpretation.
 
 ### 2. Drawings
-Manages different types of card drawing patterns:
+Manages different types of card spread patterns:
 - `(WIP)` **1-card draw**: Single card for quick insights
 - **[3-card spread](./src/main/java/com/mystika/tarot/reading/ThreeCardSpread.java)**: Past-Present-Future or other triadic layouts
 - `(WIP)` **Celtic Cross**: Traditional 10-card spread 
@@ -98,7 +98,7 @@ Manages different types of card drawing patterns:
 ### 3. Readings
 Provides interpretation and meaning to drawn cards:
 - Performed by the **[seeker](./src/main/java/com/mystika/tarot/reading/Seeker.java)** entity (the person seeking guidance)
-- Analyzes connections between cards in the drawing
+- Analyzes connections between cards in the spread
 - Attaches deeper meaning beyond basic card definitions
 
 **Dependencies**: a Reading is the interpretation of a Drawing (which uses a deck of cards)

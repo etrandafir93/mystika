@@ -12,7 +12,21 @@
       "Clouds",
       "Castle"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/acewands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/acewands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Passionate new beginnings, creative spark igniting romantic possibility, and the raw energy of attraction brings excitement and potential for growth. The Ace of Wands represents the first flush of desire, meeting someone who ignites your passion, or experiencing renewed creative energy within existing partnership. This card encourages you to seize romantic opportunities with enthusiasm, to act on attraction while it's fresh, and to channel passionate energy into building something real, recognizing that while the spark is divine, sustaining the fire requires intention and action.",
+          "reversed": "Missed romantic opportunities, creative passion blocked or misdirected, or delays in expressing desire may be preventing love from igniting or developing. You might be hesitating when you should act, scattering passionate energy across multiple interests without commitment, or experiencing false starts in romance that fizzle before catching fire. This reversal warns against waiting too long to act on attraction, letting fear dampen your natural enthusiasm, or confusing the presence of spark with the existence of sustainable flame."
+        },
+        "career": {
+          "upright": "New professional opportunities, creative inspiration, and the spark of entrepreneurial vision brings potential for growth and exciting ventures. The Ace of Wands represents brilliant ideas demanding manifestation, job offers that ignite passion, or sudden clarity about your vocational calling. This card favors starting new businesses, launching creative projects, or pursuing careers that channel your authentic enthusiasm, and encourages you to act swiftly on inspiration while the energy is high and the path forward feels clear and compelling.",
+          "reversed": "Professional delays, creative blocks, or missed opportunities due to hesitation or poor timing may be preventing career growth and development. You might be sitting on brilliant ideas without acting, scattering energy across too many projects, or experiencing false starts that drain resources without producing results. This reversal suggests examining whether fear holds you back from seizing opportunities, whether you're channeling creative energy effectively, and whether you need to commit fully to one direction rather than dabbling in many."
+        },
+        "spirituality": {
+          "upright": "Spiritual awakening, divine inspiration, and the spark of calling or purpose brings new energy and direction to your spiritual journey. The Ace of Wands represents sudden spiritual insight that demands action, discovering your soul's purpose, or experiencing renewed passion for spiritual practice and growth. This card encourages you to act on spiritual inspiration while the fire burns bright, to channel divine energy into concrete practice, and to recognize that spiritual sparks are gifts meant to ignite lasting transformation rather than momentary excitement.",
+          "reversed": "Spiritual delays, blocked inspiration, or missed opportunities to answer your calling may be preventing authentic development and purpose fulfillment. You might be receiving spiritual insights but failing to act on them, scattering sacred energy without focus, or experiencing false spiritual starts that fade quickly. This reversal warns against waiting for perfect conditions to pursue your calling, letting doubt extinguish divine sparks, or confusing spiritual entertainment with genuine commitment to transformative practice and growth."
+        }
+    }
   },
   {
     "slug": "wands-002",
@@ -26,7 +40,21 @@
       "Castle",
       "Ocean View"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2wands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2wands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Planning romantic future, standing at crossroads in relationships, or contemplating possibilities beyond current circumstances brings both excitement and the need for decisions. The Two of Wands represents holding the world of romantic possibility in your hands, considering whether to stay in familiar territory or venture into unknown relationship territory, or planning the next phase of partnership development. This card suggests you've secured initial stability and now face the creative tension between what you have and what you might pursue, encouraging bold vision while reminding you that plans without action remain mere potential.",
+          "reversed": "Fear of romantic unknown, poor relationship planning, or paralysis when facing love choices may be preventing growth and keeping you trapped in safe but limiting circumstances. You might be afraid to pursue relationships beyond your comfort zone, planning without ever acting, or making hasty romantic decisions without adequate consideration. This reversal warns against letting fear disguise itself as contentment, staying in relationships that are safe but stagnant, or leaping without looking simply to escape the discomfort of choosing."
+        },
+        "career": {
+          "upright": "Professional planning, standing at career crossroads with world of possibility before you, or contemplating expansion beyond current achievements brings creative tension and opportunity. The Two of Wands represents having established initial success and now facing decisions about scaling, expanding internationally, or pursuing bolder professional visions. This card encourages thinking big, planning strategically, and preparing to venture beyond comfortable territory, while reminding you that the view from the castle ramparts must eventually translate into actual journey if plans are to become reality.",
+          "reversed": "Professional fear of unknown, inadequate career planning, or paralysis when facing important work decisions may be keeping you trapped in limiting circumstances despite yearning for more. You might be afraid to leave secure positions for greater opportunities, planning endlessly without executing, or making impulsive career moves without proper preparation. This reversal suggests examining whether contentment is genuine or whether fear keeps you from pursuing the bigger professional world you glimpse but don't dare enter."
+        },
+        "spirituality": {
+          "upright": "Spiritual planning, contemplating paths and practices, or standing at crossroads in your spiritual journey with many possibilities before you brings both excitement and the need for commitment. The Two of Wands represents having established initial spiritual foundation and now facing decisions about which traditions to explore, whether to deepen current practice or venture into new territory, or how to expand your spiritual understanding. This card encourages bold spiritual vision and strategic planning while reminding you that contemplating the globe of spiritual possibility must eventually give way to actually embarking on the journey.",
+          "reversed": "Spiritual fear of unknown territories, inadequate planning for spiritual development, or paralysis when facing spiritual choices may be preventing authentic growth and keeping you in safe but limiting practices. You might be afraid to explore beyond familiar spiritual traditions, planning spiritual journeys without ever beginning them, or making hasty spiritual commitments without discernment. This reversal warns against mistaking spiritual window-shopping for actual practice, staying in comfortable but stagnant traditions out of fear, or leaping into spiritual paths without adequate preparation or understanding."
+        }
+    }
   },
   {
     "slug": "wands-003",
@@ -40,7 +68,21 @@
       "Cloak",
       "Mountains"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3wands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3wands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Expansion of romantic horizons, foresight about relationship potential, or watching initial efforts in love begin to manifest brings anticipation and growing confidence. The Three of Wands represents having taken initial action in romance and now watching for results, considering long-distance or unconventional relationships, or seeing your vision for partnership beginning to materialize. This card suggests your romantic ships are coming in, that initial investments of heart and courage are starting to yield returns, and that broader horizons await if you maintain vision and patience while your efforts unfold.",
+          "reversed": "Romantic obstacles, delays in relationship development, or lack of foresight about love possibilities may be creating frustration and preventing expansion. You might be watching for ships that aren't coming, failing to plan adequately for relationship growth, or experiencing setbacks in romantic ventures you've launched. This reversal warns against losing faith too soon, suggests examining whether your romantic vision was realistic, and asks whether you're truly ready for the expansion you claim to desire or whether unconscious resistance creates the delays you experience."
+        },
+        "career": {
+          "upright": "Professional expansion, foresight bringing opportunities, or watching career ventures begin to succeed brings growing confidence and anticipation of greater things. The Three of Wands represents having launched business initiatives and now watching them develop, international opportunities or expansion, or seeing your professional vision starting to manifest in the world. This card suggests your ships are on the horizon, that preparation and planning are beginning to pay off, and that maintaining vision while remaining patient allows your ventures to fully develop and return abundant rewards.",
+          "reversed": "Career obstacles, professional delays, or lack of adequate foresight may be frustrating your expansion plans and preventing growth. You might be watching for opportunities that don't arrive, discovering your business planning was inadequate, or experiencing setbacks in ventures you've launched. This reversal suggests examining whether your professional vision was realistic, whether you planned sufficiently, and whether impatience causes you to abandon efforts just before they would have succeeded, or whether genuine obstacles require you to revise your strategy."
+        },
+        "spirituality": {
+          "upright": "Spiritual expansion, foresight about your path's unfolding, or watching initial spiritual efforts begin to manifest brings deepening faith and anticipation. The Three of Wands represents having committed to spiritual practice and now seeing results, exploring spiritual traditions beyond your original culture, or recognizing your spiritual vision beginning to materialize. This card suggests your spiritual ships are returning laden with wisdom, that the journey you've begun is unfolding as it should, and that maintaining vision and patience allows your spiritual investments to mature and bear fruit beyond your initial expectations.",
+          "reversed": "Spiritual obstacles, delays in development, or lack of foresight about your path may be creating frustration and preventing authentic expansion. You might be waiting for spiritual experiences that don't arrive, discovering your practice was inadequately planned, or experiencing setbacks in spiritual ventures you've undertaken. This reversal warns against abandoning spiritual practice before it bears fruit, suggests examining whether your expectations were realistic, and asks whether you're genuinely ready for the spiritual expansion you seek or whether unconscious resistance manifests as external delays and obstacles."
+        }
+    }
   },
   {
     "slug": "wands-004",
@@ -54,7 +96,21 @@
       "Castle",
       "Celebrating Figures"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4wands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4wands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Celebration of love, reaching relationship milestones, or creating stable foundation worthy of joy brings harmony and community blessing. The Four of Wands represents engagements, weddings, or commitment ceremonies, establishing home together, or reaching points in partnership that call for celebration and gratitude. This card suggests you've built something worth honoring, that your relationship has achieved stability deserving recognition, and that celebrating milestones with community strengthens bonds and acknowledges the work of creating love that endures beyond initial passion.",
+          "reversed": "Lack of harmony in relationships, canceled celebrations, or unstable foundations preventing commitment may be undermining joy and creating disappointment. You might be experiencing postponed weddings or commitments, discovering your relationship lacks the stability you believed it had, or feeling unable to celebrate love due to ongoing conflicts. This reversal warns that celebration without genuine foundation is hollow, suggests examining whether relationship instability reflects real incompatibility or temporary challenge, and asks whether fear of commitment masquerades as legitimate concerns about harmony."
+        },
+        "career": {
+          "upright": "Professional celebration, reaching career milestones, or achieving stable success worthy of recognition brings satisfaction and community acknowledgment. The Four of Wands represents project completions, promotions, or business achievements that merit celebration, establishing professional home or stable position, or reaching points in career that call for gratitude and shared joy. This card suggests pausing to honor what you've built professionally, that your efforts have created foundation deserving recognition, and that celebrating achievements with colleagues strengthens bonds and renews energy for continued growth.",
+          "reversed": "Professional instability, canceled celebrations, or lack of harmony in workplace may be preventing recognition and undermining satisfaction. You might be experiencing delayed promotions, discovering your professional foundation is less stable than you believed, or finding yourself unable to celebrate achievements due to ongoing work conflicts. This reversal suggests examining whether professional instability reflects genuine problems or whether perfectionism prevents you from acknowledging real accomplishments, and asks whether fear of success sabotages your ability to enjoy the stability you've created."
+        },
+        "spirituality": {
+          "upright": "Spiritual celebration, reaching milestones in practice, or achieving stable foundation in faith brings joy and community connection. The Four of Wands represents initiations, completions of spiritual training, or achieving points in practice that merit celebration and gratitude. This card suggests honoring the spiritual home you've built, recognizing that your practice has achieved stability worth celebrating, and understanding that sharing spiritual joy with community strengthens everyone's faith and acknowledges the sacred work of building enduring connection to the divine.",
+          "reversed": "Spiritual instability, canceled celebrations, or lack of harmony in spiritual community may be preventing joy and creating disappointment in your practice. You might be experiencing postponed initiations, discovering your spiritual foundation lacks the stability you believed it had, or feeling unable to celebrate spiritual milestones due to ongoing community conflicts. This reversal warns against premature spiritual celebration without genuine foundation, suggests examining whether community disharmony reflects real incompatibility or temporary challenge, and asks whether fear of spiritual commitment manifests as concerns about stability and readiness."
+        }
+    }
   },
   {
     "slug": "wands-005",
@@ -67,7 +123,21 @@
       "Battling Wands",
       "Tunics"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5wands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5wands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Romantic competition, passionate disagreements, or conflicting desires within relationship creates dynamic tension that's more stimulating than destructive. The Five of Wands represents multiple suitors competing for attention, energetic debates and differences that keep partnership interesting, or the creative friction of two strong-willed people navigating relationship together. This card suggests that not all conflict is bad—sometimes passionate disagreement indicates genuine engagement rather than indifference—while warning that constant competition without resolution eventually exhausts rather than energizes, and that knowing when to stop fighting and start cooperating determines whether conflict strengthens or destroys connection.",
+          "reversed": "Avoiding necessary relationship conflicts, inner turmoil about romantic desires, or choosing compromise that serves no one may be creating false peace and preventing authentic resolution. You might be suppressing legitimate disagreements to maintain surface harmony, so conflicted internally about what you want that you can't engage honestly, or compromising in ways that leave everyone dissatisfied. This reversal warns against confusing conflict avoidance with peacemaking, suggests that sometimes disagreement must surface before genuine resolution becomes possible, and asks whether compromise reflects mature negotiation or simply exhaustion from competing desires that remain unaddressed."
+        },
+        "career": {
+          "upright": "Professional competition, workplace conflicts, or competing priorities and approaches creates stimulating challenges that test your abilities and commitment. The Five of Wands represents competitive work environments, creative disagreements about best approaches, or the energetic chaos of multiple projects and demands competing for attention. This card suggests that some professional competition is healthy and sharpening, that diverse perspectives create better solutions even when debate gets heated, while warning that constant conflict without cooperation eventually becomes destructive rather than productive, and that knowing when to compete and when to collaborate determines whether workplace dynamics energize or exhaust you.",
+          "reversed": "Avoiding professional conflicts, inner turmoil about career direction, or compromising in ways that serve no one may be preventing authentic resolution and growth. You might be suppressing legitimate workplace disagreements, so internally conflicted about professional priorities that you can't commit fully, or agreeing to compromises that leave all parties dissatisfied. This reversal suggests that avoiding necessary professional conflicts often makes them worse, that sometimes disagreements must surface before collaboration becomes possible, and asks whether your compromises reflect mature negotiation or simply exhaustion from competing demands you haven't honestly addressed."
+        },
+        "spirituality": {
+          "upright": "Spiritual competition, conflicting beliefs and practices, or passionate disagreements about truth creates dynamic tension that can deepen understanding or create division. The Five of Wands represents competition between spiritual traditions or practices, internal conflict between different aspects of your beliefs, or the creative friction of diverse spiritual perspectives engaging passionately. This card suggests that some spiritual disagreement indicates genuine engagement with important questions, that wrestling with competing truths can deepen faith, while warning that constant spiritual conflict without synthesis eventually fragments rather than develops understanding, and that knowing when to debate and when to accept mystery determines whether spiritual diversity enriches or destroys your practice.",
+          "reversed": "Avoiding spiritual conflicts, inner turmoil about beliefs, or compromising in ways that serve neither truth nor peace may be preventing authentic spiritual resolution and growth. You might be suppressing legitimate spiritual questions to maintain comfortable beliefs, so internally conflicted about faith that you can't commit to any practice, or creating spiritual compromises that satisfy no one and honor nothing. This reversal warns that avoiding necessary spiritual conflicts often prevents genuine development, suggests that sometimes competing beliefs must be acknowledged before integration becomes possible, and asks whether your spiritual compromises reflect mature synthesis or simply exhaustion from wrestling with questions you haven't honestly faced."
+        }
+    }
   },
   {
     "slug": "wands-006",
@@ -81,7 +151,21 @@
       "Crown",
       "Followers"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6wands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6wands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Victory in love, public recognition of your relationship, or achieving romantic success that others acknowledge and celebrate brings confidence and validation. The Six of Wands represents relationships that earn community respect and admiration, overcoming romantic challenges triumphantly, or being celebrated as a couple whose love inspires others. This card suggests your romantic success is visible and acknowledged, that you've won the prize you sought, and that public recognition strengthens your bond, while warning that seeking external validation can undermine authentic intimacy, and that the most meaningful victories in love are often private rather than paraded.",
+          "reversed": "Ego undermining relationships, lack of recognition for romantic efforts, or fall from grace in love's public eye may be creating insecurity and resentment. You might be too focused on how your relationship appears to others, feeling unappreciated for romantic efforts, or experiencing public judgment or scandal that damages your partnership. This reversal warns against seeking romantic validation primarily from external sources, suggests examining whether you need others' approval more than genuine connection, and asks whether pride prevents you from acknowledging relationship problems that others can see but you refuse to admit."
+        },
+        "career": {
+          "upright": "Professional victory, public recognition of achievements, or success that brings respect and advancement creates momentum and confidence. The Six of Wands represents promotions, awards, or accomplishments that earn public acknowledgment, completing projects triumphantly, or achieving career goals that others celebrate and recognize. This card suggests your professional success is visible and acknowledged, that your efforts have earned deserved recognition, and that this victory opens doors for continued advancement, while warning against letting success inflate ego, and reminding you that those who celebrate your rise will also watch for your fall.",
+          "reversed": "Professional ego, lack of recognition for work, or fall from career grace may be creating frustration and undermining success. You might be so focused on recognition that you've lost sight of actual achievement, feeling underappreciated despite genuine accomplishments, or experiencing professional scandal or failure that damages your reputation. This reversal warns against needing constant external validation, suggests examining whether you're truly being overlooked or whether inflated expectations make appropriate recognition feel insufficient, and asks whether pride prevents you from acknowledging and addressing legitimate professional problems."
+        },
+        "spirituality": {
+          "upright": "Spiritual victory, public recognition of your practice or achievements, or success in spiritual development that inspires and encourages others brings validation and renewed commitment. The Six of Wands represents being acknowledged as spiritual teacher or example, overcoming spiritual challenges triumphantly, or achieving levels of practice that earn community respect and celebration. This card suggests your spiritual development is visible and acknowledged, that your efforts have borne fruit others can recognize, while warning that seeking spiritual recognition can undermine authentic practice, and that the most meaningful spiritual victories are often invisible to all but you and the divine.",
+          "reversed": "Spiritual ego, lack of recognition for practice, or fall from grace in spiritual community may be creating doubt and resentment. You might be practicing for approval rather than authentic development, feeling unappreciated for spiritual efforts, or experiencing judgment or exile from spiritual community. This reversal warns against seeking spiritual validation from external sources, suggests examining whether you need others' acknowledgment more than genuine connection to the divine, and asks whether spiritual pride prevents you from seeing and addressing legitimate problems in your practice that others recognize but you refuse to acknowledge."
+        }
+    }
   },
   {
     "slug": "wands-007",
@@ -94,7 +178,21 @@
       "Six Opposing Wands",
       "Mismatched Shoes"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7wands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7wands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Defending your relationship, standing your ground against those who challenge your partnership, or maintaining romantic position despite opposition requires courage and conviction. The Seven of Wands represents fighting for your relationship against family disapproval or social pressure, defending your choice of partner, or maintaining boundaries against those who would undermine your connection. This card suggests you have the high ground—your relationship is worth defending—and that standing firm against challenges can strengthen your bond, while warning that constant defensiveness exhausts eventually, and asking whether you're protecting something valuable or stubbornly defending what's indefensible.",
+          "reversed": "Giving up on relationships too easily, feeling overwhelmed by romantic challenges, or exhaustion from constantly defending your partnership may be undermining love and depleting your energy. You might be surrendering to external pressure when standing firm would serve you better, so overwhelmed by opposition that you can't maintain your position, or too exhausted from defending an indefensible relationship to recognize when retreat is wisdom rather than defeat. This reversal asks whether you're genuinely overwhelmed or whether you lack conviction to defend what you claim to value, and whether surrender reflects healthy reassessment or simply exhaustion from necessary but worthy struggle."
+        },
+        "career": {
+          "upright": "Defending professional position, standing firm against workplace challenges, or maintaining career ground despite competition and opposition requires perseverance and confidence. The Seven of Wands represents fighting for your ideas against resistance, defending your position or territory at work, or maintaining professional standing against those who challenge your authority or competence. This card suggests you have legitimate high ground worth defending, that standing firm can establish respect and boundaries, while warning that constant professional defensiveness eventually exhausts, and asking whether you're protecting valuable territory or stubbornly defending positions that aren't worth the energy required.",
+          "reversed": "Giving up professional ground too easily, feeling overwhelmed by workplace challenges, or exhaustion from constantly defending your position may be undermining career success and depleting your resources. You might be surrendering to opposition when standing firm would serve you better, so overwhelmed by professional challenges that you can't maintain your ground, or too exhausted from defending indefensible positions to recognize when strategic retreat is wiser than continued battle. This reversal suggests examining whether you're genuinely overwhelmed or lack conviction to defend what you claim to value, and whether professional surrender reflects mature reassessment or simply exhaustion from worthy but difficult necessary struggle."
+        },
+        "spirituality": {
+          "upright": "Defending your spiritual beliefs, standing firm in faith despite opposition, or maintaining spiritual ground against those who challenge your path requires courage and conviction. The Seven of Wands represents defending your spiritual choices against family or community pressure, standing firm in beliefs others challenge, or maintaining practices despite opposition or ridicule. This card suggests your spiritual ground is worth defending, that standing firm can deepen conviction and clarify commitment, while warning that constant spiritual defensiveness eventually exhausts and isolates, and asking whether you're protecting authentic faith or stubbornly defending beliefs you fear might not withstand honest questioning.",
+          "reversed": "Giving up spiritual convictions too easily, feeling overwhelmed by challenges to faith, or exhaustion from defending beliefs may be undermining authentic practice and depleting spiritual energy. You might be surrendering faith to opposition when standing firm would serve you better, so overwhelmed by spiritual challenges that you abandon practices worth maintaining, or too exhausted from defending indefensible beliefs to recognize when evolving your faith is growth rather than defeat. This reversal asks whether you're genuinely overwhelmed by spiritual opposition or whether you lack true conviction, and whether abandoning spiritual ground reflects honest evolution or simply exhaustion from the worthy struggle authentic faith requires."
+        }
+    }
   },
   {
     "slug": "wands-008",
@@ -108,7 +206,21 @@
       "River",
       "Countryside"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8wands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8wands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Swift romantic movement, messages and communication flying, or rapid developments in relationships brings excitement and forward momentum. The Eight of Wands represents whirlwind romance, sudden clarity after uncertainty, or the exhilarating phase when everything accelerates and obstacles seem to vanish. This card suggests your romantic life is gaining unstoppable momentum, that communication flows freely and honestly, and that what was stuck is suddenly moving, while warning that speed doesn't guarantee direction, and that moving fast can mean missing important details or rushing past necessary stages of relationship development.",
+          "reversed": "Romantic delays, frustrating slowness, or miscommunication preventing forward movement may be creating impatience and disappointment. You might be waiting for messages that don't arrive, experiencing relationship progress that stalls unexpectedly, or finding that momentum you anticipated fails to materialize. This reversal warns that forcing speed when natural timing requires patience often creates more problems than it solves, suggests examining whether delays serve necessary purposes, and asks whether your frustration with slowness prevents you from appreciating the value of careful, deliberate relationship development."
+        },
+        "career": {
+          "upright": "Rapid professional progress, swift communication and decisions, or career momentum accelerating brings exciting opportunities and forward movement. The Eight of Wands represents projects suddenly gaining traction, quick responses to applications or proposals, or the phase when professional obstacles clear and everything moves forward rapidly. This card suggests your career is in high-speed phase, that communication flows and decisions happen quickly, and that opportunities arrive in quick succession, while warning that moving too fast can mean inadequate preparation, and that speed of execution doesn't guarantee quality of results.",
+          "reversed": "Professional delays, frustrating slowness, or stalled projects preventing progress may be creating impatience and undermining momentum. You might be waiting for responses that don't come, experiencing career developments that halt unexpectedly, or finding that anticipated opportunities fail to materialize. This reversal suggests that delays often serve necessary purposes—allowing better preparation, preventing premature launches, or protecting you from opportunities that only appeared promising—and asks whether your frustration with professional slowness prevents you from using waiting time productively and preparing thoroughly."
+        },
+        "spirituality": {
+          "upright": "Rapid spiritual development, sudden clarity and insight, or acceleration in practice and understanding brings exciting growth and momentum. The Eight of Wands represents breakthrough periods when obstacles dissolve, receiving clear spiritual messages and guidance, or experiencing the exhilarating phase when your practice suddenly deepens dramatically. This card suggests your spiritual life is in high-speed development, that insights and understanding flow freely, and that what was blocked is suddenly moving forward, while warning that spiritual speed can mean bypassing necessary integration, and that rapid development without adequate foundation can create instability.",
+          "reversed": "Spiritual delays, frustrating slowness in development, or stalled practice preventing progress may be creating doubt and impatience. You might be waiting for spiritual experiences that don't arrive, finding that expected growth fails to materialize, or experiencing practices that suddenly lose momentum. This reversal warns that spiritual development often requires slow integration periods, suggests that delays can protect you from advancement you're not ready to handle, and asks whether your frustration with spiritual slowness prevents you from recognizing that deep growth often happens invisibly during apparently stagnant periods."
+        }
+    }
   },
   {
     "slug": "wands-009",
@@ -121,7 +233,21 @@
       "Nine Wands",
       "Battle-Worn Figure"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9wands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9wands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Resilience in relationships, maintaining boundaries despite challenges, or standing guard after being hurt brings protection but also weariness. The Nine of Wands represents being battle-worn in love but not defeated, maintaining vigilance after betrayal or heartbreak, or having one more challenge to face before achieving relationship security. This card suggests you've survived romantic challenges that would have destroyed others, that your resilience is admirable, and that maintaining healthy boundaries protects your heart, while warning that constant guardedness can prevent the vulnerability necessary for deep intimacy, and that sometimes the final battle is simply learning to lower your defenses.",
+          "reversed": "Romantic exhaustion, giving up too easily, or paranoid defensiveness preventing connection may be undermining relationships and isolating you. You might be so worn down by past romantic battles that you can't face one more challenge, becoming so defensive that you see threats everywhere, or stubbornly maintaining boundaries that no longer serve you. This reversal warns that past hurt doesn't justify refusing all future risk, suggests examining whether your vigilance protects or imprisons you, and asks whether you're wisely guarding your heart or simply too exhausted and afraid to try again."
+        },
+        "career": {
+          "upright": "Professional resilience, persistence despite setbacks, or maintaining position after workplace challenges brings strength but also fatigue. The Nine of Wands represents being battle-tested professionally but still standing, guarding career territory you've fought hard to secure, or having one final obstacle before achieving success. This card suggests your professional resilience is remarkable, that experience has taught you to anticipate and prepare for challenges, and that persistence often wins when talent gives up, while warning that constant professional vigilance exhausts eventually, and that sometimes the wisest move is choosing which battles truly matter.",
+          "reversed": "Professional exhaustion, giving up when success is near, or paranoid defensiveness undermining workplace relationships may be preventing achievement and isolating you. You might be so worn down that you can't face one more professional challenge, seeing threats and competition everywhere, or stubbornly defending positions and methods that no longer serve you. This reversal suggests examining whether your professional vigilance protects genuine interests or reflects exhaustion and fear, and asks whether you're wisely persistent or simply too stubborn and tired to recognize when adaptation serves you better than continued resistance."
+        },
+        "spirituality": {
+          "upright": "Spiritual resilience, maintaining practice despite challenges, or guarding faith after spiritual battles brings strength but also weariness. The Nine of Wands represents being spiritually battle-tested but not defeated, maintaining boundaries after spiritual betrayal or disillusionment, or having one final crisis before achieving stable faith. This card suggests your spiritual resilience is admirable, that you've maintained practice through challenges that would have destroyed others' faith, and that healthy spiritual boundaries protect authentic development, while warning that constant spiritual guardedness can prevent the surrender and vulnerability genuine mystical experience requires.",
+          "reversed": "Spiritual exhaustion, abandoning practice when breakthrough is near, or paranoid defensiveness preventing authentic spiritual community may be undermining growth and isolating you. You might be so worn down by spiritual challenges that you can't continue, seeing spiritual threats everywhere, or stubbornly defending beliefs and practices that no longer serve genuine development. This reversal warns that past spiritual hurt doesn't justify refusing all future spiritual risk, suggests examining whether your spiritual vigilance protects or imprisons you, and asks whether you're wisely discerning or simply too exhausted and afraid to remain open to transformative spiritual experiences."
+        }
+    }
   },
   {
     "slug": "wands-010",
@@ -135,7 +261,21 @@
       "Town",
       "Heavy Load"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10wands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10wands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Carrying heavy relationship burdens, taking on too much responsibility in love, or achieving partnership goals at cost of personal well-being brings success mixed with exhaustion. The Ten of Wands represents doing everything in the relationship while your partner coasts, maintaining connection that requires constant effort, or reaching relationship milestones while feeling overwhelmed by the work required. This card suggests you've achieved what you sought in love but at significant cost, that you're capable of carrying heavy loads but shouldn't have to carry them alone, and that success becomes burden when responsibility isn't shared, while asking whether you're being responsible or simply unable to delegate, trust, or let go.",
+          "reversed": "Releasing relationship burdens, learning to delegate and share responsibility, or breaking down under romantic pressure may be bringing either relief or collapse. You might be finally putting down loads you shouldn't have carried alone, learning to share relationship work more equally, or reaching the point where you simply can't continue carrying everything. This reversal can indicate healthy release and redistribution of responsibility or complete breakdown from refusing to put down burdens sooner, and asks whether you're wisely releasing what you don't need to carry or whether you're dropping essential responsibilities that still require attention."
+        },
+        "career": {
+          "upright": "Carrying overwhelming professional burdens, taking on too much responsibility, or achieving success at cost of well-being brings accomplishment mixed with exhaustion. The Ten of Wands represents being overburdened at work, carrying projects that should be team efforts, or reaching career goals while feeling crushed by the weight of responsibility. This card suggests you've achieved professional success but at significant personal cost, that you're capable of handling heavy workloads but shouldn't have to carry them alone, and that accomplishment becomes burden when responsibilities aren't appropriately shared or delegated, while warning that martyr mentality often reflects inability to trust others or let go of control.",
+          "reversed": "Releasing professional burdens, delegating responsibilities, or breaking down under work pressure may be bringing either relief or career collapse. You might be finally delegating tasks you've carried alone, learning to share workload more appropriately, or reaching breaking point where you can't continue carrying everything. This reversal can indicate healthy delegation and boundary-setting or complete professional breakdown from refusing to release burdens sooner, and asks whether you're wisely redistributing responsibility or whether you're abandoning essential professional commitments that still require your attention and leadership."
+        },
+        "spirituality": {
+          "upright": "Carrying heavy spiritual burdens, taking on too much spiritual responsibility, or achieving spiritual goals at cost of joy and well-being brings advancement mixed with exhaustion. The Ten of Wands represents feeling burdened by spiritual obligations, carrying community or teaching responsibilities that overwhelm, or maintaining spiritual practice that has become oppressive rather than liberating. This card suggests you've achieved spiritual commitment but at significant cost, that dedication has become burden, and that spiritual responsibility should uplift rather than crush, while asking whether you're being genuinely devoted or whether you've confused spiritual growth with spiritual martyrdom and self-imposed suffering.",
+          "reversed": "Releasing spiritual burdens, recognizing what you don't need to carry, or breaking down under spiritual pressure may be bringing either relief or faith collapse. You might be finally releasing spiritual obligations that were never truly yours, learning what genuine spiritual responsibility means versus what you've imposed on yourself, or reaching the point where you can't continue with practices that deplete rather than renew. This reversal can indicate healthy spiritual discernment about what to release or complete breakdown from carrying what you should have put down long ago, and asks whether you're wisely releasing false spiritual burdens or whether you're abandoning authentic spiritual commitments that still hold meaning."
+        }
+    }
   },
   {
     "slug": "wands-011",
@@ -149,7 +289,21 @@
       "Pyramids",
       "Young Figure"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pagewands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pagewands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Enthusiastic approach to romance, exploring new relationship possibilities, or bringing fresh energy and curiosity to love creates excitement and potential. The Page of Wands represents the beginning stages of romantic interest, approaching relationships with playful enthusiasm, or discovering new aspects of yourself through love. This card encourages following romantic curiosity, embracing the adventure of getting to know someone, and maintaining sense of wonder and possibility in relationships, while suggesting that youthful enthusiasm needs to eventually mature into deeper commitment, and that exploration for its own sake can prevent arriving anywhere meaningful.",
+          "reversed": "Lack of romantic direction, procrastinating on relationship development, or disappointing news in love may be preventing growth and creating frustration. You might be enthusiastic about romance in theory but uncommitted in practice, exploring possibilities without ever choosing one, or experiencing setbacks that dampen initial excitement. This reversal warns against confusing enthusiasm with commitment, suggests that endless exploration can become avoidance of depth, and asks whether you're genuinely discovering what you want or simply avoiding the vulnerability of choosing and committing to one direction."
+        },
+        "career": {
+          "upright": "Professional enthusiasm, exploring career possibilities, or bringing fresh energy and creative ideas to work creates opportunities and potential. The Page of Wands represents exciting new projects or opportunities, approaching work with curiosity and passion, or discovering vocational interests and talents. This card encourages following professional curiosity, embracing learning and exploration in career, and maintaining enthusiasm for your work, while suggesting that passionate interest needs to develop into skill and commitment, and that exploring every option can prevent mastering any particular path.",
+          "reversed": "Lack of career direction, professional procrastination, or disappointing news about opportunities may be preventing advancement and creating uncertainty. You might be enthusiastic about careers in theory but uncommitted in practice, exploring professional possibilities without choosing one, or experiencing setbacks that dampen initial excitement about opportunities. This reversal warns that enthusiasm without follow-through accomplishes nothing, suggests that endless career exploration can become avoidance of commitment and skill development, and asks whether you're genuinely discovering your path or simply avoiding the work of actually walking one."
+        },
+        "spirituality": {
+          "upright": "Spiritual enthusiasm, exploring practices and traditions, or bringing fresh energy and curiosity to your path creates excitement and potential for growth. The Page of Wands represents beginning spiritual journey, approaching practice with playful openness, or discovering spiritual gifts and interests. This card encourages following spiritual curiosity, embracing the adventure of exploring different traditions and practices, and maintaining wonder and enthusiasm for the sacred, while suggesting that spiritual enthusiasm needs to deepen into commitment and discipline, and that sampling every tradition can prevent developing depth in any particular path.",
+          "reversed": "Spiritual aimlessness, procrastinating on practice, or disappointing spiritual experiences may be preventing authentic development and creating doubt. You might be enthusiastic about spirituality in theory but uncommitted in practice, exploring traditions without choosing one to develop depth, or experiencing setbacks that dampen initial spiritual excitement. This reversal warns against spiritual consumerism—sampling practices without committing to any—suggests that endless exploration can become avoidance of the difficult work genuine development requires, and asks whether you're truly seeking or simply avoiding the vulnerability and discipline authentic spiritual commitment demands."
+        }
+    }
   },
   {
     "slug": "wands-012",
@@ -163,7 +317,21 @@
       "Salamanders",
       "Desert"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightwands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightwands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Passionate pursuit of romance, adventurous approach to relationships, or following your heart with bold energy brings excitement but potential recklessness. The Knight of Wands represents sweeping someone off their feet, pursuing love with intensity and confidence, or bringing adventure and spontaneity to partnership. This card encourages bold romantic action, following passion, and embracing the adventure of love, while warning that charging ahead without considering consequences can create chaos, that intensity without sustainability burns out quickly, and that passion needs to eventually mature into commitment if relationships are to endure.",
+          "reversed": "Romantic impulsiveness, scattered relationship energy, or frustrating delays when you want to charge ahead may be creating instability and disappointment. You might be rushing into relationships without thought, pursuing multiple romantic interests without committing to any, or experiencing frustration when circumstances require patience rather than immediate action. This reversal warns against confusing intensity with depth, suggests that scattered romantic energy accomplishes less than focused commitment, and asks whether delays frustrate you because you genuinely know what you want or because sitting still with yourself feels unbearable."
+        },
+        "career": {
+          "upright": "Passionate professional pursuit, taking bold career risks, or charging ahead with energy and confidence brings exciting opportunities but potential recklessness. The Knight of Wands represents pursuing career goals with intensity, taking entrepreneurial leaps, or bringing dynamic energy and fresh ideas to work. This card encourages bold professional action, following your vocational passion, and embracing career adventure, while warning that charging ahead without adequate planning creates preventable problems, that enthusiasm without skill and preparation leads to failure, and that sustainable success requires strategy alongside passion.",
+          "reversed": "Professional impulsiveness, scattered career energy, or frustrating delays when you want rapid progress may be undermining success and creating instability. You might be jumping between career paths without commitment, rushing into opportunities without adequate preparation, or experiencing frustration when professional development requires patience. This reversal warns that scattered professional energy prevents mastery, suggests that delays often protect you from inadequately prepared ventures, and asks whether you're genuinely pursuing your calling or simply running from the discomfort of sustained focus and gradual development."
+        },
+        "spirituality": {
+          "upright": "Passionate spiritual pursuit, adventurous exploration of practices, or following spiritual calling with bold energy brings exciting development but potential recklessness. The Knight of Wands represents pursuing spiritual path with intensity, diving deeply into new practices, or bringing dynamic energy to your spiritual life. This card encourages bold spiritual action, following mystical calling, and embracing spiritual adventure, while warning that spiritual intensity without discernment can lead to instability, that passion without discipline creates temporary highs rather than lasting development, and that genuine spiritual growth often requires patient cultivation alongside enthusiastic pursuit.",
+          "reversed": "Spiritual impulsiveness, scattered practice energy, or frustrating delays when you want rapid enlightenment may be preventing authentic development and creating instability. You might be jumping between spiritual traditions without commitment, rushing through practices that require slow integration, or frustrated when genuine development demands patience. This reversal warns that spiritual consumerism—constantly seeking new intense experiences—prevents the depth that transforms, suggests that delays in spiritual progress often protect you from advancement you're not prepared to handle, and asks whether you're genuinely seeking truth or simply addicted to the excitement of spiritual novelty and intensity."
+        }
+    }
   },
   {
     "slug": "wands-013",
@@ -177,7 +345,21 @@
       "Lions",
       "Throne"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queenwands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queenwands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Confident self-possession in relationships, bringing warmth and charisma to love, or maintaining independence within partnership creates attractive magnetism and healthy dynamics. The Queen of Wands represents the partner who is complete within themselves, who brings vibrant energy and encouragement to relationships, and who loves from fullness rather than need. This card suggests embodying authentic confidence that attracts healthy partnership, maintaining your fire and passion while in relationship, and offering warmth and support that empowers rather than diminishes your partner, recognizing that the most attractive quality in love is being fully alive and passionate about your own life.",
+          "reversed": "Insecurity masquerading as confidence, jealousy undermining relationships, or intolerance preventing genuine connection may be creating relationship dysfunction. You might be so focused on maintaining image of confidence that you can't show vulnerability, jealous of your partner's attention or success, or demanding they match your energy rather than accepting their authentic nature. This reversal warns that false confidence repels while genuine self-possession attracts, suggests that jealousy reflects lack of self-worth rather than partner's failings, and asks whether you're truly confident or simply too proud to admit uncertainty and need."
+        },
+        "career": {
+          "upright": "Professional confidence and charisma, courageous career moves, or leading with warmth and determination brings success and inspires others. The Queen of Wands represents confident leadership, entrepreneurial courage, or bringing passionate vision and magnetic energy to work. This card favors careers requiring charisma, creativity, and confident self-direction, and suggests embodying authority through authentic passion rather than forced authority, inspiring others through example rather than demands, and succeeding through combination of confidence, competence, and genuine warmth that makes others want to follow and support your vision.",
+          "reversed": "Professional insecurity, workplace jealousy, or intolerant leadership undermining success and relationships may be creating problems and resistance. You might be overcompensating for insecurity with aggressive confidence, jealous of colleagues' achievements, or so demanding of others that you create hostile work environment. This reversal warns that leadership through intimidation fails eventually, suggests that professional jealousy reveals self-doubt rather than others' shortcomings, and asks whether your confidence is genuine or whether you're performing certainty to hide deep uncertainty about your abilities and worth."
+        },
+        "spirituality": {
+          "upright": "Spiritual confidence, radiant authentic faith, or embodying warmth and encouragement on your path brings inspiration to others and deep personal fulfillment. The Queen of Wands represents spiritual leadership through example, confident in your practice without needing to diminish others' paths, or bringing passionate devotion and creative expression to spirituality. This card suggests embodying faith so vibrant and authentic that it naturally inspires others, maintaining spiritual independence while in community, and offering spiritual warmth and encouragement that empowers others to find their own light rather than simply reflecting yours.",
+          "reversed": "Spiritual insecurity masked as confidence, jealousy of others' spiritual gifts, or intolerance of different paths may be undermining authentic development and community. You might be so attached to appearing spiritually confident that you can't admit doubt or confusion, jealous when others receive recognition or experiences you desire, or demanding others practice exactly as you do. This reversal warns that spiritual arrogance reveals insecurity rather than genuine attainment, suggests that jealousy of others' spiritual gifts reflects disconnection from your own, and asks whether your spiritual confidence is authentic or whether you're performing certainty to hide genuine uncertainty and seeking."
+        }
+    }
   },
   {
     "slug": "wands-014",
@@ -191,6 +373,20 @@
       "Crown",
       "Throne"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingwands.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingwands.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Natural leadership in relationships, visionary approach to partnership, or bringing honorable passion and direction to love creates inspiring dynamic and purposeful connection. The King of Wands represents the partner who leads relationship forward with vision and integrity, who brings both passion and honor to commitment, and who inspires their partner to become their best self. This card suggests embodying confident direction in relationships without dominating, channeling passionate energy into building something meaningful together, and leading partnership with both strength and honor, recognizing that true romantic leadership serves the relationship rather than just serving yourself.",
+          "reversed": "Impulsive relationship decisions, ruthless romantic behavior, or impossibly high expectations of partners may be undermining love and creating distance. You might be rushing relationships forward without considering your partner's pace, dominating rather than leading partnership, or demanding perfection that no human can deliver. This reversal warns that leadership without consideration becomes tyranny, suggests that rushing love to match your vision often destroys what could develop naturally, and asks whether your expectations inspire growth or simply make partners feel they can never be good enough for your impossibly high standards."
+        },
+        "career": {
+          "upright": "Natural professional leadership, entrepreneurial vision, or building career with both ambition and honor brings success and inspires others. The King of Wands represents visionary leadership, entrepreneurial mastery, or directing projects and teams with passionate purpose and ethical foundation. This card favors careers in leadership, entrepreneurship, or any field where vision, courage, and inspirational direction create success, and suggests embodying authority that serves the larger purpose, leading with both strength and integrity, and building professional legacy through combination of passionate vision and honorable action.",
+          "reversed": "Professional impulsiveness, ruthless career behavior, or impossibly high expectations undermining team dynamics and sustainable success may be creating problems. You might be making hasty business decisions, pursuing success without ethical constraints, or demanding so much from employees or colleagues that you create resentment and burnout. This reversal warns that leadership through fear and impossible demands fails eventually, suggests that impulsive career moves often lack the foundation needed for lasting success, and asks whether your professional standards inspire excellence or simply crush those who can't meet unrealistic expectations you may not even meet yourself."
+        },
+        "spirituality": {
+          "upright": "Spiritual leadership and vision, building faith with both passion and honor, or guiding others with integrity and inspirational purpose brings meaningful service and authentic authority. The King of Wands represents spiritual teachers who lead through example, visionaries who see what's possible in spiritual community, or practitioners who channel passionate devotion into honorable service. This card suggests embodying spiritual authority that serves truth rather than ego, leading with both strength and integrity, and building spiritual legacy through combination of passionate vision, genuine attainment, and unwavering commitment to ethical practice.",
+          "reversed": "Spiritual impulsiveness, ruthless pursuit of spiritual power, or impossibly high expectations creating spiritual tyranny may be undermining authentic development and harming others. You might be rushing spiritual development, using spiritual authority to dominate rather than serve, or demanding perfection from students or community members that crushes rather than inspires. This reversal warns that spiritual leadership without compassion becomes spiritual abuse, suggests that rushing spiritual attainment often bypasses necessary development, and asks whether your spiritual standards reflect genuine wisdom or whether you wield impossible expectations as weapons to maintain power and hide your own uncertainties and imperfections."
+        }
+    }
   }
 ]
