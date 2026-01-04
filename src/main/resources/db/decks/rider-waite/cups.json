@@ -12,7 +12,21 @@
       "Water",
       "Lotus"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/acecups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/acecups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "The Ace of Cups overflows with new love, emotional openness, and the sacred offer of deep connection flowing directly from the divine into your heart. This card heralds the beginning of a significant romantic relationship, a renewal of love in an existing partnership, or the opening of your heart after a period of closure. Like the dove descending into the chalice, divine love is blessing your romantic life, inviting you to receive with an open heart and trust that this emotional gift is meant for you.",
+          "reversed": "Emotional blockages, difficulty opening your heart, or the inability to receive love may be preventing the connection trying to flow into your life. You might be experiencing emotional emptiness, suppressing feelings, or so guarded from past wounds that you can't accept the love being offered. This reversal calls for gentle healing of emotional barriers, examining what prevents you from receiving, and creating space in your heart for the new love that wants to enter."
+        },
+        "career": {
+          "upright": "Creative inspiration, emotional fulfillment through work, and opportunities that align with your heart's calling bring fresh enthusiasm and passion to your professional life. The Ace of Cups represents careers in the arts, healing, counseling, or any field where emotional intelligence and compassion are your greatest assets. This card signals a new project or role that deeply satisfies your soul, where you can pour your heart into your work and create something meaningful that serves others.",
+          "reversed": "Creative blocks, emotional dissatisfaction with work, or feeling empty despite professional success may be signaling misalignment with your true calling. You might be in a career that doesn't engage your heart, struggling to access creative inspiration, or finding that work feels devoid of meaning or emotional reward. Consider whether your professional life nourishes your soul or depletes it, and whether it's time to seek work that fills your cup rather than drains it."
+        },
+        "spirituality": {
+          "upright": "Divine love pouring directly into your consciousness, spiritual awakening through the heart, and the understanding that love is the foundation of all spiritual truth brings profound opening. The Ace of Cups represents the mystical experience of being filled with grace, of feeling divinely loved and held, and of accessing spiritual wisdom through emotional receptivity rather than intellectual understanding. This card encourages you to open your heart to receive divine blessings, to trust in spiritual love, and to recognize that your emotional nature is a sacred gift connecting you to the divine.",
+          "reversed": "Spiritual emptiness, disconnection from divine love, or blocking the flow of grace through emotional defenses may be creating a sense of isolation from the sacred. You might be approaching spirituality only through the mind, unable to feel the presence of divine love, or so wounded that you can't believe in unconditional acceptance. This reversal invites you to heal your relationship with receiving, to soften the barriers around your heart, and to allow yourself to be filled with the spiritual love that's always available when you open to it."
+        }
+    }
   },
   {
     "slug": "cups-002",
@@ -26,7 +40,21 @@
       "Two Figures",
       "Cups"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2cups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2cups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Sacred partnership, mutual attraction, and perfect balance between two hearts create the foundation for lasting love built on equality and respect. The Two of Cups represents soulmate connections, the beginning of a significant relationship, or the renewal of commitment in existing partnerships where both people meet as equals. This card promises that love flows freely in both directions, that you've found or are finding someone who mirrors your values and complements your energy, and that this union is blessed by forces greater than yourselves.",
+          "reversed": "Imbalanced relationships, broken communication, or disharmony between partners may be creating tension and threatening the connection you share. You might be giving more than you receive, experiencing misunderstandings that create distance, or finding that the initial harmony has given way to conflict and incompatibility. This reversal calls for honest evaluation of whether the partnership serves both people equally, whether communication can be restored, or whether the relationship has run its course."
+        },
+        "career": {
+          "upright": "Successful partnerships, collaborative ventures, and professional relationships built on mutual respect and shared vision bring opportunities and achievement. The Two of Cups represents business partnerships, creative collaborations, or working relationships where both parties contribute equally and support each other's growth. This card favors joining forces with someone whose skills complement yours, creating contracts and agreements that benefit all involved, and finding professional allies who become true partners in success.",
+          "reversed": "Partnership conflicts, imbalanced collaborations, or broken professional agreements may be creating obstacles and disappointment in your work life. You might be dealing with a difficult business partner, experiencing inequality in collaborative projects, or finding that professional relationships lack the mutual respect necessary for success. Consider whether your partnerships are truly reciprocal, whether communication needs repair, or whether it's time to dissolve associations that no longer serve mutual benefit."
+        },
+        "spirituality": {
+          "upright": "Sacred union of opposites within yourself, divine partnership, and the understanding that spiritual growth flourishes through balanced relationships brings integration and wholeness. The Two of Cups represents the mystical marriage of masculine and feminine energies, the balance of giving and receiving in spiritual practice, and the recognition that connection—both human and divine—is a pathway to enlightenment. This card encourages you to honor relationships as spiritual practice, to seek balance in all aspects of your being, and to recognize that love shared consciously becomes a sacred act.",
+          "reversed": "Spiritual imbalance, disconnection from your inner partnership, or using spirituality to avoid authentic relationship may be preventing wholeness and growth. You might be favoring one aspect of yourself over another, unable to integrate opposing forces within your psyche, or so focused on transcendent spirituality that you neglect the sacred in human connection. This reversal invites you to find balance between solitude and connection, between the divine and the human, and to recognize that spiritual development includes the ability to meet others in authentic partnership."
+        }
+    }
   },
   {
     "slug": "cups-003",
@@ -40,7 +68,21 @@
       "Harvest",
       "Dance"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3cups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3cups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Joy, celebration, and the support of community surround your romantic life, bringing happiness through connection with friends and loved ones. The Three of Cups represents relationships that flourish in the context of wider community, the celebration of love milestones like engagements or weddings, or the importance of maintaining friendships alongside romantic partnership. This card reminds you that healthy love doesn't isolate you from others but integrates into a rich tapestry of meaningful connections.",
+          "reversed": "Social drama, gossip affecting your relationship, or isolation from friends may be creating tension in your romantic life. You might be experiencing jealousy within your social circle, letting your relationship separate you from important friendships, or dealing with others interfering in your partnership. This reversal calls for examining whether you've become too insular as a couple, whether friends are genuinely supportive, or whether you need better boundaries between your social life and intimate relationship."
+        },
+        "career": {
+          "upright": "Collaborative success, team celebrations, and creative projects completed with others bring satisfaction and recognition to your professional life. The Three of Cups represents productive teamwork, office celebrations, networking opportunities, or the joy that comes from shared professional achievements. This card favors careers in event planning, hospitality, the arts, or any field where collaboration and community are essential to success.",
+          "reversed": "Office politics, gossip, or dysfunctional team dynamics may be undermining professional satisfaction and productivity. You might be excluded from important work relationships, experiencing tension within your team, or finding that social aspects of work have become toxic rather than supportive. Consider whether you need to address interpersonal issues directly, find a more positive work environment, or establish better professional boundaries."
+        },
+        "spirituality": {
+          "upright": "Spiritual community, celebration of shared beliefs, and the joy found in gathering with like-minded souls enriches your spiritual journey. The Three of Cups represents the power of collective ritual, spiritual friendships that support your growth, and the understanding that while individual practice is important, coming together in celebration and worship amplifies divine connection. This card encourages you to find or deepen involvement in spiritual community, to celebrate sacred occasions with others, and to recognize that shared joy is a form of prayer.",
+          "reversed": "Spiritual isolation, superficial spiritual socializing, or community drama interfering with your authentic practice may be preventing genuine growth. You might be going through the motions in spiritual groups without real connection, experiencing judgment or gossip in communities that should be supportive, or isolating yourself when connection would serve your evolution. This reversal invites you to find authentic spiritual community or to recognize that solitary practice might better serve you than performative group involvement."
+        }
+    }
   },
   {
     "slug": "cups-004",
@@ -53,7 +95,21 @@
       "Three Cups",
       "Hand from Cloud"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4cups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4cups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Emotional apathy, contemplation about relationships, or feeling uninspired by current romantic options invites you to examine what you truly want in love. The Four of Cups represents dissatisfaction with available choices, meditation on whether your relationship still fulfills you, or being so focused on what's missing that you can't see new opportunities being offered. This card suggests that withdrawing to reassess your heart's desires is wise, but warns against becoming so absorbed in discontent that you miss genuine offerings of love.",
+          "reversed": "Renewed enthusiasm, recognizing opportunities you've been ignoring, or emerging from romantic apathy with fresh perspective brings new possibilities. You might be finally seeing the love that's been available all along, accepting a relationship offer you previously dismissed, or breaking free from emotional stagnation to pursue connection actively. This reversal signals readiness to engage with love again, to appreciate what you have, or to pursue what you truly want rather than remaining passively dissatisfied."
+        },
+        "career": {
+          "upright": "Professional dissatisfaction, contemplating career changes, or feeling uninspired by current opportunities requires honest evaluation of what would truly fulfill you. The Four of Cups represents boredom at work, questioning whether your career path still serves your growth, or being so focused on limitations that you miss new possibilities. This card suggests that withdrawing to reassess your vocational direction is valuable, but warns against becoming so mired in discontent that you reject viable opportunities or fail to appreciate what you have.",
+          "reversed": "Renewed professional motivation, recognizing career opportunities you've overlooked, or emerging from work apathy with clarity about next steps brings forward momentum. You might be accepting a position you previously dismissed, seeing your current role with fresh appreciation, or finally taking action on career changes you've been contemplating. This reversal indicates you're ready to engage actively with your professional life rather than remaining stuck in passive dissatisfaction."
+        },
+        "spirituality": {
+          "upright": "Spiritual apathy, meditation on whether your current practice still serves you, or feeling disconnected from practices that once brought meaning invites deep self-examination. The Four of Cups represents the contemplative phase where you question your spiritual path, where practices feel empty, or where you're being offered new spiritual opportunities but can't see them because you're absorbed in what's not working. This card encourages honest assessment of your spiritual life while warning against rejecting genuine offerings because they don't match your expectations.",
+          "reversed": "Spiritual renewal, recognizing divine offerings you've been ignoring, or emerging from spiritual apathy with fresh commitment to practice brings revitalization. You might be discovering new spiritual paths that reignite your passion, appreciating practices you've taken for granted, or finally accepting spiritual guidance you've been resisting. This reversal signals readiness to engage actively with your spiritual evolution rather than remaining passively disconnected."
+        }
+    }
   },
   {
     "slug": "cups-005",
@@ -67,7 +123,21 @@
       "Standing Cups",
       "Cloaked Figure"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5cups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5cups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Grief, disappointment, and the pain of romantic loss or betrayal demand acknowledgment, yet two cups still stand behind you holding the potential for future love. The Five of Cups represents heartbreak, the end of relationships, or deep disappointment when love doesn't unfold as hoped. This card validates your sorrow while gently reminding you that focusing solely on what's lost prevents you from seeing what remains and what might still come. Allow yourself to grieve, but don't let grief become your only story.",
+          "reversed": "Acceptance of loss, beginning to heal from heartbreak, or finally turning to see the cups still standing brings the first movement toward emotional recovery. You might be finding forgiveness for yourself or a former partner, releasing regret about past relationship choices, or discovering that grief is slowly transforming into wisdom. This reversal signals that while the pain isn't entirely gone, you're ready to stop dwelling in sorrow and open to the possibility of love again."
+        },
+        "career": {
+          "upright": "Professional disappointment, loss of a job or opportunity, or grief over career setbacks requires processing while remembering that not everything is lost. The Five of Cups represents being fired, failed projects, or dreams that didn't materialize as you'd hoped. This card validates your disappointment while reminding you that resources, skills, and opportunities still exist if you can lift your gaze from what's spilled. Honor your feelings of loss without letting them blind you to what remains and what's still possible.",
+          "reversed": "Recovering from career disappointments, accepting professional losses, or recognizing opportunities that still exist despite setbacks brings renewed hope. You might be finding meaning in past failures, forgiving yourself for professional mistakes, or ready to pursue new directions after a period of grief. This reversal indicates you're emerging from career disappointment with wisdom gained and readiness to engage with the opportunities that remained while you were absorbed in loss."
+        },
+        "spirituality": {
+          "upright": "Spiritual disillusionment, grief over loss of faith or spiritual community, or disappointment when spiritual practices don't deliver expected results requires honest acknowledgment. The Five of Cups represents the dark night of the soul's grief phase, loss of cherished beliefs, or feeling betrayed by spiritual teachings or teachers. This card validates your spiritual sorrow while reminding you that the divine hasn't abandoned you—you're so focused on what's shattered that you can't see the grace that remains. Allow the grief while staying open to what still holds sacred meaning.",
+          "reversed": "Spiritual healing, acceptance of loss of old beliefs, or discovering that spiritual disappointments have deepened rather than destroyed your faith brings renewal. You might be finding new spiritual meaning after disillusionment, forgiving spiritual wounds, or recognizing that loss of certain beliefs created space for more authentic connection to the divine. This reversal signals emergence from spiritual grief with greater wisdom, ready to engage with practices and beliefs that genuinely serve your evolution."
+        }
+    }
   },
   {
     "slug": "cups-006",
@@ -81,7 +151,21 @@
       "Village",
       "Six Cups"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6cups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6cups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Sweet nostalgia, reunion with past loves, or the innocence of new romance that feels like coming home brings tender warmth to your heart. The Six of Cups represents childhood sweethearts reconnecting, relationships that have a quality of innocent purity, or meeting someone who feels familiar and safe. This card suggests that looking to the past with affection can inform your present, that simple gestures of kindness matter more than grand displays, and that the most meaningful love often has a quality of returning to something you've always known.",
+          "reversed": "Being stuck in past relationships, idealizing old lovers, or approaching new love with unrealistic nostalgia may be preventing authentic connection in the present. You might be unable to move forward because you're comparing everyone to an ex, romanticizing the past while ignoring its real problems, or so attached to how things used to be that you can't see current opportunities. This reversal calls for honoring the past without being imprisoned by it, releasing idealized memories, and being fully present for love as it exists now."
+        },
+        "career": {
+          "upright": "Drawing on past experience, returning to former fields or companies, or finding professional satisfaction through work that connects to your roots brings fulfillment. The Six of Cups represents careers that honor tradition, returning to industries or roles you once enjoyed, or finding that skills from earlier in your life now serve your current path. This card favors work with children, historical preservation, family businesses, or any field where honoring the past creates value in the present.",
+          "reversed": "Stuck in outdated career approaches, letting past success prevent innovation, or remaining in work only because it's familiar may be limiting your professional growth. You might be relying too heavily on what worked before, unable to move forward from past career glories, or staying in roles that no longer serve you simply because they're comfortable. This reversal suggests that while experience is valuable, clinging to old ways or past positions prevents the evolution necessary for continued success."
+        },
+        "spirituality": {
+          "upright": "Spiritual innocence, return to simple faith, or reconnecting with childhood spiritual experiences brings gentle healing and renewal. The Six of Cups represents finding wisdom in your earliest spiritual teachings, experiencing the divine with childlike wonder, or discovering that the spiritual truths you learned young still hold profound meaning. This card encourages you to approach spirituality with innocence and openness, to honor the sacred traditions of your upbringing, and to recognize that sometimes the simplest spiritual practices are the most profound.",
+          "reversed": "Spiritual regression, clinging to childhood beliefs that no longer serve your adult understanding, or letting early religious trauma prevent current spiritual growth may be limiting your evolution. You might be stuck in spiritual concepts that worked for your younger self but feel constraining now, unable to move beyond early conditioning, or so wounded by past religious experiences that you can't explore spirituality authentically. This reversal invites you to honor your spiritual past while allowing your understanding to mature and evolve."
+        }
+    }
   },
   {
     "slug": "cups-007",
@@ -95,7 +179,21 @@
       "Visions",
       "Silhouette"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7cups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7cups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Romantic fantasies, too many options, or confusion about what you truly want in love creates paralysis and prevents genuine connection. The Seven of Cups represents being overwhelmed by dating possibilities, projecting unrealistic fantasies onto potential partners, or daydreaming about ideal love while avoiding real relationships. This card warns that not all options are equally viable—some are illusions, some are temptations that don't serve your highest good—and that you must discern between genuine opportunities and wishful thinking to find authentic love.",
+          "reversed": "Clarity emerging from romantic confusion, making decisive choices in love, or seeing through illusions to recognize what you truly need brings focus and direction. You might be narrowing down options to pursue what genuinely matters, releasing fantasies to engage with real relationship possibilities, or finally choosing commitment after a period of indecision. This reversal signals that you're ready to move from dreaming to doing, from confusion to clarity, and to pursue love based on reality rather than fantasy."
+        },
+        "career": {
+          "upright": "Overwhelming professional options, wishful thinking about career possibilities, or difficulty distinguishing viable opportunities from pipe dreams creates indecision and stagnation. The Seven of Cups represents being paralyzed by too many career paths, fantasizing about perfect jobs instead of pursuing real ones, or being tempted by opportunities that look good but lack substance. This card warns that not all professional options are what they seem and encourages you to ground your career decisions in reality, values, and practical assessment rather than fantasy.",
+          "reversed": "Professional clarity, decisive career choices, or cutting through illusions to see opportunities realistically brings focus and forward movement. You might be eliminating options that don't align with your values, committing to a specific career direction after exploration, or recognizing which opportunities are genuine and which are mirages. This reversal indicates you're ready to stop fantasizing about perfect careers and take practical action toward achievable professional goals that truly fulfill you."
+        },
+        "spirituality": {
+          "upright": "Spiritual confusion, too many paths calling to you, or being seduced by glamorous spiritual fantasies prevents genuine practice and growth. The Seven of Cups represents sampling every spiritual tradition without commitment, being attracted to the exotic or mystical without discernment, or daydreaming about enlightenment instead of doing the actual work. This card warns that not all spiritual paths serve your highest evolution and that discernment between genuine teachings and illusions is essential for authentic spiritual development.",
+          "reversed": "Spiritual clarity, choosing a path that genuinely resonates, or seeing through spiritual illusions to find authentic practice brings focus and depth. You might be committing to specific traditions after exploration, recognizing which teachings are genuine and which are ego-serving fantasies, or grounding your spirituality in reality rather than escapist dreams. This reversal signals readiness to move from spiritual window-shopping to genuine practice, from fantasy to embodied spirituality that transforms your actual life."
+        }
+    }
   },
   {
     "slug": "cups-008",
@@ -109,7 +207,21 @@
       "Eight Cups",
       "Departing Figure"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8cups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8cups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Walking away from relationships that no longer fulfill you, seeking deeper emotional truth, or the courage to leave what's familiar but unsatisfying in pursuit of what your soul truly needs. The Eight of Cups represents the difficult but necessary departure from love that has become hollow, relationships that were once meaningful but have run their course, or the recognition that staying would mean betraying your own growth. This card honors the bravery required to leave security and face the unknown in search of authentic connection that truly nourishes your spirit.",
+          "reversed": "Fear of leaving unfulfilling relationships, avoiding necessary endings, or drifting aimlessly rather than making conscious choices about your romantic life creates stagnation. You might be staying in relationships out of fear of being alone, abandoning love too quickly without giving it genuine effort, or running from every relationship when challenges arise instead of discerning which are worth the work. This reversal asks whether you're truly seeking something better or simply avoiding the hard work of commitment and growth."
+        },
+        "career": {
+          "upright": "Leaving unfulfilling work to seek deeper professional meaning, the courage to abandon career paths that no longer serve your evolution, or recognizing that material success isn't enough without spiritual and emotional satisfaction. The Eight of Cups represents quitting jobs that drain your soul, changing careers despite external success, or the difficult journey away from what's comfortable toward work that truly matters to you. This card validates the courage required to walk away from security in search of vocational authenticity.",
+          "reversed": "Fear of leaving unfulfilling careers, abandoning professional opportunities too quickly, or aimlessly drifting between jobs without clear direction may be preventing genuine career satisfaction. You might be staying in soul-crushing work out of fear, quitting every time things get difficult, or running from challenge rather than discerning which careers deserve your commitment. This reversal asks whether you're courageously seeking meaningful work or simply avoiding the discomfort of staying long enough to build something substantial."
+        },
+        "spirituality": {
+          "upright": "Leaving spiritual paths or communities that no longer serve your growth, seeking deeper truth beyond surface practices, or the courage to abandon comfortable beliefs in pursuit of authentic spiritual experience. The Eight of Cups represents the seeker who must leave the known to find what's real, who outgrows teachers and traditions, or who recognizes that spiritual comfort can become spiritual stagnation. This card honors the courage to walk away from what no longer nourishes your soul, trusting that deeper truth awaits those brave enough to seek it.",
+          "reversed": "Spiritual escapism, abandoning practices when they challenge you, or avoiding the deep work by constantly seeking new teachers and traditions may be preventing genuine growth. You might be running from spiritual communities when they ask too much, using the search for truth as avoidance of commitment to practice, or confusing restlessness with spiritual calling. This reversal asks whether you're genuinely seeking higher truth or simply avoiding the discomfort of staying with practices long enough for real transformation to occur."
+        }
+    }
   },
   {
     "slug": "cups-009",
@@ -123,7 +235,21 @@
       "Bench",
       "Red Hat"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9cups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9cups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Deep satisfaction, wishes fulfilled in love, and the contentment that comes from having what your heart truly desires creates joy and gratitude. The Nine of Cups represents the relationship you've been hoping for manifesting, experiencing genuine happiness in partnership, or reaching a place where love feels abundant and fulfilling. This card promises that your romantic wishes are coming true or have already arrived, encouraging you to savor the satisfaction of love realized and to appreciate the emotional richness you've cultivated.",
+          "reversed": "Superficial satisfaction, greed for more despite having enough, or indulgence in romantic pleasures without deeper connection may be preventing genuine fulfillment. You might be constantly wanting the next thing instead of appreciating what you have, using relationships for ego gratification rather than authentic intimacy, or finding that getting what you thought you wanted doesn't actually satisfy your heart. This reversal calls for examining whether your wishes align with your true needs and whether gratitude for what is might bring more fulfillment than always wanting more."
+        },
+        "career": {
+          "upright": "Professional satisfaction, achievement of career goals, and the contentment that comes from success and recognition in your field brings joy and confidence. The Nine of Cups represents reaching significant professional milestones, having your hard work recognized and rewarded, or arriving at a career position that genuinely fulfills you. This card encourages you to celebrate your achievements, to appreciate how far you've come, and to enjoy the fruits of your professional labor with gratitude and pride.",
+          "reversed": "Professional greed, dissatisfaction despite success, or achieving goals that don't bring the fulfillment you expected may be creating emptiness beneath surface accomplishments. You might be constantly chasing the next promotion without appreciating current success, defining yourself solely by material achievements, or discovering that conventional success doesn't satisfy your soul's deeper needs. This reversal suggests examining whether your professional wishes align with what would truly fulfill you and whether gratitude for current achievements might bring more satisfaction than endless striving."
+        },
+        "spirituality": {
+          "upright": "Spiritual fulfillment, answered prayers, and the deep satisfaction that comes from alignment with divine will brings peace and contentment. The Nine of Cups represents experiencing the spiritual abundance you've been seeking, feeling blessed and held by the divine, or reaching a place of genuine spiritual satisfaction. This card encourages you to recognize how your spiritual wishes have been fulfilled, to express gratitude for divine blessings, and to savor the richness of your spiritual life with appreciation and joy.",
+          "reversed": "Spiritual materialism, greed for experiences and attainments, or feeling unsatisfied despite spiritual progress may be preventing genuine peace and fulfillment. You might be collecting spiritual experiences like trophies, constantly seeking the next level or awakening, or using spirituality to inflate your ego rather than humble it. This reversal suggests that true spiritual satisfaction comes from gratitude and presence rather than endless seeking, and that you may already have the spiritual fulfillment you're searching for if you could only recognize and appreciate it."
+        }
+    }
   },
   {
     "slug": "cups-010",
@@ -138,7 +264,21 @@
       "Home",
       "Children"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10cups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10cups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Emotional fulfillment, harmonious relationships, and the blessing of love that extends beyond partnership to create family and community brings complete satisfaction. The Ten of Cups represents the happily-ever-after, committed relationships that create stable foundations for family, or love that blesses not just two people but radiates out to enrich everyone around them. This card promises that lasting happiness in love is possible, that your relationship is blessed by divine grace, and that the rainbow of emotional fulfillment you've been seeking is within reach or already present.",
+          "reversed": "Broken family harmony, disconnection from loved ones, or the gap between the appearance of happiness and the reality of relationship dysfunction creates suffering. You might be maintaining the facade of perfect family while struggling privately, experiencing breakdown in relationships you thought were solid, or realizing that conventional definitions of happiness don't match your authentic needs. This reversal calls for honest assessment of whether your relationships genuinely fulfill you or whether you're clinging to ideals that don't reflect your reality."
+        },
+        "career": {
+          "upright": "Professional harmony, work that aligns with personal values, and career success that supports rather than undermines family and relationships brings complete fulfillment. The Ten of Cups represents finding work-life balance, careers that allow you to honor all aspects of your life, or professional success that enriches rather than depletes your capacity for love and connection. This card suggests that you can have both meaningful work and meaningful relationships, that true success includes emotional fulfillment alongside professional achievement.",
+          "reversed": "Work-life imbalance, career success undermining personal relationships, or professional demands destroying family harmony creates conflict and dissatisfaction. You might be sacrificing relationships for career advancement, finding that professional success leaves no energy for personal life, or discovering that the career path you chose conflicts with the life you want to live. This reversal suggests examining whether your professional choices support or sabotage your capacity for emotional fulfillment and whether redefined success might include both career satisfaction and relationship harmony."
+        },
+        "spirituality": {
+          "upright": "Spiritual harmony, divine blessings flowing through relationships and daily life, and the understanding that heaven is found in love and connection brings profound peace. The Ten of Cups represents spirituality fully integrated into everyday life, experiencing the divine through family and community, or recognizing that the highest spiritual attainment is the capacity to love and be loved fully. This card teaches that spirituality isn't separate from emotional fulfillment but expressed through it, that the rainbow of divine blessing arcs over ordinary life, and that enlightenment includes the joy of authentic human connection.",
+          "reversed": "Spiritual bypassing, using spirituality to avoid relationship challenges, or finding that spiritual pursuits create disconnection from loved ones may be preventing both authentic practice and genuine intimacy. You might be choosing spiritual advancement over human connection, experiencing conflict between spiritual community and family, or discovering that your spiritual path isolates rather than integrates you. This reversal invites examination of whether your spirituality supports or undermines your capacity for love, and whether true spiritual fulfillment might require honoring both transcendent and relational aspects of existence."
+        }
+    }
   },
   {
     "slug": "cups-011",
@@ -152,7 +292,21 @@
       "Ocean",
       "Tunic"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pagecups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pagecups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Emotional openness, playful romance, and approaching love with childlike wonder and curiosity brings fresh possibilities and gentle new beginnings. The Page of Cups represents sweet romantic messages, the early stages of love characterized by innocence and discovery, or reconnecting with your capacity for emotional vulnerability. This card encourages you to stay open to love's surprises, to express your feelings with authenticity, and to approach relationships with the curiosity and creativity of someone experiencing love for the first time.",
+          "reversed": "Emotional immaturity, unrealistic romantic fantasies, or being unable to express feelings authentically may be preventing genuine connection and growth. You might be approaching love with naivety that ignores red flags, struggling with insecurity that prevents vulnerability, or so caught in romantic fantasies that you can't engage with real relationships. This reversal calls for developing emotional maturity while maintaining openness, learning to express needs clearly, and balancing romantic idealism with practical relationship wisdom."
+        },
+        "career": {
+          "upright": "Creative opportunities, intuitive career insights, and approaching work with fresh curiosity brings new possibilities and inspiration. The Page of Cups represents messages about creative projects, the beginning of careers in the arts or helping professions, or discovering vocational directions through following your intuition. This card favors work that engages your imagination, careers that serve others emotionally, and professional paths that allow you to remain curious and creatively engaged rather than rigid and routine-bound.",
+          "reversed": "Professional immaturity, unrealistic career fantasies, or creative blocks preventing authentic expression may be limiting your professional development. You might be approaching work with naivety, struggling to communicate professionally, or so caught in dreams of creative success that you're not doing the actual work required. This reversal suggests developing professional maturity, grounding creative visions in practical skills, and learning to express your gifts in ways others can receive and value."
+        },
+        "spirituality": {
+          "upright": "Intuitive spiritual messages, approaching the divine with childlike wonder, and openness to mystical experiences brings fresh spiritual insights and possibilities. The Page of Cups represents receiving spiritual guidance through dreams and intuition, the beginning of psychic development, or rediscovering spiritual curiosity after periods of cynicism. This card encourages you to trust your intuitive knowing, to remain open to spiritual surprises, and to approach the sacred with the innocent receptivity of a child who hasn't yet learned to doubt magic.",
+          "reversed": "Spiritual immaturity, confusing fantasy with genuine mystical experience, or inability to ground spiritual insights in practical wisdom may be preventing authentic development. You might be caught in spiritual fantasies, mistaking imagination for true vision, or so insecure in your spiritual gifts that you can't trust or share them. This reversal calls for developing discernment between genuine spiritual guidance and wishful thinking, learning to communicate spiritual insights maturely, and grounding mystical experiences in embodied practice."
+        }
+    }
   },
   {
     "slug": "cups-012",
@@ -166,7 +320,21 @@
       "Cup",
       "Calm Demeanor"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightcups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightcups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Romantic pursuit, following your heart with courage and grace, and the arrival of a charming suitor or the embodiment of romantic idealism brings excitement and possibility. The Knight of Cups represents the quintessential romantic—someone who leads with their heart, expresses feelings beautifully, and pursues love with artistic sensibility and emotional authenticity. This card suggests romantic proposals, declarations of love, or embodying the energy of someone willing to quest for the relationship they truly desire, combining passion with gentleness and dreams with action.",
+          "reversed": "Moodiness, jealousy, or unrealistic romantic expectations may be creating drama and preventing stable relationships from forming. You might be embodying the negative romantic—overly idealistic, emotionally volatile, or so caught in fantasy that you can't sustain real partnership. This reversal warns against leading with emotion without grounding in reality, making grand romantic gestures without following through, or being so focused on the ideal that you reject perfectly good relationships for failing to match your fantasy."
+        },
+        "career": {
+          "upright": "Creative career pursuits, following your vocational passion, and bringing artistic or emotional intelligence to professional endeavors brings opportunities aligned with your heart. The Knight of Cups represents pursuing careers in the arts, using charm and diplomacy in business, or taking creative risks that honor your authentic vision. This card favors professional moves motivated by passion rather than just profit, work that allows emotional expression, and the courage to quest after career dreams even when the path isn't guaranteed.",
+          "reversed": "Professional moodiness, unrealistic career fantasies, or letting emotions undermine professional effectiveness may be limiting your success. You might be pursuing impractical creative dreams without developing necessary skills, allowing workplace drama to distract from actual work, or so idealistic about career possibilities that you reject viable opportunities. This reversal suggests grounding professional dreams in realistic planning, developing emotional maturity in work relationships, and balancing passion with practicality."
+        },
+        "spirituality": {
+          "upright": "Following your spiritual heart, pursuing mystical experiences with romantic idealism, and questing after divine love with artistic sensitivity brings meaningful spiritual exploration. The Knight of Cups represents the spiritual seeker motivated by love rather than discipline, who approaches the divine as a beloved, and who pursues enlightenment with the passion of a romantic quest. This card encourages you to honor the emotional and aesthetic dimensions of spirituality, to follow what makes your heart sing, and to trust that questing after divine beauty and love is a valid spiritual path.",
+          "reversed": "Spiritual moodiness, unrealistic expectations of constant bliss, or emotional instability disguised as spiritual sensitivity may be preventing grounded practice and genuine growth. You might be pursuing spiritual experiences for the feeling rather than transformation, allowing emotional ups and downs to derail consistent practice, or so idealistic about spirituality that ordinary practice feels disappointing. This reversal calls for balancing spiritual romanticism with discipline, grounding mystical experiences in daily life, and developing emotional stability as part of spiritual maturity."
+        }
+    }
   },
   {
     "slug": "cups-013",
@@ -180,7 +348,21 @@
       "Water",
       "Mermaid"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queencups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queencups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Deep emotional wisdom, nurturing love, and the capacity to hold space for both your own and others' feelings creates profound intimacy and security. The Queen of Cups represents the emotionally mature lover who combines compassion with boundaries, who trusts their intuition about relationships, and who creates safe emotional harbor for authentic connection. This card suggests embodying loving presence, offering unconditional acceptance while maintaining healthy self-care, and bringing your full emotional depth to partnership without losing yourself in the process.",
+          "reversed": "Emotional overwhelm, codependency, or inability to maintain boundaries between your feelings and others' may be creating instability and preventing healthy relationships. You might be absorbing others' emotions without discernment, sacrificing your needs to keep peace, or so emotionally reactive that you can't provide the stability love requires. This reversal calls for developing stronger emotional boundaries, healing codependent patterns, and learning to nurture yourself with the same compassion you offer others."
+        },
+        "career": {
+          "upright": "Emotional intelligence, intuitive professional decisions, and the ability to create nurturing work environments brings success in caring professions and leadership. The Queen of Cups represents careers in counseling, healing, creative arts, or any field where empathy and emotional wisdom are your greatest professional assets. This card favors work that honors your sensitivity as strength, using intuition to guide career choices, and creating professional spaces where emotional authenticity is valued alongside competence.",
+          "reversed": "Professional emotional instability, difficulty maintaining boundaries at work, or being overwhelmed by others' needs may be undermining your career effectiveness. You might be too emotionally invested in workplace dynamics, unable to separate personal feelings from professional decisions, or so sensitive to criticism that you can't function in challenging environments. This reversal suggests developing professional boundaries, learning when empathy serves and when it depletes, and building emotional resilience alongside compassion."
+        },
+        "spirituality": {
+          "upright": "Psychic sensitivity, deep emotional connection to the divine, and the understanding that spirituality flows through the heart brings profound mystical experiences. The Queen of Cups represents the spiritual empath who receives divine guidance through feeling and intuition, who practices spirituality through compassion and emotional presence, and who trusts the wisdom of the heart. This card encourages you to honor your emotional and psychic gifts, to trust your intuitive knowing, and to recognize that your sensitivity is a sacred doorway to divine connection.",
+          "reversed": "Psychic overwhelm, inability to distinguish divine guidance from emotional reactivity, or absorbing others' spiritual confusion may be preventing clear spiritual development. You might be so emotionally open that you can't maintain energetic boundaries, confusing emotional turbulence with spiritual experience, or using spiritual practices to bypass necessary emotional work. This reversal calls for grounding your sensitivity in discernment, protecting your energy while remaining open, and recognizing that spiritual maturity includes emotional stability."
+        }
+    }
   },
   {
     "slug": "cups-014",
@@ -194,6 +376,20 @@
       "Ship",
       "Scepter"
     ],
-    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingcups.jpg"
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingcups.jpg",
+    "detailedMeaning": {
+        "love": {
+          "upright": "Emotional mastery, calm compassionate presence, and the ability to feel deeply while maintaining stability creates secure and mature relationships. The King of Cups represents the partner who has done their emotional work, who can hold space for intense feelings without being overwhelmed, and who brings both wisdom and warmth to love. This card suggests embodying emotional sovereignty—feeling everything fully while remaining centered, offering compassion without losing yourself, and creating relationships where both passion and peace can coexist.",
+          "reversed": "Emotional manipulation, passive-aggressive behavior, or volatile mood swings disguised as sensitivity may be creating instability and undermining trust. You might be using emotional intelligence for control rather than connection, suppressing feelings until they explode, or so detached from emotions that you can't truly connect. This reversal warns against manipulating through emotional withdrawal, pretending to be calm while seething underneath, or using rationality to avoid authentic feeling."
+        },
+        "career": {
+          "upright": "Wise leadership, diplomatic professional presence, and the ability to manage both people and emotions skillfully brings respect and advancement. The King of Cups represents leaders who inspire through calm authority combined with genuine care, professionals who navigate workplace politics with integrity, and careers where emotional intelligence is wielded with mastery. This card favors counseling, mediation, executive leadership, or any role requiring you to remain centered while dealing with others' emotional intensity.",
+          "reversed": "Professional manipulation, using emotional intelligence unethically, or emotional volatility undermining your authority may be damaging your career and relationships. You might be playing political games, using knowledge of people's vulnerabilities against them, or so emotionally unstable that others can't trust your leadership. This reversal calls for examining whether you're using emotional skills ethically, whether suppressed feelings are sabotaging professional effectiveness, and whether you need to develop genuine emotional maturity rather than just controlling appearances."
+        },
+        "spirituality": {
+          "upright": "Spiritual emotional mastery, the ability to navigate deep mystical waters without being swept away, and compassionate wisdom that comes from integrating feeling and knowing brings profound development. The King of Cups represents the spiritual teacher who has mastered the emotional realm, who can guide others through feelings without losing their own center, and who understands that true spirituality includes emotional sovereignty. This card encourages you to develop calm presence amidst emotional intensity, to use spiritual practice for genuine emotional integration, and to embody the wisdom that comes from feeling everything without being controlled by anything.",
+          "reversed": "Spiritual emotional manipulation, using spiritual authority to control others, or suppressing emotions in the name of enlightenment may be preventing authentic development and harming those you influence. You might be playing guru while emotionally immature, using spiritual concepts to bypass genuine feeling, or manipulating through claims of superior spiritual understanding. This reversal warns that true spiritual mastery includes emotional honesty, that suppressed feelings undermine spiritual authority, and that genuine wisdom serves rather than controls others."
+        }
+    }
   }
 ]

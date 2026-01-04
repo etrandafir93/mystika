@@ -9,23 +9,22 @@ import org.springframework.stereotype.Component;
 import com.mystika.tarot.cards.TarotCard;
 import com.mystika.tarot.cards.TarotDeck;
 import com.mystika.tarot.cards.TarotDecksRepository;
-
-import lombok.RequiredArgsConstructor;
+import com.mystika.tarot.spreads.Spread;
+import com.mystika.tarot.spreads.ThreeCardSpread;
 
 @Component
-@RequiredArgsConstructor
 class Seeker {
 
     private final TarotDecksRepository decks;
 
-    public ThreeCardSpread draw(Drawing drawing) {
-        return switch (drawing) {
+    public ThreeCardSpread draw(Spread spread) {
+        return switch (spread) {
             case ThreeCardSpread threeCardSpread -> draw(threeCardSpread);
         };
     }
 
-    private ThreeCardSpread draw(ThreeCardSpread drawing) {
-        TarotDeck deck = decks.bySlug(drawing.deckSlug())
+    private ThreeCardSpread draw(ThreeCardSpread spread) {
+        TarotDeck deck = decks.bySlug(spread.deckSlug())
             .orElseThrow();
 
         AtomicInteger position = new AtomicInteger(1);
@@ -35,17 +34,21 @@ class Seeker {
             .map(card -> drawnTarotCard(position.getAndIncrement(), card))
             .toList();
 
-        return drawing.withCards(drawnCards);
+        return spread.withCards(drawnCards);
     }
 
     static DrawnCard drawnTarotCard(int position, TarotCard card) {
         var orientation = weightedRandom();
         String meaning = orientation == DrawnCard.Orientation.UPRIGHT ? card.meaning() : card.reversedMeaning();
-        return new DrawnCard(position, card.slug(), card.name(), orientation, meaning, card.symbols(), card.imageUrl());
+        return new DrawnCard(position, card.slug(), card.name(), orientation, meaning, card.symbols(), card.imageUrl(), card.detailedMeaning());
     }
 
     static DrawnCard.Orientation weightedRandom() {
         return ThreadLocalRandom.current()
             .nextInt(100) <= 80 ? DrawnCard.Orientation.UPRIGHT : DrawnCard.Orientation.REVERSED;
+    }
+
+    Seeker(TarotDecksRepository decks) {
+        this.decks = decks;
     }
 }
