@@ -1,0 +1,10 @@
+services:
+  # Grafana OTEL-LGTM Stack (Loki, Grafana, Tempo, Mimir)
+  otel-lgtm:
+    image: grafana/otel-lgtm:latest
+    container_name: mystika-otel-lgtm
+    ports:
+      - "3001:3000"   # Grafana UI
+      - "4317:4317"   # OTLP gRPC receiver
+      - "4318:4318"   # OTLP HTTP receiver
+    restart: unless-stopped
