@@ -12,6 +12,8 @@ import com.mystika.tarot.spreads.Spread;
 import com.mystika.tarot.spreads.SpreadFocus;
 import com.mystika.tarot.spreads.ThreeCardSpread;
 
+import io.micrometer.observation.annotation.Observed;
+
 @RestController
 @RequestMapping("api/readings")
 class ReadingController {
@@ -22,6 +24,7 @@ class ReadingController {
     private final Seeker seeker;
 
     @PostMapping
+    @Observed(name = "reading.request")
     Response reading(@RequestBody Request req) {
         log.info("reading requested: {}", req);
 

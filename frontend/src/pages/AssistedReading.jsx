@@ -8,6 +8,7 @@ function AssistedReading() {
   const [isExpanded, setIsExpanded] = useState(false)
   const [expandedCardIndex, setExpandedCardIndex] = useState(null)
   const [isAddingSecondCard, setIsAddingSecondCard] = useState(false)
+  const [selectedCategory, setSelectedCategory] = useState('love') // love, career, or spirituality
 
   useEffect(() => {
     // Fetch the deck data
@@ -198,10 +199,34 @@ function AssistedReading() {
 
                   {cards.length === 1 && (
                     <div className="card-info">
+                      <div className="category-buttons">
+                        <button
+                          className={`category-btn ${selectedCategory === 'love' ? 'active' : ''}`}
+                          onClick={() => setSelectedCategory('love')}
+                        >
+                          Love
+                        </button>
+                        <button
+                          className={`category-btn ${selectedCategory === 'spirituality' ? 'active' : ''}`}
+                          onClick={() => setSelectedCategory('spirituality')}
+                        >
+                          Spirituality
+                        </button>
+                        <button
+                          className={`category-btn ${selectedCategory === 'career' ? 'active' : ''}`}
+                          onClick={() => setSelectedCategory('career')}
+                        >
+                          Career
+                        </button>
+                      </div>
                       <div className="card-meaning">
                         <div className="info-title">✦ {card.isReversed ? 'Reversed Meaning' : 'Meaning'} ✦</div>
                         <div className="info-content">
-                          {card.isReversed ? card.reversedMeaning : card.meaning}
+                          {card.detailedMeaning && card.detailedMeaning[selectedCategory]
+                            ? (card.isReversed
+                                ? card.detailedMeaning[selectedCategory].reversed
+                                : card.detailedMeaning[selectedCategory].upright)
+                            : (card.isReversed ? card.reversedMeaning : card.meaning)}
                         </div>
                       </div>
                       <div className="card-symbols">

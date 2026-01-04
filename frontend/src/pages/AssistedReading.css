@@ -382,6 +382,58 @@
   padding: 0 1rem;
 }
 
+/* Category Buttons */
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.category-btn {
+  padding: 0.6rem 1.2rem;
+  font-family: 'Georgia', serif;
+  font-size: 0.9rem;
+  background: rgba(26, 26, 46, 0.4);
+  color: #daa520;
+  border: 2px solid rgba(218, 165, 32, 0.3);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.category-btn:hover {
+  border-color: #daa520;
+  background: rgba(218, 165, 32, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(218, 165, 32, 0.3);
+}
+
+.category-btn.active {
+  background: linear-gradient(
+    135deg,
+    #daa520 0%,
+    #f0e68c 50%,
+    #daa520 100%
+  );
+  color: #1a1a2e;
+  border-color: #f0e68c;
+  font-weight: bold;
+  box-shadow: 0 5px 20px rgba(218, 165, 32, 0.5);
+  transform: translateY(-2px);
+}
+
+.category-btn.active:hover {
+  background: linear-gradient(
+    135deg,
+    #f0e68c 0%,
+    #daa520 50%,
+    #f0e68c 100%
+  );
+  box-shadow: 0 5px 25px rgba(240, 230, 140, 0.6);
+}
+
 .card-meaning,
 .card-symbols {
   display: flex;
@@ -594,5 +646,14 @@
 
   .expanded-image {
     max-height: 85vh;
+  }
+
+  .category-buttons {
+    gap: 0.5rem;
+  }
+
+  .category-btn {
+    padding: 0.5rem 0.9rem;
+    font-size: 0.85rem;
   }
 }
