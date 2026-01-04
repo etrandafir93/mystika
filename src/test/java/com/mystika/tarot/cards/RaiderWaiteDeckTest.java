@@ -13,7 +13,6 @@ import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 import org.junit.jupiter.api.DynamicNode;
-import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestFactory;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -27,7 +26,7 @@ import tools.jackson.databind.json.JsonMapper;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class TarotDeckControllerTest {
+class RaiderWaiteDeckTest {
 
     @Autowired
     private MockMvc mvc;
@@ -68,7 +67,6 @@ class TarotDeckControllerTest {
             dynamicTest("has 78 slugs", () -> hasDifferentObjects(allCards, 78, TarotCard::slug)),
             dynamicTest("has 78 images", () -> hasDifferentObjects(allCards, 78, TarotCard::imageUrl)),
             dynamicTest("has 78 meanings", () -> hasDifferentObjects(allCards, 78, TarotCard::meaning)),
-
 
             dynamicContainer("major-arcana", Stream.of(
                 dynamicTest("has 22 cards", () -> hasSimilarObjects(allCards, 22,

@@ -1,5 +1,7 @@
 package com.mystika.tarot.reading;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,14 +12,11 @@ import com.mystika.tarot.spreads.Spread;
 import com.mystika.tarot.spreads.SpreadFocus;
 import com.mystika.tarot.spreads.ThreeCardSpread;
 
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
-
-@Slf4j
 @RestController
-@RequiredArgsConstructor
 @RequestMapping("api/readings")
 class ReadingController {
+
+    private static final Logger log = LoggerFactory.getLogger(ReadingController.class);
 
     private final Seer seer;
     private final Seeker seeker;
@@ -59,7 +58,10 @@ class ReadingController {
         enum DrawingType {
             THREE_CARD_SPREAD
         }
-
     }
 
+    ReadingController(Seer seer, Seeker seeker) {
+        this.seer = seer;
+        this.seeker = seeker;
+    }
 }

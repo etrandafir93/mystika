@@ -29,4 +29,10 @@ public record DrawnCard(int position, String cardSlug, String name, Orientation 
         return "The %s card \"%s\" suggests that you have recently experienced significant events that have shaped your current situation: %s."
             .formatted(orientation == DrawnCard.Orientation.REVERSED ? "reversed " : "", name, meaning);
     }
+
+    @Override
+    public String toString() {
+        return "DrawnCard{" + "position=" + position + ", cardSlug='" + cardSlug + '\'' + ", name='" + name + '\'' + ", orientation=" + orientation +
+            ", meaning='" + meaning + '\'' + ", symbols=" + symbols + ", imageUrl='" + imageUrl + '\'' + ", cardMeaning=[...] }" ;
+    }
 }

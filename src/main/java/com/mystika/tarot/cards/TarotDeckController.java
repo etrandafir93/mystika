@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import io.micrometer.common.util.StringUtils;
-import lombok.RequiredArgsConstructor;
 
-@RequiredArgsConstructor
 @RestController
 @RequestMapping("api/decks")
 class TarotDeckController {
@@ -25,4 +23,7 @@ class TarotDeckController {
         return ResponseEntity.of(tarotDecks.bySlug(slug));
     }
 
+    TarotDeckController(TarotDecksRepository tarotDecks) {
+        this.tarotDecks = tarotDecks;
+    }
 }

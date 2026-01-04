@@ -12,10 +12,7 @@ import com.mystika.tarot.cards.TarotDecksRepository;
 import com.mystika.tarot.spreads.Spread;
 import com.mystika.tarot.spreads.ThreeCardSpread;
 
-import lombok.RequiredArgsConstructor;
-
 @Component
-@RequiredArgsConstructor
 class Seeker {
 
     private final TarotDecksRepository decks;
@@ -49,5 +46,9 @@ class Seeker {
     static DrawnCard.Orientation weightedRandom() {
         return ThreadLocalRandom.current()
             .nextInt(100) <= 80 ? DrawnCard.Orientation.UPRIGHT : DrawnCard.Orientation.REVERSED;
+    }
+
+    Seeker(TarotDecksRepository decks) {
+        this.decks = decks;
     }
 }
