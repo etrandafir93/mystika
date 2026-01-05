@@ -65,12 +65,14 @@
   justify-content: center;
 }
 
-.focus-option:hover {
-  gap: 0.4rem;
-  width: auto;
-  padding: 0 0.6rem;
-  border-radius: 16px;
-  background: rgba(218, 165, 32, 0.05);
+@media (hover: hover) and (pointer: fine) {
+  .focus-option:hover {
+    gap: 0.4rem;
+    width: auto;
+    padding: 0 0.6rem;
+    border-radius: 16px;
+    background: rgba(218, 165, 32, 0.05);
+  }
 }
 
 .focus-option.selected {
@@ -116,9 +118,11 @@
   white-space: nowrap;
 }
 
-.focus-option:hover .focus-label {
-  opacity: 1;
-  max-width: 100px;
+@media (hover: hover) and (pointer: fine) {
+  .focus-option:hover .focus-label {
+    opacity: 1;
+    max-width: 100px;
+  }
 }
 
 .page-title {
@@ -202,10 +206,12 @@
   }
 }
 
-.tarot-card:hover {
-  transform: translateY(-20px) scale(1.15) rotate(var(--card-rotation, 0deg));
-  z-index: 100;
-  animation: cardAppear 0.6s ease-out backwards, cardPulsate 2s ease-in-out infinite;
+@media (hover: hover) and (pointer: fine) {
+  .tarot-card:hover {
+    transform: translateY(-20px) scale(1.15) rotate(var(--card-rotation, 0deg));
+    z-index: 100;
+    animation: cardAppear 0.6s ease-out backwards, cardPulsate 2s ease-in-out infinite;
+  }
 }
 
 .card-deck.collapsed .tarot-card {
@@ -213,10 +219,12 @@
   pointer-events: none;
 }
 
-.card-deck.collapsed .tarot-card:hover {
-  transform: translateY(0) rotate(0deg) scale(1);
-  z-index: auto;
-  animation: none;
+@media (hover: hover) and (pointer: fine) {
+  .card-deck.collapsed .tarot-card:hover {
+    transform: translateY(0) rotate(0deg) scale(1);
+    z-index: auto;
+    animation: none;
+  }
 }
 
 .tarot-card.selected {
@@ -253,9 +261,11 @@
   overflow: hidden;
 }
 
-.tarot-card:hover .card-back {
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
-  border-color: #daa520;
+@media (hover: hover) and (pointer: fine) {
+  .tarot-card:hover .card-back {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    border-color: #daa520;
+  }
 }
 
 .tarot-card.selected .card-back {
@@ -332,12 +342,14 @@
   transition: all 0.3s ease;
 }
 
-.tarot-card:hover .celestial-symbol,
-.tarot-card:hover .moon-phase,
-.tarot-card:hover .star-accent {
-  color: #f0e68c;
-  text-shadow: 0 0 20px rgba(218, 165, 32, 0.8);
-  transform: scale(1.1);
+@media (hover: hover) and (pointer: fine) {
+  .tarot-card:hover .celestial-symbol,
+  .tarot-card:hover .moon-phase,
+  .tarot-card:hover .star-accent {
+    color: #f0e68c;
+    text-shadow: 0 0 20px rgba(218, 165, 32, 0.8);
+    transform: scale(1.1);
+  }
 }
 
 .celestial-symbol {
@@ -394,50 +406,47 @@
   opacity: 0;
 }
 
+.card-wrapper {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
 .selected-card {
   transform: translateY(0) rotate(var(--selected-rotation, 0deg)) !important;
   animation: cardDrop 0.6s ease-out backwards;
   cursor: pointer;
   margin-left: 0 !important;
-  transition: transform 0.6s;
   transform-style: preserve-3d;
-}
-
-.selected-card:hover {
-  transform: translateY(0) rotate(var(--selected-rotation, 0deg)) !important;
-  animation: none !important;
-  z-index: auto;
-}
-
-.selected-card.flipped {
-  transform: rotateY(180deg) rotate(var(--selected-rotation, 0deg)) !important;
-  -webkit-transform: rotateY(180deg) rotate(var(--selected-rotation, 0deg)) !important;
-  cursor: zoom-in;
-  pointer-events: auto;
-  animation: none !important;
-}
-
-.selected-card.flipped:hover {
-  transform: rotateY(180deg) rotate(var(--selected-rotation, 0deg)) !important;
-  -webkit-transform: rotateY(180deg) rotate(var(--selected-rotation, 0deg)) !important;
-  animation: none !important;
+  -webkit-transform-style: preserve-3d;
 }
 
 .selected-card .card-back {
   transition: none;
 }
 
-.selected-card:hover .card-back {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  border-color: #daa520;
-}
+@media (hover: hover) and (pointer: fine) {
+  .selected-card:hover {
+    transform: translateY(0) rotate(var(--selected-rotation, 0deg)) !important;
+    animation: none !important;
+    z-index: auto;
+  }
 
-.selected-card:hover .celestial-symbol,
-.selected-card:hover .moon-phase,
-.selected-card:hover .star-accent {
-  color: #daa520;
-  text-shadow: 0 0 10px rgba(218, 165, 32, 0.5);
-  transform: scale(1);
+  .selected-card:hover .card-back {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border-color: #daa520;
+  }
+
+  .selected-card:hover .celestial-symbol,
+  .selected-card:hover .moon-phase,
+  .selected-card:hover .star-accent {
+    color: #daa520;
+    text-shadow: 0 0 10px rgba(218, 165, 32, 0.5);
+    transform: scale(1);
+  }
 }
 
 .card-inner {
@@ -446,6 +455,15 @@
   height: 100%;
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
+  transition: transform 0.6s;
+  -webkit-transition: -webkit-transform 0.6s;
+  transform: rotateY(0deg) translate3d(0, 0, 0);
+  -webkit-transform: rotateY(0deg) translate3d(0, 0, 0);
+}
+
+.card-inner.flipped {
+  transform: rotateY(180deg) translate3d(0, 0, 0);
+  -webkit-transform: rotateY(180deg) translate3d(0, 0, 0);
 }
 
 .card-front,
@@ -466,10 +484,14 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   border: 3px solid #daa520;
   z-index: 2;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .card-back {
   z-index: 1;
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
 }
 
 .card-front img {
@@ -555,8 +577,10 @@
   transition: none;
 }
 
-.tarot-card.has-shine:hover .card-back::after {
-  animation: shine 0.8s ease-out;
+@media (hover: hover) and (pointer: fine) {
+  .tarot-card.has-shine:hover .card-back::after {
+    animation: shine 0.8s ease-out;
+  }
 }
 
 @keyframes shine {
@@ -615,11 +639,13 @@
   z-index: 2001;
 }
 
-.zoom-close-button:hover {
-  border-color: #f0e68c;
-  box-shadow: 0 5px 20px rgba(218, 165, 32, 0.5);
-  transform: scale(1.1);
-  color: #fff;
+@media (hover: hover) and (pointer: fine) {
+  .zoom-close-button:hover {
+    border-color: #f0e68c;
+    box-shadow: 0 5px 20px rgba(218, 165, 32, 0.5);
+    transform: scale(1.1);
+    color: #fff;
+  }
 }
 
 @keyframes fadeIn {
@@ -827,9 +853,11 @@
   }
 }
 
-.reading-chapter:hover .chapter-title {
-  color: #f0e68c;
-  text-shadow: 0 0 20px rgba(218, 165, 32, 0.8);
+@media (hover: hover) and (pointer: fine) {
+  .reading-chapter:hover .chapter-title {
+    color: #f0e68c;
+    text-shadow: 0 0 20px rgba(218, 165, 32, 0.8);
+  }
 }
 
 .chapter-title {
@@ -944,16 +972,18 @@
   transition: opacity 0.4s ease;
 }
 
-.focus-option-large:hover {
-  border-color: rgba(218, 165, 32, 0.4);
-  box-shadow:
-    0 8px 20px rgba(0, 0, 0, 0.3),
-    0 0 20px rgba(218, 165, 32, 0.1);
-  transform: translateY(-4px);
-}
+@media (hover: hover) and (pointer: fine) {
+  .focus-option-large:hover {
+    border-color: rgba(218, 165, 32, 0.4);
+    box-shadow:
+      0 8px 20px rgba(0, 0, 0, 0.3),
+      0 0 20px rgba(218, 165, 32, 0.1);
+    transform: translateY(-4px);
+  }
 
-.focus-option-large:hover::before {
-  opacity: 1;
+  .focus-option-large:hover::before {
+    opacity: 1;
+  }
 }
 
 .focus-option-large.selected {
@@ -978,11 +1008,13 @@
   filter: drop-shadow(0 0 5px rgba(218, 165, 32, 0.2));
 }
 
-.focus-option-large:hover .focus-icon-large {
-  color: rgba(218, 165, 32, 0.8);
-  text-shadow: 0 0 15px rgba(218, 165, 32, 0.4);
-  transform: scale(1.08);
-  filter: drop-shadow(0 0 10px rgba(218, 165, 32, 0.3));
+@media (hover: hover) and (pointer: fine) {
+  .focus-option-large:hover .focus-icon-large {
+    color: rgba(218, 165, 32, 0.8);
+    text-shadow: 0 0 15px rgba(218, 165, 32, 0.4);
+    transform: scale(1.08);
+    filter: drop-shadow(0 0 10px rgba(218, 165, 32, 0.3));
+  }
 }
 
 .focus-option-large.selected .focus-icon-large {
@@ -1000,9 +1032,11 @@
   transition: all 0.3s ease;
 }
 
-.focus-option-large:hover .focus-label-large {
-  color: rgba(240, 230, 140, 0.9);
-  text-shadow: 0 0 10px rgba(218, 165, 32, 0.3);
+@media (hover: hover) and (pointer: fine) {
+  .focus-option-large:hover .focus-label-large {
+    color: rgba(240, 230, 140, 0.9);
+    text-shadow: 0 0 10px rgba(218, 165, 32, 0.3);
+  }
 }
 
 .focus-option-large.selected .focus-label-large {

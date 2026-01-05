@@ -143,8 +143,14 @@
   background: #16213e;
   color: #daa520;
   font-weight: bold;
-  font-family: 'Cinzel Decorative', cursive;
-  letter-spacing: 0.05rem;
+  font-style: normal;
+}
+
+/* Fix for iOS duplicate optgroup labels */
+@supports (-webkit-touch-callout: none) {
+  .card-selector optgroup {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
 }
 
 /* Card Details Container */
@@ -546,6 +552,18 @@
 
 /* Mobile responsive */
 @media (max-width: 768px) {
+  .page {
+    padding: 6rem 1rem 2rem 1rem;
+  }
+
+  .page-content {
+    margin-top: 1rem;
+  }
+
+  .card-selector-container {
+    margin: 0 auto 2rem auto;
+  }
+
   .card-selector {
     min-width: 250px;
     font-size: 0.9rem;

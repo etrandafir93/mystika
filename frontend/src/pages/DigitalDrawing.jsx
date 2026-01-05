@@ -237,7 +237,7 @@ function DigitalDrawing() {
                 return (
                   <div key={slotIndex} className={`card-wrapper ${isFlipped ? 'flipped' : ''}`} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <div
-                      className={`tarot-card selected-card ${position.invertStars ? 'invert-stars' : ''} ${isFlipped ? 'flipped' : ''}`}
+                      className={`tarot-card selected-card ${position.invertStars ? 'invert-stars' : ''}`}
                       style={{
                         animationDelay: `${slotIndex * 0.2}s`,
                         '--shimmer-delay': `${position.shimmerDelay}s`,
@@ -245,7 +245,7 @@ function DigitalDrawing() {
                       }}
                       onClick={() => handleCardFlip(slotIndex, cardData)}
                     >
-                      <div className="card-inner">
+                      <div className={`card-inner ${isFlipped ? 'flipped' : ''}`}>
                         <div className="card-back">
                           <div className="card-pattern">
                             <div className="celestial-symbol">✦</div>

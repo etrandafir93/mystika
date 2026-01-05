@@ -135,24 +135,26 @@ function AssistedReading() {
             disabled={cards.length >= 2}
           >
             <option value="">Select a card...</option>
-            {Object.entries(orderedGroupedCards).map(([suite, cardsList]) => (
-              <optgroup key={suite} label={suite}>
-                {cardsList
-                  .filter(card => {
-                    // When adding second card, filter out the first card
-                    if (isAddingSecondCard && cards.length === 1) {
-                      return !cards.some(c => c.slug === card.slug)
-                    }
-                    // Otherwise show all cards
-                    return true
-                  })
-                  .map(card => (
+            {Object.entries(orderedGroupedCards).map(([suite, cardsList]) => {
+              const filteredCards = cardsList.filter(card => {
+                // When adding second card, filter out the first card
+                if (isAddingSecondCard && cards.length === 1) {
+                  return !cards.some(c => c.slug === card.slug)
+                }
+                // Otherwise show all cards
+                return true
+              })
+
+              return (
+                <optgroup key={suite} label={suite}>
+                  {filteredCards.map(card => (
                     <option key={card.slug} value={card.slug}>
                       {card.name}
                     </option>
                   ))}
-              </optgroup>
-            ))}
+                </optgroup>
+              )
+            })}
           </select>
         </div>
 
@@ -176,6 +178,7 @@ function AssistedReading() {
                     >
                       ⟲
                     </button>
+                    {/* Temporarily hidden - to be implemented later
                     {cards.length === 1 && (
                       <button
                         className={`card-action-button add-button ${isAddingSecondCard ? 'active' : ''}`}
@@ -185,6 +188,7 @@ function AssistedReading() {
                         +
                       </button>
                     )}
+                    */}
                     <div className="card-image-display" onClick={() => handleCardClick(index)}>
                       <img
                         src={card.imageUrl}
