@@ -44,14 +44,19 @@ class RaiderWaiteDeckPropertyTest {
 
         response.spread()
             .cards()
-            .forEach(card ->
-                assertThat(card)
+            .forEach(drawnCard -> {
+                assertThat(drawnCard)
+                    .hasFieldOrProperty("position")
+                    .hasFieldOrProperty("card")
+                    .hasFieldOrProperty("orientation");
+
+                assertThat(drawnCard.card())
                     .hasFieldOrProperty("name")
+                    .hasFieldOrProperty("slug")
                     .hasFieldOrProperty("meaning")
-                    .hasFieldOrProperty("cardMeaning")
                     .hasFieldOrProperty("symbols")
-                    .hasFieldOrProperty("imageUrl")
-                    .hasFieldOrProperty("orientation")
+                    .hasFieldOrProperty("imageUrl");
+                }
             );
     }
 
