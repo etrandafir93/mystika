@@ -1,0 +1,393 @@
+[
+  {
+    "slug": "major-arcana-000",
+    "upright": "A new role is being offered to you, or perhaps you are about to join a team whose codebase you have not yet seen. The Fool steps off the cliff not from ignorance but from trust. Pack light. Ask questions. The white rose he carries is your beginner's mind — do not lose it to cynicism before the first sprint ends.",
+    "reversed": "You have accepted a role without reading the job description carefully, or perhaps you are rushing a release without understanding what it will touch downstream. The knapsack is packed with things you don't need and missing the things you do. Pause before the step."
+  },
+  {
+    "slug": "major-arcana-001",
+    "upright": "Every tool is on the table before you — the terminal, the whiteboard, the institutional knowledge of a senior who still answers your messages. This is the moment to propose the project you have been afraid to propose. The Magician's wand points to heaven; his other hand points to earth. What you conceive above, you can build below.",
+    "reversed": "Your talents are not in question. What is in question is whether they are being seen. Someone in your organisation may be taking credit for work that flows from your hands. The four suits lie scattered — the potential is real, but nothing is being assembled."
+  },
+  {
+    "slug": "major-arcana-002",
+    "upright": "A decision about your team is being made behind closed doors and you are not in the room. The High Priestess sits between the pillars — light and shadow, what is known and what is concealed. Trust your instincts about what is coming. Not everything will be announced. Read the scroll.",
+    "reversed": "Information that would change your next move is being withheld from you, or you yourself are holding back knowledge the team needs. The veil has fallen. Someone is performing competence they do not have."
+  },
+  {
+    "slug": "major-arcana-003",
+    "upright": "A project you have been nurturing is beginning to flourish beyond what you expected. The Empress is surrounded by wheat and running water — abundance that grew because it was tended, not forced. This is a season for building, for mentoring those who came after you, and for allowing your work to compound quietly. Something you planted two quarters ago is about to be harvested.",
+    "reversed": "Creative energy is blocked or scattered across too many demands. You may be overcommitted, running three workstreams and delivering none of them fully. The garden is overgrown with unfinished features. The Empress reversed asks what you are neglecting in order to appear productive."
+  },
+  {
+    "slug": "major-arcana-004",
+    "upright": "A new structure is being established — a new engineering manager, a new process, a team charter that finally brings order to what was chaos. The Emperor's throne is built on stone, not sentiment. Clarity of ownership and accountability is arriving. If you are the one being asked to lead, lead with consistency. Define the architecture before writing the first line.",
+    "reversed": "Someone with authority is enforcing process for its own sake — mandatory ceremonies, rigid approval chains, review gates that slow delivery without improving quality. The orb and sceptre are wielded without wisdom. You may be under a manager who mistakes control for leadership, or you yourself may be the one clinging to structure when flexibility is needed."
+  },
+  {
+    "slug": "major-arcana-005",
+    "upright": "There is wisdom in the established path, even when it feels slow. A senior colleague, an internal training programme, or a formal process holds more value than it appears on the surface. The Hierophant's two keys unlock what cannot be learned from documentation alone. Seek a mentor. Obtain the certification. Some doors open only from the inside.",
+    "reversed": "The process has become the obstacle. A approval workflow that once protected quality now delays every deployment by three working days. Or perhaps you are being asked to follow a technical convention that the team adopted in 2017 and has not questioned since. The monks kneel before a tradition that no longer serves. Ask aloud why things are done this way — and be prepared for the answer to be silence."
+  },
+  {
+    "slug": "major-arcana-006",
+    "upright": "A choice is before you — between two roles, two teams, two technical directions. The angel above the Lovers does not choose for you; the blessing descends regardless of which path you take. But one path aligns with your values and one aligns with your comfort. They are not the same path. Choose the one you would choose if no one were watching your salary band.",
+    "reversed": "You are in a working relationship — a partnership, a reporting line, a collaboration — where values are fundamentally misaligned. You may be staying because leaving feels harder than enduring. The two figures stand apart beneath the angel's gaze. What you are tolerating will not improve through tolerance alone."
+  },
+  {
+    "slug": "major-arcana-007",
+    "upright": "You have been driving this delivery with discipline and the finish line is within reach. The Chariot's two sphinxes — one light, one dark — represent the competing forces you have been holding in tension: scope and deadline, quality and speed, your team's capacity and the stakeholder's expectations. You have held them. The victory is real. Claim it.",
+    "reversed": "The delivery is out of control — competing priorities pulling in directions that no single person can reconcile. The sphinxes are pulling apart and the charioteer is holding on, not steering. A release that was supposed to go out this week has been descoped, re-scoped, and descoped again. Before you sprint, establish the direction."
+  },
+  {
+    "slug": "major-arcana-008",
+    "upright": "The difficult colleague, the flaky test suite, the codebase that resists every change — Strength does not conquer these through force. The woman in white opens the lion's mouth with calm hands, not a weapon. Your patience in this quarter is your greatest professional asset. The performance review will not capture it. The team will remember it.",
+    "reversed": "You are either too passive in the face of what needs to change, or overcompensating with urgency and pressure that is beginning to wear on those around you. The lion is not tamed by exhaustion. Consider whether the intensity you are bringing to the problem is a strategy or a defence mechanism."
+  },
+  {
+    "slug": "major-arcana-009",
+    "upright": "Deep, focused, solitary work is called for. The Hermit holds his lantern high on the mountaintop — not to signal others, but to see clearly. This is the moment to go deep on a hard problem: to read the RFC, to trace the bug to its actual root, to write the design document no one asked for but everyone needs. The light you carry will guide others later, when they are ready.",
+    "reversed": "You have been working in isolation when collaboration would serve you better. Or conversely, the constant interruptions of stand-ups and Slack threads have made deep work impossible and you are producing surface-level solutions to problems that require depth. The lantern is dimming. Find the conditions in which you think clearly, and protect them."
+  },
+  {
+    "slug": "major-arcana-010",
+    "upright": "The wheel turns. A reorg arrives, a team structure shifts, a technology that was marginalised becomes central. The four creatures at the corners of the Wheel of Fortune hold their books open — the laws of cycles do not change. Your current period of momentum will not last forever, and neither will a period of stagnation. Position yourself for the turn, not just the current position.",
+    "reversed": "You are resisting a change that has already happened. The wheel has turned and you are still holding the spoke. An old way of working, an old team dynamic, a technology you were expert in — something is being made obsolete and the resistance is costing you. The sphinx at the top of the wheel watches without sentiment. Adapt."
+  },
+  {
+    "slug": "major-arcana-011",
+    "upright": "A performance review, a promotion decision, or a code review will be judged on its actual merits in the coming weeks. Justice holds both the sword and the scales — precision and balance in equal measure. What you have genuinely built will be seen. What you have padded or overstated will also be seen. Prepare your evidence and let the decision be made on what is true.",
+    "reversed": "The evaluation has not been fair. Credit has migrated toward those with visibility rather than those with contribution. The scales are tipped. You may need to advocate for yourself in ways that feel uncomfortable, or document your work more carefully in the future. Justice reversed does not mean the cause is lost — it means you may have to bring the case yourself."
+  },
+  {
+    "slug": "major-arcana-012",
+    "upright": "Your promotion is not being blocked — it is suspended, ripening in silence. The Hanged Man chose the tree; he was not forced. This is the quarter where your best work will go unannounced. Let it. The halo around his head suggests illumination arrives precisely when you stop chasing recognition.",
+    "reversed": "You have been waiting for a performance review that has been rescheduled twice. What felt like sacred patience has become stagnation. The sacrifice is no longer serving you. Come down from the tree."
+  },
+  {
+    "slug": "major-arcana-013",
+    "upright": "A team is being dissolved, a product is being sunset, a role you have held for years is changing beyond recognition. Death rides a white horse and carries a white rose — transformation, not malice. The bishop, the king, the child all face the same passage. What ends here has served its purpose. What you become on the other side of this transition will be built on everything you learned inside it.",
+    "reversed": "You are refusing to let something end that has already ended. A way of working, a technical approach, a professional identity — you are keeping it alive with meetings and documents while the organisation has already moved on. The card reversed does not spare you the transition. It only delays it, and delayed endings are rarely cleaner than timely ones."
+  },
+  {
+    "slug": "major-arcana-014",
+    "upright": "Temperance stands at the water's edge, one foot on land and one in the current — fully grounded, fully present. This is the card of sustainable pace: the engineer who ships consistently without burning out, who reviews code without crushing the author, who balances on-call burden with heads-down time. The two cups flow between each other without spilling. You have found the rhythm. Protect it.",
+    "reversed": "The balance has tipped. You are working hours that are not visible in your outputs, or you are present in meetings without the capacity to contribute. The out-of-hours pages have become routine. The retrospective that was supposed to fix the on-call rotation was itself deprioritised. What was meant to flow between the cups is now pooling on the floor."
+  },
+  {
+    "slug": "major-arcana-015",
+    "upright": "The golden handcuffs are real. The compensation is good, the role is familiar, and leaving would require courage you are not sure you have today. The Devil's chains around the figures' necks are loose — they could be removed. This card does not judge the choice to stay. It asks only that you stay consciously, with full knowledge of what you are choosing and what you are not.",
+    "reversed": "You are breaking free — from a toxic team, from a role that diminished you, from an overtime culture that was normalised so gradually you forgot it wasn't. The chains are coming off. The reversed Devil carries a warning: ensure you are moving toward something, not only away. Freedom without direction is its own kind of bondage."
+  },
+  {
+    "slug": "major-arcana-016",
+    "upright": "Something in your team's structure will collapse before the next planning cycle. The lightning does not strike without warning — look at what was built on sand. A lead may leave. A roadmap may be discarded. The crown falls from the tower's summit. What rises from the rubble will be more honest than what stood before.",
+    "reversed": "The instability has been visible for months and still the tower stands, swaying. You may have time to leave before it falls, or to reinforce what others have ignored. The lightning is still in the clouds."
+  },
+  {
+    "slug": "major-arcana-017",
+    "upright": "After a difficult period — the failed launch, the bad review cycle, the team that fractured — the Star appears. The figure kneels at the water's edge and pours from two vessels without grasping. Hope has returned, quietly. A new project is beginning to align with what you are genuinely good at. Let yourself believe in it. The eight-pointed star above her does not promise ease. It promises direction.",
+    "reversed": "You have lost faith in the work, or the organisation has made it difficult to maintain. The star is there but you cannot see it from where you are standing. This is not a permanent condition — but it requires action. Reconnect with why you chose this field. Find one small task that reminds you what it feels like to build something that works."
+  },
+  {
+    "slug": "major-arcana-018",
+    "upright": "The requirements are unclear, the acceptance criteria were written by someone who has since left the company, and no two stakeholders agree on what done means. The Moon illuminates the path just enough to walk forward and not enough to see what is ahead. The wolf and the dog howl at the same light from different positions. Clarify before you build. What you think you are building may not be what you will be judged on.",
+    "reversed": "Clarity is emerging. The fog around a long-ambiguous project is lifting — either the requirements are finally being pinned down, or you have simply worked with it long enough to understand what it actually needs. The Moon reversed brings relief, but also revelation. Some of what you feared about the situation was projection. Some of it was accurate. Now you can finally tell the difference."
+  },
+  {
+    "slug": "major-arcana-019",
+    "upright": "The build is green. The deployment succeeded. The feature works in production exactly as it worked in your local environment, which has never happened before. The Sun shines without apology on a child who rides without fear. This is a period of genuine professional clarity — your skills match the challenge, your team trusts you, and the work is visible. Enjoy it without waiting for it to end.",
+    "reversed": "Something is obscuring the light. A delivery that should have been celebrated has been overshadowed by something else — another team's incident, a shifting business priority, a reorganisation that moved the goalposts. Your success is real but poorly timed. The Sun is still there. The cloud is temporary."
+  },
+  {
+    "slug": "major-arcana-020",
+    "upright": "The angel's trumpet sounds — a reorganisation, a new engineering director, a shift in priorities that reaches every team. Those who hear it and rise will be given responsibilities they have not yet imagined. Your past performance, even the failures, has been building toward this moment. When the panel calls your name, answer.",
+    "reversed": "You have received feedback that you have not yet acted on. The coffins remain closed. This is not a judgement of your ability — it is an invitation to reckon honestly with where you are and where you are not growing."
+  },
+  {
+    "slug": "major-arcana-021",
+    "upright": "A long cycle is completing. The project that defined the last eighteen months is shipping, the promotion you worked toward has arrived, or the skill you spent years developing is now the thing your organisation needs most. The World dancer moves inside the laurel wreath — the boundary of one cycle, the threshold of the next. The four creatures at the corners have witnessed everything. What you have built here will not disappear when you move on.",
+    "reversed": "You are nearly there and not quite finishing. The feature is ninety percent complete and has been for three weeks. The certification is studied for but not scheduled. The promotion conversation has been had but not followed through. The wreath is within reach. Identify the one thing that remains and complete only that."
+  }
+,
+  {
+    "slug": "swords-001",
+    "upright": "A breakthrough is coming — not the kind announced in a meeting, but the kind that arrives at eleven at night when the logs finally reveal what the bug actually is. The Ace of Swords cuts through fog. A decision that has been deferred for weeks will be made with sudden clarity. One clear thought, precisely held, is worth more than ten half-formed ones. Write it down before the moment passes.",
+    "reversed": "You are overthinking a problem that has a simpler solution than you are willing to accept. Or the clarity has arrived but it is uncomfortable — it points to a mistake you made, an architecture that should not have been approved, a conversation you have been avoiding. The sword is sharp in both directions. Do not use intellect to avoid what intellect has already shown you."
+  },
+  {
+    "slug": "swords-002",
+    "upright": "Two technical directions sit before the team and no one will make the decision. The woman in the Two of Swords holds both blades in balance, blindfolded, at the water's edge — perfectly still and perfectly stuck. The RFC has been open for three weeks. Both approaches have merit. Both have advocates. At some point the cost of indecision exceeds the cost of the wrong choice. Someone needs to call it.",
+    "reversed": "The stalemate is breaking. Information has arrived — a proof of concept, a production incident, a comment from someone whose opinion the team actually trusts — that tips the scales. The blindfold is coming off. The water behind the figure was always there, representing what was being ignored. Now you can see it. Make the call."
+  },
+  {
+    "slug": "swords-003",
+    "upright": "Something painful is entering the work — a colleague you trusted has resigned without warning, a decision has been made above you that contradicts everything you argued for, or a review has named what you already feared. The Three of Swords does not soften it: the heart is pierced, the clouds are gathered, the rain is falling. Acknowledge the loss honestly. Suppressed professional grief becomes cynicism.",
+    "reversed": "You are beginning to recover from something that hurt. The swords are being drawn out slowly — not painlessly, but deliberately. Forgiveness here does not mean pretending the wound did not happen. It means deciding that carrying the resentment is now costing you more than the original injury. The clouds in the background are beginning to separate."
+  },
+  {
+    "slug": "swords-004",
+    "upright": "The Four of Swords is a tomb, not a grave — the knight rests beneath a stained-glass window, sword sheathed, three more swords hanging above him but not falling. This is planned rest after intensity: the week after a major release, the leave you were told to take but haven't, the Friday afternoon you spend doing nothing billable. Recovery is not optional. The swords will wait. You will not function well if you don't lie down.",
+    "reversed": "You cannot rest. The release is done but the postmortem is scheduled, the next sprint has already been planned, and the Slack notifications are arriving on what was supposed to be your day off. Or you have been resting long past the point of recovery and now the inactivity is its own problem. The knight must eventually rise. The window above him shows a saint — the light has not abandoned the room."
+  },
+  {
+    "slug": "swords-005",
+    "upright": "You won the argument in the architecture review, but look at the faces of those walking away. The Five of Swords shows a figure collecting fallen swords while others leave — the swords are his, the victory is real, and the room is emptier for it. Winning a technical debate by making someone feel small is not a victory that compounds. You will work with these people through the next six sprints. Consider what you actually collected today.",
+    "reversed": "A team conflict that has been running beneath the surface of every retro and every PR review is finally being acknowledged. The reversed Five suggests reconciliation is possible — not because the disagreement was trivial, but because both sides are tired of the cost. Someone will need to go first. It does not have to be you, but it might need to be."
+  },
+  {
+    "slug": "swords-006",
+    "upright": "You are moving — to a new team, a new company, or simply away from a way of working that was not sustainable. The Six of Swords shows a ferryman, a woman, a child, and six upright swords in the boat's hull. They are not yet removed. You carry the difficult experiences with you; that is not failure, it is honesty. The water ahead is calmer than what you are leaving. The passage is real.",
+    "reversed": "You want to leave but cannot, or you have left but brought the same dynamics with you. A new role in a new company with the same patterns will produce the same outcome. The Six reversed asks what you have not yet resolved that will travel with you regardless of where the boat goes. Unfinished business has a way of arriving before you do."
+  },
+  {
+    "slug": "swords-007",
+    "upright": "Someone on the team is cutting corners — not maliciously, but consistently. Tests are being marked as skipped, acceptance criteria are being quietly narrowed, a dependency is being upgraded without reading the changelog. The Seven of Swords figure walks away carrying most of the swords but not all. What is being left behind? And who will find it in production at two in the morning?",
+    "reversed": "A shortcut that has been quietly embedded in the system is about to surface. A skipped migration, an undocumented workaround, a credential committed to the repository six months ago — the Seven reversed brings exposure. This is not necessarily catastrophic. It is clarifying. Now that it is visible it can be addressed. Treat the discovery as information, not as punishment."
+  },
+  {
+    "slug": "swords-008",
+    "upright": "You believe you have no options, but examine the image: the figure is bound and blindfolded, standing in shallow water, surrounded by swords that have been placed — not thrown. They are not closing in. The path is narrow but it exists. The constraints you feel — the budget, the headcount, the approval process, the manager — are real, but they are not the full picture. Remove the blindfold before you conclude there is no exit.",
+    "reversed": "You are beginning to see that the situation had more flexibility than you believed. A conversation you assumed would go badly has opened something. A constraint that seemed structural has been quietly lifted. The Eight reversed is not a dramatic escape — it is the slow realisation that you were holding some of the ropes yourself. Step forward."
+  },
+  {
+    "slug": "swords-009",
+    "upright": "The Nine of Swords is the three-in-the-morning card — the figure sits up in the dark, head in hands, nine swords hanging horizontal on the wall above them. The on-call alert that did not fire in testing just fired in production. Or the performance review is in four hours and the spiral has been running since midnight. Most of what the Nine of Swords promises does not arrive. Name the specific fear. Vague dread is always larger than its contents.",
+    "reversed": "The worst did not happen, or the worst happened and you survived it. The anxiety is beginning to release its grip. If you have been carrying a professional fear quietly for weeks — of being let go, of the system failing at scale, of being exposed as less capable than your title suggests — this card reversed suggests the grip is loosening. Seek support if the spiral has become a habit rather than a response."
+  },
+  {
+    "slug": "swords-010",
+    "upright": "A colleague will leave suddenly, or a project you carried will be cancelled. The ten swords in the back are excessive — this is loss beyond proportion to the fault. Yet observe: the sky at the horizon is brightening. The sea is calm. This ending is absolute, which means it is also clean. You will rebuild on ground that is finally honest.",
+    "reversed": "You are clinging to a role, a team, or a technical approach that has already ended in everything but name. The swords remain. Release the position before it releases you."
+  },
+  {
+    "slug": "swords-011",
+    "upright": "The Page of Swords stands on high ground, wind moving, sword raised and ready — alert to everything, committed to nothing yet. A junior colleague or a new team member is watching more carefully than you know. They have questions they have not asked. They are mapping the political terrain before they speak. This card also appears for you when you are entering new technical territory: vigilance and curiosity before action is exactly right.",
+    "reversed": "Someone is speaking without the depth to back it up — in a design review, in a planning meeting, in a thread that has become louder than it is useful. The Page reversed uses sharpness to perform rather than to understand. If this is you, slow down. If this is a colleague, the most effective response is not a counter-argument but a question they cannot answer with confidence."
+  },
+  {
+    "slug": "swords-012",
+    "upright": "The Knight of Swords charges forward, visor down, horse at full gallop, trees bending behind him. A decision is being made fast and the energy is real and the momentum is real and the missing piece is: has anyone checked what is at the end of the field? This is the card of the engineer who ships the feature over the weekend without telling anyone, or the manager who announces a new direction before the previous one has been wound down. The speed is a gift. The direction needs checking.",
+    "reversed": "A charge that was begun impulsively has stalled, or the consequences of a fast decision are now arriving. The Knight reversed is not a failure — it is the correction the situation required. Slow down. Complete one thing before beginning the next. The sword is still sharp. The horse is still available. Neither requires you to move before you know where you are going."
+  },
+  {
+    "slug": "swords-013",
+    "upright": "The Queen of Swords sits upright, one hand raised in greeting, one holding the blade upright — she has seen difficulty and it has made her precise, not bitter. She reads the pull request as it is, not as the author intended it. She gives the performance feedback that is uncomfortable to give and necessary to receive. Her throne faces forward. If you are being asked to evaluate, assess, or decide something difficult this quarter, this is the card that gives you permission to be honest.",
+    "reversed": "The clarity has curdled into coldness. Feedback is being delivered without care for the person receiving it, or decisions are being made on logic alone in situations where the human dimension matters. The Queen reversed uses the sword to wound rather than to clarify. If this is your energy right now, consider what disappointment you are carrying that is sharpening into something the room doesn't deserve."
+  },
+  {
+    "slug": "swords-014",
+    "upright": "The King of Swords sits at the centre of a clear sky, sword vertical, crown steady. He has reached a level of technical or organisational authority where his judgments carry weight precisely because they are consistent, evidence-based, and free of personal agenda. This card arrives when you are being asked to be that person — in an incident review, a hiring decision, a technical direction call. Hold the standard. The clarity you model gives others permission to think clearly too.",
+    "reversed": "Authority is being wielded without integrity. The King reversed uses position to settle scores, to silence dissent, or to enforce a technical opinion that is no longer the right one. This may be your manager. It may be you in a moment you are not proud of. The sword is not wrong; the motive is. Examine what the decision is actually serving."
+  },
+  {
+    "slug": "wands-001",
+    "upright": "Something new is igniting — a project brief that actually excites you, a technology you have been wanting to explore, or the sudden energy that arrives when a problem finally clicks into the right shape. The Ace of Wands is a hand emerging from cloud holding a living branch, leaves still sprouting. The idea is alive. It has not yet been scheduled, scoped, or refined out of recognition. Move toward it while the fire is real.",
+    "reversed": "The spark did not catch, or it caught and was immediately smothered by competing priorities and a backlog that was already full. A promising initiative has stalled before it began. This reversal asks whether the idea itself was weak or whether the conditions were wrong. Some fires need a different season. Others need someone to actually clear the ground first."
+  },
+  {
+    "slug": "wands-002",
+    "upright": "You have delivered the first phase and now you are standing at the ramparts looking out. The Two of Wands figure holds a globe in one hand and a staff in the other, surveying what lies beyond the castle walls. The immediate delivery is behind you. The question now is scale — do you expand, do you replicate, do you propose the next thing? The world in your hand is small but the implication is not. Begin the planning while you still have momentum.",
+    "reversed": "The vision exists but the plan does not. You know roughly where you want to go and cannot articulate the path clearly enough to bring anyone with you. Or fear has you gripping the staff at the wall, watching others set out while you remain behind convincing yourself the timing is not right. The globe is still in your hand. It does not get lighter from waiting."
+  },
+  {
+    "slug": "wands-003",
+    "upright": "The ships are on the horizon. Something you set in motion — a proposal, a partnership, a technical bet made last quarter — is beginning to return results. The Three of Wands figure stands with their back to us, watching the water with patience and confidence. This is not the moment to intervene or second-guess. The work is in motion. Let it arrive. Your next task is to be ready to receive what is coming and know what to do with it.",
+    "reversed": "The ships have been delayed or have not come back at all. A dependency you were counting on has slipped, a vendor has underdelivered, or the market shifted while you were waiting. The Three reversed does not mean the venture was wrong — it means the timeline was not yours to control and the plan needs adjusting for what actually arrived rather than what was expected."
+  },
+  {
+    "slug": "wands-004",
+    "upright": "The release went out. The quarter closed. The team crossed a threshold that felt uncertain six weeks ago and now stands on the other side of it. The Four of Wands is a celebration beneath a canopy of flowers — four staffs planted firmly in the ground, garlands strung between them, people raising their hands. Something has been completed and the completion is worth marking. Do not move immediately to the next sprint. Let the team feel what they built.",
+    "reversed": "The celebration is premature or the stability is not what it appears. A system that was deployed successfully is showing edge cases that did not appear in testing. Or the team is celebrating a metric that does not reflect what users are actually experiencing. The garlands are up but the foundations beneath the staffs need checking. Something is slightly off and it is worth identifying before the next cycle begins."
+  },
+  {
+    "slug": "wands-005",
+    "upright": "The planning session has dissolved into five people talking over each other with five different technical opinions and no shared ground. The Five of Wands shows figures in apparent chaos — but no one is injured, the wands are not weapons, and the conflict is generative if it is managed. Competing priorities, clashing approaches, and overlapping ownership are not always dysfunction. Sometimes they are the friction that produces a better answer than any one person came in with. Someone needs to facilitate, not silence.",
+    "reversed": "The conflict has gone underground. Disagreements that should have been named in the planning session are now being expressed through passive resistance — PRs that sit unreviewed, decisions that are agreed to in the meeting and quietly not followed outside it. The Five reversed asks what is not being said. Unvoiced conflict does not resolve. It accumulates."
+  },
+  {
+    "slug": "wands-006",
+    "upright": "A public recognition is coming — a promotion announced in the all-hands, a commendation from someone whose opinion shapes others. The victor rides through the crowd, laurel wreath on the wand. Accept this gracefully. Those who carried you here are watching how you wear success.",
+    "reversed": "You believe your contribution has gone unrecognised, and you may be right. But the Six reversed also warns against needing the crowd to confirm what you already know. Seek the recognition you are owed — but examine how much of your self-worth has been handed to the audience."
+  },
+  {
+    "slug": "wands-007",
+    "upright": "You are defending a decision, an approach, or a position that others are pushing back on from below. The Seven of Wands figure stands on high ground, one staff raised, six coming up at him — but the ground matters. You have earned the elevation. The challenge is real and the exhaustion is real and the position is still yours to hold if you choose it. Know why you are defending what you are defending before the next review.",
+    "reversed": "You are losing ground — not because you were wrong, but because the energy required to hold the position has exceeded what you have available. Or you are defending something you no longer believe in, out of pride rather than conviction. The Seven reversed sometimes signals the wisdom of strategic retreat. Not every hill is worth the cost of holding it indefinitely."
+  },
+  {
+    "slug": "wands-008",
+    "upright": "Eight wands cross the sky in rapid parallel — this is the card of things suddenly moving fast after a long period of stillness. Approvals arrive the same week. Feedback that was pending for a month comes back in a day. A hire is made, a contract is signed, a release date is confirmed. The Eight of Wands carries no figure — it is pure momentum. Prepare your environment. When the velocity arrives, it does not wait for you to be ready.",
+    "reversed": "Everything has slowed. A deployment is blocked on an approval that is stuck in someone's inbox. A feature is waiting on a dependency that has been 'almost done' for two weeks. The wands have stalled mid-flight. The reversal asks whether the delay is external or whether something in your own preparation is the actual bottleneck. Either way, identify the one thing that unblocks everything and address only that."
+  },
+  {
+    "slug": "wands-009",
+    "upright": "The Nine of Wands shows a figure who has clearly been through something — bandaged, leaning on a staff, eight more wands behind him like a fence he himself erected. He is not defeated. He is guarded. You have shipped through incidents, survived difficult reviews, and absorbed more out-of-hours pages than should have been yours alone. You are still standing. The wariness is earned. But examine whether the fence you built protects you or now prevents you from receiving the help that is available.",
+    "reversed": "The vigilance has become paranoia or the exhaustion has become refusal. You are seeing threat in feedback that is genuinely constructive, or you are so depleted that the final push required feels impossible even though you are closer than you have ever been. The Nine reversed sometimes means: let someone else carry the staff for a week. The project will not fall. You need to not fall more."
+  },
+  {
+    "slug": "wands-010",
+    "upright": "You are carrying responsibilities that were never formally assigned to you — the system no one else understands, the on-call rotation that has quietly become yours by default, the onboarding of every new joiner because you are known to be patient. The Ten of Wands figure leans forward under the weight of ten staffs, the destination visible ahead. You will make it. The question is whether this is a temporary load or a permanent one, and whether anyone else in the organisation knows you are carrying it.",
+    "reversed": "Something is being put down — either because you chose to delegate it, or because you have reached the point where you physically cannot continue. The reversal is not failure. It is the moment the bundle of wands hits the floor and someone finally sees how many there were. Use this moment. Redistribution requires visibility. Let the weight be seen before you pick any of it back up."
+  },
+  {
+    "slug": "wands-011",
+    "upright": "The Page of Wands stands in an open landscape, staff in hand, studying the salamander pattern on his tunic — alert to possibility, not yet committed to direction. A new area of the codebase, a new domain, a new tool that has appeared in the industry and you have not yet formed an opinion on. This card arrives when curiosity is the right posture. Explore before you architect. The Page does not build yet — he watches, he asks, he follows the energy to see where it leads.",
+    "reversed": "Enthusiasm is scattered across too many new things simultaneously. Three proof-of-concepts are open, none are complete, and the sprint board has items from six weeks ago that have not been touched. The Page reversed is not a lack of talent — it is a lack of a finishing habit. Pick one thread. Follow it to completion. The others will still be there."
+  },
+  {
+    "slug": "wands-012",
+    "upright": "The Knight of Wands moves at full gallop, cloak streaming, plumes on his helmet catching the wind — and the horse's feet are barely on the ground. This is the energy of the engineer who migrates a service over a long weekend because the idea arrived on Friday and waiting felt impossible. The fire is real. The capability is real. Check once — just once — that what you are about to deploy will not take down something you have not considered. Then go.",
+    "reversed": "A fast move has created a mess that is now slower to clean up than the original approach would have been. Or the knight has charged in three directions this sprint and the horse is no longer sure which field they are in. The reversed Knight of Wands needs to stop, commit to one direction, and finish something before the energy dissipates entirely into motion that produces no arrival."
+  },
+  {
+    "slug": "wands-013",
+    "upright": "The Queen of Wands sits squarely on her throne with a sunflower in one hand and a wand in the other, a black cat at her feet — she is warmth and authority in the same moment. This is the tech lead who gives feedback that stings briefly and lands well, the engineering manager whose 1:1s people actually look forward to, the senior who radiates competence without requiring you to feel small by comparison. If this energy is available to you now, use it. It is not always this easy to hold both the warmth and the power.",
+    "reversed": "The confidence has tipped into performance. There is heat but not warmth — assertiveness without the care that gives it legitimacy. The Queen reversed can also signal burnout beneath a surface that still looks capable and composed. The sunflower is wilting but the posture has not changed yet. Something is being maintained that no longer has the energy to sustain itself."
+  },
+  {
+    "slug": "wands-014",
+    "upright": "The King of Wands sits forward on his throne, not resting against it — ready, not settled. His cloak is covered in salamanders, creatures of fire that legend says do not burn. He has led enough cycles to know that the fire is the work, not the enemy of it. A visionary role, a founding opportunity, or a moment of genuine technical leadership is being offered to you. The King does not manage the flame from a distance. He works within it and is not consumed.",
+    "reversed": "Vision without execution has produced grand announcements and delayed deliveries. A leader who inspires in the all-hands and disappears in the details has left the team carrying intentions that were never translated into action. Or the King reversed is someone who is brilliant at starting things and constitutionally unable to see them to completion. The salamanders on the cloak are restless. The fire needs tending, not just admiring."
+  },
+  {
+    "slug": "cups-001",
+    "upright": "Something is opening. Not a ticket, not a roadmap item — something genuine. A new working relationship that feels different from the ones before it, a project that reconnects you with why you chose this field, a conversation in a 1:1 that goes somewhere neither of you expected. The Ace of Cups is a chalice overflowing, held by a cloud, a dove descending. What is being offered here cannot be scheduled. Receive it.",
+    "reversed": "The cup is there but it is upturned — the offering is present and something is preventing you from receiving it. A creative opportunity that felt too risky to accept, a collaboration that would have been meaningful but required vulnerability you were not ready for. Or the well has genuinely run dry: the work has felt empty for longer than is sustainable and the emptiness now needs to be named rather than managed."
+  },
+  {
+    "slug": "cups-002",
+    "upright": "A working partnership is forming that is more than functional — a colleague who thinks in a complementary direction, a pairing that makes both people sharper, a collaboration where neither person is performing for the other. The Two of Cups shows two figures exchanging cups beneath the caduceus of Hermes — the symbol of exchange, of what flows between rather than what each holds alone. This relationship will produce something neither could have reached separately. Tend it.",
+    "reversed": "A professional relationship that should have been equal has become asymmetrical. One person is doing the thinking, the other is receiving credit. Or a partnership that began with genuine alignment has quietly drifted into different priorities that neither party has named aloud. The cups are no longer meeting. Acknowledge it before the gap becomes a grievance."
+  },
+  {
+    "slug": "cups-003",
+    "upright": "The team has shipped something worth celebrating, or an unexpected collaboration bears fruit this quarter. Three figures raise their cups — notice that no one is leading this toast. The joy is shared equally. Lean into the relationships forming around you now; the bonds built in celebration carry teams through the harder seasons.",
+    "reversed": "Office politics have entered what should have been a collaborative space. Someone is excluded from the circle. The celebration is happening, but not everyone is invited — and the person who notices the absence most is you."
+  },
+  {
+    "slug": "cups-004",
+    "upright": "You are sitting beneath the tree, arms crossed, three cups before you and a fourth being extended from a cloud — and you are looking at the ground. The Four of Cups is not apathy, exactly. It is the state of being too saturated with options to recognise that a new one has arrived. The sprint is full, the roadmap is locked, the backlog is long, and somewhere in the noise a genuine opportunity is waiting for you to look up. Look up.",
+    "reversed": "Something has shifted. The disengagement is breaking. A new project, a different team, a conversation that changed the frame — something has made work feel worth engaging with again. The Four of Cups reversed does not promise that everything is resolved. It signals that you are no longer looking at the ground. The cup is being taken."
+  },
+  {
+    "slug": "cups-005",
+    "upright": "Three cups are spilled and the figure stands over them in a dark cloak, not yet able to turn and see the two that remain standing behind them. A project has been cancelled, a role has been eliminated, a colleague you built things with has left the company. The grief is appropriate. The Five of Cups does not ask you to recover quickly. It asks only that at some point you turn around — because two cups are still standing, and what they hold is real.",
+    "reversed": "You are beginning to turn. The loss has not disappeared but it is no longer the only thing in the frame. The two remaining cups are coming into focus. This is not optimism by force — it is the natural motion of someone who has grieved honestly and is ready, incrementally, to see what remains. The bridge in the background leads somewhere. You can see it now."
+  },
+  {
+    "slug": "cups-006",
+    "upright": "A previous colleague reaches out. An old codebase you once owned resurfaces. A way of working from an earlier chapter of your career turns out to be exactly what the current problem requires. The Six of Cups is a card of what was genuinely good and is now being offered again — not as nostalgia, but as resource. Some knowledge does not expire. Some professional relationships were simply interrupted, not concluded.",
+    "reversed": "You are living in a previous version of the team, the technology, or yourself. The Six of Cups reversed appears when the past is being used as a refuge rather than a reference — when how things used to be done has become an argument against how they need to be done now. The children in the cups garden are charming. They are not coming back. What they represent can be honoured without being reinstated."
+  },
+  {
+    "slug": "cups-007",
+    "upright": "Seven cups hang in a cloud, each containing something different: a castle, a jewel, a wreath, a dragon, a figure shrouded in light, a snake, a ghost. This is the card of the engineer paralysed by the architecture decision, the manager who cannot commit to a direction because every option has merit, the team that has been exploring possibilities for so long that exploration has become avoidance. The cups are real. The contents may not be. One of them is the right choice. Commit to finding out which.",
+    "reversed": "The fog is clearing. A decision that felt impossible is becoming navigable — not because the options improved, but because you have finally accepted that perfect information is not coming and the cost of waiting now exceeds the cost of being wrong. The Seven of Cups reversed is the moment you pick up one cup and find out what is actually inside it."
+  },
+  {
+    "slug": "cups-008",
+    "upright": "You are leaving. Not dramatically — the Eight of Cups figure departs at night, under a moon that illuminates just enough path to walk by. Eight cups are stacked carefully behind them, not thrown or broken. They are complete. The role was not a failure; it was finished. A good salary, a known codebase, a team that respects you — and still, something essential is missing and you have finally admitted it to yourself. The mountain ahead is dark. Walk toward it anyway.",
+    "reversed": "You are staying when leaving would serve you, or leaving before you have found what you came for. The Eight reversed asks which cups you are actually walking away from — the ones that were genuinely empty, or the ones that required more patience than felt comfortable. Some departures are necessary. Some are the same departure made repeatedly, in different organisations, for the same unexamined reason."
+  },
+  {
+    "slug": "cups-009",
+    "upright": "The Nine of Cups is the wish card — the figure sits with arms crossed and a satisfied expression, nine cups arranged in an arc behind them like trophies on a shelf. A goal you set at the start of the year has been met. The role you wanted has been offered. The system you redesigned has held under load. This card gives you permission to feel satisfied without immediately reaching for the next thing. The cups are yours. You put them there.",
+    "reversed": "The external markers of success are present and the internal experience of satisfaction is not. The promotion arrived and within a week it felt like the new baseline. The delivery shipped and no one seemed to notice. The Nine of Cups reversed asks what you are actually seeking beneath the goals you set — and whether achieving the stated goal could ever have delivered it. Name what you really want. It may be simpler and less obvious than what you have been pursuing."
+  },
+  {
+    "slug": "cups-010",
+    "upright": "The Ten of Cups is the horizon card — a rainbow of cups arching over a landscape, a family with arms raised, everything accounted for. In work, this is the rare season when the team is functioning, the product is delivering, the relationships are healthy, and the personal cost of the work is proportionate. You are allowed to recognise this as the exception rather than the standard and to protect it accordingly. Do not introduce unnecessary instability into something that is genuinely working.",
+    "reversed": "The picture of harmony is incomplete beneath the surface. A team that presents well in demos is quietly exhausted. A working environment that looks stable from outside is held together by the effort of one or two people who are not sustainable. The rainbow is there but the ground beneath it needs attention. Look at what is actually being asked of the people who make the harmony possible."
+  },
+  {
+    "slug": "cups-011",
+    "upright": "The Page of Cups stands at the water's edge holding a cup, and a fish has appeared inside it — unexpected, impossible, slightly absurd. He looks at it with open curiosity rather than alarm. This card arrives when something surprising surfaces in the work: an insight from a junior that reframes the problem, an edge case that turns out to be the actual use case, a conversation in a retro that no one expected to go anywhere. Stay open. The fish is real.",
+    "reversed": "Creative sensitivity has tipped into creative fragility. Feedback on the work is landing as feedback on the person. A new idea is being defended before it has been tested, or ideas from others are being dismissed because they arrived through unexpected channels. The Page reversed is still talented — the relationship to receptivity is the thing that needs adjustment, not the capacity itself."
+  },
+  {
+    "slug": "cups-012",
+    "upright": "The Knight of Cups rides slowly, deliberately, visor up, a cup held before him as an offering — this is not the reckless charge of the Knight of Wands. This is the engineer who writes the proposal that no one asked for because the problem genuinely matters to them, the colleague who brings emotional honesty into spaces where it changes the dynamic, the person who follows intuition about a technical direction and turns out to be right. The horse walks on water. The path is not obvious. Go anyway.",
+    "reversed": "Professional idealism has become impracticality. The proposal is beautifully written and does not account for the constraints that exist. The vision is genuine but the Knight has not yet developed the discipline to translate it into something the team can actually build. Or the emotional attunement has become emotional volatility — investment in the work that makes criticism of the work feel like criticism of the self."
+  },
+  {
+    "slug": "cups-013",
+    "upright": "The Queen of Cups sits at the water's edge, holding an ornate covered cup she alone can see into — her intuition is her instrument and she has learned to trust it without requiring everyone else to validate it first. In the team, this is the person whose read of a situation — of what the user actually needs, of what the team dynamic is actually doing, of what the project is actually about — turns out to be accurate long before the data confirms it. If this is you, speak. The cup has something in it worth sharing.",
+    "reversed": "Emotional intelligence is being absorbed rather than applied. Every team dynamic is being felt deeply and processed privately and nothing is being said. Or the intuition is present but the boundary between your feelings and the team's feelings has dissolved, leaving you depleted by proximity to every difficulty in the room. The Queen of Cups reversed needs to find the distance from which care is possible without becoming the absorber of everything that goes unspoken."
+  },
+  {
+    "slug": "cups-014",
+    "upright": "The King of Cups sits on a throne in open water — not above the emotional currents of the team but within them, stable, neither swept away nor closed off. He holds the cup and the sceptre simultaneously: emotional wisdom and the authority to act on it. This is the engineering leader whose 1:1s people leave feeling clearer, whose delivery conversations do not escalate, who can hold a team through an incident without generating additional anxiety. The fish pendant at his chest says: he came from the deep. He knows what is in it.",
+    "reversed": "The emotional steadiness is being performed rather than felt. The King reversed may be suppressing what the team needs to see expressed — that the situation is difficult, that the uncertainty is real, that something genuinely unfair has happened. Or the suppression has become manipulation: using emotional intelligence to manage others' perceptions rather than to serve their actual needs. The water is moving beneath the throne. Acknowledge it."
+  },
+  {
+    "slug": "pentacles-001",
+    "upright": "A real opportunity is being extended — a job offer with a number attached, a budget approval for the project that has been waiting, a contract signed. The Ace of Pentacles is a hand emerging from cloud holding a single coin above a garden gate that leads somewhere cultivated and specific. This is not an idea. This is an offer with terms. Read the terms. The garden is real, the path through the gate requires commitment, and what grows there will be proportional to what you tend.",
+    "reversed": "An opportunity has been missed or is slipping. The offer arrived and the decision took too long, or the groundwork was not laid before the gate opened. The Ace of Pentacles reversed can also indicate poor financial terms accepted without scrutiny — a role with a title that compensates for compensation that does not. The coin is still in the cloud. It has not vanished. But the window requires action."
+  },
+  {
+    "slug": "pentacles-002",
+    "upright": "You are managing more than one significant thing simultaneously — two workstreams, two roles effectively, a delivery and a hiring process, a technical lead function and an individual contributor mandate that were never formally reconciled. The Two of Pentacles figure juggles two coins inside the lemniscate, the symbol of infinity, while ships rise and fall on waves behind him. The balance is real and it is effortful. It is not permanent. At some point the role needs to be defined or the load needs to be split.",
+    "reversed": "Something has been dropped. A commitment that was being managed alongside everything else has now been missed, and the cost of the miss is becoming visible. Or the juggling has continued past the point where it was sustainable and the body has called time — a deadline skipped, a quality bar quietly lowered, an email that sat unread until it became an incident. The ships in the background are in rougher water than they were."
+  },
+  {
+    "slug": "pentacles-003",
+    "upright": "Three craftsmen stand in an unfinished cathedral — an architect, a monk, and a sculptor. The sculptor is at work; the others are consulting. No one is performing authority. The Three of Pentacles is the card of skilled collaboration, where different kinds of expertise meet without hierarchy determining whose knowledge counts. A cross-functional effort is producing something none of the contributors could have reached alone. Show up to the scaffolding. The cathedral is worth building.",
+    "reversed": "The collaboration has broken down into territory disputes. The architect is overriding the sculptor without understanding the material. The monk has stopped consulting and started directing. Something that should have been built together is being siloed by ego or poor communication, and the quality of what is produced shows it. Revisit who owns what. Not to assign blame — to clear the ground so work can resume."
+  },
+  {
+    "slug": "pentacles-004",
+    "upright": "Security has its uses. You are holding what you have built — a stable role, an established technical approach, a salary that covers what it needs to cover — and you are not yet ready to risk it. The Four of Pentacles figure sits with a coin on his head, one under each foot, one gripped to his chest. The city is behind him. He is not inside it. Some periods of professional life are consolidation periods, not expansion periods. Know which one this is.",
+    "reversed": "The grip has loosened, by choice or by circumstance. Something that was being held tightly — a position, a way of working, a technology stack you were the last defender of — is being released. The Four of Pentacles reversed can be generosity or it can be loss. Examine which. If it is loss, what does it now make possible that the holding did not?"
+  },
+  {
+    "slug": "pentacles-005",
+    "upright": "Two figures move through snow past an illuminated window — cold, excluded, struggling. One is injured. Neither looks up at the light. The Five of Pentacles is the card of a difficult period: a role eliminated in a restructure, a financial squeeze that changes what is possible, a team from which you feel professionally isolated despite being technically present. The window is lit. It represents available support that you are not yet turning toward. Look up from the difficulty long enough to see what is accessible.",
+    "reversed": "The hardship is easing. A role has been found, a budget has been restored, a connection to the team that felt severed is being rebuilt. The Five of Pentacles reversed also sometimes indicates finally accepting help that was available all along but pride or exhaustion made invisible. Receiving support is not a concession. It is how the figures finally get out of the snow."
+  },
+  {
+    "slug": "pentacles-006",
+    "upright": "The Six of Pentacles shows a merchant with scales, distributing coins to two kneeling figures. The card turns on power and exchange: who gives, who receives, and whether the scales are actually balanced. In the team, this card asks about compensation, credit, and knowledge sharing. Are your skills being paid for at their market value? Is the knowledge you hold being shared or hoarded? Mentorship given generously now tends to return in forms you cannot predict.",
+    "reversed": "The exchange is not fair. Credit is flowing upward and accountability is flowing downward. Salary bands are opaque in ways that benefit those who negotiated well and disadvantage those who did not. Or knowledge sharing has become a tool of gatekeeping — the expert who answers questions selectively to maintain indispensability. The scales in the Six reversed are tipped, and the figure holding them knows it."
+  },
+  {
+    "slug": "pentacles-007",
+    "upright": "You are mid-cycle, leaning on the fence, watching what you have planted. The performance year is not yet over. The pentacles on the vine are visible but not yet harvested. This is not the moment to demand recognition — it is the moment to assess honestly whether the effort will yield what you intended, and to adjust quietly before the review.",
+    "reversed": "You expected more visible growth by now. The seeds were real, the soil was prepared, but the harvest does not match the investment. Before you abandon the field, consider: are you measuring too early, or did you plant in the wrong season?"
+  },
+  {
+    "slug": "pentacles-008",
+    "upright": "The craftsman in the Eight of Pentacles sits alone at his bench, coin after coin produced with increasing precision. He is not distracted. He is not multitasking. He is doing the one thing, repeatedly, until the doing of it produces mastery. This is the card of deep work: the engineer who learns the tool properly instead of just enough to be dangerous, the developer who reads the specification rather than guessing the behaviour. The coins hung on the wall behind him are evidence. They accumulate.",
+    "reversed": "The focus has fractured. Context switching has made every output shallower than it could be — five things progressed and none of them finished, a codebase touched in twelve places and improved in none of them. Or perfectionism has made the benchmark of done so high that nothing ships. The craftsman reversed either cannot sit at the bench or cannot leave it. Both produce the same result: no finished coins on the wall."
+  },
+  {
+    "slug": "pentacles-009",
+    "upright": "The Nine of Pentacles shows a woman alone in a garden of her own making, a falcon hooded on her gloved hand, pentacles fruiting on the vines around her. She built this. She is enjoying it. This card arrives when you have reached a level of professional self-sufficiency that allows you to choose work rather than accept it — when the financial foundation is solid enough that the next role can be evaluated on quality rather than urgency. This is a position worth protecting. It was earned.",
+    "reversed": "The independence is unstable beneath the surface. The freelance income that looked like freedom has become financial anxiety. The senior title has arrived but the organisation it sits inside is contracting. Or the garden is beautiful and the person tending it is working seven days a week without acknowledging that the falcon has not been unhooded in months. Success that does not include the ability to stop is incomplete."
+  },
+  {
+    "slug": "pentacles-010",
+    "upright": "The Ten of Pentacles shows three generations in an archway — the elder, the couple, the child, the dogs. Ten pentacles arranged in the Tree of Life pattern overlay the scene. This is the card of legacy: the architecture that still serves the team five years after you left, the engineering culture you helped build, the junior you mentored who now leads a team of their own. What you build outlasts your tenure. Build accordingly.",
+    "reversed": "Something meant to last has not. A technical foundation that looked solid is showing structural debt that compounds. A team culture that was carefully built has eroded since the people who built it moved on. The Ten of Pentacles reversed asks what was built for appearance rather than durability, and what was documented versus what lived only in the heads of people who are no longer here."
+  },
+  {
+    "slug": "pentacles-011",
+    "upright": "The Page of Pentacles stands in an open field, holding a single coin before him at eye level — studying it, turning it, understanding its weight before deciding what to do with it. A new technical domain, a new industry, a first real role after training. The Page is not impatient. He is learning what he is holding before he commits to a direction. This is the right posture at the beginning of something. Curiosity before confidence. Understanding before opinion.",
+    "reversed": "The studying has replaced the doing. A proof of concept that has been in progress for eleven weeks, a course that has been started four times and not completed, a professional development plan that is updated quarterly and acted on never. The Page of Pentacles reversed is not lazy — the interest is real. The gap between interest and practice has simply grown wide enough to need addressing directly. Pick the smallest possible next action and take it today."
+  },
+  {
+    "slug": "pentacles-012",
+    "upright": "The Knight of Pentacles sits on a still horse in a ploughed field, a single coin held before him. Unlike every other knight, he is not moving. He is assessing. He will move when he is ready and not before, and when he does, the furrow will be straight. This is the engineer who never misses a deadline because they do not commit to deadlines they cannot meet. The work is slower than some. The work is also done. In a field of fast movers, reliability compounds.",
+    "reversed": "Diligence has become inflexibility. A methodical approach that served well in stable conditions is now the obstacle in conditions that require adaptation. Or the Knight has ploughed the same furrow so many times that the field is compacted — the same solution applied to every problem regardless of fit, the same process defended regardless of outcome. The horse is still capable. The field needs to change."
+  },
+  {
+    "slug": "pentacles-013",
+    "upright": "The Queen of Pentacles sits in a garden, a rabbit at her feet, a single coin cradled in her lap — not displayed, not spent, simply held with ease and familiarity. She is someone for whom material competence is not a performance. She manages the team's capacity honestly. She notices when someone is approaching their limit before they do. She knows the budget down to the line and she uses that knowledge to protect the people doing the work. If this energy is available to you, extend it without condition.",
+    "reversed": "The nurturing has come at the expense of the self. A manager who has absorbed every team crisis without surfacing her own resource constraints, a tech lead who has made herself available to everyone without scheduling time to do the work she is also responsible for. The Queen of Pentacles reversed is not a failure of care — it is care that has not been turned inward. The garden needs tending. So does the gardener."
+  },
+  {
+    "slug": "pentacles-014",
+    "upright": "The King of Pentacles sits on a throne carved with bulls, vines growing up around him, pentacles embedded in his robes. He did not inherit this. The abundance is the product of disciplined, long-horizon thinking applied consistently over time. A senior technical leader, an engineering director, a principal architect whose decisions are trusted not because of title but because of track record. If you are being asked to step into this role, understand what it actually requires: not brilliance in the moment but judgment across time.",
+    "reversed": "Material success has become the only measure. A leader who optimises every decision for financial output at the cost of team health, technical quality, and long-term sustainability. The vines have been stripped from the throne to reduce the maintenance burden. The bulls have been sold. What was built to last is being liquidated for this quarter's number. The King of Pentacles reversed has forgotten that the abundance was a consequence, not the goal."
+  }
+]

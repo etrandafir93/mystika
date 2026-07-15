@@ -222,6 +222,18 @@ function AssistedReading() {
                         >
                           Career
                         </button>
+                        <button
+                          className={`category-btn ${selectedCategory === 'dev' ? 'active' : ''}`}
+                          onClick={() => setSelectedCategory('dev')}
+                        >
+                          Dev
+                        </button>
+                        <button
+                          className={`category-btn ${selectedCategory === 'climbing' ? 'active' : ''}`}
+                          onClick={() => setSelectedCategory('climbing')}
+                        >
+                          Climbing
+                        </button>
                       </div>
                       <div className="card-meaning">
                         <div className="info-title">✦ {card.isReversed ? 'Reversed Meaning' : 'Meaning'} ✦</div>

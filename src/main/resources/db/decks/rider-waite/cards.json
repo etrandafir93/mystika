@@ -1,0 +1,1104 @@
+[
+  {
+    "slug": "major-arcana-000",
+    "suite": "major-arcana",
+    "name": "The Fool",
+    "meaning": "New beginnings, optimism, trust in life",
+    "reversedMeaning": "Recklessness, taken advantage of, inconsideration",
+    "symbols": [
+      "Dog",
+      "Cliff",
+      "White Rose",
+      "Knapsack"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/fool.jpg"
+  },
+  {
+    "slug": "major-arcana-001",
+    "suite": "major-arcana",
+    "name": "The Magician",
+    "meaning": "Action, the power to manifest",
+    "reversedMeaning": "Manipulation, poor planning, untapped talents",
+    "symbols": [
+      "Infinity Symbol",
+      "Wand",
+      "Cup",
+      "Sword",
+      "Pentacle"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/magician.jpg"
+  },
+  {
+    "slug": "major-arcana-002",
+    "suite": "major-arcana",
+    "name": "The High Priestess",
+    "meaning": "Inaction, going within, the subconscious",
+    "reversedMeaning": "Secrets, disconnected from intuition, withdrawal",
+    "symbols": [
+      "Moon Crown",
+      "Scroll",
+      "Pomegranates",
+      "Pillars"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/highpriestess.jpg"
+  },
+  {
+    "slug": "major-arcana-003",
+    "suite": "major-arcana",
+    "name": "The Empress",
+    "meaning": "Motherhood, fertility, nature, abundance",
+    "reversedMeaning": "Creative block, dependence on others",
+    "symbols": [
+      "Venus Symbol",
+      "Crown of Stars",
+      "Wheat",
+      "River"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/empress.jpg"
+  },
+  {
+    "slug": "major-arcana-004",
+    "suite": "major-arcana",
+    "name": "The Emperor",
+    "meaning": "Authority, structure, control, fatherhood",
+    "reversedMeaning": "Tyranny, rigidity, coldness",
+    "symbols": [
+      "Throne",
+      "Ram Heads",
+      "Orb",
+      "Scepter"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/emperor.jpg"
+  },
+  {
+    "slug": "major-arcana-005",
+    "suite": "major-arcana",
+    "name": "The Hierophant",
+    "meaning": "Tradition, conformity, spiritual guidance",
+    "reversedMeaning": "Rebellion, subversiveness, unconventional beliefs",
+    "symbols": [
+      "Papal Cross",
+      "Keys",
+      "Crown",
+      "Two Acolytes"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/heirophant.jpg"
+  },
+  {
+    "slug": "major-arcana-006",
+    "suite": "major-arcana",
+    "name": "The Lovers",
+    "meaning": "Love, harmony, relationships, choices",
+    "reversedMeaning": "Disharmony, imbalance, misalignment of values",
+    "symbols": [
+      "Angel",
+      "Adam and Eve",
+      "Tree of Knowledge",
+      "Mountains"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/lovers.jpg"
+  },
+  {
+    "slug": "major-arcana-007",
+    "suite": "major-arcana",
+    "name": "The Chariot",
+    "meaning": "Willpower, determination, control, victory",
+    "reversedMeaning": "Lack of direction, opposition, self-discipline",
+    "symbols": [
+      "Sphinxes",
+      "Armor",
+      "Starry Canopy",
+      "Wand"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/chariot.jpg"
+  },
+  {
+    "slug": "major-arcana-008",
+    "suite": "major-arcana",
+    "name": "Strength",
+    "meaning": "Inner strength, courage, patience, compassion",
+    "reversedMeaning": "Self-doubt, weakness, insecurity",
+    "symbols": [
+      "Lion",
+      "Infinity Symbol",
+      "White Robe",
+      "Flowers"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/strength.jpg"
+  },
+  {
+    "slug": "major-arcana-009",
+    "suite": "major-arcana",
+    "name": "The Hermit",
+    "meaning": "Soul searching, introspection, solitude, guidance",
+    "reversedMeaning": "Isolation, loneliness, withdrawal",
+    "symbols": [
+      "Lantern",
+      "Staff",
+      "Mountain Peak",
+      "Star of David"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/hermit.jpg"
+  },
+  {
+    "slug": "major-arcana-010",
+    "suite": "major-arcana",
+    "name": "Wheel of Fortune",
+    "meaning": "Cycles, destiny, turning point, good luck",
+    "reversedMeaning": "Bad luck, resistance to change, breaking cycles",
+    "symbols": [
+      "Wheel",
+      "Sphinx",
+      "Snake",
+      "Anubis",
+      "Four Creatures"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/wheeloffortune.jpg"
+  },
+  {
+    "slug": "major-arcana-011",
+    "suite": "major-arcana",
+    "name": "Justice",
+    "meaning": "Justice, fairness, truth, cause and effect",
+    "reversedMeaning": "Unfairness, lack of accountability, dishonesty",
+    "symbols": [
+      "Scales",
+      "Sword",
+      "Crown",
+      "Purple Robe"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/justice.jpg"
+  },
+  {
+    "slug": "major-arcana-012",
+    "suite": "major-arcana",
+    "name": "The Hanged Man",
+    "meaning": "Surrender, letting go, new perspective, suspension",
+    "reversedMeaning": "Stalling, resistance, indecision",
+    "symbols": [
+      "Inverted Figure",
+      "Halo",
+      "Tree",
+      "Crossed Legs"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/hangedman.jpg"
+  },
+  {
+    "slug": "major-arcana-013",
+    "suite": "major-arcana",
+    "name": "Death",
+    "meaning": "Endings, transformation, transition, release",
+    "reversedMeaning": "Resistance to change, stagnation, decay",
+    "symbols": [
+      "Skeleton",
+      "Armor",
+      "Black Flag",
+      "White Rose",
+      "Sun"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/death.jpg"
+  },
+  {
+    "slug": "major-arcana-014",
+    "suite": "major-arcana",
+    "name": "Temperance",
+    "meaning": "Balance, moderation, patience, purpose",
+    "reversedMeaning": "Imbalance, excess, lack of long-term vision",
+    "symbols": [
+      "Angel",
+      "Cups",
+      "One Foot in Water",
+      "Iris Flowers"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/temperance.jpg"
+  },
+  {
+    "slug": "major-arcana-015",
+    "suite": "major-arcana",
+    "name": "The Devil",
+    "meaning": "Bondage, addiction, materialism, playfulness",
+    "reversedMeaning": "Release, freedom, breaking free",
+    "symbols": [
+      "Horned Figure",
+      "Chains",
+      "Inverted Pentagram",
+      "Torch"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/devil.jpg"
+  },
+  {
+    "slug": "major-arcana-016",
+    "suite": "major-arcana",
+    "name": "The Tower",
+    "meaning": "Sudden upheaval, chaos, revelation, awakening",
+    "reversedMeaning": "Avoiding disaster, fear of change, delaying the inevitable",
+    "symbols": [
+      "Lightning",
+      "Falling Figures",
+      "Crown",
+      "Flames"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/tower.jpg"
+  },
+  {
+    "slug": "major-arcana-017",
+    "suite": "major-arcana",
+    "name": "The Star",
+    "meaning": "Hope, faith, renewal, inspiration",
+    "reversedMeaning": "Despair, lack of faith, disconnection",
+    "symbols": [
+      "Eight Stars",
+      "Naked Woman",
+      "Two Jugs",
+      "Bird"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/star.jpg"
+  },
+  {
+    "slug": "major-arcana-018",
+    "suite": "major-arcana",
+    "name": "The Moon",
+    "meaning": "Illusion, intuition, uncertainty, subconscious",
+    "reversedMeaning": "Release of fear, clarity, understanding",
+    "symbols": [
+      "Moon",
+      "Dogs",
+      "Crayfish",
+      "Towers",
+      "Path"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/moon.jpg"
+  },
+  {
+    "slug": "major-arcana-019",
+    "suite": "major-arcana",
+    "name": "The Sun",
+    "meaning": "Joy, success, celebration, positivity",
+    "reversedMeaning": "Temporary depression, lack of success",
+    "symbols": [
+      "Sun",
+      "Child on Horse",
+      "Sunflowers",
+      "Red Flag"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/sun.jpg"
+  },
+  {
+    "slug": "major-arcana-020",
+    "suite": "major-arcana",
+    "name": "Judgement",
+    "meaning": "Reflection, reckoning, inner calling, absolution",
+    "reversedMeaning": "Self-doubt, refusal of self-examination",
+    "symbols": [
+      "Angel",
+      "Trumpet",
+      "Rising Figures",
+      "Mountains"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/judgment.jpg"
+  },
+  {
+    "slug": "major-arcana-021",
+    "suite": "major-arcana",
+    "name": "The World",
+    "meaning": "Completion, accomplishment, travel, fulfillment",
+    "reversedMeaning": "Incompletion, lack of closure, seeking personal closure",
+    "symbols": [
+      "Dancing Figure",
+      "Wreath",
+      "Four Creatures",
+      "Purple Cloth"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/world.jpg"
+  },
+  {
+    "slug": "cups-001",
+    "suite": "cups",
+    "name": "Ace of Cups",
+    "meaning": "New love, compassion, creativity, emotional beginning",
+    "reversedMeaning": "Emotional loss, blocked creativity, emptiness",
+    "symbols": [
+      "Chalice",
+      "Hand",
+      "Dove",
+      "Water",
+      "Lotus"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/acecups.jpg"
+  },
+  {
+    "slug": "cups-002",
+    "suite": "cups",
+    "name": "Two of Cups",
+    "meaning": "Partnership, unity, attraction, connection, mutual respect",
+    "reversedMeaning": "Imbalance, broken communication, tension, separation",
+    "symbols": [
+      "Caduceus",
+      "Lion",
+      "Two Figures",
+      "Cups"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2cups.jpg"
+  },
+  {
+    "slug": "cups-003",
+    "suite": "cups",
+    "name": "Three of Cups",
+    "meaning": "Celebration, friendship, creativity, collaboration, joy",
+    "reversedMeaning": "Overindulgence, gossip, isolation, independence",
+    "symbols": [
+      "Three Women",
+      "Raised Cups",
+      "Harvest",
+      "Dance"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3cups.jpg"
+  },
+  {
+    "slug": "cups-004",
+    "suite": "cups",
+    "name": "Four of Cups",
+    "meaning": "Apathy, contemplation, reevaluation, meditation",
+    "reversedMeaning": "Motivation, new possibilities, acceptance, action",
+    "symbols": [
+      "Meditating Figure",
+      "Three Cups",
+      "Hand from Cloud"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4cups.jpg"
+  },
+  {
+    "slug": "cups-005",
+    "suite": "cups",
+    "name": "Five of Cups",
+    "meaning": "Loss, grief, disappointment, regret, sadness",
+    "reversedMeaning": "Acceptance, moving on, finding peace, forgiveness",
+    "symbols": [
+      "Spilled Cups",
+      "Bridge",
+      "Standing Cups",
+      "Cloaked Figure"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5cups.jpg"
+  },
+  {
+    "slug": "cups-006",
+    "suite": "cups",
+    "name": "Six of Cups",
+    "meaning": "Nostalgia, childhood memories, innocence, reunion",
+    "reversedMeaning": "Stuck in past, unrealistic expectations, naivety",
+    "symbols": [
+      "Children",
+      "Flowers",
+      "Village",
+      "Six Cups"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6cups.jpg"
+  },
+  {
+    "slug": "cups-007",
+    "suite": "cups",
+    "name": "Seven of Cups",
+    "meaning": "Choices, fantasy, illusion, wishful thinking",
+    "reversedMeaning": "Clarity, determination, values alignment, making choices",
+    "symbols": [
+      "Seven Cups",
+      "Clouds",
+      "Visions",
+      "Silhouette"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7cups.jpg"
+  },
+  {
+    "slug": "cups-008",
+    "suite": "cups",
+    "name": "Eight of Cups",
+    "meaning": "Walking away, seeking truth, letting go, withdrawal",
+    "reversedMeaning": "Avoidance, fear of change, stagnation, aimless drifting",
+    "symbols": [
+      "Moon",
+      "Mountains",
+      "Eight Cups",
+      "Departing Figure"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8cups.jpg"
+  },
+  {
+    "slug": "cups-009",
+    "suite": "cups",
+    "name": "Nine of Cups",
+    "meaning": "Satisfaction, contentment, wish fulfillment, happiness",
+    "reversedMeaning": "Greed, dissatisfaction, materialism, indulgence",
+    "symbols": [
+      "Nine Cups",
+      "Satisfied Figure",
+      "Bench",
+      "Red Hat"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9cups.jpg"
+  },
+  {
+    "slug": "cups-010",
+    "suite": "cups",
+    "name": "Ten of Cups",
+    "meaning": "Harmony, happiness, alignment, family, love",
+    "reversedMeaning": "Disconnection, misalignment, broken relationships",
+    "symbols": [
+      "Rainbow",
+      "Family",
+      "Ten Cups",
+      "Home",
+      "Children"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10cups.jpg"
+  },
+  {
+    "slug": "cups-011",
+    "suite": "cups",
+    "name": "Page of Cups",
+    "meaning": "Creative opportunities, curiosity, intuition, inner child",
+    "reversedMeaning": "Emotional immaturity, insecurity, disappointment",
+    "symbols": [
+      "Fish in Cup",
+      "Young Figure",
+      "Ocean",
+      "Tunic"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pagecups.jpg"
+  },
+  {
+    "slug": "cups-012",
+    "suite": "cups",
+    "name": "Knight of Cups",
+    "meaning": "Romance, charm, imagination, idealism, following the heart",
+    "reversedMeaning": "Moodiness, unrealistic expectations, jealousy, drama",
+    "symbols": [
+      "White Horse",
+      "Winged Helmet",
+      "Cup",
+      "Calm Demeanor"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightcups.jpg"
+  },
+  {
+    "slug": "cups-013",
+    "suite": "cups",
+    "name": "Queen of Cups",
+    "meaning": "Compassion, intuition, sensitivity, emotional security",
+    "reversedMeaning": "Insecurity, emotional instability, codependency",
+    "symbols": [
+      "Ornate Cup",
+      "Throne",
+      "Water",
+      "Mermaid"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queencups.jpg"
+  },
+  {
+    "slug": "cups-014",
+    "suite": "cups",
+    "name": "King of Cups",
+    "meaning": "Emotional balance, diplomacy, compassion, calm control",
+    "reversedMeaning": "Emotional manipulation, moodiness, volatility",
+    "symbols": [
+      "Throne on Water",
+      "Fish",
+      "Ship",
+      "Scepter"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingcups.jpg"
+  },
+  {
+    "slug": "pentacles-001",
+    "suite": "pentacles",
+    "name": "Ace of Pentacles",
+    "meaning": "New financial opportunity, prosperity, manifestation, abundance",
+    "reversedMeaning": "Lost opportunity, missed chance, lack of planning",
+    "symbols": [
+      "Hand",
+      "Pentacle",
+      "Garden",
+      "Gate",
+      "Mountains"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/acepent.jpg"
+  },
+  {
+    "slug": "pentacles-002",
+    "suite": "pentacles",
+    "name": "Two of Pentacles",
+    "meaning": "Balance, adaptability, time management, juggling priorities",
+    "reversedMeaning": "Imbalance, disorganization, overwhelmed, dropped balls",
+    "symbols": [
+      "Infinity Symbol",
+      "Two Pentacles",
+      "Ships",
+      "Waves"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2pent.jpg"
+  },
+  {
+    "slug": "pentacles-003",
+    "suite": "pentacles",
+    "name": "Three of Pentacles",
+    "meaning": "Teamwork, collaboration, learning, implementation, skill",
+    "reversedMeaning": "Lack of teamwork, disharmony, poor motivation",
+    "symbols": [
+      "Cathedral",
+      "Three Figures",
+      "Architect",
+      "Craftsmen"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3pent.jpg"
+  },
+  {
+    "slug": "pentacles-004",
+    "suite": "pentacles",
+    "name": "Four of Pentacles",
+    "meaning": "Control, stability, security, possession, conservation",
+    "reversedMeaning": "Greed, materialism, letting go, generosity",
+    "symbols": [
+      "Crown",
+      "City",
+      "Four Pentacles",
+      "Seated Figure"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4pent.jpg"
+  },
+  {
+    "slug": "pentacles-005",
+    "suite": "pentacles",
+    "name": "Five of Pentacles",
+    "meaning": "Financial loss, poverty, hardship, isolation, worry",
+    "reversedMeaning": "Recovery, charity, improvement, positive changes",
+    "symbols": [
+      "Church Window",
+      "Snow",
+      "Injured Figures",
+      "Beggars"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5pent.jpg"
+  },
+  {
+    "slug": "pentacles-006",
+    "suite": "pentacles",
+    "name": "Six of Pentacles",
+    "meaning": "Generosity, charity, sharing wealth, giving and receiving",
+    "reversedMeaning": "Selfishness, debt, strings attached, one-sided",
+    "symbols": [
+      "Scales",
+      "Merchant",
+      "Beggars",
+      "Six Pentacles"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6pent.jpg"
+  },
+  {
+    "slug": "pentacles-007",
+    "suite": "pentacles",
+    "name": "Seven of Pentacles",
+    "meaning": "Assessment, reward, patience, long-term view, perseverance",
+    "reversedMeaning": "Impatience, lack of reward, poor investment",
+    "symbols": [
+      "Garden",
+      "Harvest",
+      "Seven Pentacles",
+      "Resting Farmer"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7pent.jpg"
+  },
+  {
+    "slug": "pentacles-008",
+    "suite": "pentacles",
+    "name": "Eight of Pentacles",
+    "meaning": "Apprenticeship, education, skill development, hard work",
+    "reversedMeaning": "Lack of focus, perfectionism, mediocrity, shortcuts",
+    "symbols": [
+      "Craftsman",
+      "Bench",
+      "Eight Pentacles",
+      "Town"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8pent.jpg"
+  },
+  {
+    "slug": "pentacles-009",
+    "suite": "pentacles",
+    "name": "Nine of Pentacles",
+    "meaning": "Independence, luxury, self-sufficiency, financial security",
+    "reversedMeaning": "Overworking, hustling, self-worth, superficiality",
+    "symbols": [
+      "Garden",
+      "Falcon",
+      "Grapes",
+      "Nine Pentacles"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9pent.jpg"
+  },
+  {
+    "slug": "pentacles-010",
+    "suite": "pentacles",
+    "name": "Ten of Pentacles",
+    "meaning": "Wealth, inheritance, family, long-term success, legacy",
+    "reversedMeaning": "Financial failure, loneliness, loss, fleeting success",
+    "symbols": [
+      "Family",
+      "Dogs",
+      "Ten Pentacles",
+      "Archway",
+      "Elder"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10pent.jpg"
+  },
+  {
+    "slug": "pentacles-011",
+    "suite": "pentacles",
+    "name": "Page of Pentacles",
+    "meaning": "Manifestation, opportunities, new venture, skill development",
+    "reversedMeaning": "Lack of progress, procrastination, poor planning",
+    "symbols": [
+      "Young Figure",
+      "Pentacle",
+      "Plowed Field",
+      "Mountains"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pagepent.jpg"
+  },
+  {
+    "slug": "pentacles-012",
+    "suite": "pentacles",
+    "name": "Knight of Pentacles",
+    "meaning": "Efficiency, routine, conservatism, methodical, diligent",
+    "reversedMeaning": "Laziness, obsessiveness, stuck, workaholic, boring",
+    "symbols": [
+      "Black Horse",
+      "Pentacle",
+      "Plowed Field",
+      "Armor"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightpent.jpg"
+  },
+  {
+    "slug": "pentacles-013",
+    "suite": "pentacles",
+    "name": "Queen of Pentacles",
+    "meaning": "Nurturing, practical, security, motherhood, prosperity",
+    "reversedMeaning": "Self-care neglect, work-home imbalance, smothering",
+    "symbols": [
+      "Throne",
+      "Rabbit",
+      "Roses",
+      "Pentacle",
+      "Garden"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queenpent.jpg"
+  },
+  {
+    "slug": "pentacles-014",
+    "suite": "pentacles",
+    "name": "King of Pentacles",
+    "meaning": "Wealth, business success, leadership, discipline, abundance",
+    "reversedMeaning": "Greed, materialism, financial setback, stubbornness",
+    "symbols": [
+      "Throne",
+      "Bulls",
+      "Grapes",
+      "Castle",
+      "Robes"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingpent.jpg"
+  },
+  {
+    "slug": "swords-001",
+    "suite": "swords",
+    "name": "Ace of Swords",
+    "meaning": "Breakthrough, clarity, new ideas, mental clarity, truth",
+    "reversedMeaning": "Confusion, chaos, lack of clarity, misinformation",
+    "symbols": [
+      "Hand",
+      "Sword",
+      "Crown",
+      "Mountains",
+      "Clouds"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/aceswords.jpg"
+  },
+  {
+    "slug": "swords-002",
+    "suite": "swords",
+    "name": "Two of Swords",
+    "meaning": "Difficult choices, indecision, stalemate, avoidance",
+    "reversedMeaning": "Information revealed, decision made, confusion cleared",
+    "symbols": [
+      "Blindfold",
+      "Two Swords",
+      "Crescent Moon",
+      "Water"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2swords.jpg"
+  },
+  {
+    "slug": "swords-003",
+    "suite": "swords",
+    "name": "Three of Swords",
+    "meaning": "Heartbreak, sorrow, grief, emotional pain, loss",
+    "reversedMeaning": "Recovery, forgiveness, moving on, healing",
+    "symbols": [
+      "Heart",
+      "Three Swords",
+      "Clouds",
+      "Rain"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3swords.jpg"
+  },
+  {
+    "slug": "swords-004",
+    "suite": "swords",
+    "name": "Four of Swords",
+    "meaning": "Rest, recovery, meditation, contemplation, retreat",
+    "reversedMeaning": "Restlessness, burnout, exhaustion, stagnation",
+    "symbols": [
+      "Tomb",
+      "Resting Figure",
+      "Stained Glass",
+      "Three Swords"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4swords.jpg"
+  },
+  {
+    "slug": "swords-005",
+    "suite": "swords",
+    "name": "Five of Swords",
+    "meaning": "Conflict, defeat, winning at all costs, tension",
+    "reversedMeaning": "Reconciliation, making amends, moving on",
+    "symbols": [
+      "Three Figures",
+      "Five Swords",
+      "Stormy Sky",
+      "Ocean"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5swords.jpg"
+  },
+  {
+    "slug": "swords-006",
+    "suite": "swords",
+    "name": "Six of Swords",
+    "meaning": "Transition, change, moving forward, leaving behind",
+    "reversedMeaning": "Resistance to change, unfinished business, stuck",
+    "symbols": [
+      "Boat",
+      "Six Swords",
+      "Ferryman",
+      "Calm Water"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6swords.jpg"
+  },
+  {
+    "slug": "swords-007",
+    "suite": "swords",
+    "name": "Seven of Swords",
+    "meaning": "Deception, trickery, strategy, sneakiness, escape",
+    "reversedMeaning": "Coming clean, rethinking approach, confession",
+    "symbols": [
+      "Sneaking Figure",
+      "Seven Swords",
+      "Camp",
+      "Tiptoeing"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7swords.jpg"
+  },
+  {
+    "slug": "swords-008",
+    "suite": "swords",
+    "name": "Eight of Swords",
+    "meaning": "Restriction, imprisonment, victim mentality, powerlessness",
+    "reversedMeaning": "Freedom, release, self-acceptance, new perspective",
+    "symbols": [
+      "Blindfold",
+      "Bound Figure",
+      "Eight Swords",
+      "Castle"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8swords.jpg"
+  },
+  {
+    "slug": "swords-009",
+    "suite": "swords",
+    "name": "Nine of Swords",
+    "meaning": "Anxiety, worry, nightmares, fear, stress",
+    "reversedMeaning": "Hope, recovery, reaching out, healing",
+    "symbols": [
+      "Sitting in Bed",
+      "Nine Swords",
+      "Covered Face",
+      "Quilted Blanket"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9swords.jpg"
+  },
+  {
+    "slug": "swords-010",
+    "suite": "swords",
+    "name": "Ten of Swords",
+    "meaning": "Painful endings, betrayal, rock bottom, defeat",
+    "reversedMeaning": "Recovery, regeneration, resisting ending, fighting back",
+    "symbols": [
+      "Ten Swords",
+      "Prone Figure",
+      "Black Sky",
+      "Dawn"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10swords.jpg"
+  },
+  {
+    "slug": "swords-011",
+    "suite": "swords",
+    "name": "Page of Swords",
+    "meaning": "Curiosity, restlessness, mental energy, vigilance",
+    "reversedMeaning": "Gossip, deception, lack of planning, hasty decisions",
+    "symbols": [
+      "Young Figure",
+      "Sword",
+      "Clouds",
+      "Birds",
+      "Wind"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pageswords.jpg"
+  },
+  {
+    "slug": "swords-012",
+    "suite": "swords",
+    "name": "Knight of Swords",
+    "meaning": "Action, speed, ambition, driven, assertive",
+    "reversedMeaning": "Impulsive, reckless, unfocused, aggressive",
+    "symbols": [
+      "Charging Horse",
+      "Armor",
+      "Sword",
+      "Storm Clouds"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightswords.jpg"
+  },
+  {
+    "slug": "swords-013",
+    "suite": "swords",
+    "name": "Queen of Swords",
+    "meaning": "Independent, unbiased judgment, clear thinking, direct",
+    "reversedMeaning": "Coldness, cruelty, bitterness, harsh judgment",
+    "symbols": [
+      "Throne",
+      "Sword",
+      "Butterflies",
+      "Clouds",
+      "Bird"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queenswords.jpg"
+  },
+  {
+    "slug": "swords-014",
+    "suite": "swords",
+    "name": "King of Swords",
+    "meaning": "Intellectual power, authority, truth, clear mind",
+    "reversedMeaning": "Manipulation, tyranny, abuse of power, coldness",
+    "symbols": [
+      "Throne",
+      "Sword",
+      "Butterflies",
+      "Crescent Moons"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingswords.jpg"
+  },
+  {
+    "slug": "wands-001",
+    "suite": "wands",
+    "name": "Ace of Wands",
+    "meaning": "New opportunities, creative spark, inspiration, growth",
+    "reversedMeaning": "Delays, lack of direction, missed opportunities",
+    "symbols": [
+      "Hand",
+      "Wand",
+      "Leaves",
+      "Clouds",
+      "Castle"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/acewands.jpg"
+  },
+  {
+    "slug": "wands-002",
+    "suite": "wands",
+    "name": "Two of Wands",
+    "meaning": "Planning, making decisions, progress, discovery",
+    "reversedMeaning": "Fear of unknown, lack of planning, bad planning",
+    "symbols": [
+      "Globe",
+      "Two Wands",
+      "Castle",
+      "Ocean View"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/2wands.jpg"
+  },
+  {
+    "slug": "wands-003",
+    "suite": "wands",
+    "name": "Three of Wands",
+    "meaning": "Expansion, foresight, enterprise, overseas opportunities",
+    "reversedMeaning": "Obstacles, delays, frustration, lack of foresight",
+    "symbols": [
+      "Ships",
+      "Three Wands",
+      "Cloak",
+      "Mountains"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/3wands.jpg"
+  },
+  {
+    "slug": "wands-004",
+    "suite": "wands",
+    "name": "Four of Wands",
+    "meaning": "Celebration, harmony, marriage, home, community",
+    "reversedMeaning": "Lack of harmony, canceled celebrations, instability",
+    "symbols": [
+      "Wreath",
+      "Four Wands",
+      "Castle",
+      "Celebrating Figures"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/4wands.jpg"
+  },
+  {
+    "slug": "wands-005",
+    "suite": "wands",
+    "name": "Five of Wands",
+    "meaning": "Competition, conflict, rivalry, disagreement",
+    "reversedMeaning": "Avoiding conflict, inner conflict, compromise",
+    "symbols": [
+      "Five Youths",
+      "Battling Wands",
+      "Tunics"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/5wands.jpg"
+  },
+  {
+    "slug": "wands-006",
+    "suite": "wands",
+    "name": "Six of Wands",
+    "meaning": "Victory, success, public recognition, progress",
+    "reversedMeaning": "Ego, lack of recognition, punishment, fall from grace",
+    "symbols": [
+      "Laurel Wreath",
+      "White Horse",
+      "Crown",
+      "Followers"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/6wands.jpg"
+  },
+  {
+    "slug": "wands-007",
+    "suite": "wands",
+    "name": "Seven of Wands",
+    "meaning": "Defense, perseverance, maintaining position, challenge",
+    "reversedMeaning": "Giving up, overwhelmed, exhaustion",
+    "symbols": [
+      "High Ground",
+      "Six Opposing Wands",
+      "Mismatched Shoes"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/7wands.jpg"
+  },
+  {
+    "slug": "wands-008",
+    "suite": "wands",
+    "name": "Eight of Wands",
+    "meaning": "Speed, movement, travel, quick action, messages",
+    "reversedMeaning": "Delays, frustration, slow progress, waiting",
+    "symbols": [
+      "Eight Wands",
+      "Clear Sky",
+      "River",
+      "Countryside"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/8wands.jpg"
+  },
+  {
+    "slug": "wands-009",
+    "suite": "wands",
+    "name": "Nine of Wands",
+    "meaning": "Resilience, persistence, last stand, boundaries",
+    "reversedMeaning": "Exhaustion, giving up, paranoia, stubbornness",
+    "symbols": [
+      "Bandaged Head",
+      "Nine Wands",
+      "Battle-Worn Figure"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/9wands.jpg"
+  },
+  {
+    "slug": "wands-010",
+    "suite": "wands",
+    "name": "Ten of Wands",
+    "meaning": "Burden, responsibility, hard work, stress, achievement",
+    "reversedMeaning": "Doing it all, delegating, release, breakdown",
+    "symbols": [
+      "Ten Wands",
+      "Burdened Figure",
+      "Town",
+      "Heavy Load"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/10wands.jpg"
+  },
+  {
+    "slug": "wands-011",
+    "suite": "wands",
+    "name": "Page of Wands",
+    "meaning": "Enthusiasm, exploration, discovery, free spirit",
+    "reversedMeaning": "Lack of direction, procrastination, bad news",
+    "symbols": [
+      "Salamanders",
+      "Desert",
+      "Pyramids",
+      "Young Figure"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/pagewands.jpg"
+  },
+  {
+    "slug": "wands-012",
+    "suite": "wands",
+    "name": "Knight of Wands",
+    "meaning": "Energy, passion, adventure, impulsiveness, recklessness",
+    "reversedMeaning": "Haste, scattered energy, delays, frustration",
+    "symbols": [
+      "Rearing Horse",
+      "Armor",
+      "Salamanders",
+      "Desert"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/knightwands.jpg"
+  },
+  {
+    "slug": "wands-013",
+    "suite": "wands",
+    "name": "Queen of Wands",
+    "meaning": "Courage, confidence, independence, determination, charisma",
+    "reversedMeaning": "Self-respect, self-confidence, intolerance, jealousy",
+    "symbols": [
+      "Black Cat",
+      "Sunflowers",
+      "Lions",
+      "Throne"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/queenwands.jpg"
+  },
+  {
+    "slug": "wands-014",
+    "suite": "wands",
+    "name": "King of Wands",
+    "meaning": "Natural leader, vision, entrepreneur, honour",
+    "reversedMeaning": "Impulsiveness, haste, ruthless, high expectations",
+    "symbols": [
+      "Salamanders",
+      "Lions",
+      "Crown",
+      "Throne"
+    ],
+    "imageUrl": "https://www.thetarotlady.com/wp-content/uploads/2018/12/kingwands.jpg"
+  }
+]

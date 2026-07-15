@@ -2,7 +2,7 @@ package com.mystika.tarot.cards;
 
 import com.mystika.tarot.reading.DrawnCard;
 
-public record CardMeaning(Focus love, Focus career, Focus spirituality) {
+public record CardMeaning(Focus love, Focus career, Focus spirituality, Focus dev, Focus climbing) {
 
     public record Focus(String upright, String reversed) {
 

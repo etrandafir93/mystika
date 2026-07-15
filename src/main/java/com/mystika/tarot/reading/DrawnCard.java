@@ -59,6 +59,8 @@ public record DrawnCard(
             case LOVE -> card.detailedMeaning().love().get(orientation);
             case CAREER -> card.detailedMeaning().career().get(orientation);
             case SPIRITUALITY -> card.detailedMeaning().spirituality().get(orientation);
+            case DEV -> card.detailedMeaning().dev().get(orientation);
+            case CLIMBING -> card.detailedMeaning().climbing().get(orientation);
         };
     }
 

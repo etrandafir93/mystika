@@ -175,6 +175,20 @@ function DigitalDrawing() {
                 <div className="focus-icon-large">✦</div>
                 <div className="focus-label-large">Spirituality</div>
               </button>
+              <button
+                className={`focus-option-large ${focus === 'DEV' ? 'selected' : ''}`}
+                onClick={() => handleFocusSelection('DEV')}
+              >
+                <div className="focus-icon-large">&lt;/&gt;</div>
+                <div className="focus-label-large">Dev</div>
+              </button>
+              <button
+                className={`focus-option-large ${focus === 'CLIMBING' ? 'selected' : ''}`}
+                onClick={() => handleFocusSelection('CLIMBING')}
+              >
+                <div className="focus-icon-large">⛰</div>
+                <div className="focus-label-large">Climbing</div>
+              </button>
             </div>
           </div>
         ) : (
